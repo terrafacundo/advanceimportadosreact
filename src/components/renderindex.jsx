@@ -13,7 +13,7 @@ const Main = () => {
 
     return(
             <Routes>
-                <Route path='/' element={<Indexadvance/>}/>
+                <Route path='/advanceimportadosreact' element={<Indexadvance/>}/>
                 <Route path='/productos/:id' element={<ProductoDetalleExtContainer/>}/>
                 <Route path='/Productos' element={<SeccionBusquedaProductos/>}/>
                 <Route path='/filt/:tipo' element={<SeccionBusquedaProductos/>}/>
