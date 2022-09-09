@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 import Header from './estaticas/header';
 
@@ -13,11 +14,11 @@ import Footer from './estaticas/footer';
 const Aplicacion = () => {
     return(
         <div className='sub_body'>
-            <BrowserRouter>
+            <HashRouter>
                 <Header/>
                 <Main/>
                 <Footer/>
-            </BrowserRouter>
+            </HashRouter>
         </div>
     )
 }

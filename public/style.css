@@ -75,7 +75,9 @@ body{
     z-index:1100;
 }
 
-
+.toggle-button{
+    display: none;
+}
 /*main*/
 
 .boton_redondeado_slider{
@@ -458,6 +460,7 @@ body{
     
     .nav_elements_list{
     
+        
     }
     
     
@@ -488,6 +491,27 @@ body{
         z-index:1100;
     }
     
+    .toggle-button{
+        position: absolute;
+        top:.75rem;
+        right: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+    }
+
+    .toggle-button .barra{
+        height: 3px;
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .div_ul_nav{
+        display: none;
+    }
     
     /*main*/
     
@@ -868,36 +892,71 @@ body{
     .nav_elements_list{
     
     }
-    
-    
+
     /*Orden*/
     
     .nav{
         margin-top: 0 !important;
         padding: 0 !important;
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-start;
         padding: 2.5vh 1vw;
-        height: 8.5vh;
-        position:sticky !important;
         top: 0;
     }
     
     .ul_nav{
         align-items: center;
+        display: none;
+        flex-direction:column;
+        row-gap: 2.5vw;
+        width: 100%;
+    }
+
+    .ul_nav .active{
         display: flex;
-        flex-direction:row;
-        column-gap: 2.5vw;
     }
     
     .sticky{
         position:sticky;
         top:0px;
-        z-index:1100;
     }
     
+    .toggle-button{
+        position: absolute;
+        top:.75rem;
+        right: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+    }
+
+    .toggle-button .barra{
+        height: 3px;
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .div_ul_nav{
+        /* display: none; */
+        width: 100%;
+    }
+    .div_ul_nav .active{
+        display: flex;
+    }
     
+    .ul_nav_links{
+        padding: 2.5vh;
+        width: 100%;
+        text-align: center;
+    }
+
+    .ul_nav_links:active{
+        background-color: #4f4f4f;
+    }
     /*main*/
     
     .boton_redondeado_slider{
