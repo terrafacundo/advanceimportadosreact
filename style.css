@@ -1170,8 +1170,8 @@ body{
     }
     
     .contenedor_resultados{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: column;
         row-gap: 5vh;
     
     }
@@ -1191,12 +1191,13 @@ body{
         font-size:0.75rem;
         font-weight: 700;
         color: #ffffff;
-        border-radius: 10px;
+        border-radius: 25px;
         background-color: #4f4f4f;
         width:14vw;
-        height: 4vh;
+        height: 5vh;
         text-align: center;
         margin: 1vh;
+        margin-left: 4vw;
         border: solid 0.1px #000000;
     }
     
