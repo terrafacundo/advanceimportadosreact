@@ -5,7 +5,7 @@ import productos from "./productos";
 
 const ListadoProductosContainer = () =>{
     return(
-        <div className="contenedor_productos_tendencia">
+        <div className="contenedor_productos_busqueda">
             <ListadoProductos products={productos} ></ListadoProductos>
         </div>
     )

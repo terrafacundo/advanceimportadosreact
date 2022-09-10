@@ -1002,13 +1002,17 @@ body{
         font-weight: 700;    
     }
     .contenedor_productos_tendencia{
-    
         padding: 0vw 10vh;
         display: flex;
         flex-direction: column;
         column-gap: 5vw;
         row-gap: 10vh;
         flex-wrap: wrap;
+    }
+
+    .contenedor_productos_busqueda{
+        display: flex;
+        flex-direction: column;
     }
     .tarjeta_producto{
         background-color: #ffffff;
@@ -1066,9 +1070,7 @@ body{
         height: 5vw;
         text-align: center;
     }
-    .boton_masinfo:hover{
-        
-    }
+
     .boton_masinfo_a {
         color: #1D1D1F;
         font-size: 0.75rem;
@@ -1150,20 +1152,21 @@ body{
     
     .contenedor_productos{
         padding-top: 5vw;
-        display: grid;
-        grid-template-columns: 2fr 8fr;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
     }
     .sector_busqueda_filtros{
-        padding-left: 5vw;
-        padding-right: 1vw;
+        padding: 5vh;
         background-color: #1D1D1F;
-        width: 18vw;
-        height: 50vh;
-        margin-left: 1.5vw;
-        margin-right: 1.5vw;
+        width: 90vw;
+        margin: auto;
+        margin-bottom: 5vh;
         padding: 1.5vw;
         border-radius: 5px;
-        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     
     .contenedor_resultados{
@@ -1181,9 +1184,20 @@ body{
     }
     
     .texto_boton_busq{
-        font-size:1.15rem;
-        font-weight: 500;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size:0.75rem;
+        font-weight: 700;
         color: #ffffff;
+        border-radius: 10px;
+        background-color: #4f4f4f;
+        width:14vw;
+        height: 4vh;
+        text-align: center;
+        margin: 1vh;
+        border: solid 0.1px #000000;
     }
     
     .texto_boton_busq:hover{
