@@ -1193,8 +1193,7 @@ body{
         color: #ffffff;
         border-radius: 25px;
         background-color: #4f4f4f;
-        width:14vw;
-        height: 5vh;
+        padding: 1.5vw 2vw;
         text-align: center;
         margin: 1vh;
         margin-left: 4vw;
@@ -1209,11 +1208,33 @@ body{
         transform: scale(1.025,1.025);
         color: #d8d8d8;
     }
-    
-    .texto_no_encontrado{
+    .busqueda-no-encontrada{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15vw;
+        text-align: center;
+        background-color: #f6f6f6;
+        margin: 5vw;
+        border-radius: 10px;
+    }
+    .texto-no-encontrado{
         font-size: 2rem;
     }
-    
+    .texto-no-encontrado-inf{
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .cotizar{
+        font-weight: 600;
+        color:rgb(80, 80, 179);
+    }
+
+    .cotizar:active{
+        transform: scale(1.25,1.25);
+        color: blue;
+    }
     .boton_busqueda_svg{
         transform: scale(0.75,0.75);
     }

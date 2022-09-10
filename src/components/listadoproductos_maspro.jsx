@@ -21,9 +21,9 @@ const ListadoProductosPro =({categoria})=>{
     )}
     else{
         return(
-            <div>
-            <h1 className="texto_no_encontrado">No encontramos ningun producto en el sector '{categoria}'.</h1>
-            <h6>Si no encontrás lo que buscas, también podes <Link to='/Cotizar'>cotizar</Link> eso que buscás.</h6>
+            <div className="busqueda-no-encontrada">
+            <h1 className="texto-no-encontrado">No encontramos ningun producto en el sector '{categoria}'.</h1>
+            <h6 className="texto-no-encontrado-inf">Si no encontrás lo que buscas, también podes <Link to='/Cotizar' className="cotizar">cotizar</Link> eso que buscás.</h6>
             </div>
         )
     }
