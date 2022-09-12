@@ -1151,10 +1151,14 @@ body{
     /*Pestaña de productos*/
     
     .contenedor_productos{
+        top: 20px;
         padding-top: 5vw;
         display: flex;
         flex-direction: column;
         align-items: center;    
+        background-color: #f6f6f6;
+        margin: 5vw;
+        border-radius: 10px;
     }
     .sector_busqueda_filtros{
         padding: 5vh;
@@ -1288,14 +1292,18 @@ body{
     /* Sector apple*/
     
     .galeria_productos_apple{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
     }
     
     .tarjeta_galeria_productos_apple{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        width: 80vw;
+        border-radius: 10px;
     }
     
     .apple_botones_ver_mas{
@@ -1305,7 +1313,7 @@ body{
         align-items: center;
         text-align: center;
         height: 6.5vh;
-        width: 7.5vw;
+        width: 12vw;
         background-color:#ffffff;
         border-style: solid;
         border-width: 0.5px;
@@ -1317,36 +1325,45 @@ body{
     .contenedor_organizador{
         position: relative;
         top: -25vh;
-        left: -12.5vw;
+        left: 10vw;
+
+    }
+
+    .foto-redirecc-apple{
+        width: 100%;
     }
     
     /*PAGINA EXTENDIDA*/
     .contenedor_pagina_producto{
-        display: grid;
-        grid-template-areas: "foto nombre nombre"
-        "foto precio precio"
-        "descripcion descripcion descripcion";
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .foto_producto_ext{
         grid-area: foto;
-        width: 160px;
-        height: 125px;
+        width: 350px;
+        height: 350px;
     }
     
     .nombre_producto_ext{
+        text-align: center;
         grid-area: nombre;
-        font-size: 1rem;
+        font-size: 1.75rem;
         font-weight: 600;
     }
     
     .precio_producto_ext{
         grid-area: precio;
-        font-size: 1rem;
+        font-size: 1.5rem;
+        color: #4f4f4f;
+        font-weight: 600;
     }
     
     .descripcion_producto_ext{
         grid-area: descripcion;
+        width:80vw;
+        text-align: center;
     }
     
 }
