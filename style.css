@@ -1026,7 +1026,8 @@ body{
         border-style: solid;
         border-width: 1px;
         border-color: #adadad;
-    
+        margin-top: 1vh;
+        margin-bottom: 1vh;
     }
     .tarjeta_producto:hover{
         animation-name:animacion_tarjeta;
