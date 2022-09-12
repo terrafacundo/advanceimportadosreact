@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from 'react-router-dom'
 
-const ProductoDetalle=({id,nombre,foto,precio,descripcion,estado,tendencia,marca,categoria})=>{
+const ProductoDetalle=({id,nombre,foto,precio,descripcion,estado,tendencia,marca,categoria,ubicacion})=>{
     return(
         <div className="tarjeta_producto" key={id}>
             <img className="foto_producto" src={foto}></img>

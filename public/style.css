@@ -1368,5 +1368,34 @@ body{
         width:80vw;
         text-align: center;
     }
+
+
+    .sector-productos-relacionados{
+        margin-top: 7.5vh;
+    }
+
+    .contenedor_resultados-pr-rel{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 1.5vw;
+    }
     
+    .sector-productos-relacionados-titulo{
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .contenedor_resultados-pr-rel .tarjeta_producto{
+        width: 40vw;
+    }
+
+    .contenedor_resultados-pr-rel .tarjeta_producto .foto_producto{
+        width: 50%;
+        height: 50%;
+    }
+    .contenedor_resultados-pr-rel .tarjeta_producto .precio_producto{
+        display: none;
+    }
 }

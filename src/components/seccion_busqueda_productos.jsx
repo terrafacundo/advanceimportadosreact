@@ -9,7 +9,7 @@ const SeccionBusquedaProductos = () => {
         return(
         <div className="contenedor_productos">
             <FiltroBusquedas/>
-            <ListadoProductosProConteiner categoria={tipo}/>
+            <ListadoProductosProConteiner pagina="contenedor-resultados" categoria={tipo}/>
         </div>
 
 
