@@ -6,7 +6,7 @@ function CarouselFade() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="http://placekitten.com/1025/270"
+          src="http://placekitten.com/1025/375"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -17,7 +17,7 @@ function CarouselFade() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="http://placekitten.com/1025/270"
+          src="http://placekitten.com/1025/375"
           alt="Second slide"
         />
 
@@ -29,7 +29,7 @@ function CarouselFade() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="http://placekitten.com/1025/270"
+          src="http://placekitten.com/1025/375"
           alt="Third slide"
         />
 
