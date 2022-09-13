@@ -24,7 +24,7 @@ const PaginaCotizar =()=>{
                 </div>
             </div>
 
-            <iframe src="https://whatsform.com/JjCBWZ" width="100%" height="600" frameBorder="0"></iframe>
+            <iframe src="https://whatsform.com/JjCBWZ" width="100%" height="850" frameBorder="0"></iframe>
         </div>
     )
 }
