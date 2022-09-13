@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/advanceimportadosreact/static/js/main.969b1101.js",
+    "main.js": "/advanceimportadosreact/static/js/main.44b7f00f.js",
     "index.html": "/advanceimportadosreact/index.html",
-    "main.969b1101.js.map": "/advanceimportadosreact/static/js/main.969b1101.js.map"
+    "main.44b7f00f.js.map": "/advanceimportadosreact/static/js/main.44b7f00f.js.map"
   },
   "entrypoints": [
-    "static/js/main.969b1101.js"
+    "static/js/main.44b7f00f.js"
   ]
 }
