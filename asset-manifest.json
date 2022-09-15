@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.js": "/advanceimportadosreact/static/js/main.44b7f00f.js",
+    "main.js": "/advanceimportadosreact/static/js/main.f035bc72.js",
+    "static/media/icon.png": "/advanceimportadosreact/static/media/icon.f110964c249ff23c05ef.png",
     "index.html": "/advanceimportadosreact/index.html",
-    "main.44b7f00f.js.map": "/advanceimportadosreact/static/js/main.44b7f00f.js.map"
+    "main.f035bc72.js.map": "/advanceimportadosreact/static/js/main.f035bc72.js.map"
   },
   "entrypoints": [
-    "static/js/main.44b7f00f.js"
+    "static/js/main.f035bc72.js"
   ]
 }
