@@ -2,13 +2,14 @@ import React from "react"
 import NavBar from "../navbar"
 import {Link} from 'react-router-dom';
 import ToggleStyle from "./togglestyle";
+import icon from "./media/icon.png" ;
 
 const Header =()=>{
     return(
         <div className="nav">
             <div>
                 <Link to="/">
-                    <img src="https://placekitten.com/60/60" alt=""></img>
+                    <img src={icon} alt="" className="reajuste-icon"></img>
                 </Link>
                 <div className="toggle-button" onClick={ToggleStyle}>
                     <span className="barra"></span>

@@ -7,7 +7,7 @@ const RedireccionadorApple =({link})=>{
             <img src="https://placekitten.com/590/280" className="foto-redirecc-apple"></img>
             <div className="contenedor_organizador">
                     <h2>{link}</h2>
-                    <Link to={`/filt/apple/${link.toLowerCase()}`} className="apple_botones_ver_mas">Ver más</Link>
+                    <Link to={`/filt/${link.toLowerCase()}`} className="apple_botones_ver_mas">Ver más</Link>
             </div>  
         </div>
     )

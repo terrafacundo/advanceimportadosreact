@@ -6,7 +6,7 @@ const PaginaCotizar =()=>{
     return(
         <div className="pagina-cotizar">
             <h2>¿Qué necesitas para cotizar tu producto con nosotros?</h2>
-            <p>¿No encontraste eso que buscabas. Llená el formulario con la información necesaria para que te ayudemos a tener lo que buscás.</p>
+            <p>¿No encontraste eso que buscabas? Llená el formulario con la información necesaria para que te ayudemos a tener lo que buscás.</p>
             <div className="intro-pagina-cotizar">
                 <div className="sub-cotizar">
                     <span class=" material-symbols-outlined">link</span>
@@ -24,7 +24,7 @@ const PaginaCotizar =()=>{
                 </div>
             </div>
 
-            <iframe src="https://whatsform.com/JjCBWZ" width="100%" height="850" frameBorder="0"></iframe>
+            <iframe src="https://whatsform.com/JjCBWZ" width="100%" height="1000" frameBorder="0"></iframe>
         </div>
     )
 }
