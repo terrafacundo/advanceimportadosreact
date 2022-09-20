@@ -6,9 +6,9 @@ const PaginaGaming =()=>{
     return(
         <div className="galeria_productos_apple">
             <RedireccionadorGaming link='Notebook'/>
-            <RedireccionadorGaming link='Tarjetas Graficas'/>
+            <RedireccionadorGaming link='Mineria'/>
             <RedireccionadorGaming link='Monitores'/>
-            <RedireccionadorGaming link='Gafas VR'/>
+            <RedireccionadorGaming link='VR'/>
         </div>
     )
 }
