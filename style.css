@@ -520,7 +520,108 @@ a:hover{
     'opsz' 48
 }
 
+/*Seccion detalle extendido apple*/
+.presentacion-apple{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5vw;
+}
 
+.nombre_producto_ext{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.precio_producto_ext{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contenedor-info-seleccion{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+}
+
+.titulo-seleccion{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.boton-componentes{
+    padding: 1vh;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.contenedor-boton-seleccion{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2vw;
+}
+.boton-seleccion{
+    padding: .5vh 2vw;
+    border-style: solid ;
+    border-color: #adadad;
+    border-width: 0.75px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 0.75rem;
+}
+.boton-seleccion:hover{
+    transform: scale(1.05,1.05);
+}
+
+.boton-space{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color: #b4b5b9 ;
+}
+.boton-space:hover{
+    transform: scale(1.25,1.25);
+    border-width: 0.4px;
+}
+.boton-silver{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color: #F5F5F0 ;
+}
+.boton-silver:hover{
+    transform: scale(1.25,1.25);
+    border-width: 0.4px;
+}
+.boton-midnight{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color:  #171E27;
+}
+.boton-midnight:hover{
+    transform: scale(1.25,1.25);
+    border-width: 0.4px;
+}
+.boton-gold{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color: #FEEDD8;
+}
+.boton-gold:hover{
+    transform: scale(1.25,1.25);
+    border-width: 0.4px;
+}
 }
 
 
