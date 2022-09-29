@@ -1,5 +1,6 @@
 import React from "react"
 import { useParams } from "react-router-dom"
+import BloqueFotos from "./foto-producto-map"
 import ListadoProductos from "./ListadoProductos"
 import ListadoProductosProContainer from "./ListadoProductosProConteiner"
 import SeleccionColor from "./seleccion-color-apple"
@@ -16,7 +17,8 @@ const ProductoDetalleExtendido =({id,nombre,foto,precio,memoria,descripcion,ram,
         return(
             <div className="contenedor-pagina-producto-apple">
                 <div className="presentacion-apple">
-                    <img className="foto_producto_ext"></img>
+                    <BloqueFotos foto={foto}/>
+                    {/* <img src={foto} className="foto_producto_ext"></img> */}
                     <div className="contenedor-info-seleccion">
                         <h3 className="nombre_producto_ext">{nombre}</h3>
                         <h5 className="precio_producto_ext">USD{precio}</h5>
