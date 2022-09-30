@@ -623,6 +623,32 @@ a:hover{
     border-width: 0.4px;
 }
 
+.boton-black{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color: black;
+}
+.boton-black:hover{
+    transform: scale(1.25,1.25);
+    border-width: 0.4px;
+}
+
+.boton-blue{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color: rgb(33, 33, 255);
+}
+.boton-blue:hover{
+    transform: scale(1.25,1.25);
+    border-width: 0.4px;
+}
+
 .container-fotos-flechas{
     width: 50vw;
     position:relative;
