@@ -1,43 +1,32 @@
 import Carousel from 'react-bootstrap/Carousel';
+import gamingWeb from './estaticas/media/gaming-web.jpg'
+import macbook from './estaticas/media/macbook.jpg'
+import { Link } from 'react-router-dom';
 
 function CarouselFade() {
   return (
     <Carousel fade>
       <Carousel.Item>
+        <Link to="/gaming">
         <img
           className="d-block w-100"
-          src="http://placekitten.com/1025/375"
-          alt="First slide"
+          src={gamingWeb}
+          alt="Seccion productos Gaming"
         />
+        </Link>
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
+
+        <Link to="/filt/macbook"><img
           className="d-block w-100"
-          src="http://placekitten.com/1025/375"
-          alt="Second slide"
+          src={macbook}
+          alt="Seccion productos Macbook"
         />
+        </Link>
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="http://placekitten.com/1025/375"
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

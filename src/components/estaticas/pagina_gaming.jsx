@@ -5,7 +5,7 @@ import RedireccionadorGaming from "./redirecc_gaming";
 const PaginaGaming =()=>{
     return(
         <div className="galeria_productos_apple">
-            <RedireccionadorGaming link='Notebook'/>
+            <RedireccionadorGaming link='notebook'/>
             <RedireccionadorGaming link='Mineria'/>
             <RedireccionadorGaming link='Monitores'/>
             <RedireccionadorGaming link='VR'/>
