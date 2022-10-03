@@ -51,7 +51,7 @@ a:hover{
     height: 10vh;
     position:sticky !important;
     top: 0;
-    z-index: 1;
+    z-index: 10;
 }
 
 .ul_nav{
@@ -220,6 +220,7 @@ a:hover{
 .newsletter_input{
     margin: 0;
     padding: 0;
+    height: 4.5vh;
     width: 25vw;
     border-color: #1D1D1F;
     border-top-left-radius: 5px;
@@ -232,8 +233,8 @@ a:hover{
     left: -0.3vw;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    width: 2.5vw;
-    height: 100%;
+    width: 5vw;
+    height: 4.5vh;
     margin: 0;
     padding: 0;
     border-style: none;
@@ -287,9 +288,15 @@ a:hover{
 }
 
 .contenedor_resultados{
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 5vh;
+    row-gap: 5vh; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2.5vw;
+    row-gap: 2.5vh;
+    align-items: center;
 
 }
 
@@ -400,8 +407,8 @@ a:hover{
 
 .contenedor_organizador{
     position: relative;
-    top: -25vh;
-    left: -12.5vw;
+    top: -15.5vh;
+    right: -13vw;
 }
 
 /*PAGINA EXTENDIDA*/
@@ -436,6 +443,7 @@ a:hover{
 
 .sector-productos-relacionados{
     margin-top: 7.5vh;
+    width: 98%;
 }
 
 .contenedor_resultados-pr-rel{
@@ -444,6 +452,7 @@ a:hover{
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 1.5vw;
+    row-gap: 1.5vw;
 }
 
 .sector-productos-relacionados-titulo{
@@ -452,7 +461,7 @@ a:hover{
 }
 
 .contenedor_resultados-pr-rel .tarjeta_producto{
-    width: 40vw;
+    width: 15vw;
 }
 
 .contenedor_resultados-pr-rel .tarjeta_producto .foto_producto{
@@ -518,6 +527,10 @@ a:hover{
     'wght' 900,
     'GRAD' 0,
     'opsz' 48
+}
+
+.cotizar{
+    color: blueviolet;
 }
 
 /*Seccion detalle extendido apple*/
@@ -622,6 +635,84 @@ a:hover{
     transform: scale(1.25,1.25);
     border-width: 0.4px;
 }
+
+.boton-black{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color: black;
+}
+.boton-black:hover{
+    transform: scale(1.25,1.25);
+    border-width: 0.4px;
+}
+
+.boton-blue{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color: rgb(33, 33, 255);
+}
+.boton-blue:hover{
+    transform: scale(1.25,1.25);
+    border-width: 0.4px;
+}
+
+.container-fotos-flechas{
+    width: 50vw;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flechas{
+    position: relative;
+    top:-40vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 30%;
+}
+
+.flecha-individual:hover{
+    transform: scale(1.125,1.125);
+}
+
+.contenedor-foto-producto{
+    width: 370px;
+    height: 480px;
+}
+.foto-producto-apple{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.busqueda-no-encontrada{
+    margin-left: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.sub-contendor-tendencia{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2.5vw;
+    
+}
+
+
+.foto-redirecc-apple{
+    width: 90%;
+}
+
+
 }
 
 
