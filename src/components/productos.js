@@ -7,14 +7,14 @@ const productos=[
         memoria:['256GB','512GB','1TB','2TB"'],
         ram:['8GB','16GB', '24GB'],
         componentes:['CPU 8GB/8GB GPU','CPU 8GB/10GB GPU'],
-        descripcion:'M1 Chip 7‑core GPU /8GB',
+        descripcion:'M1 Chip 7 core GPU /8GB',
         color: ['space','silver','midnight','gold'],
         estado:'En stock',
         tendencia:true,
         marca:'apple',
         categoria:'macbook'},
     {   
-        id:'002',
+        id:'002', 
         nombre:'MacBook M2 PRO 13,6"',
         foto:["https://images-na.ssl-images-amazon.com/images/I/61L5QgPvgqL.__AC_SY445_SX342_QL70_FMwebp_.jpg","https://m.media-amazon.com/images/I/71K+bhq9bZL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/61bX2AoGj2L._AC_SX679_.jpg","https://m.media-amazon.com/images/I/71cZWwc6ZOL._AC_SX679_.jpg"],
         precio:"",
@@ -66,7 +66,7 @@ const productos=[
         descripcion:'',
         color: ['space','silver','midnight','gold'],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'macbook'},
     {   
@@ -80,7 +80,7 @@ const productos=[
         descripcion:'',
         color: ['space','silver'],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'macbook'},
     
@@ -98,7 +98,7 @@ const productos=[
         descripcion:'',
         color: ['black'],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'vr'}, 
 
@@ -113,7 +113,7 @@ const productos=[
         descripcion:'',
         color: ['black'],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'vr'}, 
     
@@ -129,7 +129,7 @@ const productos=[
         descripcion:'',
         color: ['blue'],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'vr'}, 
     
@@ -145,7 +145,7 @@ const productos=[
         descripcion:'',
         color: ['silver'],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'vr'}, 
 
@@ -161,7 +161,7 @@ const productos=[
         descripcion:'',
         color: ['silver'],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'notebook'},
         
@@ -177,7 +177,7 @@ const productos=[
         descripcion:'',
         color: ['silver'],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'notebook'},
 
@@ -193,7 +193,7 @@ const productos=[
         descripcion:'',
         color: ['silver'],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'notebook'},
 
@@ -211,7 +211,7 @@ const productos=[
         descripcion:'',
         color: [],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'pny',
         categoria:'mineria'},
 
@@ -226,7 +226,7 @@ const productos=[
         descripcion:'',
         color: [],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'mineria'}, 
 ,
@@ -242,7 +242,7 @@ const productos=[
         descripcion:'',
         color: [],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'mineria'},
     {
@@ -256,7 +256,7 @@ const productos=[
         descripcion:'',
         color: [],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'mineria'},
 
@@ -271,7 +271,7 @@ const productos=[
         descripcion:'',
         color: [],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'mineria'},
 
@@ -286,7 +286,7 @@ const productos=[
         descripcion:'',
         color: [],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'mineria'},
 
@@ -300,7 +300,7 @@ const productos=[
         descripcion:'',
         color: [],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'mineria'},
 
@@ -315,7 +315,7 @@ const productos=[
         descripcion:'',
         color: [],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'mineria'},
 
@@ -331,7 +331,7 @@ const productos=[
         descripcion:'',
         color: [],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'mineria'},
 
@@ -347,7 +347,7 @@ const productos=[
         descripcion:'',
         color: [],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'mineria'},
 
@@ -363,7 +363,7 @@ const productos=[
         descripcion:'',
         color: [],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:'mineria'},
 
@@ -393,7 +393,7 @@ const productos=[
     descripcion:'',
     color: ['black'],
     estado:'En stock',
-    tendencia:true,
+    tendencia:false,
     marca:'apple',
     categoria:'monitores'},
 

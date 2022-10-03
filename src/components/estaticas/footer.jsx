@@ -1,4 +1,7 @@
 import React from "react";
+import MailList from "./mailchimp";
+import instagram from "./media/instagram.svg"
+import email from "./media/mail.svg"
 
 
 const Footer=()=>{
@@ -10,7 +13,7 @@ const Footer=()=>{
             <div>
                 <form action="">
                     <input className="newsletter_input" type="email"/>
-                    <button className="newsletter_boton" type="submit"><img className="svg_footer" src="./media/send_FILL0_wght500_GRAD200_opsz40.svg"/></button>
+                    <button className="newsletter_boton" type="submit">Enviar</button>
                 </form>
             </div>
 
@@ -20,12 +23,12 @@ const Footer=()=>{
             <ul className="">
                 <li>
                     <a className="flex_li_footer" href="https://www.instagram.com/advanceimportados/">
-                        <img className="svg_footer" src="./media/instagram-svgrepo-com.svg"/>
+                        <img className="svg_footer" src={instagram}/>
                         <h3 className="letra_link_footer">Instagram.</h3>
                     </a>
                 </li>
                 <li className="flex_li_footer">
-                    <img className="svg_footer" src="./media/mail_FILL0_wght500_GRAD200_opsz40.svg"/>
+                    <img className="svg_footer" src={email}/>
                     <h3 className="letra_link_footer">advanceimportados@gmail.com</h3>
                 </li>
 
