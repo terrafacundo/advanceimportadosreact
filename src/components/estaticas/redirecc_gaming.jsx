@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import notebook from './media/notebook.jpg'
-import monitores from './media/monitores.jpg'
 
-const RedireccionadorGaming =({link})=>{
+
+const RedireccionadorGaming =({link,nombrebanner})=>{
     return(
         <div className="tarjeta_galeria_productos_apple">
-            <img src={notebook}  className="foto-redirecc-apple"/>
+            <img src={nombrebanner}  className="foto-redirecc-apple" alt ={`Redireccionamiento a ${nombrebanner}`}/>
             <div className="contenedor_organizador">
                     <Link to={`/filt/${link.toLowerCase()}`} className="apple_botones_ver_mas">Ver más</Link>
             </div>  

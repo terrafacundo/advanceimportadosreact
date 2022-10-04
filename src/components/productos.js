@@ -12,7 +12,7 @@ const productos=[
         estado:'En stock',
         tendencia:true,
         marca:'apple',
-        categoria:'macbook'},
+        categoria:['macbook','all']},
     {   
         id:'002', 
         nombre:'MacBook M2 PRO 13,6"',
@@ -26,7 +26,7 @@ const productos=[
         estado:'En stock',
         tendencia:true,
         marca:'apple',
-        categoria:'macbook'},
+        categoria:['macbook','all']},
     {   
         id:'003',
         nombre:'MacBook M1 AIR 13,3"',
@@ -40,7 +40,7 @@ const productos=[
         estado:'En stock',
         tendencia:true,
         marca:'apple',
-        categoria:'macbook'},
+        categoria:['macbook','all']},
     {   
         id:'004',
         nombre:'MacBook M1 PRO 14,2"',
@@ -54,7 +54,7 @@ const productos=[
         estado:'En stock',
         tendencia:true,
         marca:'apple',
-        categoria:'macbook'},
+        categoria:['macbook','all']},
     {   
         id:'005',
         nombre:'MacBook M1 MAX',
@@ -68,7 +68,7 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'macbook'},
+        categoria:['macbook','all']},
     {   
         id:'006',
         nombre:'MacBook M1 PRO 16,2"',
@@ -82,7 +82,7 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'macbook'},
+        categoria:['macbook','all']},
     
     //productos apple fin
 
@@ -100,7 +100,7 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'vr'}, 
+        categoria:['vr','all']}, 
 
     {
         id:'008',
@@ -115,7 +115,7 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'vr'}, 
+        categoria:['vr','all']}, 
     
 
     {
@@ -131,7 +131,7 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'vr'}, 
+        categoria:['vr','all']}, 
     
 
     {
@@ -147,7 +147,7 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'vr'}, 
+        categoria:['vr','all']}, 
 
     //Notebooks
     {
@@ -163,7 +163,7 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'notebook'},
+        categoria:['notebook','all']},
         
 
     {
@@ -179,7 +179,7 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'notebook'},
+        categoria:['notebook','all']},
 
 
     {
@@ -195,7 +195,7 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'notebook'},
+        categoria:['notebook','all']},
 
 
     //placas de video
@@ -203,7 +203,7 @@ const productos=[
     {
         id:'014',
         nombre:'RTX 2060 12GB REVEL DUAL FAN (12GB GDDR6)',
-        foto:"",
+        foto:["https://http2.mlstatic.com/D_NQ_NP_727800-MLA45713390694_042021-O.webp","https://http2.mlstatic.com/D_NQ_NP_723596-MLA45713338880_042021-O.webp","https://http2.mlstatic.com/D_NQ_NP_708917-MLA45713338896_042021-O.webp","https://http2.mlstatic.com/D_NQ_NP_974659-MLA45713440524_042021-O.webp"],
         precio:"",
         memoria:[],
         ram:[],
@@ -212,8 +212,8 @@ const productos=[
         color: [],
         estado:'En stock',
         tendencia:false,
-        marca:'pny',
-        categoria:'mineria'},
+        marca:'apple',
+        categoria:['mineria','all']},
 
     {
         id:'015',
@@ -228,11 +228,11 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'mineria'}, 
+        categoria:['mineria','all']}, 
 ,
 
     {
-        id:'038',
+        id:'016',
         nombre:"RTX 3060 GAMING Z TRIO 12G (12GB GDDR6)",
         foto:["https://http2.mlstatic.com/D_NQ_NP_842844-MLA51562583055_092022-O.webp","https://http2.mlstatic.com/D_NQ_NP_736523-MLA51562390948_092022-O.webp","https://http2.mlstatic.com/D_NQ_NP_675271-MLA51562475690_092022-O.webp"],
         precio:"",
@@ -244,9 +244,9 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'mineria'},
+        categoria:['mineria','all']},
     {
-        id:'039',
+        id:'017',
         nombre:'RTX 3060 TI VENTUS 3X 8G OC (8GB GDDR6)',
         foto:["https://http2.mlstatic.com/D_NQ_NP_738876-MLA48688406522_122021-O.webp","https://http2.mlstatic.com/D_NQ_NP_898892-MLA48688363943_122021-O.webp","https://http2.mlstatic.com/D_NQ_NP_793677-MLA48688406523_122021-O.webp"],
         precio:"",
@@ -258,10 +258,10 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'mineria'},
+        categoria:['mineria','all']},
 
     {
-        id:'040',
+        id:'018',
         nombre:'RTX 3070 VENTUS 2X 8GB ',
         foto:["https://http2.mlstatic.com/D_NQ_NP_716321-MLA44833373951_022021-O.webp","https://http2.mlstatic.com/D_NQ_NP_827131-MLA44835106191_022021-O.webp","https://http2.mlstatic.com/D_NQ_NP_914954-MLA44833373952_022021-O.webp"],
         precio:"",
@@ -273,10 +273,10 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'mineria'},
+        categoria:['mineria','all']},
 
     {
-        id:'041',
+        id:'019',
         nombre:'RTX 3070 VENTUS 3X 8GB OC',
         foto:["https://http2.mlstatic.com/D_NQ_NP_617574-MLA48654681863_122021-O.webp","https://http2.mlstatic.com/D_NQ_NP_648066-MLA48654665840_122021-O.webp","https://http2.mlstatic.com/D_NQ_NP_765825-MLA48654681862_122021-O.webp","https://http2.mlstatic.com/D_NQ_NP_857623-MLA50400215679_062022-O.webp"],
         precio:"",
@@ -288,10 +288,10 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'mineria'},
+        categoria:['mineria','all']},
 
     {
-        id:'042',
+        id:'020',
         nombre:'RTX 3070 TI VENTUS 3X 8G OC (8GB GDDR6X)',
         foto:"",
         memoria:[],
@@ -302,10 +302,10 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'mineria'},
+        categoria:['mineria','all']},
 
     {
-        id:'043',
+        id:'021',
         nombre:'RTX 3070 TI XLR8 GAMING REVEL EPIC-X RGB 3xFAN 8GB GDDR6X',
         foto:["https://http2.mlstatic.com/D_NQ_NP_876213-MLA49200884523_022022-O.webp","https://http2.mlstatic.com/D_NQ_NP_871373-MLA49200941119_022022-O.webp","https://http2.mlstatic.com/D_NQ_NP_844874-MLA49200928247_022022-O.webp","https://http2.mlstatic.com/D_NQ_NP_859319-MLA49200877536_022022-O.webp","https://http2.mlstatic.com/D_NQ_NP_631227-MLA49200786907_022022-O.webp"],
         precio:"",
@@ -317,11 +317,11 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'mineria'},
+        categoria:['mineria','all']},
 
 
     {
-        id:'044',
+        id:'022',
         nombre:'RTX 3080 LHR UPRISING TRIPLE FAN 12GB GDDR6X',
         foto:["https://http2.mlstatic.com/D_NQ_NP_856124-MLA51604839769_092022-O.webp"],
         precio:"",
@@ -333,11 +333,11 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'mineria'},
+        categoria:['mineria','all']},
 
 
     {
-        id:'045',
+        id:'024',
         nombre:'RTX 3080 TI XLR8 GAMING REVEL EPIC-X RGB 3xFAN 12GB GDDR6X',
         foto:["https://http2.mlstatic.com/D_NQ_NP_898724-MLA50584496604_072022-O.webp","https://http2.mlstatic.com/D_NQ_NP_705704-MLA50584496608_072022-O.webp","https://http2.mlstatic.com/D_NQ_NP_911594-MLA50584496607_072022-O.webp"],
         precio:"",
@@ -349,11 +349,11 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'mineria'},
+        categoria:['mineria','all']},
 
     
     {
-        id:'046',
+        id:'025',
         nombre:'RTX 3090 VENTUS 3X 24G OC (2476)',
         foto:["https://http2.mlstatic.com/D_NQ_NP_692818-MLA44385884034_122020-O.webp","https://http2.mlstatic.com/D_NQ_NP_781131-MLA44385614407_122020-O.webp"],
         precio:"",
@@ -365,25 +365,29 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:'mineria'},
+        categoria:['mineria','all']},
 
     {
-        id:'047',
+        id:'026',
         nombre:'RTX 3090 TI XLR8 GAMING UPRISING EPIC-X RGB 3xFAN 24GB GDDR6X',
         foto:["https://http2.mlstatic.com/D_NQ_NP_640210-MLA50149474308_052022-O.webp","https://http2.mlstatic.com/D_NQ_NP_951892-MLA50149504184_052022-O.webp","https://http2.mlstatic.com/D_NQ_NP_740502-MLA50149525070_052022-O.webp","https://http2.mlstatic.com/D_NQ_NP_817254-MLA50149508181_052022-O.webp"],
         precio:"",
+        memoria:[],
+        ram:[],
+        componentes:[],
         descripcion:'',
+        color: [],
         estado:'En stock',
         tendencia:false,
-        marca:"PNY",
-        categoria:'mineria'},
+        marca:'apple',
+        categoria:['mineria','all']},
 
 
 
 //MONITORES
 
 {
-    id:'048',
+    id:'027',
     nombre:'ASUS - Monitor para juegos IPS de 1ms FreeSync Extreme Low Motion Blur Eye Care DisplayPort HDMI VGA, Negro',
     foto:["https://m.media-amazon.com/images/I/91G9etn8L4L._AC_SX425_.jpg","https://m.media-amazon.com/images/I/81e9oegCAAL._AC_SX425_.jpg","https://m.media-amazon.com/images/I/81-nlV0dprL._AC_SY355_.jpg","https://m.media-amazon.com/images/I/81n0rn8O4cL._AC_SY355_.jpg","https://m.media-amazon.com/images/I/81x3Ob1Zj-L._AC_SY355_.jpg","https://m.media-amazon.com/images/I/91A15BoQLxL._AC_SY355_.jpg","https://m.media-amazon.com/images/I/81adV8A3UpL._AC_SY355_.jpg"],
     precio:"",
@@ -395,7 +399,7 @@ const productos=[
     estado:'En stock',
     tendencia:false,
     marca:'apple',
-    categoria:'monitores'},
+    categoria:['monitores','all']},
 
 {
     id:'049',
@@ -406,7 +410,7 @@ const productos=[
     estado:'En stock',
     tendencia:false,
     marca:"AOC",
-    categoria:'monitores'},
+    categoria:['monitores','all']},
 
 
 {
@@ -418,7 +422,7 @@ const productos=[
     estado:'En stock',
     tendencia:false,
     marca:"samsung",
-    categoria:'monitores'},
+    categoria:['monitores','all']},
 
 
 {
@@ -430,7 +434,7 @@ const productos=[
     estado:'En stock',
     tendencia:false,
     marca:"LG",
-    categoria:'monitores'},
+    categoria:['monitores','all']},
 
 {
     id:'052',
@@ -441,7 +445,7 @@ const productos=[
     estado:'En stock',
     tendencia:false,
     marca:"LG",
-    categoria:'monitores'},
+    categoria:['monitores','all']},
 
 {
     id:'053',
@@ -452,7 +456,7 @@ const productos=[
     estado:'En stock',
     tendencia:false,
     marca:"LG",
-    categoria:'monitores'},
+    categoria:['monitores','all']},
 
 
 {
@@ -464,7 +468,7 @@ const productos=[
     estado:'En stock',
     tendencia:false,
     marca:"samsung",
-    categoria:'monitores'},
+    categoria:['monitores','all']},
     ];
 
 export default productos

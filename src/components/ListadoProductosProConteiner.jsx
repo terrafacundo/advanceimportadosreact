@@ -8,7 +8,7 @@ const ListadoProductosProContainer = (param) =>{
     if(param.pagina==='pr-rel'){
         return(
             <div className="contenedor_resultados-pr-rel">
-                <ListadoProductosPro categoria={param.categoria}></ListadoProductosPro>
+                <ListadoProductosPro categoria={param.categoria[0]}></ListadoProductosPro>
             </div>
         )      
     }

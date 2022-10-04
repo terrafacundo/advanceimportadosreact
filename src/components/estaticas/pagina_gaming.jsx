@@ -2,14 +2,16 @@ import React from "react";
 import RedireccionadorGaming from "./redirecc_gaming";
 import notebook from './media/notebook.jpg'
 import monitores from './media/monitores.jpg'
+import mineria from './media/mineria.webp'
+import vr from  './media/mineria.webp'
 
 const PaginaGaming =()=>{
     return(
         <div className="galeria_productos_apple">
-            <RedireccionadorGaming link='notebook'/>
-            <RedireccionadorGaming link='mineria'/>
-            <RedireccionadorGaming link='monitores'/>
-            <RedireccionadorGaming link='vr'/>
+            <RedireccionadorGaming link='notebook' nombrebanner={notebook}/>
+            <RedireccionadorGaming link='mineria' nombrebanner={mineria}/>
+            <RedireccionadorGaming link='monitores' nombrebanner={monitores}/>
+            <RedireccionadorGaming link='vr' nombrebanner={vr}/>
         </div>
     )
 }
