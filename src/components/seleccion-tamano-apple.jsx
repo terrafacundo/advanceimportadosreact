@@ -1,12 +1,13 @@
 import React from "react";
 import productos from "./productos";
+import { useState} from "react";
+
+const SeleccionTamano = ({memoria,id,configuracionMemo})=>{
 
 
-const SeleccionTamano = ({memoria,id})=>{
-    
     return(
         memoria.map(elemento=>(
-        <div className="boton-seleccion">{elemento}</div>
+        <div className="boton-seleccion" onClick={()=>configuracionMemo(`${elemento}`)}>{elemento}</div>
         )
             )    )
 

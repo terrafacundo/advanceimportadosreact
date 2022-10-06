@@ -1,12 +1,14 @@
 import React from "react";
-import productos from "./productos";
+import { useState } from "react";
 
 
-const SeleccionComponentes = ({componentes,id})=>{
+const SeleccionComponentes = ({componentes,id,configuracionComponentes})=>{
+
+
     
     return(
         componentes.map(elemento=>(
-        <div className="boton-seleccion">{elemento}</div>
+        <div className="boton-seleccion" onClick={()=>configuracionComponentes(`${elemento}`)}>{elemento}</div>
         )
             )    )
 

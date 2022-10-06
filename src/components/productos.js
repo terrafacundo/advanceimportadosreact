@@ -1,10 +1,11 @@
 const productos=[
     {   
         id:'001',
+        secid:'mb-m2-air-13',
         nombre:'MacBook M2 AIR 13,6"',
         foto:["https://http2.mlstatic.com/D_NQ_NP_637313-MLA51356401031_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_797680-MLA51356381245_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_604604-MLA51356381315_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_708839-MLA51356236557_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_613040-MLA51356222696_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_619023-MLA51356202957_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_781541-MLA51356417291_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_600061-MLA51356401446_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_876302-MLA51356381627_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_817689-MLA51356381077_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_798982-MLA51356381076_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_687018-MLA51356222876_082022-O.webp"],
         precio:"",
-        memoria:['256GB','512GB','1TB','2TB"'],
+        memoria:['256GB','512GB','1TB','2TB'],
         ram:['8GB','16GB', '24GB'],
         componentes:['CPU 8GB/8GB GPU','CPU 8GB/10GB GPU'],
         descripcion:'M1 Chip 7 core GPU /8GB',
@@ -16,9 +17,10 @@ const productos=[
     {   
         id:'002', 
         nombre:'MacBook M2 PRO 13,6"',
+        secid:'mb-m2-pro-13',
         foto:["https://images-na.ssl-images-amazon.com/images/I/61L5QgPvgqL.__AC_SY445_SX342_QL70_FMwebp_.jpg","https://m.media-amazon.com/images/I/71K+bhq9bZL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/61bX2AoGj2L._AC_SX679_.jpg","https://m.media-amazon.com/images/I/71cZWwc6ZOL._AC_SX679_.jpg"],
         precio:"",
-        memoria:['256GB','512GB','1TB','2TB"'],
+        memoria:['256GB','512GB','1TB','2TB'],
         ram:['8GB','16GB', '24GB'],
         componentes:['CPU 8GB/8GB GPU'],
         descripcion:'',
@@ -30,9 +32,10 @@ const productos=[
     {   
         id:'003',
         nombre:'MacBook M1 AIR 13,3"',
+        secid:'mb-m1-air-13',
         foto:["https://m.media-amazon.com/images/I/71jG+e7roXL._AC_SX342_SY445_.jpg","https://m.media-amazon.com/images/I/712v9WGWDBL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/91YEUMzK8cL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/71TPda7cwUL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/719BHaUQ46L._AC_SX679_.jpg","https://m.media-amazon.com/images/I/91etkaXZjEL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/71vFKBpKakL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/81HZAfCGZ5L._AC_SX679_.jpg","https://m.media-amazon.com/images/I/81PeNcC5W4L._AC_SX679_.jpg"],
         precio:"",
-        memoria:['256GB','512GB','1TB','2TB"'],
+        memoria:['256GB','512GB','1TB','2TB'],
         ram:['8GB','16GB'],
         componentes:['CPU 8GB/7GB GPU'],
         descripcion:'',

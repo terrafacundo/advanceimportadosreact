@@ -1,12 +1,13 @@
 import React from "react";
-import productos from "./productos";
+import { useState } from "react";
 
 
-const SeleccionRam = ({ram,id})=>{
+const SeleccionRam = ({ram,id,configuracionRam})=>{
+
     
     return(
         ram.map(elemento=>(
-        <div className="boton-seleccion">{elemento}</div>
+        <div className="boton-seleccion" onClick={()=>configuracionRam(`${elemento}`)}>{elemento}</div>
         )
             )    )
 

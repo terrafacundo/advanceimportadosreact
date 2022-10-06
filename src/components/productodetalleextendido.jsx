@@ -1,5 +1,4 @@
 import React from "react"
-import { useParams } from "react-router-dom"
 import BloqueFotos from "./foto-producto-map"
 import ListadoProductos from "./ListadoProductos"
 import ListadoProductosProContainer from "./ListadoProductosProConteiner"
@@ -7,12 +6,51 @@ import SeleccionColor from "./seleccion-color-apple"
 import SeleccionComponentes from "./seleccion-componentes-apple"
 import SeleccionRam from "./seleccion-ram-apple"
 import SeleccionTamano from "./seleccion-tamano-apple"
+import { useState } from "react"
+import PrecioFinal from "../logica-precio-final"
 
 
 
-const ProductoDetalleExtendido =({id,nombre,foto,precio,memoria,descripcion,ram,componentes,color,estado,tendencia,marca,categoria})=>{
+const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcion,ram,componentes,color,estado,tendencia,marca,categoria})=>{
+    
+    //TODOS LOS STATES EXPORTADOS DESDE SUS RESPECTIVOS COMPONENTES
+    
+    const [configcolor, setconfiguracioncolor] = useState("");
 
-    console.log(foto)
+    const configuracionColor=(x)=>{
+        setconfiguracioncolor(x)
+        //modificar aca tambien el classname para hacerlo activo apenas se seleccione y cambie de color asi el cliente lo nota
+        console.log('desde el padre', configcolor)}
+
+    //
+
+    const [configram, setconfiguracionram] = useState("");
+
+    const configuracionRam=(x)=>{
+        setconfiguracionram(x)
+        //modificar aca tambien el classname para hacerlo activo apenas se seleccione y cambie de color asi el cliente lo nota
+        console.log('desde el padre',configram)}
+
+    //
+
+    const [configmemo, setconfiguracionMemo] = useState("");
+
+    const configuracionMemo=(x)=>{
+        setconfiguracionMemo(x)
+        //modificar aca tambien el classname para hacerlo activo apenas se seleccione y cambie de color asi el cliente lo nota
+        console.log('desde el padre', configmemo)}
+
+    // 
+   
+    const [configcomponente, setconfiguracionComponentes] = useState("");
+
+    const configuracionComponentes=(x)=>{
+        setconfiguracionComponentes(x)
+        //modificar aca tambien el classname para hacerlo activo apenas se seleccione y cambie de color asi el cliente lo nota
+        console.log('desde el padare',configcomponente)}    
+
+
+        
     if (marca==='apple'){
         return(
             <div className="contenedor-pagina-producto-apple">
@@ -26,7 +64,7 @@ const ProductoDetalleExtendido =({id,nombre,foto,precio,memoria,descripcion,ram,
                         <div className="seleccion-tamaño-apple">
                             <h2 className="titulo-seleccion" >Almacenamiento</h2>
                             <div className="contenedor-boton-seleccion">
-                            <SeleccionTamano memoria={memoria} id={id}></SeleccionTamano>
+                            <SeleccionTamano memoria={memoria} id={id} configuracionMemo={configuracionMemo}></SeleccionTamano>
                             </div>
                             {/* <div className="tamaño">
                                 <div className={`boton.${parseInt(memoria[0])}`}>{memoria[0]}</div>
@@ -38,7 +76,7 @@ const ProductoDetalleExtendido =({id,nombre,foto,precio,memoria,descripcion,ram,
                         <div className="seleccion-ram-apple">
                             <h2 className="titulo-seleccion">RAM</h2>
                             <div className="contenedor-boton-seleccion">
-                                <SeleccionRam ram={ram}/>
+                                <SeleccionRam ram={ram} configuracionRam={configuracionRam}/>
                                 {/* <div className={`boton.${ram[0]}`}>{ram[0]}</div>
                                 <div className={`boton.${ram[1]}`}>{ram[1]}</div>
                                 <div className={`boton.${ram[2]}`}>{ram[2]}</div> */}
@@ -48,7 +86,7 @@ const ProductoDetalleExtendido =({id,nombre,foto,precio,memoria,descripcion,ram,
                         <div className="seleccion-componentes-apple">
                             <h2 className="titulo-seleccion">CPU/GPU</h2>
                             <div className="contenedor-boton-seleccion">
-                                <SeleccionComponentes componentes={componentes}></SeleccionComponentes>
+                                <SeleccionComponentes componentes={componentes} configuracionComponentes={configuracionComponentes}></SeleccionComponentes>
                                 {/* <div className="boton-componentes">{componentes[0]}</div>
                                 <div className="boton-componentes">{componentes[1]}</div>
                                 <div className="boton-componentes">{componentes[2]}</div> */}
@@ -58,11 +96,13 @@ const ProductoDetalleExtendido =({id,nombre,foto,precio,memoria,descripcion,ram,
                         <div className="seleccion-color-apple">
                             <h2 className="titulo-seleccion">Selecciona un color:</h2>
                             <div className="contenedor-boton-seleccion">
-                                <SeleccionColor color={color}></SeleccionColor>
+                                <SeleccionColor color={color} configuracionColor={configuracionColor} ></SeleccionColor>
                                 {/* <div className={`boton.${color[0]}`}>{color[0]}</div>
                                 <div className={`boton.${color[1]}`}>{color[1]}</div> */}
                             </div>
                         </div>
+
+                        <PrecioFinal secid={secid}almacenamiento={configmemo} ram={configram} componente={configcomponente} color={configcolor} />
                     </div> 
                 </div>
                 <div className="sector-desc-apple">
@@ -142,8 +182,8 @@ const ProductoDetalleExtendido =({id,nombre,foto,precio,memoria,descripcion,ram,
         </div>
     )
 }
-
-
 }
+
+
 
 export default ProductoDetalleExtendido

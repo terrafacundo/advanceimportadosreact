@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 
 
 const ListadoProductosPro =({categoria})=>{
-    console.log(categoria)
 
         const nuevo_Array = productos.filter(x=>x.categoria[0]===categoria)
         const nuevo_Array_seg_pos = productos.filter(x=>x.categoria[1]==='all')
@@ -15,7 +14,6 @@ const ListadoProductosPro =({categoria})=>{
         // console.log('nuevo array seg pos ',nuevo_Array_seg_pos)
 
         if (nuevo_Array.length !==0 && nuevo_Array_seg_pos.length !==0 ){
-            console.log('cumple la primera')
         return(
             nuevo_Array.map((x) =>(
                 <ProductoDetalle
@@ -28,7 +26,6 @@ const ListadoProductosPro =({categoria})=>{
         ))}
 
         if(nuevo_Array.length === 0 && nuevo_Array_seg_pos.length !==0){
-            console.log('cumple la segunda')
             return(
                 nuevo_Array_seg_pos.map((x) =>(
                     <ProductoDetalle
