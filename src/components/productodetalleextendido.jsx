@@ -41,7 +41,7 @@ const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcio
         console.log('desde el padre', configmemo)}
 
     // 
-   
+    
     const [configcomponente, setconfiguracionComponentes] = useState("");
 
     const configuracionComponentes=(x)=>{

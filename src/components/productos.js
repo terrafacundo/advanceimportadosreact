@@ -47,6 +47,7 @@ const productos=[
     {   
         id:'004',
         nombre:'MacBook M1 PRO 14,2"',
+        secid:'mb-m1-pro-14',
         foto:["https://m.media-amazon.com/images/I/61vFO3R5UNL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/71YhRQy50oL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/61cCf94xIEL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/71AKE565U4L._AC_SX679_.jpg"],
         precio:"",
         memoria:['256GB','512GB','1TB','2TB','4TB','8TB'],
@@ -61,6 +62,7 @@ const productos=[
     {   
         id:'005',
         nombre:'MacBook M1 MAX',
+        secid:'mb-m1-MAX-',
         foto:["https://m.media-amazon.com/images/I/61vFO3R5UNL._AC_SX569_.jpg","https://m.media-amazon.com/images/I/71YhRQy50oL._AC_SX569_.jpg","https://m.media-amazon.com/images/I/91hFzfaHeNL._AC_SX569_.jpg"],
         precio:"",
         memoria:['512GB','1TB','2TB','4TB','8TB'],
@@ -75,6 +77,7 @@ const productos=[
     {   
         id:'006',
         nombre:'MacBook M1 PRO 16,2"',
+        secid:'mb-m1-pro-16',
         foto:["https://m.media-amazon.com/images/I/61aUBxqc5PL._AC_SX466_.jpg","https://m.media-amazon.com/images/I/71ooAuqn7sL._AC_SX466_.jpg","https://m.media-amazon.com/images/I/61Y30DpqRVL._AC_SX466_.jpg","https://m.media-amazon.com/images/I/716QjdQOR+L._AC_SX466_.jpg"],
         precio:"",
         memoria:['512GB','1TB','2TB','4TB','8TB'],
