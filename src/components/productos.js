@@ -62,7 +62,7 @@ const productos=[
     {   
         id:'005',
         nombre:'MacBook M1 MAX',
-        secid:'mb-m1-MAX-',
+        secid:'mb-m1-MAX',
         foto:["https://m.media-amazon.com/images/I/61vFO3R5UNL._AC_SX569_.jpg","https://m.media-amazon.com/images/I/71YhRQy50oL._AC_SX569_.jpg","https://m.media-amazon.com/images/I/91hFzfaHeNL._AC_SX569_.jpg"],
         precio:"",
         memoria:['512GB','1TB','2TB','4TB','8TB'],

@@ -1,8 +1,7 @@
 import React from "react"
 import BloqueFotos from "./foto-producto-map"
-import ListadoProductos from "./ListadoProductos"
 import ListadoProductosProContainer from "./ListadoProductosProConteiner"
-import SeleccionColor from "./seleccion-color-apple"
+import SeleccionColor from "./seleccion-color-apple-ListContainer"
 import SeleccionComponentes from "./seleccion-componentes-apple"
 import SeleccionRam from "./seleccion-ram-apple"
 import SeleccionTamano from "./seleccion-tamano-apple"
@@ -14,21 +13,18 @@ import PrecioFinal from "../logica-precio-final"
 const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcion,ram,componentes,color,estado,tendencia,marca,categoria})=>{
     
     //TODOS LOS STATES EXPORTADOS DESDE SUS RESPECTIVOS COMPONENTES
-    
-    const [configcolor, setconfiguracioncolor] = useState("");
+    const [configcolor, setconfiguracioncolor] = useState('no capturo nada');
 
     const configuracionColor=(x)=>{
         setconfiguracioncolor(x)
-        //modificar aca tambien el classname para hacerlo activo apenas se seleccione y cambie de color asi el cliente lo nota
-        console.log('desde el padre', configcolor)}
+        console.log('setconfiguracioncolor',configcolor)
+    }
 
-    //
 
     const [configram, setconfiguracionram] = useState("");
 
     const configuracionRam=(x)=>{
         setconfiguracionram(x)
-        //modificar aca tambien el classname para hacerlo activo apenas se seleccione y cambie de color asi el cliente lo nota
         console.log('desde el padre',configram)}
 
     //
@@ -53,6 +49,8 @@ const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcio
         
     if (marca==='apple'){
         return(
+
+            
             <div className="contenedor-pagina-producto-apple">
                 <div className="presentacion-apple">
                     <BloqueFotos foto={foto}/>
@@ -64,7 +62,7 @@ const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcio
                         <div className="seleccion-tamaño-apple">
                             <h2 className="titulo-seleccion" >Almacenamiento</h2>
                             <div className="contenedor-boton-seleccion">
-                            <SeleccionTamano memoria={memoria} id={id} configuracionMemo={configuracionMemo}></SeleccionTamano>
+                            <SeleccionTamano memoria={memoria} id={id} configuracionMemo={configuracionMemo} configmemo={configmemo}></SeleccionTamano>
                             </div>
                             {/* <div className="tamaño">
                                 <div className={`boton.${parseInt(memoria[0])}`}>{memoria[0]}</div>
@@ -76,17 +74,14 @@ const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcio
                         <div className="seleccion-ram-apple">
                             <h2 className="titulo-seleccion">RAM</h2>
                             <div className="contenedor-boton-seleccion">
-                                <SeleccionRam ram={ram} configuracionRam={configuracionRam}/>
-                                {/* <div className={`boton.${ram[0]}`}>{ram[0]}</div>
-                                <div className={`boton.${ram[1]}`}>{ram[1]}</div>
-                                <div className={`boton.${ram[2]}`}>{ram[2]}</div> */}
+                                <SeleccionRam ram={ram} configuracionRam={configuracionRam} configram={configram}/>
                             </div>
                         </div>
 
                         <div className="seleccion-componentes-apple">
                             <h2 className="titulo-seleccion">CPU/GPU</h2>
                             <div className="contenedor-boton-seleccion">
-                                <SeleccionComponentes componentes={componentes} configuracionComponentes={configuracionComponentes}></SeleccionComponentes>
+                                <SeleccionComponentes componentes={componentes} configuracionComponentes={configuracionComponentes} configcomponente={configcomponente}></SeleccionComponentes>
                                 {/* <div className="boton-componentes">{componentes[0]}</div>
                                 <div className="boton-componentes">{componentes[1]}</div>
                                 <div className="boton-componentes">{componentes[2]}</div> */}
@@ -96,7 +91,7 @@ const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcio
                         <div className="seleccion-color-apple">
                             <h2 className="titulo-seleccion">Selecciona un color:</h2>
                             <div className="contenedor-boton-seleccion">
-                                <SeleccionColor color={color} configuracionColor={configuracionColor} ></SeleccionColor>
+                                <SeleccionColor color={color} colorInicial={configcolor} configuracionColor={configuracionColor} ></SeleccionColor>
                                 {/* <div className={`boton.${color[0]}`}>{color[0]}</div>
                                 <div className={`boton.${color[1]}`}>{color[1]}</div> */}
                             </div>

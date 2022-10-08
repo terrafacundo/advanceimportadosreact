@@ -1,13 +1,13 @@
 import React from "react";
-import productos from "./productos";
-import { useState} from "react";
-
-const SeleccionTamano = ({memoria,id,configuracionMemo})=>{
+import SeleccionTamanoDetalle from "./seleccion-tamano-apple-detalle";
 
 
+const SeleccionTamano = ({memoria,configmemo,configuracionMemo})=>{
+    
     return(
         memoria.map(elemento=>(
-        <div className="boton-seleccion" onClick={()=>configuracionMemo(`${elemento}`)}>{elemento}</div>
+        // <div className="boton-seleccion" onClick={()=>configuracionRam(`${elemento}`)}>{elemento}</div>
+        <SeleccionTamanoDetalle key={elemento} configuracionMemo={configuracionMemo} configmemo={configmemo} elemento={elemento}> </SeleccionTamanoDetalle>
         )
             )    )
 
