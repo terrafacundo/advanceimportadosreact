@@ -7,6 +7,7 @@ import SeleccionRam from "./seleccion-ram-apple"
 import SeleccionTamano from "./seleccion-tamano-apple"
 import { useState } from "react"
 import PrecioFinal from "../logica-precio-final"
+import DetalleDescripcionProducto from "./detalle-desc-pr"
 
 
 
@@ -88,6 +89,7 @@ const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcio
                     </div> 
                 </div>
                 <div className="sector-desc-apple">
+                    <DetalleDescripcionProducto descripcion={descripcion}></DetalleDescripcionProducto>
                     
                 </div>
 

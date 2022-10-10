@@ -83,9 +83,22 @@ const productos=[
         memoria:['512GB','1TB','2TB','4TB','8TB'],
         ram:['16GB','32GB'],
         componentes:['CPU 10GB/16GB GPU','CPU 10GB/24GB GPU'],
-        descripcion:{
-            descripcionBase:,
+        descripcion:[
+            {
+            info:{
+                titulo:"aloha",
+                lista:["1","2","3"]}
             },
+            {
+            info:{
+                titulo:"ciao",
+                lista:["3","4","5"]}
+            },
+            {
+            info:{
+                titulo:"buongiorno",
+                lista:["6","7","8"]
+            }}],
         color: ['space','silver'],
         estado:'En stock',
         tendencia:false,
