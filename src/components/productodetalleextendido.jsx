@@ -33,7 +33,6 @@ const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcio
 
     const configuracionMemo=(x)=>{
         setconfiguracionMemo(x)
-        //modificar aca tambien el classname para hacerlo activo apenas se seleccione y cambie de color asi el cliente lo nota
         console.log('desde el padre', configmemo)}
 
     // 
@@ -42,7 +41,6 @@ const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcio
 
     const configuracionComponentes=(x)=>{
         setconfiguracionComponentes(x)
-        //modificar aca tambien el classname para hacerlo activo apenas se seleccione y cambie de color asi el cliente lo nota
         console.log('desde el padare',configcomponente)}    
 
 
@@ -54,21 +52,15 @@ const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcio
             <div className="contenedor-pagina-producto-apple">
                 <div className="presentacion-apple">
                     <BloqueFotos foto={foto}/>
-                    {/* <img src={foto} className="foto_producto_ext"></img> */}
                     <div className="contenedor-info-seleccion">
                         <h3 className="nombre_producto_ext">{nombre}</h3>
-                        <h5 className="precio_producto_ext">USD{precio}</h5>
+                        <h5 className="precio_producto_ext">Desde: U$D {precio}</h5>
 
                         <div className="seleccion-tamaño-apple">
                             <h2 className="titulo-seleccion" >Almacenamiento</h2>
                             <div className="contenedor-boton-seleccion">
                             <SeleccionTamano memoria={memoria} id={id} configuracionMemo={configuracionMemo} configmemo={configmemo}></SeleccionTamano>
                             </div>
-                            {/* <div className="tamaño">
-                                <div className={`boton.${parseInt(memoria[0])}`}>{memoria[0]}</div>
-                                <div className={`boton.${parseInt(memoria[1])}`}>{memoria[1]}</div>
-                                <div className={`boton.${parseInt(memoria[2])}`}>{memoria[2]}</div>
-                            </div> */}
                         </div>
 
                         <div className="seleccion-ram-apple">
@@ -82,9 +74,6 @@ const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcio
                             <h2 className="titulo-seleccion">CPU/GPU</h2>
                             <div className="contenedor-boton-seleccion">
                                 <SeleccionComponentes componentes={componentes} configuracionComponentes={configuracionComponentes} configcomponente={configcomponente}></SeleccionComponentes>
-                                {/* <div className="boton-componentes">{componentes[0]}</div>
-                                <div className="boton-componentes">{componentes[1]}</div>
-                                <div className="boton-componentes">{componentes[2]}</div> */}
                             </div>
                         </div>
 
@@ -92,8 +81,6 @@ const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcio
                             <h2 className="titulo-seleccion">Selecciona un color:</h2>
                             <div className="contenedor-boton-seleccion">
                                 <SeleccionColor color={color} colorInicial={configcolor} configuracionColor={configuracionColor} ></SeleccionColor>
-                                {/* <div className={`boton.${color[0]}`}>{color[0]}</div>
-                                <div className={`boton.${color[1]}`}>{color[1]}</div> */}
                             </div>
                         </div>
 
