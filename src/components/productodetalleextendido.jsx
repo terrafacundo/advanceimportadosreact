@@ -8,17 +8,17 @@ import SeleccionTamano from "./seleccion-tamano-apple"
 import { useState } from "react"
 import PrecioFinal from "../logica-precio-final"
 import DetalleDescripcionProducto from "./detalle-desc-pr"
+import BotonConsulta from "./boton-consulta"
 
 
 
 const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcion,ram,componentes,color,estado,tendencia,marca,categoria})=>{
     
     //TODOS LOS STATES EXPORTADOS DESDE SUS RESPECTIVOS COMPONENTES
-    const [configcolor, setconfiguracioncolor] = useState('no capturo nada');
+    const [configcolor, setconfiguracioncolor] = useState('');
 
     const configuracionColor=(x)=>{
         setconfiguracioncolor(x)
-        console.log('setconfiguracioncolor',configcolor)
     }
 
 
@@ -26,7 +26,7 @@ const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcio
 
     const configuracionRam=(x)=>{
         setconfiguracionram(x)
-        console.log('desde el padre',configram)}
+}
 
     //
 
@@ -34,7 +34,7 @@ const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcio
 
     const configuracionMemo=(x)=>{
         setconfiguracionMemo(x)
-        console.log('desde el padre', configmemo)}
+}
 
     // 
     
@@ -42,7 +42,7 @@ const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcio
 
     const configuracionComponentes=(x)=>{
         setconfiguracionComponentes(x)
-        console.log('desde el padare',configcomponente)}    
+}    
 
 
         
@@ -84,8 +84,8 @@ const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcio
                                 <SeleccionColor color={color} colorInicial={configcolor} configuracionColor={configuracionColor} ></SeleccionColor>
                             </div>
                         </div>
-
-                        <PrecioFinal secid={secid}almacenamiento={configmemo} ram={configram} componente={configcomponente} color={configcolor} />
+                        <PrecioFinal secid={secid} almacenamiento={configmemo} ram={configram} componente={configcomponente} color={configcolor} />
+                        <BotonConsulta nombre={nombre} almacenamiento={configmemo} ram={configram} componente={configcomponente} color={configcolor}/>
                     </div> 
                 </div>
                 <div className="sector-desc-apple">

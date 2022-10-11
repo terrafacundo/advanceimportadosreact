@@ -6,9 +6,11 @@ const DetalleDescripcionProductoExtendido =({desglosado})=>{
     let titulo = interno.titulo
     let lista = interno.lista
     return(
-        <div>
-            <h1>{titulo}</h1>
-            <DetalleDescripcionProductoExtendidoInfo lista={lista}></DetalleDescripcionProductoExtendidoInfo>
+        <div key={titulo} className="contenedor-sector-descripcion-sub">
+            <h1 className="titulo-sector-descripcion-b">{titulo}</h1>
+            <ul>
+            <DetalleDescripcionProductoExtendidoInfo key={titulo} lista={lista}></DetalleDescripcionProductoExtendidoInfo>
+            </ul>
         </div>
     )
 }

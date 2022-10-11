@@ -3,7 +3,7 @@ const DetalleDescripcionProductoExtendidoInfo =({lista})=>{
     
     return(
     lista.map((x)=>(
-        <div>{x}</div>
+        <li className="desc-listas">{x}</li>
         )))    
 }
 

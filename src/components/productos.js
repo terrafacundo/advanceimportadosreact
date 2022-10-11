@@ -8,7 +8,63 @@ const productos=[
         memoria:['256GB','512GB','1TB','2TB'],
         ram:['8GB','16GB', '24GB'],
         componentes:['CPU 8GB/8GB GPU','CPU 8GB/10GB GPU'],
-        descripcion:'M1 Chip 7 core GPU /8GB',
+        descripcion:[
+            {
+            info:{
+                titulo:"Chip M2 de Apple",
+                lista:["CPU de 8 núcleos con 4 núcleos de rendimiento y 4 de eficiencia / CPU de 8 núcleos con 4 núcleos de rendimiento y 4 de eficiencia","GPU de 8 núcleos / GPU de 10 núcleos","Neural Engine de 16 núcleos","100 GB/s de ancho de banda de memoria"]}
+            },
+            {
+            info:{
+                titulo:"Motor multimedia",
+                lista:["H.264, HEVC, ProRes y ProRes RAW con aceleración por hardware","Motor de decodificación de video","Motor de codificación de video","Motor de codificación y decodificación ProRes"]}
+            },
+            {
+            info:{
+                titulo:"Pantalla Liquid Retina",
+                lista:["Pantalla de 13.6 pulgadas (diagonal) retroiluminada por LED con tecnología IPS;1 resolución nativa de 2560 x 1664 a 224 pixeles por pulgada compatible con 1,000 millones de colores","Brillo de 500 nits","Amplia gama de colores (P3)","Tecnología True Tone"]
+            }},
+            {
+            info:{
+                titulo:"Batería y energía",
+                lista:["Hasta 18 horas de reproducción de video en la app Apple TV","Hasta 15 horas de navegación web inalámbrica","Batería de polímero de litio de 52.6 Wh","Adaptador de corriente USB-C de 30 W (incluido en las MacBook Air con chip M2 con GPU de 8 núcleos)","Adaptador de corriente compacto de 35 W con dos puertos USB-C (incluido en las MacBook Air con chip M2 con GPU de 10 núcleos y 512 GB de almacenamiento; opcional en las MacBook Air con chip M2 con GPU de 8 núcleos)","Cable de USB-C a MagSafe 3","Carga rápida con el adaptador de corriente USB-C de 67 W"]}
+            },
+            {
+            info:{
+                titulo:"Carga y expansión",
+                lista:["Puerto de carga MagSafe 3","Entrada de 3.5 mm para audífonos","Batería de polímero de litio de 52.6 Wh","Dos puertos Thunderbolt/USB 4 compatibles con: Carga, DisplayPort, Thunderbolt 3 (hasta 40 Gb/s), USB 4 (hasta 40 Gb/s), USB 3.1 de segunda generación (hasta 10 Gb/s)"]}
+            },
+            {
+            info:{
+                titulo:"Memoria",
+                lista:["8 GB (Memoria unificada de 8 GB)","Configurable con: 16 GB o 24 GB"]}
+            },
+            {
+            info:{
+                titulo:"Teclado y trackpad",
+                lista:["78 (EE.UU.) o 79 (ISO) teclas, incluidas 12 teclas de función de altura estándar y 4 teclas de flecha en forma de “T” invertida","Touch ID","Sensor de luz ambiental","Trackpad Force Touch con control preciso del cursor y sensibilidad a la presión. Permite clics fuertes, aceleradores, trazos sensibles a la presión y gestos Multi‑Touch."]}
+            },
+            {
+            info:{
+                titulo:"Cámara",
+                lista:["1080p","Cámara FaceTime HD","Procesador de señal de imagen avanzado con video computacional"]}
+            },
+            {
+            info:{
+                titulo:"Audio",
+                lista:["Sistema de sonido de cuatro bocinas","Amplio sonido estéreo","Compatible con audio espacial al reproducir música o video con Dolby Atmos en las bocinas integradas","Audio espacial con seguimiento dinámico de la cabeza al usar los AirPods (tercera generación), AirPods Pro y AirPods Max","Sistema de tres micrófonos con tecnología beamforming direccional","Entrada de 3.5 mm para audífonos con compatibilidad avanzada para audífonos de alta impedancia"]}
+            },
+            {
+            info:{
+                titulo:"Compatibilidad con monitores",
+                lista:["Es compatible simultáneamente con la resolución nativa de la pantalla integrada en 1,000 millones de colores y, un monitor externo con resolución de hasta 6K a 60 Hz","Salida de video digital Thunderbolt 3","Salida DisplayPort nativa a través de USB‑C","Compatible con salidas VGA, HDMI, DVI y Thunderbolt 2 mediante adaptadores (se venden por separado)"]}
+            },
+            {
+            info:{
+                titulo:"Tamaño y peso",
+                lista:["Grosor: 1.13 cm","Ancho: 30.41 cm","Salida DisplayPort nativa a través de USB‑C","Profundidad: 21.50 cm","Peso: 1.24 kg"]}
+            }
+        ],
         color: ['space','silver','midnight','gold'],
         estado:'En stock',
         tendencia:true,
@@ -23,7 +79,63 @@ const productos=[
         memoria:['256GB','512GB','1TB','2TB'],
         ram:['8GB','16GB', '24GB'],
         componentes:['CPU 8GB/8GB GPU'],
-        descripcion:'',
+        descripcion:[
+            {
+            info:{
+                titulo:"Chip M2 de Apple",
+                lista:["CPU de 8 núcleos con 4 núcleos de rendimiento y 4 de eficiencia","GPU de 10 núcleos","Neural Engine de 16 núcleos","100 GB/s de ancho de banda de memoria"]}
+            },
+            {
+            info:{
+                titulo:"Motor multimedia",
+                lista:["H.264, HEVC, ProRes y ProRes RAW con aceleración por hardware","Motor de decodificación de video","Motor de codificación de video","Motor de codificación y decodificación ProRes"]}
+            },
+            {
+            info:{
+                titulo:"Pantalla Retina",
+                lista:["Pantalla de 13.3 pulgadas (diagonal) retroiluminada por LED con tecnología IPS; resolución nativa de 2560 x 1600 a 227 pixeles por pulgada compatible con millones de colores","Brillo de 500 nits","Amplia gama de colores (P3)","Tecnología True Tone"]
+            }},
+            {
+            info:{
+                titulo:"Batería y energía",
+                lista:["Hasta 20 horas de reproducción de video en la app Apple TV","Hasta 17 horas de navegación web inalámbrica","Batería de polímero de litio de 58.2 Wh","Adaptador de corriente USB-C de 67 W"]}
+            },
+            {
+            info:{
+                titulo:"Carga y Expansión",
+                lista:["Dos puertos Thunderbolt / USB 4 compatibles","DisplayPort","Thunderbolt 3 (hasta 40 Gb/s)","USB 4 (hasta 40 Gb/s)","USB 3.1 de segunda generación (hasta 10 Gb/s)"]}
+            },
+            {
+            info:{
+                titulo:"Memoria",
+                lista:["8 GB (Memoria unificada de 8 GB)","Configurable con: 16 GB o 24 GB"]}
+            },
+            {
+            info:{
+                titulo:"Teclado y trackpad",
+                lista:["65 (EE.UU.) o 66 (ISO) teclas, incluidas 4 teclas de flecha en forma de “T” invertida","Touch Bar","Touch ID","Sensor de luz ambiental","Trackpad Force Touch con control preciso del cursor y sensibilidad a la presión. Permite clics fuertes, aceleradores, trazos sensibles a la presión y gestos Multi‑Touch."]}
+            },
+            {
+            info:{
+                titulo:"Cámara",
+                lista:["Cámara FaceTime HD de 720p","Procesador de señal de imagen avanzado con video computacional"]}
+            },
+            {
+            info:{
+                titulo:"Audio",
+                lista:["Bocinas estéreo con alto rango dinámico","Amplio sonido estéreo","Compatible con audio espacial al reproducir música o video con Dolby Atmos en las bocinas integradas","Audio espacial con seguimiento dinámico de la cabeza al usar los AirPods (tercera generación), AirPods Pro y AirPods Max","Sistema de tres micrófonos con tecnología beamforming direccional","Entrada de 3.5 mm para audífonos con compatibilidad avanzada para audífonos de alta impedancia"]}
+            },
+            {
+            info:{
+                titulo:"Compatibilidad con monitores",
+                lista:["Es compatible simultáneamente con la resolución nativa de la pantalla integrada en millones de colores y un monitor externo con resolución de hasta 6K a 60 Hz","Salida de video digital Thunderbolt 3","Salida DisplayPort nativa a través de USB‑C","Compatible con salidas VGA, HDMI, DVI y Thunderbolt 2 mediante adaptadores (se venden por separado)"]}
+            },
+            {
+            info:{
+                titulo:"Tamaño y peso",
+                lista:["Grosor: 1.56 cm","Ancho: 30.41 cm","Profundidad: 21.24 cm","Peso: 1.4 kg"]}
+            }
+        ],
         color: ['space','silver'],
         estado:'En stock',
         tendencia:true,
@@ -38,7 +150,58 @@ const productos=[
         memoria:['256GB','512GB','1TB','2TB'],
         ram:['8GB','16GB'],
         componentes:['CPU 8GB/7GB GPU'],
-        descripcion:'',
+        descripcion:[
+            {
+            info:{
+                titulo:"Chip M1 de Apple",
+                lista:["CPU de 8 núcleos con 4 núcleos de rendimiento y 4 de eficiencia","GPU de 7 núcleos","Neural Engine de 16 núcleos"]}
+            },
+            {
+            info:{
+                titulo:"Pantalla Retina",
+                lista:["Pantalla de 13.3 pulgadas (diagonal) retroiluminada por LED con tecnología IPS; resolución nativa de 2560 x 1600 a 227 pixeles por pulgada compatible con millones de colores","Brillo de 400 nits","Amplia gama de colores (P3)","Tecnología True Tone"]
+            }},
+            {
+            info:{
+                titulo:"Batería y energía",
+                lista:["Hasta 15 horas de navegación web inalámbrica","Hasta 18 horas de reproducción de video en la app Apple TV","Batería de polímero de litio integrada de 49.9 Wh","Adaptador de corriente USB-C de 30 W"]}
+            },
+            {
+            info:{
+                titulo:"Carga y Expansión",
+                lista:["Dos puertos Thunderbolt / USB 4 compatibles","DisplayPort","Thunderbolt 3 (hasta 40 Gb/s)","USB 4 (hasta 40 Gb/s)","USB 3.1 de segunda generación (hasta 10 Gb/s)"]}
+            },
+            {
+            info:{
+                titulo:"Memoria",
+                lista:["8 GB (Memoria unificada de 8 GB)","Configurable con: 16 GB"]}
+            },
+            {
+            info:{
+                titulo:"Teclado y trackpad",
+                lista:["78 (EE.UU.) o 79 (ISO) teclas, incluidas 12 teclas de función y 4 teclas de flecha en forma de “T” invertida","Sensor de luz ambiental","Sensor Touch ID","Trackpad Force Touch con control preciso del cursor y sensibilidad a la presión. Permite clics fuertes, aceleradores, trazos sensibles a la presión y gestos Multi‑Touch."]}
+            },
+            {
+            info:{
+                titulo:"Cámara",
+                lista:["Cámara FaceTime HD de 720p","Procesador de señal de imagen avanzado con video computacional"]}
+            },
+            {
+            info:{
+                titulo:"Audio",
+                lista:["Bocinas estéreo","Amplio sonido estéreo","Compatible con Dolby Atmos","Sistema de tres micrófonos con tecnología beamforming direccional","Sistema de tres micrófonos con tecnología beamforming direccional","Entrada de 3.5 mm para audífonos"]}
+            },
+            {
+            info:{
+                titulo:"Compatibilidad con monitores",
+                lista:["Es compatible simultáneamente con la resolución nativa de la pantalla integrada en millones de colores y un monitor externo con resolución de hasta 6K a 60 Hz","Salida de video digital Thunderbolt 3","Salida DisplayPort nativa a través de USB‑C","Compatible con salidas VGA, HDMI, DVI y Thunderbolt 2 mediante adaptadores (se venden por separado)"]}
+            },
+            {
+            info:{
+                titulo:"Tamaño y peso",
+                lista:["Grosor: 0.41 a 1.61 cm","Ancho: 30.41 cm","Profundidad: 21.24 cm","Peso: 1.29 kg"]}
+            }
+        ],
         color: ['space','silver','gold'],
         estado:'En stock',
         tendencia:true,
@@ -53,7 +216,73 @@ const productos=[
         memoria:['256GB','512GB','1TB','2TB','4TB','8TB'],
         ram:['16GB', '32GB'],
         componentes:['CPU 8GB/14GB GPU','CPU 10GB/14GB GPU','CPU 10GB/16GB GPU'],
-        descripcion:'',
+        descripcion:[
+            {
+            info:{
+                titulo:"Chip M1 Pro de Apple",
+                lista:["CPU de 8 núcleos con 6 núcleos de rendimiento y 2 de eficiencia","GPU de 14 núcleos","Neural Engine de 16 núcleos","200 GB/s de ancho de banda de memoria"]}
+            },
+            {
+            info:{
+                titulo:"Motor multimedia",
+                lista:["H.264, HEVC, ProRes y ProRes RAW con aceleración por hardware","Motor de decodificación de video","Motor de codificación de video"]}
+            },
+            {
+            info:{
+                titulo:"XDR (rango dinámico extremo)",
+                lista:["Relación de contraste 1,000,000:1","XDR: 1,000 nits de brillo constante (pantalla completa), 1,600 nits de brillo máximo2 (sólo contenido HDR)","SDR: 500 nits de brillo"]
+            }},
+            {
+            info:{
+                titulo:"Frecuencias de actualización",
+                lista:["Tecnología ProMotion con frecuencias de actualización adaptativas de hasta 120 Hz","Frecuencias de actualización fijas: 47.95 Hz, 48 Hz, 50 Hz, 59.94 Hz, 60 Hz"]
+            }},
+            {
+            info:{
+                titulo:"Color",
+                lista:["1,000 millones de colores","Amplia gama de colores (P3)","Tecnología True Tone"]
+            }},
+            {
+            info:{
+                titulo:"Batería y energía",
+                lista:["Hasta 17 horas de reproducción de video en la app Apple TV","Hasta 11 horas de navegación web inalámbrica","Batería de polímero de litio de 70 Wh","Adaptador de corriente USB‑C de 67 W (incluido en las MacBook Pro con chip M1 Pro con CPU de 8 núcleos)","Adaptador de corriente USB‑C de 96 W (incluido en las MacBook Pro con chip M1 Pro con CPU de 10 núcleos o con chip M1 Max, opcional en las MacBook Pro con chip M1 Pro con CPU de 8 núcleos)","Cable de USB‑C a MagSafe 3","Carga rápida con el adaptador de corriente USB‑C de 96 W"]}
+            },
+            {
+            info:{
+                titulo:"Carga y Expansión",
+                lista:["Ranura para tarjeta SDXC","Puerto HDMI","Puerto HDMI","Puerto MagSafe 3","Tres puertos Thunderbolt 4 (USB-C)"]}
+            },
+            {
+            info:{
+                titulo:"Memoria",
+                lista:["16 GB (Memoria unificada de 16 GB)","32 GB (M1 Pro o M1 Max) o 64 GB (M1 Max)"]}
+            },
+            {
+            info:{
+                titulo:"Teclado y trackpad",
+                lista:["65 (EE.UU.) o 66 (ISO) teclas, incluidas 4 teclas de flecha en forma de “T” invertida","Touch ID","Sensor de luz ambiental","Trackpad Force Touch con control preciso del cursor y sensibilidad a la presión. Permite clics fuertes, aceleradores, trazos sensibles a la presión y gestos Multi‑Touch."]}
+            },
+            {
+            info:{
+                titulo:"Cámara",
+                lista:["Cámara FaceTime HD de 1080p","Procesador de señal de imagen avanzado con video computacional"]}
+            },
+            {
+            info:{
+                titulo:"Audio",
+                lista:["Bocinas estéreo con alto rango dinámico","Amplio sonido estéreo","Compatible con audio espacial al reproducir música o video con Dolby Atmos en las bocinas integradas","Audio espacial con seguimiento dinámico de la cabeza al usar los AirPods (tercera generación), AirPods Pro y AirPods Max","Sistema de tres micrófonos con tecnología beamforming direccional","Entrada de 3.5 mm para audífonos con compatibilidad avanzada para audífonos de alta impedancia"]}
+            },
+            {
+            info:{
+                titulo:"Compatibilidad con monitores",
+                lista:["Es compatible simultáneamente con la resolución nativa de la pantalla integrada en millones de colores y un monitor externo con resolución de hasta 6K a 60 Hz","Salida de video digital Thunderbolt 3","Salida DisplayPort nativa a través de USB‑C","Compatible con salidas VGA, HDMI, DVI y Thunderbolt 2 mediante adaptadores (se venden por separado)"]}
+            },
+            {
+            info:{
+                titulo:"Tamaño y peso",
+                lista:["Grosor: 1.55 cm","Ancho: 31.26cm","Profundidad: 22.12 cm","Peso: 1.61 kg"]}
+            }
+        ],
         color: ['space','silver'],
         estado:'En stock',
         tendencia:true,
@@ -68,7 +297,73 @@ const productos=[
         memoria:['512GB','1TB','2TB','4TB','8TB'],
         ram:['32GB','64GB'],
         componentes:['CPU 10GB/24GB GPU','CPU 10GB/32GB GPU'],
-        descripcion:'',
+        descripcion:[
+            {
+            info:{
+                titulo:"Chip M1 Pro de Apple",
+                lista:["CPU de 8 núcleos con 6 núcleos de rendimiento y 2 de eficiencia","GPU de 14 núcleos","Neural Engine de 16 núcleos","200 GB/s de ancho de banda de memoria"]}
+            },
+            {
+            info:{
+                titulo:"Motor multimedia",
+                lista:["H.264, HEVC, ProRes y ProRes RAW con aceleración por hardware","Motor de decodificación de video","Motor de codificación de video"]}
+            },
+            {
+            info:{
+                titulo:"XDR (rango dinámico extremo)",
+                lista:["Relación de contraste 1,000,000:1","XDR: 1,000 nits de brillo constante (pantalla completa), 1,600 nits de brillo máximo2 (sólo contenido HDR)","SDR: 500 nits de brillo"]
+            }},
+            {
+            info:{
+                titulo:"Frecuencias de actualización",
+                lista:["Tecnología ProMotion con frecuencias de actualización adaptativas de hasta 120 Hz","Frecuencias de actualización fijas: 47.95 Hz, 48 Hz, 50 Hz, 59.94 Hz, 60 Hz"]
+            }},
+            {
+            info:{
+                titulo:"Color",
+                lista:["1,000 millones de colores","Amplia gama de colores (P3)","Tecnología True Tone"]
+            }},
+            {
+            info:{
+                titulo:"Batería y energía",
+                lista:["Hasta 17 horas de reproducción de video en la app Apple TV","Hasta 11 horas de navegación web inalámbrica","Batería de polímero de litio de 70 Wh","Adaptador de corriente USB‑C de 67 W (incluido en las MacBook Pro con chip M1 Pro con CPU de 8 núcleos)","Adaptador de corriente USB‑C de 96 W (incluido en las MacBook Pro con chip M1 Pro con CPU de 10 núcleos o con chip M1 Max, opcional en las MacBook Pro con chip M1 Pro con CPU de 8 núcleos)","Cable de USB‑C a MagSafe 3","Carga rápida con el adaptador de corriente USB‑C de 96 W"]}
+            },
+            {
+            info:{
+                titulo:"Carga y Expansión",
+                lista:["Ranura para tarjeta SDXC","Puerto HDMI","Puerto HDMI","Puerto MagSafe 3","Tres puertos Thunderbolt 4 (USB-C)"]}
+            },
+            {
+            info:{
+                titulo:"Memoria",
+                lista:["16 GB (Memoria unificada de 16 GB)","32 GB (M1 Pro o M1 Max) o 64 GB (M1 Max)"]}
+            },
+            {
+            info:{
+                titulo:"Teclado y trackpad",
+                lista:["65 (EE.UU.) o 66 (ISO) teclas, incluidas 4 teclas de flecha en forma de “T” invertida","Touch ID","Sensor de luz ambiental","Trackpad Force Touch con control preciso del cursor y sensibilidad a la presión. Permite clics fuertes, aceleradores, trazos sensibles a la presión y gestos Multi‑Touch."]}
+            },
+            {
+            info:{
+                titulo:"Cámara",
+                lista:["Cámara FaceTime HD de 1080p","Procesador de señal de imagen avanzado con video computacional"]}
+            },
+            {
+            info:{
+                titulo:"Audio",
+                lista:["Bocinas estéreo con alto rango dinámico","Amplio sonido estéreo","Compatible con audio espacial al reproducir música o video con Dolby Atmos en las bocinas integradas","Audio espacial con seguimiento dinámico de la cabeza al usar los AirPods (tercera generación), AirPods Pro y AirPods Max","Sistema de tres micrófonos con tecnología beamforming direccional","Entrada de 3.5 mm para audífonos con compatibilidad avanzada para audífonos de alta impedancia"]}
+            },
+            {
+            info:{
+                titulo:"Compatibilidad con monitores",
+                lista:["Es compatible simultáneamente con la resolución nativa de la pantalla integrada en millones de colores y un monitor externo con resolución de hasta 6K a 60 Hz","Salida de video digital Thunderbolt 3","Salida DisplayPort nativa a través de USB‑C","Compatible con salidas VGA, HDMI, DVI y Thunderbolt 2 mediante adaptadores (se venden por separado)"]}
+            },
+            {
+            info:{
+                titulo:"Tamaño y peso",
+                lista:["Grosor: 1.55 cm","Ancho: 31.26cm","Profundidad: 22.12 cm","Peso: 1.61 kg"]}
+            }
+        ],
         color: ['space','silver','midnight','gold'],
         estado:'En stock',
         tendencia:false,
@@ -86,19 +381,70 @@ const productos=[
         descripcion:[
             {
             info:{
-                titulo:"aloha",
-                lista:["1","2","3"]}
+                titulo:"Chip M1 Pro de Apple",
+                lista:["CPU de 8 núcleos con 6 núcleos de rendimiento y 2 de eficiencia","GPU de 14 núcleos","Neural Engine de 16 núcleos","200 GB/s de ancho de banda de memoria"]}
             },
             {
             info:{
-                titulo:"ciao",
-                lista:["3","4","5"]}
+                titulo:"Motor multimedia",
+                lista:["H.264, HEVC, ProRes y ProRes RAW con aceleración por hardware","Motor de decodificación de video","Motor de codificación de video"]}
             },
             {
             info:{
-                titulo:"buongiorno",
-                lista:["6","7","8"]
-            }}],
+                titulo:"XDR (rango dinámico extremo)",
+                lista:["Relación de contraste 1,000,000:1","XDR: 1,000 nits de brillo constante (pantalla completa), 1,600 nits de brillo máximo2 (sólo contenido HDR)","SDR: 500 nits de brillo"]
+            }},
+            {
+            info:{
+                titulo:"Frecuencias de actualización",
+                lista:["Tecnología ProMotion con frecuencias de actualización adaptativas de hasta 120 Hz","Frecuencias de actualización fijas: 47.95 Hz, 48 Hz, 50 Hz, 59.94 Hz, 60 Hz"]
+            }},
+            {
+            info:{
+                titulo:"Color",
+                lista:["1,000 millones de colores","Amplia gama de colores (P3)","Tecnología True Tone"]
+            }},
+            {
+            info:{
+                titulo:"Batería y energía",
+                lista:["Hasta 17 horas de reproducción de video en la app Apple TV","Hasta 11 horas de navegación web inalámbrica","Batería de polímero de litio de 70 Wh","Adaptador de corriente USB‑C de 67 W (incluido en las MacBook Pro con chip M1 Pro con CPU de 8 núcleos)","Adaptador de corriente USB‑C de 96 W (incluido en las MacBook Pro con chip M1 Pro con CPU de 10 núcleos o con chip M1 Max, opcional en las MacBook Pro con chip M1 Pro con CPU de 8 núcleos)","Cable de USB‑C a MagSafe 3","Carga rápida con el adaptador de corriente USB‑C de 96 W"]}
+            },
+            {
+            info:{
+                titulo:"Carga y Expansión",
+                lista:["Ranura para tarjeta SDXC","Puerto HDMI","Puerto HDMI","Puerto MagSafe 3","Tres puertos Thunderbolt 4 (USB-C)"]}
+            },
+            {
+            info:{
+                titulo:"Memoria",
+                lista:["16 GB (Memoria unificada de 16 GB)","32 GB (M1 Pro o M1 Max) o 64 GB (M1 Max)"]}
+            },
+            {
+            info:{
+                titulo:"Teclado y trackpad",
+                lista:["65 (EE.UU.) o 66 (ISO) teclas, incluidas 4 teclas de flecha en forma de “T” invertida","Touch ID","Sensor de luz ambiental","Trackpad Force Touch con control preciso del cursor y sensibilidad a la presión. Permite clics fuertes, aceleradores, trazos sensibles a la presión y gestos Multi‑Touch."]}
+            },
+            {
+            info:{
+                titulo:"Cámara",
+                lista:["Cámara FaceTime HD de 1080p","Procesador de señal de imagen avanzado con video computacional"]}
+            },
+            {
+            info:{
+                titulo:"Audio",
+                lista:["Bocinas estéreo con alto rango dinámico","Amplio sonido estéreo","Compatible con audio espacial al reproducir música o video con Dolby Atmos en las bocinas integradas","Audio espacial con seguimiento dinámico de la cabeza al usar los AirPods (tercera generación), AirPods Pro y AirPods Max","Sistema de tres micrófonos con tecnología beamforming direccional","Entrada de 3.5 mm para audífonos con compatibilidad avanzada para audífonos de alta impedancia"]}
+            },
+            {
+            info:{
+                titulo:"Compatibilidad con monitores",
+                lista:["Es compatible simultáneamente con la resolución nativa de la pantalla integrada en millones de colores y un monitor externo con resolución de hasta 6K a 60 Hz","Salida de video digital Thunderbolt 3","Salida DisplayPort nativa a través de USB‑C","Compatible con salidas VGA, HDMI, DVI y Thunderbolt 2 mediante adaptadores (se venden por separado)"]}
+            },
+            {
+            info:{
+                titulo:"Tamaño y peso",
+                lista:["Grosor: 1.55 cm","Ancho: 31.26cm","Profundidad: 22.12 cm","Peso: 1.61 kg"]}
+            }
+        ],
         color: ['space','silver'],
         estado:'En stock',
         tendencia:false,
