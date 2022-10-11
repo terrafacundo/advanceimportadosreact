@@ -395,13 +395,16 @@ a:hover{
 
 .galeria_productos_apple{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 10vh;
 }
 
 .tarjeta_galeria_productos_apple{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 390px;
+    max-height: 185px;
 }
 
 .apple_botones_ver_mas{
@@ -410,8 +413,8 @@ a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 6.5vh;
-    width: 7.5vw;
+    height: 35px;
+    width: 80px;
     background-color:#ffffff;
     border-style: solid;
     border-width: 0.5px;
@@ -422,8 +425,8 @@ a:hover{
 
 .contenedor_organizador{
     position: relative;
-    top: -15.5vh;
-    right: -13vw;
+    top: -100px;
+    right: -0px;
 }
 
 /*PAGINA EXTENDIDA*/
@@ -1164,15 +1167,19 @@ a:hover{
     
     .galeria_productos_apple{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     
     .tarjeta_galeria_productos_apple{
         display: flex;
         flex-direction: column;
         align-items: center;
+        max-width: 390px;
+        height: 185px;
     }
-    
+    .tarjeta_galeria_productos_apple img{
+        max-width: 100%;
+    }
     .apple_botones_ver_mas{
         display: flex;
         flex-direction: row;
@@ -1291,8 +1298,6 @@ a:hover{
 
 
 @media (max-width:768px) {
-    body{
-    }
     .nav{
         background-color: #1D1D1F;
     }
@@ -1377,6 +1382,7 @@ a:hover{
     }
     /*main*/
     
+
     .boton_redondeado_slider{
         border-radius: 50%;
         width: 7px!important;
@@ -1414,23 +1420,20 @@ a:hover{
         background-color: #e6e5e565;
         padding-bottom:10vh;
     }
+    
     .titulo_productos_en_tendencia{
         margin-bottom:5vh;
-        font-size: 1.5rem;
-        font-weight: 700;    
+        font-size: 1.75rem;
     }
-    .contenedor_productos_tendencia{
-        padding: 0vw 10vh;
+    
+    .contenedor_productos_busqueda{
+        margin-left: 7vw;
         display: flex;
-        flex-direction: column;
+        align-items: center;
+        flex-direction: row;
         column-gap: 5vw;
         row-gap: 10vh;
         flex-wrap: wrap;
-    }
-
-    .contenedor_productos_busqueda{
-        display: flex;
-        flex-direction: column;
     }
     .tarjeta_producto{
         background-color: #ffffff;
@@ -1438,37 +1441,35 @@ a:hover{
         flex-direction: column;
         align-items: center;
         justify-content: baseline;
-        width: 50vw;
-        padding: 2vw;
+        width: 224px;
+        padding: 1.5vw;
+        height: 330px;
         border-radius: 5px;
         border-style: solid;
         border-width: 1px;
         border-color: #adadad;
-        margin-top: 1vh;
-        margin-bottom: 1vh;
-    }
-    .tarjeta_producto:hover{
-        animation-name:animacion_tarjeta;
-        animation-duration:400ms;
-        box-shadow: 0 1px 5px 0 rgba(0,0,0,.2);
-        transform: scale(1.05,1.05);
+    
     }
     
-    @keyframes animacion_tarjeta {
-        0%{
-            transform: scale(1,1);
-        }
-        100%{
-            transform: scale(1.05,1.05);
-            box-shadow: 0 1px 5px 0 rgba(0,0,0,.2);
-        }    
+    .contenedor-foto-producto-detalle{
+        text-align: center;
+        width: 224px;
+        height: 124px;
     }
     .foto_producto{
-        width: 160px;
-        height: 125px;
+        max-width: 80%;
+        max-height: 100%;
     }
     
+    .division-info{
+        max-width: 100%;
+        border-top: #4f4f4f solid 0.5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .nombre_producto{
+        margin-top: 1vh;
         text-align: center;
         font-size: 1rem;
         font-weight: 600;
@@ -1485,9 +1486,6 @@ a:hover{
         border-style: none;
         border-radius: 5px;
         background-color: #D9D9D9;
-        width: 15vw;
-        height: 5vw;
-        text-align: center;
     }
 
     .boton_masinfo_a {
@@ -1503,17 +1501,16 @@ a:hover{
         background-color:#1d1d1f;
     }
     .pre_footer{
-        background-color:#2e2e2e9a;
+        background-color:#1d1d1f;
         padding: 2.5vh;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
-        flex-wrap: wrap;
-        align-items:baseline;
+        align-items:center;
     }
     
     .prefooter_letra{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         font-weight: 700;
         color: #ffffff;
     }
@@ -1521,7 +1518,8 @@ a:hover{
     .newsletter_input{
         margin: 0;
         padding: 0;
-        width: 25vw;
+        height: 4.5vh;
+        width: 50vw;
         border-color: #1D1D1F;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
@@ -1533,9 +1531,8 @@ a:hover{
         left: -0.3vw;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
-        width: 2.5vw;
-        height: 100%;
-        margin: 0;
+        width: 20vw;
+        height: 4.5vh;
         padding: 0;
         border-style: none;
         color:#ffffff;
@@ -1545,6 +1542,10 @@ a:hover{
     
     .footer_accesos_directos{
         padding-top: 2vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
     }
     
     .svg_footer{
@@ -1553,17 +1554,20 @@ a:hover{
     }
     
     .letra_link_footer{
-        padding-top: 0.5vh;
         font-size: 0.75rem;
-        font-weight: 500;
-        color: #ffffff;
-    
+        margin-top: 0.5vh;
     }
     
     .flex_li_footer{
         display: flex;
         flex-direction: row;
         column-gap: 0.5vw;
+    }
+    .footer-accesos-directos-boton{
+        margin-left: 24vw;
+        display: flex;
+        flex-direction: row;
+        column-gap: 2.5vw;
     }
     
     
@@ -1631,6 +1635,15 @@ a:hover{
         transform: scale(1.025,1.025);
         color: #d8d8d8;
     }
+    
+    .texto_boton_busq:hover{
+        transform: scale(1.05,1.05);
+    }
+    
+    .texto_boton_busq:active{
+        transform: scale(1.025,1.025);
+        color: #d8d8d8;
+    }
     .busqueda-no-encontrada{
         display: flex;
         flex-direction: column;
@@ -1677,10 +1690,6 @@ a:hover{
         display: none;
     }
     
-    #envio_boton_busqueda_productos:hover{
-        transform: scale(1,1)!important;
-    }
-    
     /* Sector Gaming*/
     
     .rotacion_galeria_gaming{
@@ -1711,18 +1720,17 @@ a:hover{
     /* Sector apple*/
     
     .galeria_productos_apple{
-        margin-top: 10vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 10vh;
     }
     
     .tarjeta_galeria_productos_apple{
         display: flex;
         flex-direction: column;
-        width: 80vw;
-        border-radius: 10px;
+        align-items: center;
+        max-width: 390px;
+        max-height: 185px;
     }
     
     .apple_botones_ver_mas{
@@ -1731,8 +1739,8 @@ a:hover{
         justify-content: center;
         align-items: center;
         text-align: center;
-        height: 6.5vh;
-        width: 12vw;
+        height: 35px;
+        width: 80px;
         background-color:#ffffff;
         border-style: solid;
         border-width: 0.5px;
@@ -1743,16 +1751,153 @@ a:hover{
     
     .contenedor_organizador{
         position: relative;
-        top: -15vh;
-        left: 10vw;
-
-    }
-
-    .foto-redirecc-apple{
-        width: 100%;
+        top: -100px;
+        right: -0px;
     }
     
     /*PAGINA EXTENDIDA*/
+    .contenedor_pagina_producto{
+        margin-top: 10vh;
+        display: grid;
+        grid-template-areas:
+        "nombre nombre nombre",
+        "foto foto foto"
+        "precio precioo precio";
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .foto_producto_ext{
+        grid-area: foto;
+        width: 100%;
+        height: 100%;
+        padding: 5vh;
+    }
+    
+    
+    .nombre_producto_ext{
+        grid-area: nombre;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    .precio_producto_ext{
+        grid-area: precio;
+        font-size: 1rem;
+    }
+    
+    .descripcion_producto_ext{
+        grid-area: descripcion;
+    }
+    
+    .sector-productos-relacionados{
+        margin-top: 7.5vh;
+        width: 98%;
+    }
+    
+    .contenedor_resultados-pr-rel{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 1.5vw;
+        row-gap: 1.5vw;
+    }
+    
+    .sector-productos-relacionados-titulo{
+        margin-left: 10vw;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 2.5vh;
+    }
+    
+    .contenedor_resultados-pr-rel .tarjeta_producto{
+        width: 15vw;
+    }
+    
+    .contenedor_resultados-pr-rel .tarjeta_producto .foto_producto{
+        width: 50%;
+        height: 50%;
+    }
+    .contenedor_resultados-pr-rel .tarjeta_producto .precio_producto{
+        display: none;
+    }
+    
+    
+    
+    /*Pagina cotizar*/
+    
+    .pagina-cotizar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .pagina-cotizar h2{
+        margin-top: 5vh;
+        font-weight: 600;
+    }
+    
+    .pagina-cotizar p{
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    
+    .intro-pagina-cotizar{
+        display: flex;
+        flex-direction: row;
+        column-gap: 10vw;
+        align-items: center;
+        position: relative;
+    
+    }
+    
+    .sub-cotizar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5vh;
+        margin-top: 2.5vh;
+        height: 30vh;
+        width: 20vw;
+        background-color: #adadad;
+        border-radius: 3px;
+    }
+    
+    .sub-cotizar h2{
+        position: relative;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .material-symbols-outlined{
+        transform: scale(1.75,1.75);
+        font-variation-settings:
+        'FILL' 48,
+        'wght' 900,
+        'GRAD' 0,
+        'opsz' 48
+    }
+    
+    .cotizar{
+        color: blueviolet;
+    }
+    
+    /*Seccion detalle extendido apple*/
+    .container-fotos-flechas{
+        width: 50vw;
+        position:relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor-foto-producto{
+        width: 200x;
+        height: 200px;
+    }
+
     .contenedor_pagina_producto{
         margin-top: 10vh;
         display: flex;
@@ -1762,8 +1907,6 @@ a:hover{
     
     .foto_producto_ext{
         grid-area: foto;
-        width: 100%;
-        height: 100%;
         padding: 5vh;
     }
     
@@ -1869,4 +2012,234 @@ a:hover{
         'GRAD' 0,
         'opsz' 48
     }
-}
+    .nombre_producto_ext{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .precio_producto_ext{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .contenedor-info-seleccion{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5vh;
+    }
+    
+    .titulo-seleccion{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    .boton-componentes{
+        padding: 1vh;
+        border-style: solid;
+        border-width: 0.5px;
+    }
+    
+    .contenedor-boton-seleccion{
+        display: flex;
+        flex-direction: row;
+        column-gap: 2vw;
+    }
+    .boton-seleccion{
+        padding: 8px 12px;
+        border-style: solid ;
+        border-color: #adadad;
+        border-width: 0.75px;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 0.75rem;
+    }
+    .boton-seleccion:hover{
+        transform: scale(1.05,1.05);
+    }
+    
+    .boton-space{
+        width:25px;
+        height: 25px;
+        border-radius: 50%;
+        border-width: 0.2px;
+        border-style: solid;
+        background-color: #b4b5b9 ;
+    }
+    .boton-space:hover{
+        transform: scale(1.25,1.25);
+        border-width: 0.4px;
+    }
+    .boton-silver{
+        width:25px;
+        height: 25px;
+        border-radius: 50%;
+        border-width: 0.2px;
+        border-style: solid;
+        background-color: #F5F5F0 ;
+    }
+    .boton-silver:hover{
+        transform: scale(1.25,1.25);
+        border-width: 0.4px;
+    }
+    .boton-midnight{
+        width:25px;
+        height: 25px;
+        border-radius: 50%;
+        border-width: 0.2px;
+        border-style: solid;
+        background-color:  #171E27;
+    }
+    .boton-midnight:hover{
+        transform: scale(1.25,1.25);
+        border-width: 0.4px;
+    }
+    .boton-gold{
+        width:25px;
+        height: 25px;
+        border-radius: 50%;
+        border-width: 0.2px;
+        border-style: solid;
+        background-color: #FEEDD8;
+    }
+    .boton-gold:hover{
+        transform: scale(1.25,1.25);
+        border-width: 0.4px;
+    }
+    
+    .boton-black{
+        width:25px;
+        height: 25px;
+        border-radius: 50%;
+        border-width: 0.2px;
+        border-style: solid;
+        background-color: black;
+    }
+    
+    .boton-blue{
+        width:25px;
+        height: 25px;
+        border-radius: 50%;
+        border-width: 0.2px;
+        border-style: solid;
+        background-color: rgb(33, 33, 255);
+    }
+    .space-active{
+        width:30px;
+        height: 30px;
+        border-radius: 50%;
+        border-width: 0.2px;
+        border-style: solid;
+        background-color: #b4b5b9 ;
+        border-color: #3483fa;
+    }
+    
+    .container-foto-flechas{
+        width: 80vw;
+        position:relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flechas{
+        position: relative;
+        top:-40vh;
+        z-index: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        opacity: 30%;
+    }
+    
+    .flecha-individual:hover{
+        transform: scale(1.125,1.125);
+    }
+    
+    .presentacion-apple{
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 5vw;
+    }
+    .contenedor-foto-producto{
+        width: 500px;
+        height: 500px;
+    }
+    .foto-producto-apple{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .busqueda-no-encontrada{
+        margin-left: 2.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .sub-contendor-tendencia{
+        display: flex;
+        flex-direction: row;
+        column-gap: 2.5vw;
+        
+    }
+    
+    .active{
+        border-color: #3483fa;
+        border-width: 2px;
+    }
+    
+    .foto-redirecc-apple{
+        width: 90%;
+    }
+    
+    .precio-final {
+        height: 10px;
+        font-size: 1.25rem;
+        margin-top: 2.5vh;
+    }
+    
+    .precio-final-vers-esp{
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: green;
+    }
+    
+    .boton-consulta-wpp{
+        background-color:#128C7E;
+        border-radius: 4px;
+        padding: 0.5vw;
+        width:fit-content;
+        box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .sector-desc-apple{
+        width: 60vw;
+        margin-left: 10vw;
+    }
+    .titulo-sector-descripcion{
+        font-size: 24px;
+        font-weight: 400;
+        padding-bottom: 24px;
+    }
+    
+    .contenedor-sector-descripcion-sub{
+        border-bottom: #000000 1px;
+    }
+    
+    .titulo-sector-descripcion-b{
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #1D1D1F;
+    }
+    .desc-listas{
+        list-style:circle;
+        font-size: 1.06rem;
+        font-weight: 500;
+        color: #1D1D1F;
+    }
+    }
