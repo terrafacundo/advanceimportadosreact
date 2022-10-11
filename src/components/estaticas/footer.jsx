@@ -20,7 +20,7 @@ const Footer=()=>{
         </div>
 
         <div className="footer_accesos_directos">
-            <ul className="">
+            <ul className="footer-accesos-directos-boton">
                 <li>
                     <a className="flex_li_footer" href="https://www.instagram.com/advanceimportados/">
                         <img className="svg_footer" src={instagram}/>
