@@ -2167,8 +2167,8 @@ a:hover{
         height: 500px;
     }
     .foto-producto-apple{
-        max-width: 100%;
-        max-height: 100%;
+        max-width: 80%;
+        max-height: 80%;
     }
     
     .busqueda-no-encontrada{
