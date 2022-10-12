@@ -458,11 +458,25 @@ const productos=[
         id:'007',
         nombre:'Vive Cosmos Elite Virtual Reality System',
         foto:["https://images-na.ssl-images-amazon.com/images/I/41MYq8EhyCS._SX300_SY300_QL70_FMwebp_.jpg","https://m.media-amazon.com/images/I/61yy3iem43L._SX425_.jpg","https://m.media-amazon.com/images/I/51ieMz+I4RL._SX522_.jpg","https://m.media-amazon.com/images/I/71xZdKNJwmL._SX425_.jpg","https://m.media-amazon.com/images/I/51EK33M5t4L._SX522_.jpg"],
-        precio:"",
-        memoria:[],
-        ram:[],
-        componentes:[],
-        descripcion:'',
+        precio:"749.00",
+        memoria:["-"],
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[{
+            info:{
+                titulo:"Sobre el producto",
+                lista:["Seguimiento del faro: la estación base 1.0 proporciona hasta 160 pies cuadrados. Pies de espacio de juego para aquellos que exigen lo mejor en juegos Vive VR.","Gráficos nítidos: ve el mundo virtual a través de una resolución de píxeles combinada de 2880 x 1700. Los nuevos paneles LCD reducen la distancia entre píxeles, minimizando el efecto de la puerta de la pantalla.","Diseño abatible: combina fácilmente entre la realidad y la realidad virtual con el diseño abatible, sin interrumpir tu viaje de realidad virtual.","Profundidad: 21.50 cm","Puerto Vive: aprovecha al máximo la realidad virtual con Infinity. Disfruta de acceso ilimitado a cientos de juegos, aplicaciones y videos de realidad virtual.","Sistema de realidad Vive - El sistema de realidad Vive te permite navegar sin problemas entre experiencias virtuales. Descubre contenido nuevo, inicia títulos desde tu biblioteca, reproduce un video o navega por la web."]}
+            },
+            {
+                info:{
+                    titulo:"Dimensiones del producto",
+                    lista:["6.3 x 8.27 x 3.46 pulgadas.","12.85 Libras"]}
+                },
+            {
+                info:{
+                    titulo:"Pilas",
+                    lista:["4 Polímero de litio necesaria(s), incluida(s)"]}
+                }],
         color: ['black'],
         estado:'En stock',
         tendencia:false,
@@ -473,11 +487,20 @@ const productos=[
         id:'008',
         nombre:'Vive Pro 2 Headset Only',
         foto:["https://m.media-amazon.com/images/I/61iR+WmZZhS._SX522_.jpg","https://m.media-amazon.com/images/I/61dY-VzO7vL._SX466_.jpg","https://m.media-amazon.com/images/I/61c7Ow2tHoL._SX466_.jpg","https://m.media-amazon.com/images/I/61aHWjDleqL._SX466_.jpg","https://m.media-amazon.com/images/I/61mikUEOMWL._SX466_.jpg"],
-        precio:"",
-        memoria:[],
-        ram:[],
-        componentes:[],
-        descripcion:'',
+        precio:"824.98",
+        memoria:["-"],
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[{
+            info:{
+                titulo:"Sobre el producto",
+                lista:["Visualiza en claridad 5K, saca los detalles más finos con resolución combinada de 4896 x 2448. La resolución 5K puede estar sujeta a compatibilidad de procesamiento","Ve más de tu entorno: un amplio campo de visión de 120 grados (FOV) amplía la experiencia de visualización de realidad virtual. El ángulo aumentado se alinea mejor con los ojos humanos, lo que te permite ver de forma más natural","Experimenta imágenes sin problemas: aumenta tu comodidad visual en juegos y aplicaciones intensivos de gráficos con una frecuencia de actualización de 120 Hz.","Disfruta de la realidad virtual con horas en el extremo de la comodidad, construcción equilibrada y ajuste que proporciona un ajuste cómodo para sesiones de realidad virtual de cualquier longitud y propósito. Los auriculares se adaptan a una amplia gama de tamaños de cabeza y tipos de visión, incluso gafas","Puerto Vive: aprovecha al máximo la realidad virtual con Infinity. Disfruta de acceso ilimitado a cientos de juegos, aplicaciones y videos de realidad virtual.","Encuentra tu punto dulce, minimiza la fatiga ocular con el dial de ajuste IPD. Distancia interpupilar (ipd): la distancia medida en mm entre los centros de las pupilas oculares","Consulta el manual de usuario adjunto y la guía del producto PDF a continuación"]}
+            },
+            {
+                info:{
+                    titulo:"Dimensiones del producto",
+                    lista:["13.2 x 13.1 x 7.3 pulgadas.","6.62 Libras"]}
+                }],
         color: ['black'],
         estado:'En stock',
         tendencia:false,
@@ -490,10 +513,24 @@ const productos=[
         nombre:'Vive Pro Eye Office Full System - PC',
         foto:["https://m.media-amazon.com/images/I/61m5jK5vvoS._SX466_.jpg","https://m.media-amazon.com/images/I/613hkpXpGcS._SX342_.jpg","https://m.media-amazon.com/images/I/61MaNWDU7gS._SX342_.jpg","https://m.media-amazon.com/images/I/61xMmCXEY4S._SX342_.jpg","https://m.media-amazon.com/images/I/51YxSgo4BBS._SX342_.jpg","https://m.media-amazon.com/images/I/511r0F0wZ1S._SX342_.jpg"],
         precio:"",
-        memoria:[],
-        ram:[],
-        componentes:[],
-        descripcion:'',
+        memoria:["-"],
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[{
+            info:{
+                titulo:"Sobre el producto",
+                lista:["Seguimiento de vapor VR 2.0: desde sentado hasta de pie hasta escala de habitación completa de 22 pies 11 pulgadas x 22 pies 11 pulgadas. Ideal para entornos multiusuario para precisión de seguimiento submilímetros","Pantalla de alta resolución: pantallas OLED dobles con resolución líder en la industria de 2880 x 1600 píxeles para una fidelidad visual inigualable de gráficos, texto y texturas","Audio espacial con cancelación de ruido: auriculares de alta resolución, alta impedancia, sonido espacial 3D con cancelación activa de ruido para una experiencia inmersiva sin distracciones de sonidos del mundo real","Multiusuario y uso extendido: distribución uniforme del peso de los auriculares, fácil de poner y quitar, y ajustes para el tamaño de la cabeza, gafas y distancia interpupilar (IPD) hace que el uso multiusuario y prolongado sea más fácil que nunca","ECOSISTEMA DE TRACKER VIVE: amplía los casos de uso comercial añadiendo objetos reales al rastreador VIVE llevando el objeto a tu simulación virtual. Ideal para captura de movimiento, automoción, aeroespacial o simulación de equipos pesados.","Infinidad de VIVEPORT: obtén 2 meses de juego ilimitado de realidad virtual de más de 700 juegos y aplicaciones. Código incluido en la caja"]}
+            },
+            {
+                info:{
+                    titulo:"Dimensiones del producto",
+                    lista:["2 x 4 x 8 pulgadas.","3.82 Libras"]}
+                },
+            {
+                info:{
+                    titulo:"Pilas",
+                    lista:["4 Polímero de litio necesaria(s), incluida(s)"]}
+                }],
         color: ['blue'],
         estado:'En stock',
         tendencia:false,
@@ -505,11 +542,16 @@ const productos=[
         id:'010',
         nombre:'Quest 2',
         foto:["https://m.media-amazon.com/images/I/61kwRNPtMpL._SX466_.jpg"],
-        precio:"",
+        precio:"399.99",
+        secid:"quest2",
         memoria:['128GB','256GB'],
-        ram:[],
-        componentes:[],
-        descripcion:'',
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[{
+            info:{
+                titulo:"Sobre el producto",
+                lista:["Compra Meta Quest 2. Obtén el sable Beat. Por tiempo limitado, obtén el exitoso juego de ritmo de realidad virtual incluido cuando compres Meta Quest 2. * Mantén tu experiencia suave y sin costuras, incluso cuando la acción de alta velocidad se despliega a tu alrededor con un procesador súper rápido y pantalla de alta resolución.","Experimenta una inmersión total con audio posicional 3D, seguimiento manual y retroalimentación háptica, trabajando juntos para hacer que los mundos virtuales se sientan reales.","Explora un universo en expansión de más de 350 títulos en juegos, fitness, social/multijugador y entretenimiento, incluyendo lanzamientos exclusivos de taquilla y experiencias de realidad virtual totalmente únicas.","Viaja universos en fantasías de taquilla, asusta sin ingenio en aventuras de terror o colabora con colegas en espacios de trabajo innovadores.","Únete en increíbles espacios sociales y arenas multijugador mientras llevas en eventos en vivo con amigos y familiares, encuentra tu nuevo equipo de entrenamiento o únete a misiones con compañeros aventureros.","Sé realmente libre de vagar en realidad virtual con auriculares inalámbricos, controles intuitivos, una batería incorporada, fácil configuración y no necesita PC o consola*","Juega sin preocupaciones, ya que un límite Guardian fácil de usar te permite establecer tu espacio de juego designado y te avisa si te mueves fuera de él.","Lleva VR tu Quest 2 ligero y portátil dondequiera que vayas en el mundo real."]},
+            }],
         color: ['silver'],
         estado:'En stock',
         tendencia:false,
@@ -525,7 +567,26 @@ const productos=[
         memoria:['256GB SSD'],
         ram:['8GB INTEGRADA'],
         componentes:['Core i7-1065G7 / Intel HD Graphics 6000'],
-        descripcion:'',
+        descripcion:[{
+            info:{
+                titulo:"Pantalla con gran impacto visual",
+                lista:["Su pantalla LED de 15.6' y 1920x1080 px de resolución te brindará colores más vivos y definidos.","Tus películas y series preferidas cobrarán vida, ya que ganarán calidad y definición en cada detalle."]},
+            },
+        {
+            info:{
+                titulo:"Alta eficiencia a tu alcance",
+                lista:["Su procesador Intel Core i7 de 4 núcleos, está pensado para quienes buscan la máxima exigencia en la productividad. ","Está destinado a personas que trabajan con programas de diseño, de edición o tienen un nivel de juego alto. Llevará a cabo varios procesos de forma simultánea, sin frenos y te brindará una experiencia excepcional."]},
+            },
+        {
+            info:{
+                titulo:"Potente disco sólido",
+                lista:["El disco sólido de 256 GB hace que el equipo funcione a gran velocidad y por lo tanto te brinda mayor agilidad para operar con diversos programas."]},
+            },
+            {
+                info:{
+                    titulo:"Un procesador exclusivo para los gráficos",
+                    lista:["Su placa de video Intel Iris Plus Graphics G7 convierte a este dispositivo en una gran herramienta de trabajo para cualquier profesional del diseño. Te permitirá lograr una gran performance en todos tus juegos y en otras tareas cotidianas que impliquen procesamiento gráfico."]},
+                }],
         color: ['silver'],
         estado:'En stock',
         tendencia:false,
@@ -541,7 +602,26 @@ const productos=[
         memoria:['256GB SSD'],
         ram:['8GB INTEGRADA'],
         componentes:['Intel Core i3 / Intel HD Graphics 6000'],
-        descripcion:'',
+        descripcion:[{
+            info:{
+                titulo:"Pantalla con gran impacto visual",
+                lista:["Su pantalla LED de 15.6' y 1920x1080 px de resolución te brindará colores más vivos y definidos.","Tus películas y series preferidas cobrarán vida, ya que ganarán calidad y definición en cada detalle."]},
+            },
+        {
+            info:{
+                titulo:"Alta eficiencia a tu alcance",
+                lista:["Su procesador Intel Core i5 de 4 núcleos, está pensado para aquellas personas generadoras y consumidoras de contenidos. Con esta unidad central, la máquina llevará a cabo varios procesos de forma simultánea, desde edición de videos hasta retoques fotográficos con programas profesionales."]},
+            },
+        {
+            info:{
+                titulo:"Potente disco sólido",
+                lista:["El disco sólido de 256 GB hace que el equipo funcione a gran velocidad y por lo tanto te brinda mayor agilidad para operar con diversos programas."]},
+            },
+            {
+                info:{
+                    titulo:"Un procesador exclusivo para los gráficos",
+                    lista:["Su placa de video Intel Iris Xe Graphics G7 80EUs convierte a este dispositivo en una gran herramienta de trabajo para cualquier profesional del diseño. Te permitirá lograr una gran performance en todos tus juegos y en otras tareas cotidianas que impliquen procesamiento gráfico."]},
+                }],
         color: ['silver'],
         estado:'En stock',
         tendencia:false,
@@ -557,16 +637,33 @@ const productos=[
         memoria:['256GB SSD'],
         ram:['8GB RAM'],
         componentes:['Intel Core i3 1005G1 / Intel UHD Graphics G1 (Ice Lake 32 EU'],
-        descripcion:'',
+        descripcion:[{
+            info:{
+                titulo:"Pantalla con gran impacto visual",
+                lista:["Su pantalla LED de 15.6' y 1366x768 px de resolución te brindará colores más vivos y definidos. Tus películas y series preferidas cobrarán vida, ya que ganarán calidad y definición en cada detalle."]},
+            },
+        {
+            info:{
+                titulo:"Alta eficiencia a tu alcance",
+                lista:["Su procesador Intel Core i3 de 2 núcleos, está pensado para aquellas personas generadoras y consumidoras de contenidos. En base a esto, permite el desempeño necesario para la edición de fotografías o videos en programas básicos."]},
+            },
+        {
+            info:{
+                titulo:"Potente disco sólido",
+                lista:["El disco sólido de 256 GB hace que el equipo funcione a gran velocidad y por lo tanto te brinda mayor agilidad para operar con diversos programas."]},
+            },
+            {
+                info:{
+                    titulo:"Un procesador exclusivo para los gráficos",
+                    lista:["Su placa de video Intel UHD Graphics G1 (Ice Lake 32 EU) convierte a este dispositivo en una gran herramienta de trabajo para cualquier profesional del diseño. Te permitirá lograr una gran performance en todos tus juegos y en otras tareas cotidianas que impliquen procesamiento gráfico."]},
+                }],
         color: ['silver'],
         estado:'En stock',
         tendencia:false,
         marca:'apple',
         categoria:['notebook','all']},
 
-
     //placas de video
-
     {
         id:'014',
         nombre:'RTX 2060 12GB REVEL DUAL FAN (12GB GDDR6)',
@@ -596,7 +693,6 @@ const productos=[
         tendencia:false,
         marca:'apple',
         categoria:['mineria','all']}, 
-,
 
     {
         id:'016',
@@ -617,11 +713,25 @@ const productos=[
         nombre:'RTX 3060 TI VENTUS 3X 8G OC (8GB GDDR6)',
         foto:["https://http2.mlstatic.com/D_NQ_NP_738876-MLA48688406522_122021-O.webp","https://http2.mlstatic.com/D_NQ_NP_898892-MLA48688363943_122021-O.webp","https://http2.mlstatic.com/D_NQ_NP_793677-MLA48688406523_122021-O.webp"],
         precio:"",
-        memoria:[],
-        ram:[],
-        componentes:[],
-        descripcion:'',
-        color: [],
+        memoria:[""],
+        ram:[""],
+        componentes:[""],
+        descripcion:[{
+            info:{
+                titulo:"Sobre el producto",
+                lista:["Seguimiento de vapor VR 2.0: desde sentado hasta de pie hasta escala de habitación completa de 22 pies 11 pulgadas x 22 pies 11 pulgadas. Ideal para entornos multiusuario para precisión de seguimiento submilímetros","Pantalla de alta resolución: pantallas OLED dobles con resolución líder en la industria de 2880 x 1600 píxeles para una fidelidad visual inigualable de gráficos, texto y texturas","Audio espacial con cancelación de ruido: auriculares de alta resolución, alta impedancia, sonido espacial 3D con cancelación activa de ruido para una experiencia inmersiva sin distracciones de sonidos del mundo real","Multiusuario y uso extendido: distribución uniforme del peso de los auriculares, fácil de poner y quitar, y ajustes para el tamaño de la cabeza, gafas y distancia interpupilar (IPD) hace que el uso multiusuario y prolongado sea más fácil que nunca","ECOSISTEMA DE TRACKER VIVE: amplía los casos de uso comercial añadiendo objetos reales al rastreador VIVE llevando el objeto a tu simulación virtual. Ideal para captura de movimiento, automoción, aeroespacial o simulación de equipos pesados.","Infinidad de VIVEPORT: obtén 2 meses de juego ilimitado de realidad virtual de más de 700 juegos y aplicaciones. Código incluido en la caja"]}
+            },
+            {
+                info:{
+                    titulo:"Dimensiones del producto",
+                    lista:["2 x 4 x 8 pulgadas.","3.82 Libras"]}
+                },
+            {
+                info:{
+                    titulo:"Pilas",
+                    lista:["4 Polímero de litio necesaria(s), incluida(s)"]}
+                }],
+        color: [""],
         estado:'En stock',
         tendencia:false,
         marca:'apple',
@@ -835,7 +945,7 @@ const productos=[
     estado:'En stock',
     tendencia:false,
     marca:"samsung",
-    categoria:['monitores','all']},
-    ];
+    categoria:['monitores','all']},   
+];
 
 export default productos

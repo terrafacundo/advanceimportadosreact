@@ -1,9 +1,7 @@
-import productos from "../../productos";
 
-export const TraerProductosporId = (url) => {
+export const TraerProductosporId = (a,b) => {
     return new Promise ((res)=>{
-        setTimeout(()=>{
-            res(productos.find(produc=>produc.id ==url))
-        },0);
-    })
-}
+        res(a.find(pr=>pr["id"]===b))}
+        )
+
+    }

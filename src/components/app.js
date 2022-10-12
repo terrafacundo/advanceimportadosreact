@@ -8,6 +8,7 @@ import Header from './estaticas/header';
 import Main from './renderindex';
 
 import Footer from './estaticas/footer';
+import BotonesAccesoRapido from './botones-wpp-ig';
 
 
 

@@ -2665,6 +2665,16 @@ if(secid==='mb-m1-pro-16' && almacenamiento==='8TB' && ram==='32GB' && component
     )
 }
 
+if(secid==='quest2' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='silver'){
+    return(
+        <div className="precio-final">U$D 399</div>
+    )
+}
+if(secid==='quest2' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color==='silver'){
+    return(
+        <div className="precio-final">U$D 499</div>
+    )
+}
 
 
 
