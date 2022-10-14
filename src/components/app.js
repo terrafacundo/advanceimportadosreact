@@ -10,17 +10,17 @@ import Main from './renderindex';
 
 import Footer from './estaticas/footer';
 
-import { addDoc, collection } from "firebase/firestore";
-import { db } from "../firebase";
+// import { addDoc, collection } from "firebase/firestore";
+// import { db } from "../firebase";
 
 
-// const add = ()=>{
-//     const datos = collection(db,"productos")
-//     productos.forEach(x=>{addDoc(datos,x)})
+// // const add = ()=>{
+// //     const datos = collection(db,"productos")
+// //     productos.forEach(x=>{addDoc(datos,x)})
 
-// }
+// // }
 
-// add()
+// // add()
 
 
 const Aplicacion = () => {

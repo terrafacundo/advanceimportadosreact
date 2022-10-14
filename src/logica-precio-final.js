@@ -2675,7 +2675,11 @@ if(secid==='quest2' && almacenamiento==='256GB' && ram==='-' && componente==='-'
         <div className="precio-final">U$D 499</div>
     )
 }
-
+if(secid==='quest2' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color==='silver'){
+    return(
+        <div className="precio-final">U$D 499</div>
+    )
+}
 
 
 

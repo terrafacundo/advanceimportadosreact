@@ -1065,7 +1065,7 @@ const productos=[
     estado:'En stock',
     tendencia:false,
     marca:'apple',
-    categoria:['monitores','all']},,
+    categoria:['monitores','all']},
 
 
 {
@@ -1885,7 +1885,7 @@ const productos=[
         marca:'apple',
         categoria:['watch','all']},
 
-        {
+{
             id:'065',
             nombre:'Watch SE 2da Gen 40MM',
             secid:'watch-SE-40mm',
@@ -1918,7 +1918,7 @@ const productos=[
             tendencia:false,
             marca:'apple',
             categoria:['watch','all']},
-        {
+{
             id:'066',
             nombre:'Watch SE 2da Gen 44MM',
             secid:'watch-SE-44mm',
@@ -1950,8 +1950,8 @@ const productos=[
             estado:'En stock',
             tendencia:false,
             marca:'apple',
-            categoria:['watch','all']},
-        {
+        categoria:['watch','all']},
+{
             id:'067',
             nombre:'Watch Serie 3 38MM',
             secid:'watch-3-38mm',
