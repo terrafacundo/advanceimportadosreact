@@ -2,6 +2,7 @@
 *{
     list-style-type: none;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 a{
     text-decoration: none;
@@ -21,7 +22,19 @@ a:hover{
     visibility: hidden;
 }
 
-
+/* Extra small devices ( portait phones ) */
+@media (max-width:576px){
+    .sub_body{
+        width: 576px;
+        height: 480px;
+    }
+    .d-block{
+        height: 188px;
+    }
+    .sub-contendor-tendencia{
+        
+    }
+}
 
 /*Nav*/
 /*Color y ajustes detalles*/
