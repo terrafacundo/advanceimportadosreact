@@ -2664,20 +2664,358 @@ if(secid==='mb-m1-pro-16' && almacenamiento==='8TB' && ram==='32GB' && component
         </Link>
     )
 }
-
+//1
 if(secid==='quest2' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='silver'){
     return(
         <div className="precio-final">U$D 399</div>
     )
 }
+//2
 if(secid==='quest2' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color==='silver'){
     return(
         <div className="precio-final">U$D 499</div>
     )
 }
-if(secid==='quest2' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color==='silver'){
+
+//watch-0
+if(secid==='watch-SE-40mm' && almacenamiento==='-' && ram==='-' && componente==='-' && color==='silver'){
+    return(
+        <div className="precio-final">U$D 340</div>
+    )
+}
+//watch-1
+if(secid==='watch-SE-40mm' && almacenamiento==='-' && ram==='-' && componente==='-' && color==='gray'){
+    return(
+        <div className="precio-final">U$D 340</div>
+    )
+}
+//watch-2
+if(secid==='watch-3-38mm' && almacenamiento==='-' && ram==='-' && componente==='-' && color==='silver'){
     return(
         <div className="precio-final">U$D 499</div>
+    )
+}
+//watch-3
+if(secid==='watch-3-38mm' && almacenamiento==='-' && ram==='-' && componente==='-' && color==='gray'){
+    return(
+        <div className="precio-final">U$D 499</div>
+    )
+}
+//watch-4
+if(secid==='watch-SE-44mm' && almacenamiento==='-' && ram==='-' && componente==='-' && color==='silver'){
+    return(
+        <div className="precio-final">U$D 370</div>
+    )
+}
+//watch-5
+if(secid==='watch-SE-44mm' && almacenamiento==='-' && ram==='-' && componente==='-' && color==='gray'){
+    return(
+        <div className="precio-final">U$D 370</div>
+    )
+}
+//watch-6
+if(secid==='watch-7-41mm' && almacenamiento==='-' && ram==='-' && componente==='-' && color==='blue'){
+    return(
+        <div className="precio-final">U$D 430</div>
+    )
+}
+//watch-7
+if(secid==='watch-7-41mm' && almacenamiento==='-' && ram==='-' && componente==='-' && color==='green'){
+    return(
+        <div className="precio-final">U$D 430</div>
+    )
+}
+//watch-8
+if(secid==='watch-7-45mm' && almacenamiento==='-' && ram==='-' && componente==='-' && color==='red'){
+    return(
+        <div className="precio-final">U$D 450</div>
+    )
+}
+//watch-9
+if(secid==='watch-7-45mm' && almacenamiento==='-' && ram==='-' && componente==='-' && color==='starlight'){
+    return(
+        <div className="precio-final">U$D 450</div>
+    )
+}
+//watch-9
+if(secid==='watch-8-41mm' && almacenamiento==='-' && ram==='-' && componente==='-' && color==='black'){
+    return(
+        <div className="precio-final">U$D 575</div>
+    )
+}
+//watch-10
+if(secid==='watch-8-41mm' && almacenamiento==='-' && ram==='-' && componente==='-' && color==='white'){
+    return(
+        <div className="precio-final">U$D 575</div>
+    )
+}
+//watch-11
+if(secid==='watch-8-45mm' && almacenamiento==='-' && ram==='-' && componente==='-' && color==='black'){
+    return(
+        <div className="precio-final">U$D 610</div>
+    )
+}
+//watch-12
+if(secid==='watch-8-45mm' && almacenamiento==='-' && ram==='-' && componente==='-' && color==='white'){
+    return(
+        <div className="precio-final">U$D 610</div>
+    )
+}
+//iphone-14
+if(secid==='iphone-14' && almacenamiento==='128GB' && ram==='-' && componente==='A15 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='midnight'){
+    return(
+        <div className="precio-final">U$D 1080</div>
+    )
+}
+//iphone-15
+if(secid==='iphone-14' && almacenamiento==='128GB' && ram==='-' && componente==='A15 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='blue'){
+    return(
+        <div className="precio-final">U$D 1080</div>
+    )
+}
+//iphone-16
+if(secid==='iphone-14' && almacenamiento==='128GB' && ram==='-' && componente==='A15 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='purple'){
+    return(
+        <div className="precio-final">U$D 1080</div>
+    )
+}
+//iphone-17
+if(secid==='iphone-14' && almacenamiento==='128GB' && ram==='-' && componente==='A15 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='red'){
+    return(
+        <div className="precio-final">U$D 1080</div>
+    )
+}
+//iphone-18
+if(secid==='iphone-14' && almacenamiento==='128GB' && ram==='-' && componente==='A15 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='starlight'){
+    return(
+        <div className="precio-final">U$D 1080</div>
+    )
+}
+//iphone-19
+if(secid==='iphone-14' && almacenamiento==='256GB' && ram==='-' && componente==='A15 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='purple'){
+    return(
+        <div className="precio-final">U$D 1180</div>
+    )
+}
+//iphone-20
+if(secid==='iphone-14' && almacenamiento==='256GB' && ram==='-' && componente==='A15 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='blue'){
+    return(
+        <div className="precio-final">U$D 1180</div>
+    )
+}
+//iphone-21
+if(secid==='iphone-14' && almacenamiento==='256GB' && ram==='-' && componente==='A15 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='midnight'){
+    return(
+        <div className="precio-final">U$D 1180</div>
+    )
+}
+
+//iphone-22
+if(secid==='iphone-14-pro' && almacenamiento==='128GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='black'){
+    return(
+        <div className="precio-final">U$D 1450</div>
+    )
+}
+//iphone-23
+if(secid==='iphone-14-pro' && almacenamiento==='128GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='purple'){
+    return(
+        <div className="precio-final">U$D 1450</div>
+    )
+}
+//iphone-24
+if(secid==='iphone-14-pro' && almacenamiento==='128GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='silver'){
+    return(
+        <div className="precio-final">U$D 1450</div>
+    )
+}
+//iphone-25
+if(secid==='iphone-14-pro' && almacenamiento==='128GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='gold'){
+    return(
+        <div className="precio-final">U$D 1450</div>
+    )
+}
+//iphone-26
+if(secid==='iphone-14-pro' && almacenamiento==='256GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='black'){
+    return(
+        <div className="precio-final">U$D 1570</div>
+    )
+}
+//iphone-27
+if(secid==='iphone-14-pro' && almacenamiento==='256GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='purple'){
+    return(
+        <div className="precio-final">U$D 1570</div>
+    )
+}
+//iphone-28
+if(secid==='iphone-14-pro' && almacenamiento==='256GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='silver'){
+    return(
+        <div className="precio-final">U$D 1570</div>
+    )
+}
+//iphone-29
+if(secid==='iphone-14-pro' && almacenamiento==='256GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='gold'){
+    return(
+        <div className="precio-final">U$D 1570</div>
+    )
+}
+//iphone-30
+if(secid==='iphone-14-pro' && almacenamiento==='512GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='black'){
+    return(
+        <div className="precio-final">U$D 1800</div>
+    )
+}
+//iphone-31
+if(secid==='iphone-14-pro' && almacenamiento==='512GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='purple'){
+    return(
+        <div className="precio-final">U$D 1800</div>
+    )
+}
+//iphone-32
+if(secid==='iphone-14-pro' && almacenamiento==='512GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='silver'){
+    return(
+        <div className="precio-final">U$D 1800</div>
+    )
+}
+//iphone-33
+if(secid==='iphone-14-pro' && almacenamiento==='512GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='gold'){
+    return(
+        <div className="precio-final">U$D 1800</div>
+    )
+}
+
+//iphone-34
+if(secid==='iphone-14-pro-max' && almacenamiento==='128GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='black'){
+    return(
+        <div className="precio-final">U$D 1710</div>
+    )
+}
+//iphone-35
+if(secid==='iphone-14-pro-max' && almacenamiento==='128GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='purple'){
+    return(
+        <div className="precio-final">U$D 1710</div>
+    )
+}
+//iphone-36
+if(secid==='iphone-14-pro-max' && almacenamiento==='128GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='silver'){
+    return(
+        <div className="precio-final">U$D 1710</div>
+    )
+}
+//iphone-37
+if(secid==='iphone-14-pro-max' && almacenamiento==='128GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='gold'){
+    return(
+        <div className="precio-final">U$D 1710</div>
+    )
+}
+
+//iphone-38
+if(secid==='iphone-14-pro-max' && almacenamiento==='256GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='black'){
+    return(
+        <div className="precio-final">U$D 1800</div>
+    )
+}
+//iphone-39
+if(secid==='iphone-14-pro-max' && almacenamiento==='256GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='purple'){
+    return(
+        <div className="precio-final">U$D 1800</div>
+    )
+}
+//iphone-40
+if(secid==='iphone-14-pro-max' && almacenamiento==='256GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='silver'){
+    return(
+        <div className="precio-final">U$D 1800</div>
+    )
+}
+//iphone-41
+if(secid==='iphone-14-pro-max' && almacenamiento==='256GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='gold'){
+    return(
+        <div className="precio-final">U$D 1800</div>
+    )
+}
+
+//iphone-42
+if(secid==='iphone-14-pro-max' && almacenamiento==='512GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='black'){
+    return(
+        <div className="precio-final">U$D 2100</div>
+    )
+}
+//iphone-43
+if(secid==='iphone-14-pro-max' && almacenamiento==='512GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='purple'){
+    return(
+        <div className="precio-final">U$D 2100</div>
+    )
+}
+//iphone-44
+if(secid==='iphone-14-pro-max' && almacenamiento==='512GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='silver'){
+    return(
+        <div className="precio-final">U$D 2100</div>
+    )
+}
+//iphone-45
+if(secid==='iphone-14-pro-max' && almacenamiento==='512GB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='gold'){
+    return(
+        <div className="precio-final">U$D 2100</div>
+    )
+}
+
+//iphone-46
+if(secid==='iphone-14-pro-max' && almacenamiento==='1TB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='silver'){
+    return(
+        <div className="precio-final">U$D 2350</div>
+    )
+}
+//iphone-47
+if(secid==='iphone-14-pro-max' && almacenamiento==='1TB' && ram==='-' && componente==='A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='purple'){
+    return(
+        <div className="precio-final">U$D 2350</div>
+    )
+}
+
+
+//iphone-48
+if(secid==='iphone-13' && almacenamiento==='128GB' && ram==='-' && componente==='A15 Bionic(CPU de 6 núcleos / GPU de 4 núcleos)' && color==='midnight'){
+    return(
+        <div className="precio-final">U$D 900</div>
+    )
+}
+//iphone-49
+if(secid==='iphone-13' && almacenamiento==='128GB' && ram==='-' && componente==='A15 Bionic(CPU de 6 núcleos / GPU de 4 núcleos)' && color==='blue'){
+    return(
+        <div className="precio-final">U$D 900</div>
+    )
+}
+
+//iphone-50
+if(secid==='iphone-13' && almacenamiento==='128GB' && ram==='-' && componente==='A15 Bionic(CPU de 6 núcleos / GPU de 4 núcleos)' && color==='green'){
+    return(
+        <div className="precio-final">U$D 900</div>
+    )
+}
+//iphone-51
+if(secid==='iphone-13' && almacenamiento==='128GB' && ram==='-' && componente==='A15 Bionic(CPU de 6 núcleos / GPU de 4 núcleos)' && color==='red'){
+    return(
+        <div className="precio-final">U$D 900</div>
+    )
+}
+//iphone-52
+if(secid==='iphone-13' && almacenamiento==='128GB' && ram==='-' && componente==='A15 Bionic(CPU de 6 núcleos / GPU de 4 núcleos)' && color==='starlight'){
+    return(
+        <div className="precio-final">U$D 900</div>
+    )
+}
+
+//iphone-53
+if(secid==='iphone-13' && almacenamiento==='512GB' && ram==='-' && componente==='A15 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='starlight'){
+    return(
+        <div className="precio-final">U$D 1070</div>
+    )
+}
+
+
+//iphone-54
+if(secid==='iphone-13-pro' && almacenamiento==='128GB' && ram==='-' && componente==='A15 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)' && color==='green'){
+    return(
+        <div className="precio-final">U$D 1170</div>
     )
 }
 

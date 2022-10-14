@@ -606,7 +606,14 @@ a:hover{
 .boton-seleccion:hover{
     transform: scale(1.05,1.05);
 }
-
+.boton-gray{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color: #A2AAAD ;
+}
 .boton-space{
     width:25px;
     height: 25px;
@@ -655,7 +662,14 @@ a:hover{
     transform: scale(1.25,1.25);
     border-width: 0.4px;
 }
-
+.boton-purple{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color: #5856d6;
+}
 .boton-black{
     width:25px;
     height: 25px;
@@ -664,18 +678,49 @@ a:hover{
     border-style: solid;
     background-color: black;
 }
+.boton-white{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color: white;
+}
 .boton-black:hover{
     transform: scale(1.25,1.25);
     border-width: 0.4px;
 }
-
+.boton-green{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color:#4cd964;
+}
+.boton-red{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color:#ff3b30;
+}
+.boton-starlight{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color:#F8F9EC;
+}
 .boton-blue{
     width:25px;
     height: 25px;
     border-radius: 50%;
     border-width: 0.2px;
     border-style: solid;
-    background-color: rgb(33, 33, 255);
+    background-color:#007aff;
 }
 .boton-blue:hover{
     transform: scale(1.25,1.25);
