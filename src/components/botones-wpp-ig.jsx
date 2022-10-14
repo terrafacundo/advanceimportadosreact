@@ -1,7 +1,6 @@
 import iglogo from "./estaticas/media/iglogo.svg"
 import wpplogo from "./estaticas/media/wpplogo.webp"
 
-
 const BotonesAccesoRapido =()=>{
 
     return(

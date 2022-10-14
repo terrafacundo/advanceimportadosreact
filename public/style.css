@@ -2,6 +2,7 @@
 *{
     list-style-type: none;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 a{
     text-decoration: none;
@@ -36,6 +37,19 @@ a:hover{
     width: 60px;
     height: 60px;
     top: -40%;
+}
+
+/*Nav medida Celulares */
+@media (max-width:576px) {
+    /* Carrusel */
+    .d-block{
+        width: 500px;
+    }
+    /* Iconos flotantes */
+    .accesos-directos{
+        height: 10px;
+        width: 10px;
+    }
 }
 
 
