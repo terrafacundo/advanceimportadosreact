@@ -1,34 +1,35 @@
 import React from "react";
 import ProductoDetalle from "./productodetalle";
 import { Link } from "react-router-dom";
+import productos from "./productos";
 
-import { db } from "../firebase";
-import { collection , getDocs } from "firebase/firestore";
-import { useState } from "react";
+// import { db } from "../firebase";
+// import { collection , getDocs } from "firebase/firestore";
+// import { useState } from "react";
 
 
 
 const ListadoProductosPro =({categoria})=>{
 
-    const collecionProductos = collection(db,"productos")
-    const consulta = getDocs(collecionProductos)
-    const [productos,setProductos] = useState();
+    // const collecionProductos = collection(db,"productos")
+    // const consulta = getDocs(collecionProductos)
+    // const [productos,setProductos] = useState();
     //pidiendo informacion al servidor
 
-    consulta
-    .then(res=>{
-        const productos_mapeados = res.docs.map((ref)=>{
-            const aux = ref.data();
-            aux.id = ref.id;
-            return aux
-            })
+    // consulta
+    // .then(res=>{
+    //     const productos_mapeados = res.docs.map((ref)=>{
+    //         const aux = ref.data();
+    //         aux.id = ref.id;
+    //         return aux
+    //         })
 
-            setProductos(productos_mapeados)
-        })
+            // setProductos(productos_mapeados)
+        // })
 
-    .catch((error)=>{
-        console.log('Los datos no han podido ser cargados')
-    })
+    // .catch((error)=>{
+    //     console.log('Los datos no han podido ser cargados')
+    // })
 
     // .catch((error)=>{console.log('El servicio se encuentra en reparacion')})
 
