@@ -26,13 +26,85 @@ a:hover{
 @media (max-width:576px){
     .sub_body{
         width: 576px;
-        height: 480px;
+        height: 800px;
     }
+    /* Carousel */
     .d-block{
-        height: 188px;
+        height: 300px;
+    }
+    .toggle-button{
+        text-align: right;
+    }
+    .sector_tendencias{
+        height: 600px;
+    }
+    .titulo_productos_en_tendencia{
+        font-size: 100px;
     }
     .sub-contendor-tendencia{
-        
+        width: 576px;
+        height: 590px;
+    }
+    .tarjeta_producto{
+        width: 445px;
+        height: 580px;
+    }
+    .foto_producto{
+        margin-top: 40px;
+    }
+    .division-info{
+        margin-top: 40px;
+    }
+    .nombre_producto{
+        margin-top: 60px;
+    }
+    .precio_producto{
+        margin-top: 15px;
+    }
+    .boton_masinfo{
+        margin-top: 15px;
+    }
+    .accesos-directos {
+        width: 576px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .logo-acceso-directo{
+        margin-left: 95px;
+        margin-bottom: -55px;
+    }
+    .logo-acceso-directo1{
+        margin-right: 95px;
+    }
+    .accesos-directos img{
+        height: 100px;
+        width: 100px;
+        text-align: center;
+    }
+    .contenedor-foto-producto{
+        margin-top: 20 px;
+        text-align: center;
+    }
+    .foto-producto-apple{
+        margin-top: 100px;
+    }
+    .titulo-sector-descripcion{
+        margin-top: 50px;
+    }
+    .galeria_productos_apple{
+        width: 600px;
+        float: left;
+    }
+    .foto-redirecc-apple{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .img foto-redirecc-apple{
+        width: 100px;
+    }
+    .tarjeta_galeria_productos_apple h2{
+        margin-top: 20px;
     }
 }
 
