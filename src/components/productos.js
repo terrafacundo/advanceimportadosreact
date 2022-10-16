@@ -1192,6 +1192,7 @@ const productos=[
 {
         id:'056',
         nombre:'IPHONE 14',
+        secid:'iphone-14',
         foto:["https://www.tradeinn.com/f/13933/139331609/apple-iphone-14-256gb-6.1.jpg","https://www.tradeinn.com/f/13933/139331609_2/apple-iphone-14-256gb-6.1.jpg?_gl=1*wyo0qk*_up*MQ..&gclid=CjwKCAjw7p6aBhBiEiwA83fGust9CwdGbwoW3CiICByrALJlp8jaPWRkjGFeZe_xj0aDOJIkZDdzMxoCCQoQAvD_BwE","https://www.tradeinn.com/f/13933/139331609_3/apple-iphone-14-256gb-6.1.jpg?_gl=1*17u16f3*_up*MQ..&gclid=CjwKCAjw7p6aBhBiEiwA83fGust9CwdGbwoW3CiICByrALJlp8jaPWRkjGFeZe_xj0aDOJIkZDdzMxoCCQoQAvD_BwE"],
         precio:"1080",
         memoria:["128GB","256GB"],
@@ -1304,6 +1305,7 @@ const productos=[
 {
             id:'057',
             nombre:'IPHONE 14 PRO',
+            secid:'iphone-14-pro',
             foto:["https://http2.mlstatic.com/D_NQ_NP_667208-MLA51806499537_102022-O.webp"],
             precio:"1080",
             memoria:["128GB","256GB","512GB"],
@@ -1416,6 +1418,7 @@ const productos=[
 {
             id:'058',
             nombre:'IPHONE 14 PRO MAX',
+            secid:'iphone-14-pro-max',
             foto:["https://http2.mlstatic.com/D_NQ_NP_739588-MLA51742980801_092022-O.webp","https://http2.mlstatic.com/D_NQ_NP_665816-MLA51743061611_092022-O.webp","https://http2.mlstatic.com/D_NQ_NP_686308-MLA51743082518_092022-O.webp"],
             precio:"1710",
             memoria:["128GB","256GB","512GB","1TB"],
@@ -1528,6 +1531,7 @@ const productos=[
 {
             id:'059',
             nombre:'IPHONE 13',
+            secid:'iphone-13',
             foto:["https://www.macstation.com.ar/img/productos/2582-2.jpg","https://www.macstation.com.ar/img/productos/2581-1.jpg","https://www.macstation.com.ar/img/productos/2585-3.jpg","https://www.macstation.com.ar/img/productos/2635-2583-5.jpg"],
             precio:"900",
             memoria:["128GB","512GB"],
@@ -1631,7 +1635,7 @@ const productos=[
             },
     
             ],
-            color: ["blue","green","red","minight","star"],
+            color: ["blue","green","red","midnight","starlight"],
             estado:'En stock',
             tendencia:false,
             marca:'apple',
@@ -1640,6 +1644,7 @@ const productos=[
 {
             id:'060',
             nombre:'IPHONE 13 PRO',
+            secid:'iphone-13-pro',
             foto:["https://www.macstation.com.ar/img/productos/2911-2590-1.jpg","https://www.macstation.com.ar/img/productos/2595-2.jpg","https://www.macstation.com.ar/img/productos/2596-3.jpg"],
             precio:"1170",
             memoria:["128GB"],
@@ -1817,7 +1822,7 @@ const productos=[
     marca:'apple',
     categoria:['watch','all']},
 
-    {
+{
         id:'063',
         nombre:'Watch Serie 7 41MM',
         secid:'watch-7-41mm',
@@ -1849,9 +1854,9 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:['watch','all']},
+    categoria:['watch','all']},
 
-    {
+{
         id:'064',
         nombre:'Watch Serie 7 45MM',
         secid:'watch-7-45mm',
@@ -1883,7 +1888,7 @@ const productos=[
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:['watch','all']},
+    categoria:['watch','all']},
 
 {
             id:'065',
@@ -1917,7 +1922,7 @@ const productos=[
             estado:'En stock',
             tendencia:false,
             marca:'apple',
-            categoria:['watch','all']},
+        categoria:['watch','all']},
 {
             id:'066',
             nombre:'Watch SE 2da Gen 44MM',
@@ -1983,7 +1988,7 @@ const productos=[
             estado:'En stock',
             tendencia:false,
             marca:'apple',
-            categoria:['watch','all']},
+        categoria:['watch','all']},
 
 //AIRPODS
 {
