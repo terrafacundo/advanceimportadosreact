@@ -2027,7 +2027,7 @@ const productos=[
         info:{
             titulo:"",
             lista:[""]}
-                },,
+                },
         ],
     color: ['white'],
     estado:'En stock',
@@ -2057,12 +2057,73 @@ const productos=[
     marca:'apple',
     categoria:['accesorios','all']},
 
+    //Ipads
+{
+    id:'071',
+    nombre:'iPad (9ª generación) 10.2" Wi-Fi 64GB',
+    secid:'',
+    foto:["https://http2.mlstatic.com/D_NQ_NP_980498-MLA47871333049_102021-O.webp","https://http2.mlstatic.com/D_NQ_NP_991281-MLA47871333051_102021-O.webp","https://http2.mlstatic.com/D_NQ_NP_811627-MLA47871023475_102021-O.webp","https://http2.mlstatic.com/D_NQ_NP_611573-MLA47871010510_102021-O.webp"],
+    precio:"480",
+    memoria:["256GB"],
+    ram:["-"],
+    componentes:["Chip A13 Bionic"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['space'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['ipad','all']},
 
+    {
+        id:'072',
+        nombre:'iPad Mini 6ta gen 2021',
+        secid:'ipad-mini-6ta',
+        foto:["https://www.macstation.com.ar/img/productos_multimedia/1049-ipad-mini-wi-fi-space-gray-pdp-image-position-1a-coes-v1.jpg","https://www.macstation.com.ar/img/productos_multimedia/1047-ipad-mini-wi-fi-space-gray-pdp-image-position-2-coes-v1.jpg","https://www.macstation.com.ar/img/productos_multimedia/1046-ipad-mini-wi-fi-space-gray-pdp-image-position-3-coes-v1.jpg","https://www.macstation.com.ar/img/productos_multimedia/1044-ipad-mini-wi-fi-space-gray-pdp-image-position-8-coes-v1.jpg","https://www.macstation.com.ar/img/productos/2564-1.jpg"],
+        precio:"495",
+        memoria:["64GB","256GB"],
+        ram:["-"],
+        componentes:["Chip A15 Bionic (CPU de 6 núcleos / GPU  de 5 núcleos)"],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['starlight','purple','space'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['ipad','all']},
 
-
-
-
-
+//imac
+    {
+        id:'073',
+        nombre:'Imac 7 core 24"',
+        secid:'',
+        foto:["https://www.macstation.com.ar/img/productos/2356-1.jpg","https://www.macstation.com.ar/img/productos_multimedia/893-imac-24-in-silver-2-port-pdp-image-position-2-mxla.jpg","https://www.macstation.com.ar/img/productos_multimedia/892-imac-24-in-silver-2-port-pdp-image-position-3-mxla.jpg","https://www.macstation.com.ar/img/productos_multimedia/891-imac-24-in-silver-2-port-pdp-image-position-4-mxla.jpg"],
+        precio:"1550",
+        memoria:["256 GB"],
+        ram:["8 GB unificada"],
+        componentes:["Apple M1 CPU de 7 núcleos / GPU de 8 núcleos"],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['pink'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['imac','all']},
 
 
 

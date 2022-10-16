@@ -691,6 +691,14 @@ a:hover{
     border-style: solid;
     background-color: black;
 }
+.boton-pink{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color: pink;
+}
 .boton-white{
     width:25px;
     height: 25px;
