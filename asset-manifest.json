@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.js": "/advanceimportadosreact/static/js/main.726a6296.js",
+    "main.js": "/advanceimportadosreact/static/js/main.99cd8971.js",
     "static/media/gaming-web.jpg": "/advanceimportadosreact/static/media/gaming-web.c0e95d7b19b1605ef5ea.jpg",
     "static/media/icon.png": "/advanceimportadosreact/static/media/icon.f110964c249ff23c05ef.png",
     "static/media/macbook.jpg": "/advanceimportadosreact/static/media/macbook.cbbd98d0050a71b89b4d.jpg",
     "static/media/mineria.webp": "/advanceimportadosreact/static/media/mineria.6a77f34cd9f20fb75362.webp",
     "static/media/notebook.jpg": "/advanceimportadosreact/static/media/notebook.6a77f34cd9f20fb75362.jpg",
     "static/media/monitores.jpg": "/advanceimportadosreact/static/media/monitores.62f3b35857faf7f6f385.jpg",
+    "static/media/wpplogo.webp": "/advanceimportadosreact/static/media/wpplogo.816e053c4fa8f17d002f.webp",
+    "static/media/iglogo.svg": "/advanceimportadosreact/static/media/iglogo.22bda4c250235f5d99c5c75e2537147e.svg",
     "static/media/instagram.svg": "/advanceimportadosreact/static/media/instagram.62572c862d53f228aa8eff879e2e1d37.svg",
     "index.html": "/advanceimportadosreact/index.html",
     "static/media/mail.svg": "/advanceimportadosreact/static/media/mail.e1c2ca34615ec06dafe04e8e2802fb58.svg",
     "static/media/arrow_next.svg": "/advanceimportadosreact/static/media/arrow_next.7b13c9ac5e7c53fc2f3af0ae9afcc4d1.svg",
     "static/media/arrow_back.svg": "/advanceimportadosreact/static/media/arrow_back.bc24e9e3061ccb03a6e13a55760da701.svg",
-    "main.726a6296.js.map": "/advanceimportadosreact/static/js/main.726a6296.js.map"
+    "main.99cd8971.js.map": "/advanceimportadosreact/static/js/main.99cd8971.js.map"
   },
   "entrypoints": [
-    "static/js/main.726a6296.js"
+    "static/js/main.99cd8971.js"
   ]
 }
