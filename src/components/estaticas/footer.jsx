@@ -29,7 +29,7 @@ const Footer=()=>{
                 </li>
                 <li className="flex_li_footer">
                     <img className="svg_footer" src={email}/>
-                    <h3 className="letra_link_footer">advanceimportados@gmail.com</h3>
+                    {/* <h3 className="letra_link_footer">advanceimportados@gmail.com</h3> */}
                 </li>
 
             </ul>

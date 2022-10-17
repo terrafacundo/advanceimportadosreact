@@ -13,7 +13,6 @@ import BotonesAccesoRapido from "./botones-wpp-ig";
 const Main = () => {
 
     return(
-        <div className="total">
             <Routes>
                 <Route path='/' element={<Indexadvance/>}/>
                 <Route path='/productos/:id_link' element={<ProductoDetalleExtContainer/>}/>
@@ -24,8 +23,6 @@ const Main = () => {
                 <Route path='/Gaming' element={<PaginaGaming/>}/>
                 <Route path='/Cotizar' element={<PaginaCotizar/>}/>
             </Routes>
-            
-        </div>
     )
 }
 
