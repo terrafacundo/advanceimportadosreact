@@ -32,48 +32,6 @@ a:hover{
     .toggle-button{
         text-align: right;
     }
-    /* Productos en tendencia */
-    .sector_tendencias{
-        height: 600px;
-    }
-    .titulo_productos_en_tendencia{
-        font-size: 100px;
-    }
-    .sub-contendor-tendencia{
-        width: 576px;
-        height: 590px;
-        display: inline-flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-    }
-    .tarjeta_producto{
-        width: 445px;
-        height: 580px;
-        display: block;
-        flex-grow: 0;
-        flex-shrink: 1;
-        flex-basis: auto;
-        align-self: auto;
-        order: 0;
-    }
-    .foto_producto{
-        margin-top: 40px;
-    }
-    .division-info{
-        margin-top: 40px;
-    }
-    .nombre_producto{
-        margin-top: 60px;
-    }
-    .precio_producto{
-        margin-top: 15px;
-    }
-    .boton_masinfo{
-        margin-top: 15px;
-    }
     /* Iconos de redes sociales flotantes */
     .accesos-directos {
         width: 576px;
@@ -94,6 +52,22 @@ a:hover{
         text-align: center;
     }
     /*  Web de Productos */
+    .sector_tendencias{
+        height: 600px;
+    }
+    .sub-contendor-tendencia{
+        width: 576px;
+        height: 590px;
+    }
+    .tarjeta_producto{
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+        justify-content: center;
+    }
     .contenedor-foto-producto{
         margin-top: 20 px;
         text-align: center;
@@ -104,17 +78,19 @@ a:hover{
     .titulo-sector-descripcion{
         margin-top: 50px;
     }
+    .boton_masinfo_a{
+        margin-top: -10px;
+    }
     /* Web de Apple */
     .galeria_productos_apple{
-        width: 600px;
-        float: left;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
     }
     .foto-redirecc-apple{
-        margin-top: 20px;
         text-align: center;
-    }
-    .img foto-redirecc-apple{
-        width: 100px;
     }
     .tarjeta_galeria_productos_apple h2{
         margin-top: 20px;
@@ -496,6 +472,7 @@ a:hover{
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 2.5vw;
     padding-top: 10vh;
+    justify-content: center;
 }
 
 .tarjeta_galeria_productos_apple{
@@ -1659,6 +1636,7 @@ a:hover{
     }
     
     .division-info{
+        padding: 1rem;
         max-width: 100%;
         border-top: #4f4f4f solid 0.5px;
         display: flex;
@@ -1917,18 +1895,19 @@ a:hover{
     /* Sector apple*/
     
     .galeria_productos_apple{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        row-gap: 2.5vw;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15vw;
         padding-top: 10vh;
+        align-items: center;
     }
     
     .tarjeta_galeria_productos_apple{
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-width: 390px;
-        max-height: 185px;
+        max-width: 550px;
+        max-height: 385px;
     }
     
     .apple_botones_ver_mas{
