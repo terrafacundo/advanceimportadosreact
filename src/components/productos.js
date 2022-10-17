@@ -67,7 +67,7 @@ const productos=[
         ],
         color: ['space','silver','midnight','gold'],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:['macbook','all']},
     {   
@@ -138,7 +138,7 @@ const productos=[
         ],
         color: ['space','silver'],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:['macbook','all']},
     {   
