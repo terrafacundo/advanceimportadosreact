@@ -1462,12 +1462,16 @@ html{
 
 
 @media (max-width:576px) {
+    .index-view{
+        max-width: 100%;
+    }
     .sub_body{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 100vw;
     }
     .sub-contendor-tendencia{
+        width: 100%;
         display: flex;
         flex-direction: row;
         flex-wrap:wrap;
