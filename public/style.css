@@ -10,7 +10,6 @@ a{
 }
 a:hover{
     color: black;
-    
 }
 
 .color_letras{
@@ -99,7 +98,7 @@ html{
     .tarjeta_galeria_productos_apple h2{
         margin-top: 20px;
     }
-
+}
 
 /*Nav*/
 /*Color y ajustes detalles*/
@@ -279,9 +278,6 @@ html{
     border-style: none;
     border-radius: 5px;
     background-color: #D9D9D9;
-}
-.boton_masinfo:hover{
-    
 }
 .boton_masinfo_a {
     color: #1D1D1F;
@@ -2458,4 +2454,4 @@ html{
     .logo-acceso-directo img{
         width: fit-content;
     }
-    }
+}
