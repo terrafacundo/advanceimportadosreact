@@ -3033,8 +3033,9 @@ if(secid==='ipad-mini-6ta' && almacenamiento==='256GB' && ram==='-' && component
     )
 }
 
-else{
-    <div className="precio-final">U$D {precio}</div>    
+if( almacenamiento==='-' && ram==='-' && componente==="-" && (color==='space' || color==='purple' || color ==='starlight' || color==='white' || color==='black' || color==='green' || color ==='blue' || color==='pink' || color==='black' || color==='silver')){
+    return(
+    <div className="precio-final">U$D {precio}</div>    )
 }
 
 
