@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import gamingWeb from './estaticas/media/gaming-web.jpg'
-import macbook from './estaticas/media/macbook.jpg'
+import macbook from './estaticas/media/macbook-web.jpg'
 import { Link } from 'react-router-dom';
 
 function CarouselFade() {

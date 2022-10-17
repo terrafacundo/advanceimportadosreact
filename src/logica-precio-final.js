@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom"
 
 
-const PrecioFinal = ({secid,almacenamiento,ram,componente,color}) => {
+const PrecioFinal = ({secid,almacenamiento,ram,componente,color,precio}) => {
+
+
 
     //MacBook M1 AIR 13,3" --- 'mb-m1-air-13'
     //1
@@ -3031,7 +3033,10 @@ if(secid==='ipad-mini-6ta' && almacenamiento==='256GB' && ram==='-' && component
     )
 }
 
-
+if( almacenamiento==='-' && ram==='-' && componente==="-" && (color==='space' || color==='purple' || color ==='starlight' || color==='white' || color==='black' || color==='green' || color ==='blue' || color==='pink' || color==='black' || color==='silver')){
+    return(
+    <div className="precio-final">U$D {precio}</div>    )
+}
 
 
 
