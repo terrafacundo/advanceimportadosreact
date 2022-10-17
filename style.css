@@ -1462,11 +1462,10 @@ a:hover{
 
 
 
-@media (max-width:768px) {
+@media (max-width:576px) {
     .sub_body{
         display: flex;
         flex-direction: column;
-        width: 576px;
     }
     .sub-contendor-tendencia{
         display: flex;
