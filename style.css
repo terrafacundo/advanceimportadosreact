@@ -22,15 +22,19 @@ a:hover{
     visibility: hidden;
 }
 
+html{
+    width: 100%;
+}
+
 /* Extra small devices ( portait phones ) */
 @media (max-width:576px){
     /* Carousel */
     .d-block{
         height: 190px;
+        width: 100% !important;
     }
     /* Menu Hamburguesa */
     .toggle-button{
-        text-align: right;
     }
     /* Iconos de redes sociales flotantes */
     .accesos-directos {
@@ -100,6 +104,7 @@ a:hover{
 /*Nav*/
 /*Color y ajustes detalles*/
 @media (min-width:1025px) {
+
 
 .nav{
     background-color: #1D1D1F;
@@ -1456,17 +1461,11 @@ a:hover{
 
 
 
-
-
-
-
-
-
 @media (max-width:576px) {
     .sub_body{
         display: flex;
         flex-direction: column;
-        width: 576px;
+        width: 100%;
     }
     .sub-contendor-tendencia{
         display: flex;
