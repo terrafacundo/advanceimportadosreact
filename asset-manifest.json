@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.js": "/advanceimportadosreact/static/js/main.49adcb20.js",
+    "main.js": "/advanceimportadosreact/static/js/main.0a56216b.js",
     "static/media/gaming-web.jpg": "/advanceimportadosreact/static/media/gaming-web.c0e95d7b19b1605ef5ea.jpg",
     "static/media/icon.png": "/advanceimportadosreact/static/media/icon.f110964c249ff23c05ef.png",
-    "static/media/macbook.jpg": "/advanceimportadosreact/static/media/macbook.cbbd98d0050a71b89b4d.jpg",
-    "static/media/mineria.webp": "/advanceimportadosreact/static/media/mineria.6a77f34cd9f20fb75362.webp",
-    "static/media/notebook.jpg": "/advanceimportadosreact/static/media/notebook.6a77f34cd9f20fb75362.jpg",
+    "static/media/macbook-web.jpg": "/advanceimportadosreact/static/media/macbook-web.cbbd98d0050a71b89b4d.jpg",
+    "static/media/ipad.jpg": "/advanceimportadosreact/static/media/ipad.658a563eff954dde7c4a.jpg",
+    "static/media/mineria.jpg": "/advanceimportadosreact/static/media/mineria.5d6b51c54f715f15c41f.jpg",
     "static/media/monitores.jpg": "/advanceimportadosreact/static/media/monitores.62f3b35857faf7f6f385.jpg",
+    "static/media/iphone.jpg": "/advanceimportadosreact/static/media/iphone.c5372268e4e5cb62d669.jpg",
+    "static/media/notebook.jpg": "/advanceimportadosreact/static/media/notebook.44f08c1a3240ac2cd05a.jpg",
     "static/media/wpplogo.webp": "/advanceimportadosreact/static/media/wpplogo.816e053c4fa8f17d002f.webp",
+    "static/media/watch.jpg": "/advanceimportadosreact/static/media/watch.0878d5bfe77f9f8daa75.jpg",
+    "static/media/macbook.jpg": "/advanceimportadosreact/static/media/macbook.47990865ec82c09c6729.jpg",
+    "static/media/accesorios.jpg": "/advanceimportadosreact/static/media/accesorios.edbafc6d1c51e7d742c7.jpg",
+    "static/media/vr.jpg": "/advanceimportadosreact/static/media/vr.cc7955ef7443aff50f92.jpg",
+    "static/media/imac.jpg": "/advanceimportadosreact/static/media/imac.27d2a7c1c5604e7a1ee3.jpg",
+    "static/media/mac.jpg": "/advanceimportadosreact/static/media/mac.0c47c7cf78114ca9e0c6.jpg",
     "static/media/iglogo.svg": "/advanceimportadosreact/static/media/iglogo.22bda4c250235f5d99c5c75e2537147e.svg",
     "static/media/instagram.svg": "/advanceimportadosreact/static/media/instagram.62572c862d53f228aa8eff879e2e1d37.svg",
     "index.html": "/advanceimportadosreact/index.html",
     "static/media/mail.svg": "/advanceimportadosreact/static/media/mail.e1c2ca34615ec06dafe04e8e2802fb58.svg",
     "static/media/arrow_next.svg": "/advanceimportadosreact/static/media/arrow_next.7b13c9ac5e7c53fc2f3af0ae9afcc4d1.svg",
     "static/media/arrow_back.svg": "/advanceimportadosreact/static/media/arrow_back.bc24e9e3061ccb03a6e13a55760da701.svg",
-    "main.49adcb20.js.map": "/advanceimportadosreact/static/js/main.49adcb20.js.map"
+    "main.0a56216b.js.map": "/advanceimportadosreact/static/js/main.0a56216b.js.map"
   },
   "entrypoints": [
-    "static/js/main.49adcb20.js"
+    "static/js/main.0a56216b.js"
   ]
 }

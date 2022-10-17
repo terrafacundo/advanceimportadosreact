@@ -35,12 +35,6 @@ a:hover{
     /* Productos en tendencia */
     .sector_tendencias{
         height: 600px;
-        display: inline-flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: center;
-        align-content: center;
     }
     .titulo_productos_en_tendencia{
         font-size: 100px;
@@ -48,10 +42,22 @@ a:hover{
     .sub-contendor-tendencia{
         width: 576px;
         height: 590px;
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
     .tarjeta_producto{
         width: 445px;
         height: 580px;
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
     }
     .foto_producto{
         margin-top: 40px;
@@ -488,6 +494,7 @@ a:hover{
 .galeria_productos_apple{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2.5vw;
     padding-top: 10vh;
 }
 
@@ -1912,6 +1919,7 @@ a:hover{
     .galeria_productos_apple{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 2.5vw;
         padding-top: 10vh;
     }
     
