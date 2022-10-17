@@ -26,7 +26,7 @@ a:hover{
 @media (max-width:576px){
     /* Carousel */
     .d-block{
-        height: 300px;
+        height: 190px;
     }
     /* Menu Hamburguesa */
     .toggle-button{
