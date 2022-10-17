@@ -24,7 +24,7 @@ const Main = () => {
                 <Route path='/Gaming' element={<PaginaGaming/>}/>
                 <Route path='/Cotizar' element={<PaginaCotizar/>}/>
             </Routes>
-            <BotonesAccesoRapido/>
+            
         </div>
     )
 }

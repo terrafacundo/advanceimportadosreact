@@ -1472,6 +1472,15 @@ a:hover{
 
 
 @media (max-width:768px) {
+    .sub_body{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-contendor-tendencia{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
     .nav{
         background-color: #1D1D1F;
     }
