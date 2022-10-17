@@ -24,19 +24,23 @@ a:hover{
 
 /* Extra small devices ( portait phones ) */
 @media (max-width:576px){
-    .sub_body{
-        width: 576px;
-        height: 800px;
-    }
     /* Carousel */
     .d-block{
         height: 300px;
     }
+    /* Menu Hamburguesa */
     .toggle-button{
         text-align: right;
     }
+    /* Productos en tendencia */
     .sector_tendencias{
         height: 600px;
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
     }
     .titulo_productos_en_tendencia{
         font-size: 100px;
@@ -64,6 +68,7 @@ a:hover{
     .boton_masinfo{
         margin-top: 15px;
     }
+    /* Iconos de redes sociales flotantes */
     .accesos-directos {
         width: 576px;
         height: 200px;
@@ -82,6 +87,7 @@ a:hover{
         width: 100px;
         text-align: center;
     }
+    /*  Web de Productos */
     .contenedor-foto-producto{
         margin-top: 20 px;
         text-align: center;
@@ -92,6 +98,7 @@ a:hover{
     .titulo-sector-descripcion{
         margin-top: 50px;
     }
+    /* Web de Apple */
     .galeria_productos_apple{
         width: 600px;
         float: left;
