@@ -3019,6 +3019,17 @@ if(secid==='iphone-13-pro' && almacenamiento==='128GB' && ram==='-' && component
     )
 }
 
+//ipad
+if(secid==='ipad-mini-6ta' && almacenamiento==='64GB' && ram==='-' && componente==="Chip A15 Bionic (CPU de 6 núcleos / GPU  de 5 núcleos)" && (color==='purple' || color ==='starlight')){
+    return(
+        <div className="precio-final">U$D 495</div>
+    )
+}
+if(secid==='ipad-mini-6ta' && almacenamiento==='256GB' && ram==='-' && componente==="Chip A15 Bionic (CPU de 6 núcleos / GPU  de 5 núcleos)" && color==='space'){
+    return(
+        <div className="precio-final">U$D 655</div>
+    )
+}
 
 
 
