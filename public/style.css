@@ -494,6 +494,7 @@ a:hover{
 .galeria_productos_apple{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2.5vw;
     padding-top: 10vh;
 }
 
@@ -1918,6 +1919,7 @@ a:hover{
     .galeria_productos_apple{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 2.5vw;
         padding-top: 10vh;
     }
     
