@@ -30,6 +30,7 @@ const ListadoProductosProRel =()=>{
     // })
 
     const nuevo_Array = productos?.filter(x=>x.tendencia===true)
+    console.log(nuevo_Array)
     return(
         nuevo_Array?.map((x) =>(
             <ProductoDetalle

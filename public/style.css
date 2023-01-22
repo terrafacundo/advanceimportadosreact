@@ -1,4 +1,44 @@
 /*Generales*/
+.shortcut-man{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:fixed;
+	width:70px;
+	height:70px;
+	bottom:50px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 4px 4px 6px #999;
+  z-index:100;
+}
+.shortcut-man:hover{
+    width:75px;
+	height:75px;
+    animation-duration: 400ms;
+    animation-name:transicion-wpp-cente ;
+}
+
+.shortcut{
+    margin-top: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+
+@keyframes transicion-wpp-cente {
+    from{
+        width: 70px;
+        height: 70px;
+    }
+    to{
+        width: 75px;
+        height: 75px;
+    }
+}
 *{
     list-style-type: none;
     font-family: 'Poppins', sans-serif;
@@ -56,11 +96,18 @@ html{
     }
     /*  Web de Productos */
     .sector_tendencias{
-        height: 600px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
     .sub-contendor-tendencia{
-        width: 576px;
-        height: 590px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 2.5vw;
+        row-gap: 5vh;
+        width: 100%;
     }
     .tarjeta_producto{
         display: block;
@@ -887,6 +934,9 @@ html{
 .sub-contendor-tendencia{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 5vh;
     column-gap: 2.5vw;
     
 }
@@ -1497,12 +1547,7 @@ html{
         flex-direction: column;
         width: 100vw;
     }
-    .sub-contendor-tendencia{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap:wrap;
-    }
+
     .nav{
         background-color: #1D1D1F;
     }
@@ -2402,12 +2447,6 @@ html{
         text-align: center;
     }
     
-    .sub-contendor-tendencia{
-        display: flex;
-        flex-direction: row;
-        column-gap: 2.5vw;
-        
-    }
     
     .active{
         border-color: #3483fa;
