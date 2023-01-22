@@ -9,7 +9,7 @@ const BotonesAccesoRapido =()=>{
                 <img src={wpplogo} alt="Acceso directo al Whatsapp de Advance" />
             </a>
 
-            <a href="https://www.instagram.com/advanceimportados/" target="blank" className="logo-acceso-directo">
+            <a href="https://www.instagram.com/advanceimportados/" target="blank" className="logo-acceso-directo1">
                 <img src={iglogo} alt="Acceso directo al Instagram de Advance" />
             </a>
         </div>

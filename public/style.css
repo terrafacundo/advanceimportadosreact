@@ -10,7 +10,6 @@ a{
 }
 a:hover{
     color: black;
-    
 }
 
 .color_letras{
@@ -22,11 +21,87 @@ a:hover{
     visibility: hidden;
 }
 
+html{
+    width: 100%;
+}
 
+/* Extra small devices ( portait phones ) */
+@media (max-width:576px){
+    /* Carousel */
+    .d-block{
+        height: 190px;
+        width: 100% !important;
+    }
+    /* Menu Hamburguesa */
+    .toggle-button{
+    }
+    /* Iconos de redes sociales flotantes */
+    .accesos-directos {
+        width: 576px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .logo-acceso-directo{
+        margin-left: 95px;
+        margin-bottom: -55px;
+    }
+    .logo-acceso-directo1{
+        margin-right: 95px;
+    }
+    .accesos-directos img{
+        height: 100px;
+        width: 100px;
+        text-align: center;
+    }
+    /*  Web de Productos */
+    .sector_tendencias{
+        height: 600px;
+    }
+    .sub-contendor-tendencia{
+        width: 576px;
+        height: 590px;
+    }
+    .tarjeta_producto{
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+        justify-content: center;
+    }
+    .contenedor-foto-producto{
+        margin-top: 20 px;
+        text-align: center;
+    }
+    .foto-producto-apple{
+        margin-top: 100px;
+    }
+    .titulo-sector-descripcion{
+        margin-top: 50px;
+    }
+    .boton_masinfo_a{
+        margin-top: -10px;
+    }
+    /* Web de Apple */
+    .galeria_productos_apple{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .tarjeta_galeria_productos_apple h2{
+        margin-top: 20px;
+    }
+}
 
 /*Nav*/
 /*Color y ajustes detalles*/
 @media (min-width:1025px) {
+
 
 .nav{
     background-color: #1D1D1F;
@@ -52,6 +127,19 @@ a:hover{
     }
 }
 
+.foto-redirecc-apple{
+    width: 90%;
+    border-radius: 5px;
+    transition: 0.2s all ease-in-out;
+}
+
+.foto-redirecc-apple:hover{
+    transform: scale(1.025);
+    overflow: hidden;
+    box-shadow: -1px 12px 20px 4px rgba(0,0,0,0.21);
+    -webkit-box-shadow: -1px 12px 20px 4px rgba(0,0,0,0.21);
+    -moz-box-shadow: -1px 12px 20px 4px rgba(0,0,0,0.21);
+}
 
 /*Orden*/
 
@@ -214,9 +302,6 @@ a:hover{
     border-style: none;
     border-radius: 5px;
     background-color: #D9D9D9;
-}
-.boton_masinfo:hover{
-    
 }
 .boton_masinfo_a {
     color: #1D1D1F;
@@ -410,7 +495,9 @@ a:hover{
 .galeria_productos_apple{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2.5vw;
     padding-top: 10vh;
+    justify-content: center;
 }
 
 .tarjeta_galeria_productos_apple{
@@ -620,7 +707,14 @@ a:hover{
 .boton-seleccion:hover{
     transform: scale(1.05,1.05);
 }
-
+.boton-gray{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color: #A2AAAD ;
+}
 .boton-space{
     width:25px;
     height: 25px;
@@ -669,7 +763,14 @@ a:hover{
     transform: scale(1.25,1.25);
     border-width: 0.4px;
 }
-
+.boton-purple{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color: #5856d6;
+}
 .boton-black{
     width:25px;
     height: 25px;
@@ -678,18 +779,57 @@ a:hover{
     border-style: solid;
     background-color: black;
 }
+.boton-pink{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color: pink;
+}
+.boton-white{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color: white;
+}
 .boton-black:hover{
     transform: scale(1.25,1.25);
     border-width: 0.4px;
 }
-
+.boton-green{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color:#4cd964;
+}
+.boton-red{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color:#ff3b30;
+}
+.boton-starlight{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 0.2px;
+    border-style: solid;
+    background-color:#F8F9EC;
+}
 .boton-blue{
     width:25px;
     height: 25px;
     border-radius: 50%;
     border-width: 0.2px;
     border-style: solid;
-    background-color: rgb(33, 33, 255);
+    background-color:#007aff;
 }
 .boton-blue:hover{
     transform: scale(1.25,1.25);
@@ -1209,12 +1349,19 @@ a:hover{
         display: flex;
         flex-direction: column;
         align-items: center;
+        border-radius: 5px;
         max-width: 390px;
         height: 185px;
     }
     .tarjeta_galeria_productos_apple img{
-        max-width: 100%;
+        width: 100%;
+        transition: 0.2s all ease-in-out;
     }
+
+    .tarjeta_galeria_productos_apple:hover img{
+        transform: scale(1.5);
+    }
+
     .apple_botones_ver_mas{
         display: flex;
         flex-direction: row;
@@ -1341,13 +1488,21 @@ a:hover{
 
 
 
-
-
-
-
-
-
-@media (max-width:768px) {
+@media (max-width:576px) {
+    .index-view{
+        max-width: 100%;
+    }
+    .sub_body{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .sub-contendor-tendencia{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
     .nav{
         background-color: #1D1D1F;
     }
@@ -1465,6 +1620,7 @@ a:hover{
         display: flex;
         flex-direction:column;
         align-items: center;
+        justify-content: center;
         margin-top: 5vh;
         padding-top: 10vh;
         background-color: #e6e5e565;
@@ -1512,6 +1668,7 @@ a:hover{
     }
     
     .division-info{
+        padding: 1rem;
         max-width: 100%;
         border-top: #4f4f4f solid 0.5px;
         display: flex;
@@ -1770,17 +1927,33 @@ a:hover{
     /* Sector apple*/
     
     .galeria_productos_apple{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15vw;
         padding-top: 10vh;
+        align-items: center;
     }
     
     .tarjeta_galeria_productos_apple{
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-width: 390px;
-        max-height: 185px;
+        max-width: 550px;
+        max-height: 385px;
+    }
+    
+    .foto-redirecc-apple{
+        width: 90%;
+        border-radius: 5px;
+        transition: 0.2s all ease-in-out;
+    }
+
+    .foto-redirecc-apple:hover{
+        transform: scale(1.025);
+        overflow: hidden;
+        box-shadow: -1px 12px 20px 4px rgba(0,0,0,0.21);
+        -webkit-box-shadow: -1px 12px 20px 4px rgba(0,0,0,0.21);
+        -moz-box-shadow: -1px 12px 20px 4px rgba(0,0,0,0.21);
     }
     
     .apple_botones_ver_mas{
@@ -2241,9 +2414,7 @@ a:hover{
         border-width: 2px;
     }
     
-    .foto-redirecc-apple{
-        width: 90%;
-    }
+
     
     .precio-final {
         height: 10px;
@@ -2307,4 +2478,4 @@ a:hover{
     .logo-acceso-directo img{
         width: fit-content;
     }
-    }
+}
