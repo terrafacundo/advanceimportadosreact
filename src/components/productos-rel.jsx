@@ -1,18 +1,11 @@
 import { collection, getDocs } from "firebase/firestore";
 
 import ProductoDetalle from "./productodetalle";
-<<<<<<< HEAD
-import React from "react";
-import { db } from "../firebase";
-import productos from "./productos";
-import { useState } from "react";
-=======
 import productos from "./productos";
 
 // import { db } from "../firebase";
 // import { getDocs, collection } from "firebase/firestore";
 // import { useState } from "react";
->>>>>>> 3a047a4275c9b56f1673c53accb3916e42379d74
 
 const ListadoProductosProRel =()=>{
 
