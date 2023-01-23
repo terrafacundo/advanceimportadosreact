@@ -13,14 +13,17 @@ import imac from  './media/imac.jpg'
 
 const PaginaApple =()=>{
     return(
-        <div className="galeria_productos_apple">
-            <RedireccionadorApple link='Iphone' nombrebanner={iphone}/>
-            <RedireccionadorApple link='Ipad' nombrebanner={ipad}/>
-            <RedireccionadorApple link='Macbook' nombrebanner={macbook}/>
-            <RedireccionadorApple link='Watch' nombrebanner={watch}/>
-            <RedireccionadorApple link='Accesorios' nombrebanner={accesorios}/>
-            <RedireccionadorApple link='MacStudio-MacMini' nombrebanner={mac}/>
-            <RedireccionadorApple link='IMac' nombrebanner={imac}/>
+        <div className="pre-banner">
+            <h2 className="banner-cotizar">Apple</h2>
+            <div className="galeria_productos_apple">
+                <RedireccionadorApple link='Iphone' nombrebanner={iphone}/>
+                <RedireccionadorApple link='Ipad' nombrebanner={ipad}/>
+                <RedireccionadorApple link='Macbook' nombrebanner={macbook}/>
+                <RedireccionadorApple link='Watch' nombrebanner={watch}/>
+                <RedireccionadorApple link='Accesorios' nombrebanner={accesorios}/>
+                <RedireccionadorApple link='MacStudio-MacMini' nombrebanner={mac}/>
+                <RedireccionadorApple link='IMac' nombrebanner={imac}/>
+            </div>
         </div>
     )
 }

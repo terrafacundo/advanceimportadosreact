@@ -7,11 +7,14 @@ import vr from  './media/vr.jpg'
 
 const PaginaGaming =()=>{
     return(
-        <div className="galeria_productos_apple" >
-            <RedireccionadorGaming link='notebook' nombrebanner={notebook}/>
-            <RedireccionadorGaming link='mineria' nombrebanner={mineria}/>
-            <RedireccionadorGaming link='monitores' nombrebanner={monitores}/>
-            <RedireccionadorGaming link='vr' nombrebanner={vr}/>
+        <div className="pre-banner">
+            <h2 className="banner-cotizar">Gaming</h2>
+            <div className="galeria_productos_apple" >
+                <RedireccionadorGaming link='notebook' nombrebanner={notebook}/>
+                <RedireccionadorGaming link='mineria' nombrebanner={mineria}/>
+                <RedireccionadorGaming link='monitores' nombrebanner={monitores}/>
+                <RedireccionadorGaming link='vr' nombrebanner={vr}/>
+            </div>
         </div>
     )
 }
