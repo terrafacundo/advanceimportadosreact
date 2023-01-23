@@ -169,6 +169,9 @@ html{
 .advice-cotizar{
     font-size: 1.25rem;
 }
+.pre-banner{
+    margin-top: 5vh;
+}
 .banner-cotizar{
     display: flex;
     flex-direction: row;
