@@ -1,4 +1,44 @@
 /*Generales*/
+.shortcut-man{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:fixed;
+	width:70px;
+	height:70px;
+	bottom:50px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 4px 4px 6px #999;
+  z-index:100;
+}
+.shortcut-man:hover{
+    width:75px;
+	height:75px;
+    animation-duration: 400ms;
+    animation-name:transicion-wpp-cente ;
+}
+
+.shortcut{
+    margin-top: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+
+@keyframes transicion-wpp-cente {
+    from{
+        width: 70px;
+        height: 70px;
+    }
+    to{
+        width: 75px;
+        height: 75px;
+    }
+}
 *{
     list-style-type: none;
     font-family: 'Poppins', sans-serif;
@@ -24,6 +64,8 @@ a:hover{
 html{
     width: 100%;
 }
+
+
 
 /* Extra small devices ( portait phones ) */
 @media (max-width:576px){
@@ -56,11 +98,18 @@ html{
     }
     /*  Web de Productos */
     .sector_tendencias{
-        height: 600px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
     .sub-contendor-tendencia{
-        width: 576px;
-        height: 590px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 2.5vw;
+        row-gap: 5vh;
+        width: 100%;
     }
     .tarjeta_producto{
         display: block;
@@ -112,6 +161,40 @@ html{
     width: 60px;
     height: 60px;
     top: -40%;
+}
+
+.pagina-cotizar{
+    margin-top: 5vh;
+}
+.advice-cotizar{
+    font-size: 1.25rem;
+}
+.banner-cotizar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+    text-align: center;
+    background:#1D1D1F;
+    background: linear-gradient(60deg, #1D1D1F 67%, rgba(255,0,0,0) 87%);
+    padding: 20px;
+}
+
+/*Nav medida Celulares */
+@media (max-width:576px) {
+    /* Carrusel */
+    .d-block{
+        width: 500px;
+    }
+    /* Iconos flotantes */
+    .accesos-directos{
+        height: 10px;
+        width: 10px;
+    }
 }
 
 .foto-redirecc-apple{
@@ -591,15 +674,6 @@ html{
     text-align: center;
 }
 
-.pagina-cotizar h2{
-    margin-top: 5vh;
-    font-weight: 600;
-}
-
-.pagina-cotizar p{
-    font-size: 0.75rem;
-    font-weight: 600;
-}
 
 .intro-pagina-cotizar{
     display: flex;
@@ -614,28 +688,56 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin-bottom: 5vh;
     margin-top: 2.5vh;
     height: 30vh;
-    width: 20vw;
-    background-color: #adadad;
+    width: 22.5vw;
     border-radius: 3px;
 }
 
 .sub-cotizar h2{
+    margin-top: 5vh;
     position: relative;
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3a3a3a;
 }
+
+.sub-cotizar p{
+    text-align: center;
+    font-size: 13px;
+    color: #7a7a7a;
+}
+
 .material-symbols-outlined{
-    transform: scale(1.75,1.75);
+    color: #7a7a7a;
+    font-size: 2.5rem;
     font-variation-settings:
     'FILL' 48,
-    'wght' 900,
+    'wght' 400,
     'GRAD' 0,
     'opsz' 48
 }
+
+.angry-animate:hover{
+    -webkit-animation:flip 1s ease-in-out 0s 1 normal;
+    -moz-animation:flip 1s ease-in-out 0s 1 normal;
+    -ms-animation:flip 1s ease-in-out 0s 1 normal;
+    animation:flip 1s ease-in-out 0s 1 normal;
+    }
+    
+    @-webkit-keyframes flip {
+    0%{ -webkit-transform: translateY(0); transform: rotateY(0deg); }
+    50%{ -webkit-transform: translateY(180); transform: rotateY(180deg); }
+    100%{ -webkit-transform: translateY(0); transform: rotateY(0deg); }
+    }
+    
+    @keyframes flip {
+    0%{ transform: rotateY(0deg); }
+    50%{ transform: rotateY(180deg); }
+    100%{ transform: rotateY(0deg); }
+    }
 
 .cotizar{
     color: blueviolet;
@@ -874,6 +976,9 @@ html{
 .sub-contendor-tendencia{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 5vh;
     column-gap: 2.5vw;
     
 }
@@ -1484,12 +1589,7 @@ html{
         flex-direction: column;
         width: 100vw;
     }
-    .sub-contendor-tendencia{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap:wrap;
-    }
+
     .nav{
         background-color: #1D1D1F;
     }
@@ -2093,6 +2193,8 @@ html{
     .cotizar{
         color: blueviolet;
     }
+
+
     
     /*Seccion detalle extendido apple*/
     .container-fotos-flechas{
@@ -2389,12 +2491,6 @@ html{
         text-align: center;
     }
     
-    .sub-contendor-tendencia{
-        display: flex;
-        flex-direction: row;
-        column-gap: 2.5vw;
-        
-    }
     
     .active{
         border-color: #3483fa;
