@@ -1,6 +1,8 @@
 {
   "files": {
-    "main.js": "/advanceimportadosreact/static/js/main.55530564.js",
+    "main.js": "/advanceimportadosreact/static/js/main.a2034983.js",
+    "static/media/nosotros-foto.jpg": "/advanceimportadosreact/static/media/nosotros-foto.7c442e6718212c062e2e.jpg",
+    "static/media/iglogo.webp": "/advanceimportadosreact/static/media/iglogo.eee5ef3f2824e5990fc3.webp",
     "static/media/gaming-web.jpg": "/advanceimportadosreact/static/media/gaming-web.c0e95d7b19b1605ef5ea.jpg",
     "static/media/icon.png": "/advanceimportadosreact/static/media/icon.f110964c249ff23c05ef.png",
     "static/media/macbook-web.jpg": "/advanceimportadosreact/static/media/macbook-web.cbbd98d0050a71b89b4d.jpg",
@@ -18,13 +20,16 @@
     "static/media/mac.jpg": "/advanceimportadosreact/static/media/mac.0c47c7cf78114ca9e0c6.jpg",
     "static/media/iglogo.svg": "/advanceimportadosreact/static/media/iglogo.22bda4c250235f5d99c5c75e2537147e.svg",
     "static/media/instagram.svg": "/advanceimportadosreact/static/media/instagram.62572c862d53f228aa8eff879e2e1d37.svg",
+    "static/media/whatsapp.svg": "/advanceimportadosreact/static/media/whatsapp.57b12149de37a69793728e55de6947a3.svg",
     "index.html": "/advanceimportadosreact/index.html",
+    "static/media/horarios.svg": "/advanceimportadosreact/static/media/horarios.5307428124670cee616e4e2af27e6962.svg",
+    "static/media/arroba.svg": "/advanceimportadosreact/static/media/arroba.e823b0b781c7f544db3c6a09138c7afb.svg",
     "static/media/mail.svg": "/advanceimportadosreact/static/media/mail.e1c2ca34615ec06dafe04e8e2802fb58.svg",
     "static/media/arrow_next.svg": "/advanceimportadosreact/static/media/arrow_next.7b13c9ac5e7c53fc2f3af0ae9afcc4d1.svg",
     "static/media/arrow_back.svg": "/advanceimportadosreact/static/media/arrow_back.bc24e9e3061ccb03a6e13a55760da701.svg",
-    "main.55530564.js.map": "/advanceimportadosreact/static/js/main.55530564.js.map"
+    "main.a2034983.js.map": "/advanceimportadosreact/static/js/main.a2034983.js.map"
   },
   "entrypoints": [
-    "static/js/main.55530564.js"
+    "static/js/main.a2034983.js"
   ]
 }
