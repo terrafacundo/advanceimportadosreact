@@ -6,7 +6,7 @@ import macbook from './estaticas/media/macbook-web.jpg'
 function CarouselFade() {
   return (
     <Carousel fade>
-      <Carousel.Item>
+      <Carousel.Item interval={2000}>
         <Link to="/gaming">
         <img
           className="d-block w-100"
@@ -17,15 +17,12 @@ function CarouselFade() {
         <Carousel.Caption>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-
+      <Carousel.Item interval={2000}>
         <Link to="/filt/macbook"><img
           className="d-block w-100"
           src={macbook}
-          alt="Seccion productos Macbook"
-        />
+          alt="Seccion productos Macbook"/>
         </Link>
-
         <Carousel.Caption>
         </Carousel.Caption>
       </Carousel.Item>

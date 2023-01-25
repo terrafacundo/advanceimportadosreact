@@ -8,6 +8,7 @@ import SeccionBusquedaProductos from "./seccion_busqueda_productos";
 import PaginaNosotros from "./estaticas/pagina_nosotros";
 import PaginaGaming from "./estaticas/pagina_gaming";
 import PaginaCotizar from "./estaticas/pagina_cotizar";
+import PreguntasFrec from "./preguntasfrec";
 import BotonesAccesoRapido from "./botones-wpp-ig";
 
 const Main = () => {
@@ -22,6 +23,7 @@ const Main = () => {
                 <Route path='/Nosotros' element={<PaginaNosotros/>}/>
                 <Route path='/Gaming' element={<PaginaGaming/>}/>
                 <Route path='/Cotizar' element={<PaginaCotizar/>}/>
+                <Route path='/PyR' element={<PreguntasFrec/>}/>
             </Routes>
     )
 }
