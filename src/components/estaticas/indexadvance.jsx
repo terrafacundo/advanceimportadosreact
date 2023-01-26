@@ -27,19 +27,21 @@ const Indexadvance =()=>{
                 </div>
 
             </div>
-            <div className="sector_tendencias">
-                <h2 className='titulo_productos_en_tendencia'>Productos en tendencia</h2>
+            <div className="sector_index">
+                <h2 className='titulo_productos_en_index'>Productos en tendencia</h2>
                 <div className="sub-contendor-tendencia">
-                    <ListadoProductosProRel especifico={'tendencia'}/>
+                        <ListadoProductosProRel especifico={'tendencia'}/>
                 </div>
             </div>
 
-            <div className="sector_ofertas">
-                <h2 className='titulo_productos_en_oferta'>Productos en Oferta</h2>
+            <div className="sector_index">
+                <h2 className='titulo_productos_en_index'>Productos en Oferta</h2>
                 <div className="sub-contendor-tendencia">
                     <ListadoProductosProRel especifico={'oferta'}/>
                 </div>
             </div>
+{/* 
+            <CarouselResenas></CarouselResenas> */}
         </div>
     )
 }

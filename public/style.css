@@ -98,7 +98,30 @@ html{
     font-size: 1rem;
 }
 
-
+.caja-resenas{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+}
+.caja-fondo-foto-usuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 47.5px;
+    height: 47.5px;
+    background-color: #a5a4a4;
+    border-radius: 50%;
+    justify-content: center;
+}
+.caja-fondo-foto-usuario img{
+    padding:1px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
 
 /*VIEWPORT ORDENADORES*/
 
@@ -274,19 +297,29 @@ html{
 }
 
 /*Main-productos en tendencia*/
-.sector_tendencias{
+.sector_index {
     display: flex;
     flex-direction:column;
     align-items: center;
     margin-top: 5vh;
-    padding-top: 10vh;
+    padding-top: 5vh;
     background-color: #e6e5e565;
     padding-bottom:10vh;
 }
+.sub-contendor-tendencia{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 2vw;
+    align-items: center;
+    justify-content: space-around;
+    row-gap: 2vh;
+}
 
-.titulo_productos_en_tendencia{
-    margin-bottom:5vh;
-    font-size: 1.75rem;
+.titulo_productos_en_index{
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 5vh;
 }
 
 .contenedor_productos_busqueda{
@@ -966,7 +999,7 @@ html{
     text-align: center;
 }
 
-.sub-contendor-tendencia{
+.sector-index{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
