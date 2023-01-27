@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/advanceimportadosreact/static/css/main.db57f357.css",
-    "main.js": "/advanceimportadosreact/static/js/main.145123fd.js",
+    "main.js": "/advanceimportadosreact/static/js/main.a6a14df2.js",
     "static/media/nosotros-foto.jpg": "/advanceimportadosreact/static/media/nosotros-foto.7c442e6718212c062e2e.jpg",
     "static/media/iglogo.webp": "/advanceimportadosreact/static/media/iglogo.eee5ef3f2824e5990fc3.webp",
     "static/media/gaming-web.jpg": "/advanceimportadosreact/static/media/gaming-web.c0e95d7b19b1605ef5ea.jpg",
@@ -19,21 +19,22 @@
     "static/media/vr.jpg": "/advanceimportadosreact/static/media/vr.cc7955ef7443aff50f92.jpg",
     "static/media/imac.jpg": "/advanceimportadosreact/static/media/imac.27d2a7c1c5604e7a1ee3.jpg",
     "static/media/mac.jpg": "/advanceimportadosreact/static/media/mac.0c47c7cf78114ca9e0c6.jpg",
+    "static/media/icon2.jfif": "/advanceimportadosreact/static/media/icon2.63bc7d5395243f8e1f9f.jfif",
     "static/media/avatar-reseña.png": "/advanceimportadosreact/static/media/avatar-reseña.947dab131ba92731bd83.png",
     "static/media/iglogo.svg": "/advanceimportadosreact/static/media/iglogo.22bda4c250235f5d99c5c75e2537147e.svg",
     "static/media/instagram.svg": "/advanceimportadosreact/static/media/instagram.62572c862d53f228aa8eff879e2e1d37.svg",
-    "static/media/whatsapp.svg": "/advanceimportadosreact/static/media/whatsapp.57b12149de37a69793728e55de6947a3.svg",
     "index.html": "/advanceimportadosreact/index.html",
+    "static/media/whatsapp.svg": "/advanceimportadosreact/static/media/whatsapp.57b12149de37a69793728e55de6947a3.svg",
     "static/media/horarios.svg": "/advanceimportadosreact/static/media/horarios.5307428124670cee616e4e2af27e6962.svg",
     "static/media/arroba.svg": "/advanceimportadosreact/static/media/arroba.e823b0b781c7f544db3c6a09138c7afb.svg",
     "static/media/mail.svg": "/advanceimportadosreact/static/media/mail.e1c2ca34615ec06dafe04e8e2802fb58.svg",
     "static/media/arrow_next.svg": "/advanceimportadosreact/static/media/arrow_next.7b13c9ac5e7c53fc2f3af0ae9afcc4d1.svg",
     "static/media/arrow_back.svg": "/advanceimportadosreact/static/media/arrow_back.bc24e9e3061ccb03a6e13a55760da701.svg",
     "main.db57f357.css.map": "/advanceimportadosreact/static/css/main.db57f357.css.map",
-    "main.145123fd.js.map": "/advanceimportadosreact/static/js/main.145123fd.js.map"
+    "main.a6a14df2.js.map": "/advanceimportadosreact/static/js/main.a6a14df2.js.map"
   },
   "entrypoints": [
     "static/css/main.db57f357.css",
-    "static/js/main.145123fd.js"
+    "static/js/main.a6a14df2.js"
   ]
 }
