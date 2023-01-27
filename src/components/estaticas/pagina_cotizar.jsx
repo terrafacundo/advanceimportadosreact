@@ -9,13 +9,13 @@ const PaginaCotizar =()=>{
                 <div className="sub-cotizar">
                     <span className=" material-symbols-outlined angry-animate">link</span>
                     <h2>ENCONTRÁ LINK DE TU PRODUCTO</h2>
-                    <p>Ajunta el link de tu producto en tu página de confianza para poder calcular los cosotos.</p>
+                    <p>Adjunta el link de tu producto, y nosotros te lo cotizamos.</p>
                 </div> 
 
                 <div className="sub-cotizar">
                     <span className="material-symbols-outlined angry-animate">description</span>
-                    <h2>RELLENÁ EL FORMULARIO</h2>
-                    <p>Completa con la información pedida el formulario, para que una vez que coticemos el producto, te llegue toda la información de la cotización.</p>
+                    <h2>COMPLETÁ EL FORMULARIO</h2>
+                    <p>Completa la información pedida del formulario, para que una vez que coticemos el producto, te llegue toda la información.</p>
                 </div>
                 
                 <div className="sub-cotizar">
