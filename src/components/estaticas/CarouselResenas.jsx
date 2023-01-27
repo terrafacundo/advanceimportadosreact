@@ -1,43 +1,61 @@
 
 import React from 'react';
+import reseñas from '../reseñas';
 import Resenas from "./resens";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
 
+import { Swiper, SwiperSlide} from 'swiper/react';
+import 'swiper/css/bundle';
 
-const responsive = {
-  superLargeDesktop: {
-    // the naming can be any, depends on you.
-    breakpoint: { max: 4000, min: 3000 },
-    items: 3
-  },
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 3
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 2
-  },
-  mobile: {
-    breakpoint: { max: 464, min: 0 },
-    items: 1
-  }
-};
-
+import "swiper/css";
+import "swiper/css/navigation";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 
 
 const CarouselResenas = () => {
   return (
-    <Carousel responsive={responsive}>
-        <Resenas coment={"La atención fue muy rápida."}/>
-        <Resenas coment={"Excelente todo."}/>
-        <Resenas coment={"Por ahora todo perfecto, la atención y la rapidez."}/>
-        <Resenas coment={"Muy buena atención."}/>
-        <Resenas coment={"En dos dias retire el producto en persona, hasta el momento unos genios por el trato recibido."}/>
-        <Resenas coment={"Sigan así , excelente atención. Saludos."}/>
-    </Carousel>)
+    <>
+
+    <Swiper 
+    Swiper navigation={true} className="mySwiper"
+    breakpoints={{
+        576: {
+          slidesPerView: 1,
+          spaceBetween: 50,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 55,
+        },
+      }}
+      
+      enteredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper">
+
+    {reseñas.map((x)=>{
+      return(
+        <SwiperSlide key={x.id}>
+          <Resenas coment={x.reseña}/>
+        </SwiperSlide>
+      )
+    })}
+
+    </Swiper>
+
+    </>)
+
 }
 
 export default CarouselResenas

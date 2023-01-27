@@ -8,6 +8,7 @@ import ipad from  './media/ipad.jpg'
 import macbook from './media/macbook.jpg'
 import mac from './media/mac.jpg'
 import imac from  './media/imac.jpg'
+import CarouselFade from "../carousel";
 
 
 
@@ -15,6 +16,9 @@ const PaginaApple =()=>{
     return(
         <div className="pre-banner">
             <h2 className="banner-cotizar">Apple</h2>
+
+            <CarouselFade/>
+
             <div className="galeria_productos_apple">
                 <RedireccionadorApple link='Iphone' nombrebanner={iphone}/>
                 <RedireccionadorApple link='Ipad' nombrebanner={ipad}/>

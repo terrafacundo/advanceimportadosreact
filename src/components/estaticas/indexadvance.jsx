@@ -4,6 +4,7 @@ import ListadoProductosProRel from "../productos-rel";
 import horarios from "./media/horarios.svg"
 import contacto from "./media/arroba.svg"
 import whatsapp from "./media/whatsapp.svg"
+import CarouselResenas from "./CarouselResenas";
 
 const Indexadvance =()=>{
     return(
@@ -27,21 +28,31 @@ const Indexadvance =()=>{
                 </div>
 
             </div>
-            <div className="sector_index">
-                <h2 className='titulo_productos_en_index'>Productos en tendencia</h2>
-                <div className="sub-contendor-tendencia">
-                        <ListadoProductosProRel especifico={'tendencia'}/>
-                </div>
-            </div>
 
-            <div className="sector_index">
-                <h2 className='titulo_productos_en_index'>Productos en Oferta</h2>
-                <div className="sub-contendor-tendencia">
-                    <ListadoProductosProRel especifico={'oferta'}/>
+            <div className="main-secciones">
+                <div className="sector_index">
+                    <h2 className='titulo_productos_en_index'>Productos en tendencia</h2>
+                    <div className="sub-contendor-tendencia">
+                            <ListadoProductosProRel especifico={'tendencia'}/>
+                    </div>
+                </div>
+
+
+                <div className="sector_index">
+                    <h2 className='titulo_productos_en_index'>Productos en Oferta</h2>
+                    <div className="sub-contendor-tendencia">
+                        <ListadoProductosProRel especifico={'oferta'}/>
+                    </div>
+                </div>
+
+
+                <div className="sector_index">
+                        <h2 className='titulo-reseñas'>Reseñas de nuestros clientes</h2>
+                    <div className="sub-contenedor-tendencia">    
+                        <CarouselResenas/>
+                    </div>
                 </div>
             </div>
-{/* 
-            <CarouselResenas></CarouselResenas> */}
         </div>
     )
 }

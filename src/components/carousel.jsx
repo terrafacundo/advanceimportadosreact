@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import gamingWeb from './estaticas/media/gaming-web.jpg'
 import macbook from './estaticas/media/macbook-web.jpg'
 
-function CarouselFade() {
+function CarouselFade({banner1,banner2}) {
   return (
     <Carousel fade>
       <Carousel.Item interval={2000}>
