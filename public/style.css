@@ -1947,7 +1947,7 @@
     .titulo-png{
       position: relative;
       top: 15px;
-      left: 190px;
+      left:25vw;
       width: 200px;
     }
 
@@ -2105,6 +2105,10 @@
         flex-direction: row!important;
         justify-content: center!important;
     }
+
+    #tendencias .swiper-wrapper{
+      padding-left: 130vw!important;
+    }
   
     .contenedor_productos_busqueda {
       margin-left: 7vw;
@@ -2121,9 +2125,9 @@
       flex-direction: column;
       align-items: center;
       justify-content: baseline;
-      width: 224px;
+      width: 212px;
       padding: 1.5vw;
-      height: 330px;
+      height: 320px;
       border-radius: 5px;
       border-style: solid;
       border-width: 1px;

@@ -32,7 +32,7 @@ const Indexadvance =()=>{
             <div className="main-secciones">
                 <div className="sector_index">
                     <h2 className='titulo_productos_en_index'>Productos en tendencia</h2>
-                    <div className="sub-contendor-tendencia">
+                    <div className="sub-contendor-tendencia" id="tendencias">
                             <ListadoProductosProRel especifico={'tendencia'}/>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ const Indexadvance =()=>{
 
                 <div className="sector_index">
                     <h2 className='titulo_productos_en_index'>Productos en Oferta</h2>
-                    <div className="sub-contendor-tendencia">
+                    <div className="sub-contendor-tendencia" id="ofertas">
                         <ListadoProductosProRel especifico={'oferta'}/>
                     </div>
                 </div>
