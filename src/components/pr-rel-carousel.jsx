@@ -16,7 +16,7 @@ import { Navigation } from "swiper";
 
 
 
-const ListadoProductosPro =({categoria})=>{
+const ListadoProductosProCarousel =({categoria})=>{
 
     // const collecionProductos = collection(db,"productos")
     // const consulta = getDocs(collecionProductos)
@@ -49,25 +49,24 @@ const ListadoProductosPro =({categoria})=>{
         if (nuevo_Array?.length !==0 && nuevo_Array_seg_pos?.length !==0 ){
         return(
 
-            // <Swiper Swiper navigation={true} modules={[Navigation]} className="mySwiper"
-            // breakpoints={{
-            //     576: {
-            //       slidesPerView:2,
-            //       spaceBetween:10,
-            //     },
-            //     768: {
-            //       slidesPerView:2,
-            //       spaceBetween:40,
-            //     },
-            //     1024: {
-            //       slidesPerView:4,
-            //       spaceBetween:10,
-            //     },
-            //   }}>
+            <Swiper Swiper navigation={true} modules={[Navigation]} className="mySwiper"
+            breakpoints={{
+                576: {
+                  slidesPerView:2,
+                  spaceBetween:10,
+                },
+                768: {
+                  slidesPerView:2,
+                  spaceBetween:40,
+                },
+                1024: {
+                  slidesPerView:4,
+                  spaceBetween:10,
+                },
+              }}>
 
-            // {
-                nuevo_Array?.map((x) =>(
-                // <SwiperSlide>
+                {nuevo_Array?.map((x) =>(
+                <SwiperSlide>
                     <ProductoDetalle
                     key={x.id}
                     id={x.id}
@@ -75,12 +74,12 @@ const ListadoProductosPro =({categoria})=>{
                     foto={x.foto}
                     precio={x.precio}
                     />
-                // </SwiperSlide>))}
-            // </Swiper>   
-                // )
-            // }
+                </SwiperSlide>))}
+            </Swiper>   
+                )
+            }
                 
-            )))}
+
         if(nuevo_Array?.length === 0 && nuevo_Array_seg_pos?.length !==0){
             return(
                 nuevo_Array_seg_pos.map((x) =>(
@@ -104,4 +103,4 @@ const ListadoProductosPro =({categoria})=>{
         }
     }
         
-export default ListadoProductosPro;
+export default ListadoProductosProCarousel;
