@@ -105,9 +105,10 @@
 
     .reajuste-icon {
       position: relative;
-      width: 80px;
-      height: 60px;
-      top: -40%;
+      width: 55px;
+      height: 45px;
+      left: -30px;
+      top:-5px
     }
   
     .pagina-cotizar {
@@ -149,10 +150,29 @@
     }
   
     /*Orden*/
-  
-    .nav {
+    .organizador-nav{
       background-color: #000000;
-      height:20vh;
+      /* display: grid;
+      grid-template-areas:
+       "navs navs navs",
+       "titulo titulo titulo""; */
+
+    }
+    .titulo-header{
+      font-size: 1.5rem;
+      font-family: 'Cinzel', serif;
+      grid-area: "titulo";
+      text-align: center;
+      color: white;
+      letter-spacing: 0.125vw; 
+      font-weight: 500;
+    }
+    .nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      background-color: #000000;
+      height:15vh;
       margin-top: 0 !important;
       padding: 0 !important;
       display: flex;
@@ -163,8 +183,14 @@
       top: 0;
       z-index: 10;
     }
-  
+    .org-nav-int{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
     .ul_nav {
+      position: relative;
+      top: -10px;
       align-items: center;
       display: flex;
       flex-direction: row;
@@ -178,6 +204,13 @@
       font-size: 0.9rem;
       font-weight: 600;
       letter-spacing: normal;
+    }
+
+    .titulo-png{
+      position: relative;
+      top: 15px;
+      left: -200px;
+      width: 200px;
     }
 
     .ul_nav_links:hover{
@@ -432,11 +465,20 @@
       align-items: center;
     }
     .nombre_producto {
+      color: #000000;
       margin-top: 1vh;
       text-align: center;
       font-size: 1rem;
       font-weight: 600;
+      
     }
+
+    .nombre_producto:hover{
+      transform: scale(1.15,1.15);
+      animation: cambio-tamaño-letras 400ms;
+
+    }
+
     .desc_producto {
       text-align: center;
     }
@@ -455,6 +497,10 @@
       font-size: 0.75rem;
       font-weight: 700;
     }
+
+
+    /*Sector reseñas
+        */
     /*Footer*/
   
     .footer_settings {
@@ -1190,6 +1236,8 @@
       background-color: #2e2e2efc;
     }
     .footer-links {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       background-color: #000000;
       padding: 2.5vh;
     }
@@ -1197,6 +1245,7 @@
       display: flex;
       flex-direction: column;
       padding: 1.25vw;
+      padding-left: 5.25vw;
       row-gap: 5px;
       font-weight: 500;
     }
@@ -1767,6 +1816,20 @@
           row-gap: 5vh;
           width: 100%;
         }
+        .sub-contendor-tendencia .swiper{
+          width: 80%;
+        }
+
+        /* .swiper-wrapper{
+          width: 50vw!important;
+        } */
+        .sub-contendor-tendencia .swiper-slide{
+          /* width: 95%; */
+          position: relative;
+          text-align: start;
+          border-radius: 15px;
+        }
+        
         .tarjeta_producto {
           display: block;
           flex-grow: 0;
@@ -1776,6 +1839,16 @@
           order: 0;
           justify-content: center;
         }
+
+        .nombre_producto {
+          color: #000000;
+          margin-top: 1vh;
+          text-align: center;
+          font-size: 1rem;
+          font-weight: 600;
+          
+        }
+
         .contenedor-foto-producto {
           margin-top: 20 px;
           text-align: center;
@@ -1836,9 +1909,10 @@
   
     .reajuste-icon {
       position: relative;
-      width: 60px;
-      height: 60px;
-      top: -40%;
+      width: 55px;
+      height: 45px;
+      top: 5px;
+      left: 5px;
     }
   
     /*Orden*/
@@ -1860,6 +1934,23 @@
       row-gap: 2.5vw;
       width: 100%;
     }
+    .titulo-header{
+      font-size: 1.5rem;
+      font-family: 'Cinzel', serif;
+      grid-area: "titulo";
+      text-align: center;
+      color: white;
+      letter-spacing: 0.125vw; 
+      font-weight: 500;
+    }
+
+    .titulo-png{
+      position: relative;
+      top: 15px;
+      left: 190px;
+      width: 200px;
+    }
+
   
     .ul_nav .active {
       display: flex;
@@ -2052,7 +2143,12 @@
       font-size: 1rem;
       font-weight: 500;
       box-shadow: unset;
+      width: 35vw;
       
+    }
+    #reseñas .swiper-wrapper{
+      padding-left: 175vw
+      !important;
     }
     .caja-fondo-foto-usuario {
       display: flex;
@@ -2122,16 +2218,17 @@
       background-color: #1d1d1f;
     }
     .pre_footer {
-      background-color: #1d1d1f;
+      background-color: #2e2e2e9a;
       padding: 2.5vh;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: space-around;
-      align-items: center;
+      flex-wrap: wrap;
+      align-items: baseline;
     }
   
     .prefooter_letra {
-      font-size: 1.25rem;
+      font-size: 1.5rem;
       font-weight: 700;
       color: #ffffff;
     }
@@ -2159,12 +2256,17 @@
       color: #ffffff;
       background-color: rgb(107, 107, 107);
     }
+    .footer-links{
+      margin-top: 2.5vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
   
     .footer_accesos_directos {
       padding-top: 2vh;
       display: flex;
-      flex-direction: row;
-      justify-content: center;
+      flex-direction: column;
     }
   
     .svg_footer {
@@ -2173,13 +2275,15 @@
     }
   
     .letra_link_footer {
+      padding-top: 0.5vh;
       font-size: 0.75rem;
-      margin-top: 0.5vh;
+      font-weight: 500;
+      color: #ffffff;
     }
   
     .flex_li_footer {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       column-gap: 0.5vw;
     }
     .footer-accesos-directos-boton {
@@ -2187,6 +2291,19 @@
       display: flex;
       flex-direction: row;
       column-gap: 2.5vw;
+    }
+    .mas-redes{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      row-gap: 2.5vh;
+      margin-bottom: 2.5vh;
+    }
+    .mas-info{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      row-gap: 2.5vh;
     }
   
     /*Pestaña de productos*/
