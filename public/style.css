@@ -105,9 +105,10 @@
 
     .reajuste-icon {
       position: relative;
-      width: 80px;
-      height: 60px;
-      top: -40%;
+      width: 55px;
+      height: 45px;
+      left: -30px;
+      top:-5px
     }
   
     .pagina-cotizar {
@@ -149,10 +150,29 @@
     }
   
     /*Orden*/
-  
-    .nav {
+    .organizador-nav{
       background-color: #000000;
-      height:20vh;
+      /* display: grid;
+      grid-template-areas:
+       "navs navs navs",
+       "titulo titulo titulo""; */
+
+    }
+    .titulo-header{
+      font-size: 1.5rem;
+      font-family: 'Cinzel', serif;
+      grid-area: "titulo";
+      text-align: center;
+      color: white;
+      letter-spacing: 0.125vw; 
+      font-weight: 500;
+    }
+    .nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      background-color: #000000;
+      height:15vh;
       margin-top: 0 !important;
       padding: 0 !important;
       display: flex;
@@ -163,8 +183,14 @@
       top: 0;
       z-index: 10;
     }
-  
+    .org-nav-int{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
     .ul_nav {
+      position: relative;
+      top: -10px;
       align-items: center;
       display: flex;
       flex-direction: row;
@@ -432,11 +458,20 @@
       align-items: center;
     }
     .nombre_producto {
+      color: #000000;
       margin-top: 1vh;
       text-align: center;
       font-size: 1rem;
       font-weight: 600;
+      
     }
+
+    .nombre_producto:hover{
+      transform: scale(1.15,1.15);
+      animation: cambio-tamaño-letras 400ms;
+
+    }
+
     .desc_producto {
       text-align: center;
     }
@@ -1190,6 +1225,8 @@
       background-color: #2e2e2efc;
     }
     .footer-links {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       background-color: #000000;
       padding: 2.5vh;
     }
@@ -1197,6 +1234,7 @@
       display: flex;
       flex-direction: column;
       padding: 1.25vw;
+      padding-left: 5.25vw;
       row-gap: 5px;
       font-weight: 500;
     }

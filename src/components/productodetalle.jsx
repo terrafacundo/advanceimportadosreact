@@ -12,7 +12,7 @@ const ProductoDetalle=({id,nombre,foto,precio,precioAnterior,descripcion,estado,
                         <img className="foto_producto" src={foto[0]}/>
                     </div>
                     <div className="division-info">
-                        <h3 className="nombre_producto">{nombre}</h3>
+                        <a className="nombre_producto">{nombre}</a>
                         <h6 className="desc_producto">{descripcion}</h6>
                         <h5 className="precio_producto">USD {precio}</h5>
                         </div>
@@ -29,7 +29,7 @@ const ProductoDetalle=({id,nombre,foto,precio,precioAnterior,descripcion,estado,
                     <img className="foto_producto" src={foto[0]}/>
                 </div>
                 <div className="division-info">
-                    <h3 className="nombre_producto">{nombre}</h3>
+                    <a className="nombre_producto">{nombre}</a>
                     <h6 className="desc_producto">{descripcion}</h6>
                     <div className="precios-oferta-org">
                         <del className="precio-producto-anterior">USD {precioAnterior}</del>
