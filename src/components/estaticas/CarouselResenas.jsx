@@ -20,8 +20,8 @@ const CarouselResenas = () => {
     Swiper navigation={true} className="mySwiper"
     breakpoints={{
         576: {
-          slidesPerView: 1,
-          spaceBetween: 10,
+          slidesPerView: 2,
+          spaceBetween: 50,
         },
         1024: {
           slidesPerView: 3,

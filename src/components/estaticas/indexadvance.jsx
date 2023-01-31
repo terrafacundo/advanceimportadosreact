@@ -46,9 +46,9 @@ const Indexadvance =()=>{
                 </div>
 
 
-                <div className="sector_index">
+                <div className="sector_index" id="reseñas">
                         <h2 className='titulo-reseñas'>Reseñas de nuestros clientes</h2>
-                    <div className="sub-contenedor-tendencia">    
+                    <div className="sub-contendor-tendencia">    
                         <CarouselResenas/>
                     </div>
                 </div>

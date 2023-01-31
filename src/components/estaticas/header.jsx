@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import ToggleStyle from "./togglestyle";
 import icon from "./media/icon.png" ;
 import icon2 from "./media/icon2.png" 
+import titulo from "./media/titulo-blanco-png.png"
 
 const Header =()=>{
     return(
@@ -20,7 +21,7 @@ const Header =()=>{
                         <span className="barra"></span>
                     </div>
                 </div>
-                <h1 className="titulo-header">ADVANCE IMPORTADOS</h1>
+                <img className="titulo-png" src={titulo}/>
                 <NavBar className="navbar-listado-horiz" a="Productos" b="Apple" c="Gaming" d="Cotizar" e="Nosotros"/>
             </div>
             
