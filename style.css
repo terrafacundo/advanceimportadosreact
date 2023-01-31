@@ -1998,8 +1998,8 @@
     }
   
     .ul_nav_links:active {
-      background-color: #000000;
-      border-bottom:#5CE1E6 2px;
+      background-color: #5ce1e623;
+      border-bottom: 2px;
     }
 
     /*INDEX*/
