@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/advanceimportadosreact/static/css/main.db57f357.css",
-    "main.js": "/advanceimportadosreact/static/js/main.308b24dd.js",
+    "main.js": "/advanceimportadosreact/static/js/main.0f329446.js",
     "static/media/nosotros-foto.jpg": "/advanceimportadosreact/static/media/nosotros-foto.7c442e6718212c062e2e.jpg",
     "static/media/iglogo.webp": "/advanceimportadosreact/static/media/iglogo.eee5ef3f2824e5990fc3.webp",
     "static/media/gaming-web.jpg": "/advanceimportadosreact/static/media/gaming-web.c0e95d7b19b1605ef5ea.jpg",
@@ -11,6 +11,7 @@
     "static/media/mineria.jpg": "/advanceimportadosreact/static/media/mineria.5d6b51c54f715f15c41f.jpg",
     "static/media/monitores.jpg": "/advanceimportadosreact/static/media/monitores.62f3b35857faf7f6f385.jpg",
     "static/media/iphone.jpg": "/advanceimportadosreact/static/media/iphone.c5372268e4e5cb62d669.jpg",
+    "static/media/banner-ap-1.jpeg": "/advanceimportadosreact/static/media/banner-ap-1.620ea5bf5e04dee378fe.jpeg",
     "static/media/notebook.jpg": "/advanceimportadosreact/static/media/notebook.44f08c1a3240ac2cd05a.jpg",
     "static/media/wpplogo.webp": "/advanceimportadosreact/static/media/wpplogo.816e053c4fa8f17d002f.webp",
     "static/media/watch.jpg": "/advanceimportadosreact/static/media/watch.0878d5bfe77f9f8daa75.jpg",
@@ -31,10 +32,10 @@
     "static/media/arrow_next.svg": "/advanceimportadosreact/static/media/arrow_next.7b13c9ac5e7c53fc2f3af0ae9afcc4d1.svg",
     "static/media/arrow_back.svg": "/advanceimportadosreact/static/media/arrow_back.bc24e9e3061ccb03a6e13a55760da701.svg",
     "main.db57f357.css.map": "/advanceimportadosreact/static/css/main.db57f357.css.map",
-    "main.308b24dd.js.map": "/advanceimportadosreact/static/js/main.308b24dd.js.map"
+    "main.0f329446.js.map": "/advanceimportadosreact/static/js/main.0f329446.js.map"
   },
   "entrypoints": [
     "static/css/main.db57f357.css",
-    "static/js/main.308b24dd.js"
+    "static/js/main.0f329446.js"
   ]
 }

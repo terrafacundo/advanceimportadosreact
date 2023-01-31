@@ -135,6 +135,10 @@
       padding: 20px;
     }
   
+
+    .d-block w-100{
+      height: 360px!important;
+    }
     .foto-redirecc-apple {
       width: 90%;
       border-radius: 5px;
