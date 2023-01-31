@@ -17,7 +17,7 @@ import bannerap1 from  './media/banner-ap-1.jpeg'
 const PaginaApple =()=>{
     return(
         <div className="pre-banner">
-            <h2 className="banner-cotizar">Apple</h2>
+            {/* <h2 className="banner-cotizar">Apple</h2> */}
 
             <CarouselFade banner1={bannerap1} />
 

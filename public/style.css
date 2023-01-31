@@ -137,7 +137,8 @@
   
 
     .d-block w-100{
-      height: 360px!important;
+      height: 360px !important;
+      width: 100%;
     }
     .foto-redirecc-apple {
       width: 90%;
