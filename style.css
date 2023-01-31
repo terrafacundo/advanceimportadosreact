@@ -774,8 +774,8 @@
     }
   
     .contenedor_resultados-pr-rel .tarjeta_producto .foto_producto {
-      width: 50%;
-      height: 50%;
+      /* width: 50%;
+      height: 50%; */
     }
     .contenedor_resultados-pr-rel .tarjeta_producto .precio_producto {
       display: none;
@@ -2317,7 +2317,9 @@
     }
   
     /*Pestaña de productos*/
-  
+    .pre-banner{
+      margin-top: 5vh;
+    }
     .contenedor_productos {
       top: 20px;
       padding-top: 5vw;
@@ -2988,6 +2990,28 @@
       flex-direction: column;
       align-items: center;
     }
+    
+    /*relacionados*/
+
+    .flecha-individual-izq{
+      position: relative;
+      top: 5vh;
+      left: -32.5vw;
+    }
+
+    .flecha-individual-der{
+      position: relative;
+      top: 5vh;
+      left: 35vw;
+    }
+    
+
+    #relacionados .swiper-wrapper{
+      padding-left: 575vw
+      !important;
+    }
+
+
   
     .logo-acceso-directo {
       width: 55px;
@@ -2996,6 +3020,51 @@
   
     .logo-acceso-directo img {
       width: fit-content;
+    }
+
+    /*SECCION NOSOTROS*/
+    .contenido-pag-nosotros {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .nosotros-foto {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+    }
+  
+    .texto-nosotros {
+      width: 85vw;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 2.5vh;
+    }
+
+    /*PREGUTNAS Y RESPUESTAS*/
+    .mini-banner {
+      /* background: #1D1D1F;
+      background: linear-gradient(60deg, #1D1D1F 67%, rgba(255,0,0,0) 87%); */
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom:5vh ;
+    }
+    .mini-banner h4 {
+      color: #1d1d1f;
+      padding: 1vw;
+      margin-left: 5vw;
+      font-weight: 700;
+    }
+    .mini-banner article {
+      margin-bottom: 2vw;
+    }
+    .texto-instructivo {
+      width: 80%;
     }
   }
   

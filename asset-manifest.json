@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/advanceimportadosreact/static/css/main.db57f357.css",
-    "main.js": "/advanceimportadosreact/static/js/main.cf59d24c.js",
+    "main.js": "/advanceimportadosreact/static/js/main.308b24dd.js",
     "static/media/nosotros-foto.jpg": "/advanceimportadosreact/static/media/nosotros-foto.7c442e6718212c062e2e.jpg",
     "static/media/iglogo.webp": "/advanceimportadosreact/static/media/iglogo.eee5ef3f2824e5990fc3.webp",
     "static/media/gaming-web.jpg": "/advanceimportadosreact/static/media/gaming-web.c0e95d7b19b1605ef5ea.jpg",
@@ -31,10 +31,10 @@
     "static/media/arrow_next.svg": "/advanceimportadosreact/static/media/arrow_next.7b13c9ac5e7c53fc2f3af0ae9afcc4d1.svg",
     "static/media/arrow_back.svg": "/advanceimportadosreact/static/media/arrow_back.bc24e9e3061ccb03a6e13a55760da701.svg",
     "main.db57f357.css.map": "/advanceimportadosreact/static/css/main.db57f357.css.map",
-    "main.cf59d24c.js.map": "/advanceimportadosreact/static/js/main.cf59d24c.js.map"
+    "main.308b24dd.js.map": "/advanceimportadosreact/static/js/main.308b24dd.js.map"
   },
   "entrypoints": [
     "static/css/main.db57f357.css",
-    "static/js/main.cf59d24c.js"
+    "static/js/main.308b24dd.js"
   ]
 }
