@@ -10,7 +10,7 @@ function CarouselFade({banner1,banner2}) {
         <Link to="/gaming">
         <img
           className="d-block w-100"
-          src={gamingWeb}
+          src={banner1}
           alt="Seccion productos Gaming"
         />
         </Link>
