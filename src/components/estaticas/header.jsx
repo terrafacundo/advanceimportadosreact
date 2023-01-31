@@ -21,7 +21,7 @@ const Header =()=>{
                         <span className="barra"></span>
                     </div>
                 </div>
-                <img className="titulo-png" src={titulo}/>
+                <img className="titulo-png" src={titulo}></img>
                 <NavBar className="navbar-listado-horiz" a="Productos" b="Apple" c="Gaming" d="Cotizar" e="Nosotros"/>
             </div>
             
