@@ -1925,6 +1925,7 @@
       align-items: flex-start;
       padding: 2.5vh 1vw;
       top: 0;
+      background-color: #000000;
     }
   
     .ul_nav {
@@ -1982,20 +1983,25 @@
     .div_ul_nav {
       /* display: none; */
       width: 100%;
+      position: relative;
+      left: -4vw;
     }
     .div_ul_nav .active {
       display: flex;
+      width: 100%;
     }
   
     .ul_nav_links {
       padding: 2.5vh;
-      width: 100%;
+      width: 110%;
       text-align: center;
     }
   
     .ul_nav_links:active {
-      background-color: #4f4f4f;
+      background-color: #000000;
+      border-bottom:#5CE1E6 2px;
     }
+
     /*INDEX*/
   
     .boton_redondeado_slider {
