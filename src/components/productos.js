@@ -1,9 +1,86 @@
+import M1fotouno from "./estaticas/media/fotos-productos/apple/Macbook-Air-13,3-M1-1.webp"
+import M1fotodos from "./estaticas/media/fotos-productos/apple/Macbook-Air-13,3-M1-2.webp"
+import M1fototres from "./estaticas/media/fotos-productos/apple/Macbook-Air-13,3-M1-3.webp"
+
+import M2fotouno from "./estaticas/media/fotos-productos/apple/Macbook-Air-13,3-M2-1.webp"
+import M2fotodos from "./estaticas/media/fotos-productos/apple/Macbook-Air-13,3-M2-2.webp"
+import M2fototres from "./estaticas/media/fotos-productos/apple/Macbook-Air-13,3-M2-3.webp"
+import M2fotocuatro from "./estaticas/media/fotos-productos/apple/Macbook-Air-13,3-M2-4.webp"
+
+import M1PROfotouno from "./estaticas/media/fotos-productos/apple/Macbok-Pro-M1-Pro-1.webp"
+import M1PROfotodos from "./estaticas/media/fotos-productos/apple/Macbok-Pro-M1-Pro-2.webp"
+import M1PROfototres from "./estaticas/media/fotos-productos/apple/Macbok-Pro-M1-Pro-3.webp"
+import M1PROfotocuatro from "./estaticas/media/fotos-productos/apple/Macbok-Pro-M1-Pro-4.webp"
+
+import M1PROMAXfotouno from "./estaticas/media/fotos-productos/apple/Macbook-Pro-M1-Max-1.webp"
+import M1PROMAXfotodos from "./estaticas/media/fotos-productos/apple/Macbook-Pro-M1-Max-2.webp"
+import M1PROMAXfototres from "./estaticas/media/fotos-productos/apple/Macbook-Pro-M1-Max-3.webp"
+import M1PROMAXfotocuatro from "./estaticas/media/fotos-productos/apple/Macbook-Pro-M1-Max-4.webp"
+
+import MACM1ULTRAfotouno from "./estaticas/media/fotos-productos/apple/Mac Studio-M1-Ultra-1024-32ram-1.webp"
+import MACM1ULTRAfotodos from "./estaticas/media/fotos-productos/apple/Mac Studio-M1-Ultra-1024-32ram-2.webp"
+import MACM1ULTRAfototres from "./estaticas/media/fotos-productos/apple/Mac Studio-M1-Ultra-1024-32ram-3.webp"
+import MACM1ULTRAfotocuatro from "./estaticas/media/fotos-productos/apple/Mac Studio-M1-Ultra-1024-32ram-4.webp"
+
+import MACM1PROfotouno from "./estaticas/media/fotos-productos/apple/Mac Studio-M1-Max-1024-32ram-1.webp"
+import MACM1PROfotodos from "./estaticas/media/fotos-productos/apple/Mac Studio-M1-Max-1024-32ram-2.webp"
+import MACM1PROfototres from "./estaticas/media/fotos-productos/apple/Mac Studio-M1-Max-1024-32ram-3.webp"
+import MACM1PROfotocuatro from "./estaticas/media/fotos-productos/apple/Mac Studio-M1-Max-1024-32ram-4.webp"
+
+import IMACfotouno from "./estaticas/media/fotos-productos/apple/Imac-24-M1-7core-8ram-1.webp"
+import IMACfotodos from "./estaticas/media/fotos-productos/apple/Imac-24-M1-7core-8ram-2.webp"
+import IMACfototres from "./estaticas/media/fotos-productos/apple/Imac-24-M1-7core-8ram-3.webp"
+import IMACfotocuatro from "./estaticas/media/fotos-productos/apple/Imac-24-M1-7core-8ram-4.webp"
+
+import Iphone14fotouno from "./estaticas/media/fotos-productos/apple/Iphone-14-1.webp"
+import Iphone14fotodos from "./estaticas/media/fotos-productos/apple/Iphone-14-2.webp"
+import Iphone14fototres from "./estaticas/media/fotos-productos/apple/Iphone-14-3.webp"
+import Iphone14fotocuatro from "./estaticas/media/fotos-productos/apple/Iphone-14-4.webp"
+import Iphone14fotocinco from "./estaticas/media/fotos-productos/apple/Iphone-14-5.webp"
+
+
+import Iphone14PROfotouno from "./estaticas/media/fotos-productos/apple/Iphone-14-Pro-1.webp"
+import Iphone14PROfotodos from "./estaticas/media/fotos-productos/apple/Iphone-14-Pro-2.webp"
+import Iphone14PROfototres from "./estaticas/media/fotos-productos/apple/Iphone-14-Pro-3.webp"
+import Iphone14PROfotocuatro from "./estaticas/media/fotos-productos/apple/Iphone-14-Pro-4.webp"
+import Iphone14PROfotocinco from "./estaticas/media/fotos-productos/apple/Iphone-14-Pro-5.webp"
+
+import Iphone14PROMAXfotouno from "./estaticas/media/fotos-productos/apple/Iphone-14-Pro-Max-1.webp"
+import Iphone14PROMAXfotodos from "./estaticas/media/fotos-productos/apple/Iphone-14-Pro-Max-2.webp"
+import Iphone14PROMAXfototres from "./estaticas/media/fotos-productos/apple/Iphone-14-Pro-Max-3.webp"
+import Iphone14PROMAXfotocuatro from "./estaticas/media/fotos-productos/apple/Iphone-14-Pro-Max-4.webp"
+
+
+import Iphone14Plusfotouno from "./estaticas/media/fotos-productos/apple/Iphone-14-Plus-1.webp"
+import Iphone14Plusfotodos from "./estaticas/media/fotos-productos/apple/Iphone-14-Plus-2.webp"
+import Iphone14Plusfototres from "./estaticas/media/fotos-productos/apple/Iphone-14-Plus-3.webp"
+import Iphone14Plusfotocuatro from "./estaticas/media/fotos-productos/apple/Iphone-14-Plus-4.webp"
+import Iphone14Plusfotocinco from "./estaticas/media/fotos-productos/apple/Iphone-14-Plus-5.webp"
+
+import Iphone13fotouno from "./estaticas/media/fotos-productos/apple/Iphone-13-1.webp"
+import Iphone13fotodos from "./estaticas/media/fotos-productos/apple/Iphone-13-2.webp"
+import Iphone13fototres from "./estaticas/media/fotos-productos/apple/Iphone-13-3.webp"
+import Iphone13fotocuatro from "./estaticas/media/fotos-productos/apple/Iphone-13-4.webp"
+import Iphone13fotocinco from "./estaticas/media/fotos-productos/apple/Iphone-13-5.webp"
+
+import Iphone13Profotouno from "./estaticas/media/fotos-productos/apple/Iphone-13-Pro-1.webp"
+import Iphone13Profotodos from "./estaticas/media/fotos-productos/apple/Iphone-13-Pro-2.webp"
+import Iphone13Profototres from "./estaticas/media/fotos-productos/apple/Iphone-13-Pro-3.webp"
+import Iphone13Profotocuatro from "./estaticas/media/fotos-productos/apple/Iphone-13-Pro-4.webp"
+import Iphone13Profotocinco from "./estaticas/media/fotos-productos/apple/Iphone-13-Pro-5.webp"
+
+import Iphone13ProMaxfotouno from "./estaticas/media/fotos-productos/apple/Iphone-13-Pro-Max-1.webp"
+import Iphone13ProMaxfotodos from "./estaticas/media/fotos-productos/apple/Iphone-13-Pro-Max-2.webp"
+import Iphone13ProMaxfototres from "./estaticas/media/fotos-productos/apple/Iphone-13-Pro-Max-3.webp"
+import Iphone13ProMaxfotocuatro from "./estaticas/media/fotos-productos/apple/Iphone-13-Pro-Max-4.webp"
+import Iphone13ProMaxfotocinco from "./estaticas/media/fotos-productos/apple/Iphone-13-Pro-Max-5.webp"
+
 const productos=[
     {   
         id:'001',
         secid:'mb-m2-air-13',
         nombre:'MacBook M2 AIR 13,6"',
-        foto:["https://http2.mlstatic.com/D_NQ_NP_637313-MLA51356401031_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_797680-MLA51356381245_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_604604-MLA51356381315_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_708839-MLA51356236557_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_613040-MLA51356222696_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_619023-MLA51356202957_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_781541-MLA51356417291_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_600061-MLA51356401446_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_876302-MLA51356381627_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_817689-MLA51356381077_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_798982-MLA51356381076_082022-O.webp","https://http2.mlstatic.com/D_NQ_NP_687018-MLA51356222876_082022-O.webp"],
+        foto:[`${M2fotouno}`,`${M2fotodos}`,`${M2fototres}`,`${M2fotocuatro}`],
         precio:"1140",
         memoria:['256GB','512GB','1TB','2TB'],
         ram:['8GB','16GB', '24GB'],
@@ -70,82 +147,82 @@ const productos=[
         tendencia:true,
         marca:'apple',
         categoria:['macbook','all']},
-    {   
-        id:'002', 
-        nombre:'MacBook M2 PRO 13,6"',
-        secid:'mb-m2-pro-13',
-        foto:["https://images-na.ssl-images-amazon.com/images/I/61L5QgPvgqL.__AC_SY445_SX342_QL70_FMwebp_.jpg","https://m.media-amazon.com/images/I/71K+bhq9bZL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/61bX2AoGj2L._AC_SX679_.jpg","https://m.media-amazon.com/images/I/71cZWwc6ZOL._AC_SX679_.jpg"],
-        precio:"1495",
-        memoria:['256GB','512GB','1TB','2TB'],
-        ram:['8GB','16GB', '24GB'],
-        componentes:['CPU 8GB/8GB GPU'],
-        descripcion:[
-            {
-            info:{
-                titulo:"Chip M2 de Apple",
-                lista:["CPU de 8 núcleos con 4 núcleos de rendimiento y 4 de eficiencia","GPU de 10 núcleos","Neural Engine de 16 núcleos","100 GB/s de ancho de banda de memoria"]}
-            },
-            {
-            info:{
-                titulo:"Motor multimedia",
-                lista:["H.264, HEVC, ProRes y ProRes RAW con aceleración por hardware","Motor de decodificación de video","Motor de codificación de video","Motor de codificación y decodificación ProRes"]}
-            },
-            {
-            info:{
-                titulo:"Pantalla Retina",
-                lista:["Pantalla de 13.3 pulgadas (diagonal) retroiluminada por LED con tecnología IPS; resolución nativa de 2560 x 1600 a 227 pixeles por pulgada compatible con millones de colores","Brillo de 500 nits","Amplia gama de colores (P3)","Tecnología True Tone"]
-            }},
-            {
-            info:{
-                titulo:"Batería y energía",
-                lista:["Hasta 20 horas de reproducción de video en la app Apple TV","Hasta 17 horas de navegación web inalámbrica","Batería de polímero de litio de 58.2 Wh","Adaptador de corriente USB-C de 67 W"]}
-            },
-            {
-            info:{
-                titulo:"Carga y Expansión",
-                lista:["Dos puertos Thunderbolt / USB 4 compatibles","DisplayPort","Thunderbolt 3 (hasta 40 Gb/s)","USB 4 (hasta 40 Gb/s)","USB 3.1 de segunda generación (hasta 10 Gb/s)"]}
-            },
-            {
-            info:{
-                titulo:"Memoria",
-                lista:["8 GB (Memoria unificada de 8 GB)","Configurable con: 16 GB o 24 GB"]}
-            },
-            {
-            info:{
-                titulo:"Teclado y trackpad",
-                lista:["65 (EE.UU.) o 66 (ISO) teclas, incluidas 4 teclas de flecha en forma de “T” invertida","Touch Bar","Touch ID","Sensor de luz ambiental","Trackpad Force Touch con control preciso del cursor y sensibilidad a la presión. Permite clics fuertes, aceleradores, trazos sensibles a la presión y gestos Multi‑Touch."]}
-            },
-            {
-            info:{
-                titulo:"Cámara",
-                lista:["Cámara FaceTime HD de 720p","Procesador de señal de imagen avanzado con video computacional"]}
-            },
-            {
-            info:{
-                titulo:"Audio",
-                lista:["Bocinas estéreo con alto rango dinámico","Amplio sonido estéreo","Compatible con audio espacial al reproducir música o video con Dolby Atmos en las bocinas integradas","Audio espacial con seguimiento dinámico de la cabeza al usar los AirPods (tercera generación), AirPods Pro y AirPods Max","Sistema de tres micrófonos con tecnología beamforming direccional","Entrada de 3.5 mm para audífonos con compatibilidad avanzada para audífonos de alta impedancia"]}
-            },
-            {
-            info:{
-                titulo:"Compatibilidad con monitores",
-                lista:["Es compatible simultáneamente con la resolución nativa de la pantalla integrada en millones de colores y un monitor externo con resolución de hasta 6K a 60 Hz","Salida de video digital Thunderbolt 3","Salida DisplayPort nativa a través de USB‑C","Compatible con salidas VGA, HDMI, DVI y Thunderbolt 2 mediante adaptadores (se venden por separado)"]}
-            },
-            {
-            info:{
-                titulo:"Tamaño y peso",
-                lista:["Grosor: 1.56 cm","Ancho: 30.41 cm","Profundidad: 21.24 cm","Peso: 1.4 kg"]}
-            }
-        ],
-        color: ['space','silver'],
-        estado:'En stock',
-        tendencia:true,
-        marca:'apple',
-        categoria:['macbook','all']},
+    // {   
+    //     id:'002', 
+    //     nombre:'MacBook M2 PRO 13,6"',
+    //     secid:'mb-m2-pro-13',
+    //     foto:[],
+    //     precio:"1495",
+    //     memoria:['256GB','512GB','1TB','2TB'],
+    //     ram:['8GB','16GB', '24GB'],
+    //     componentes:['CPU 8GB/8GB GPU'],
+    //     descripcion:[
+    //         {
+    //         info:{
+    //             titulo:"Chip M2 de Apple",
+    //             lista:["CPU de 8 núcleos con 4 núcleos de rendimiento y 4 de eficiencia","GPU de 10 núcleos","Neural Engine de 16 núcleos","100 GB/s de ancho de banda de memoria"]}
+    //         },
+    //         {
+    //         info:{
+    //             titulo:"Motor multimedia",
+    //             lista:["H.264, HEVC, ProRes y ProRes RAW con aceleración por hardware","Motor de decodificación de video","Motor de codificación de video","Motor de codificación y decodificación ProRes"]}
+    //         },
+    //         {
+    //         info:{
+    //             titulo:"Pantalla Retina",
+    //             lista:["Pantalla de 13.3 pulgadas (diagonal) retroiluminada por LED con tecnología IPS; resolución nativa de 2560 x 1600 a 227 pixeles por pulgada compatible con millones de colores","Brillo de 500 nits","Amplia gama de colores (P3)","Tecnología True Tone"]
+    //         }},
+    //         {
+    //         info:{
+    //             titulo:"Batería y energía",
+    //             lista:["Hasta 20 horas de reproducción de video en la app Apple TV","Hasta 17 horas de navegación web inalámbrica","Batería de polímero de litio de 58.2 Wh","Adaptador de corriente USB-C de 67 W"]}
+    //         },
+    //         {
+    //         info:{
+    //             titulo:"Carga y Expansión",
+    //             lista:["Dos puertos Thunderbolt / USB 4 compatibles","DisplayPort","Thunderbolt 3 (hasta 40 Gb/s)","USB 4 (hasta 40 Gb/s)","USB 3.1 de segunda generación (hasta 10 Gb/s)"]}
+    //         },
+    //         {
+    //         info:{
+    //             titulo:"Memoria",
+    //             lista:["8 GB (Memoria unificada de 8 GB)","Configurable con: 16 GB o 24 GB"]}
+    //         },
+    //         {
+    //         info:{
+    //             titulo:"Teclado y trackpad",
+    //             lista:["65 (EE.UU.) o 66 (ISO) teclas, incluidas 4 teclas de flecha en forma de “T” invertida","Touch Bar","Touch ID","Sensor de luz ambiental","Trackpad Force Touch con control preciso del cursor y sensibilidad a la presión. Permite clics fuertes, aceleradores, trazos sensibles a la presión y gestos Multi‑Touch."]}
+    //         },
+    //         {
+    //         info:{
+    //             titulo:"Cámara",
+    //             lista:["Cámara FaceTime HD de 720p","Procesador de señal de imagen avanzado con video computacional"]}
+    //         },
+    //         {
+    //         info:{
+    //             titulo:"Audio",
+    //             lista:["Bocinas estéreo con alto rango dinámico","Amplio sonido estéreo","Compatible con audio espacial al reproducir música o video con Dolby Atmos en las bocinas integradas","Audio espacial con seguimiento dinámico de la cabeza al usar los AirPods (tercera generación), AirPods Pro y AirPods Max","Sistema de tres micrófonos con tecnología beamforming direccional","Entrada de 3.5 mm para audífonos con compatibilidad avanzada para audífonos de alta impedancia"]}
+    //         },
+    //         {
+    //         info:{
+    //             titulo:"Compatibilidad con monitores",
+    //             lista:["Es compatible simultáneamente con la resolución nativa de la pantalla integrada en millones de colores y un monitor externo con resolución de hasta 6K a 60 Hz","Salida de video digital Thunderbolt 3","Salida DisplayPort nativa a través de USB‑C","Compatible con salidas VGA, HDMI, DVI y Thunderbolt 2 mediante adaptadores (se venden por separado)"]}
+    //         },
+    //         {
+    //         info:{
+    //             titulo:"Tamaño y peso",
+    //             lista:["Grosor: 1.56 cm","Ancho: 30.41 cm","Profundidad: 21.24 cm","Peso: 1.4 kg"]}
+    //         }
+    //     ],
+    //     color: ['space','silver'],
+    //     estado:'En stock',
+    //     tendencia:true,
+    //     marca:'apple',
+    //     categoria:['macbook','all']},
     {   
         id:'003',
         nombre:'MacBook M1 AIR 13,3"',
         secid:'mb-m1-air-13',
-        foto:["https://m.media-amazon.com/images/I/71jG+e7roXL._AC_SX342_SY445_.jpg","https://m.media-amazon.com/images/I/712v9WGWDBL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/91YEUMzK8cL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/71TPda7cwUL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/719BHaUQ46L._AC_SX679_.jpg","https://m.media-amazon.com/images/I/91etkaXZjEL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/71vFKBpKakL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/81HZAfCGZ5L._AC_SX679_.jpg","https://m.media-amazon.com/images/I/81PeNcC5W4L._AC_SX679_.jpg"],
+        foto:[`${M1fotouno}`,`${M1fotodos}`,`${M1fototres}`],
         precio:"1040",
         memoria:['256GB','512GB','1TB','2TB'],
         ram:['8GB','16GB'],
@@ -211,7 +288,7 @@ const productos=[
         id:'004',
         nombre:'MacBook M1 PRO 14,2"',
         secid:'mb-m1-pro-14',
-        foto:["https://m.media-amazon.com/images/I/61vFO3R5UNL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/71YhRQy50oL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/61cCf94xIEL._AC_SX679_.jpg","https://m.media-amazon.com/images/I/71AKE565U4L._AC_SX679_.jpg"],
+        foto:[`${M1PROfotouno}`,`${M1PROfotodos}`,`${M1PROfototres}`,`${M1PROfotocuatro}`],
         precio:"",
         memoria:['256GB','512GB','1TB','2TB','4TB','8TB'],
         ram:['16GB', '32GB'],
@@ -290,9 +367,9 @@ const productos=[
         categoria:['macbook','all']},
     {   
         id:'005',
-        nombre:'MacBook M1 MAX',
+        nombre:'MacBook PRO M1 MAX',
         secid:'mb-m1-MAX',
-        foto:["https://m.media-amazon.com/images/I/61vFO3R5UNL._AC_SX569_.jpg","https://m.media-amazon.com/images/I/71YhRQy50oL._AC_SX569_.jpg","https://m.media-amazon.com/images/I/91hFzfaHeNL._AC_SX569_.jpg"],
+        foto:[`${M1PROMAXfotouno}`,`${M1PROMAXfotodos}`,`${M1PROMAXfototres}`,`${M1PROMAXfotocuatro}`],
         precio:"",
         memoria:['512GB','1TB','2TB','4TB','8TB'],
         ram:['32GB','64GB'],
@@ -373,7 +450,7 @@ const productos=[
         id:'006',
         nombre:'MacBook M1 PRO 16,2"',
         secid:'mb-m1-pro-16',
-        foto:["https://m.media-amazon.com/images/I/61aUBxqc5PL._AC_SX466_.jpg","https://m.media-amazon.com/images/I/71ooAuqn7sL._AC_SX466_.jpg","https://m.media-amazon.com/images/I/61Y30DpqRVL._AC_SX466_.jpg","https://m.media-amazon.com/images/I/716QjdQOR+L._AC_SX466_.jpg"],
+        foto:[`${M1PROfotouno}`,`${M1PROfotodos}`,`${M1PROfototres}`,`${M1PROfotocuatro}`],
         precio:"",
         memoria:['512GB','1TB','2TB','4TB','8TB'],
         ram:['16GB','32GB'],
@@ -1193,7 +1270,7 @@ const productos=[
         id:'056',
         nombre:'IPHONE 14',
         secid:'iphone-14',
-        foto:["https://www.tradeinn.com/f/13933/139331609/apple-iphone-14-256gb-6.1.jpg","https://www.tradeinn.com/f/13933/139331609_2/apple-iphone-14-256gb-6.1.jpg?_gl=1*wyo0qk*_up*MQ..&gclid=CjwKCAjw7p6aBhBiEiwA83fGust9CwdGbwoW3CiICByrALJlp8jaPWRkjGFeZe_xj0aDOJIkZDdzMxoCCQoQAvD_BwE","https://www.tradeinn.com/f/13933/139331609_3/apple-iphone-14-256gb-6.1.jpg?_gl=1*17u16f3*_up*MQ..&gclid=CjwKCAjw7p6aBhBiEiwA83fGust9CwdGbwoW3CiICByrALJlp8jaPWRkjGFeZe_xj0aDOJIkZDdzMxoCCQoQAvD_BwE"],
+        foto:[`${Iphone14fotouno}`,`${Iphone14fotodos}`,`${Iphone14fototres}`,`${Iphone14fotocuatro}`,`${Iphone14fotocinco}`],
         precio:"1080",
         memoria:["128GB","256GB"],
         ram:["-"],
@@ -1306,7 +1383,7 @@ const productos=[
             id:'057',
             nombre:'IPHONE 14 PRO',
             secid:'iphone-14-pro',
-            foto:["https://http2.mlstatic.com/D_NQ_NP_667208-MLA51806499537_102022-O.webp"],
+            foto:[`${Iphone14PROfotouno}`,`${Iphone14PROfotodos}`,`${Iphone14PROfototres}`,`${Iphone14PROfotocuatro}`,`${Iphone14PROfotocinco}`,],
             precio:"1080",
             memoria:["128GB","256GB","512GB"],
             ram:["-"],
@@ -1419,7 +1496,7 @@ const productos=[
             id:'058',
             nombre:'IPHONE 14 PRO MAX',
             secid:'iphone-14-pro-max',
-            foto:["https://http2.mlstatic.com/D_NQ_NP_739588-MLA51742980801_092022-O.webp","https://http2.mlstatic.com/D_NQ_NP_665816-MLA51743061611_092022-O.webp","https://http2.mlstatic.com/D_NQ_NP_686308-MLA51743082518_092022-O.webp"],
+            foto:[`${Iphone14PROMAXfotouno}`,`${Iphone14PROMAXfotodos}`,`${Iphone14PROMAXfototres}`,`${Iphone14PROMAXfotocuatro}`],
             precio:"1710",
             memoria:["128GB","256GB","512GB","1TB"],
             ram:["-"],
@@ -1528,11 +1605,125 @@ const productos=[
             marca:'apple',
     categoria:['iphone','all']},
 
+    {
+        id:'076',
+        nombre:'IPHONE 14 Plus',
+        secid:'iphone-14-plus',
+        foto:[`${Iphone14Plusfotouno}`,`${Iphone14Plusfotodos}`,`${Iphone14Plusfototres}`,`${Iphone14Plusfotocuatro}`,`${Iphone14Plusfotocinco}`],
+        precio:"1710",
+        memoria:["128GB","256GB","512GB","1TB"],
+        ram:["-"],
+        componentes:["A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)"],
+        descripcion:[
+            {
+            info:{
+                titulo:"Pantalla",
+                lista:["Pantalla Super Retina XDR","Pantalla OLED de 6.7 pulgadas (diagonal) sin marco","Resolución de 2796 x 1290 pixeles a 460 ppi","La pantalla del iPhone 14 tiene esquinas redondeadas que siguen el elegante diseño curvo del teléfono, y las esquinas se encuentran dentro de un rectángulo estándar. Si se mide en forma de rectángulo estándar, la pantalla tiene 6.06 pulgadas en diagonal (el área real de visualización es menor).","Pantalla HDR","True Tone","Amplia gama de colores (P3)","Toque con respuesta háptica","Relación de contraste 2,000,000:1 (normal)","Brillo máximo de 800 nits (normal); pico de brillo de 1,200 nits (HDR)","Revestimiento oleofóbico resistente a huellas dactilares","Compatibilidad para mostrar varios idiomas y caracteres simultáneamente"]}
+        },
+        {
+            info:{
+                titulo:"Resistencia a las salpicaduras, al agua y al polvo",
+                lista:["Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529"]}
+        },    
+        {
+            info:{
+                titulo:"Chip",
+                lista:["Chip A16 Bionic","CPU de 6 núcleos con 2 núcleos de rendimiento y 4 de eficiencia","GPU de 5 núcleos","Neural Engine de 16 núcleos"]}
+        },   
+        {
+            info:{
+                titulo:"Sistema de dos cámaras",
+                lista:["Gran angular de 48 MP: 24 mm, apertura de ƒ/1.78, estabilización óptica de imagen (OIS) por desplazamiento de sensor de segunda generación, lente de siete elementos, 100% Focus Pixels","  Ultra gran angular de 12 MP: 13 mm, apertura de ƒ/2.2 y ángulo de visión de 120°, lente de seis elementos, 100% Focus Pixels","Teleobjetivo de 2x de 12 MP (por medio del sensor quad pixel): 48 mm, apertura de ƒ/1.78, estabilización óptica de imagen (OIS) por desplazamiento de sensor de segunda generación, lente de siete elementos, 100% Focus Pixels","Teleobjetivo de 3x de 12 MP: 77 mm, apertura de ƒ/2.8, estabilización óptica de imagen (OIS), lente de seis elementos","Zoom óptico de 2x para alejar; zoom digital de hasta 5x","Cubierta del lente de cristal de zafiro","Flash True Tone","Photonic Engine","Deep Fusion","HDR Inteligente 4","Modo Retrato con bokeh avanzado y Control de Profundidad","Iluminación de Retrato con seis efectos (Luz Natural, Luz de Estudio Fotográfico, Luz al Contorno, Reflector, Reflector B y N, Clave Alta en B y N)","Modo Noche","Fotos panorámicas (hasta 63 MP)","Estilos Fotográficos","Amplia gama de colores en fotos y Live Photos","Corrección de lente (cámara ultra gran angular)","Corrección avanzada de ojos rojos","Estabilización automática de imagen","Modo Ráfaga","Geoetiquetado de fotos","Captura de imagen en formatos HEIF y JPEG"]}
+        },
+        {
+            info:{
+                titulo:"Grabación de video",
+                lista:["Grabación de video 4K a 24 cps, 25 cps, 30 cps o 60 cps","Grabación de video HD de 1080p a 25 cps, 30 cps o 60 cps","Grabación de video HD de 720p a 30 cps","Modo Cine de hasta 4K HDR a 30 cps","Modo Acción de hasta 2.8K a 60 cps","Grabación de video HDR en Dolby Vision de hasta 4K a 60 cps","Video en cámara lenta de 1080p a 120 cps o 240 cps","Video en cámara rápida con estabilización","Cámara rápida con modo Noche","Video QuickTake","Estabilización óptica de imagen para video por desplazamiento de sensor (cámara gran angular)","Zoom óptico de 2x para alejar","Zoom digital de hasta 3x","Zoom de audio","Flash True Tone","Estabilización cinemática de video (4K, 1080p y 720p)","Video con autoenfoque continuo","Toma fotos de 8 MP mientras graba videos 4K","Zoom de reproducción","Grabación de video en formatos HEVC y H.264","Grabación estéreo"]}
+        },
+        {
+            info:{
+                titulo:"Cámara TrueDepth",
+                lista:["Cámara de 12 MP","Apertura de ƒ/1.9","Autoenfoque con Focus Pixels","Lente de seis elementos","Retina Flash","Photonic Engine","Deep Fusion","HDR Inteligente 4","Modo Retrato con bokeh avanzado y Control de Profundidad","Iluminación de Retrato con seis efectos (Luz Natural, Luz de Estudio Fotográfico, Luz al Contorno, Reflector, Reflector B y N, Clave Alta en B y N)","Animoji y Memoji","Modo Noche","Estilos Fotográficos","Amplia gama de colores en fotos y Live Photos","Corrección de lente","Estabilización automática de imagen","Modo Ráfaga","Grabación de video 4K a 24 cps, 25 cps, 30 cps o 60 cps","Grabación de video HD de 1080p a 25 cps, 30 cps o 60 cps","Modo Cine de hasta 4K HDR a 30 cps","Grabación de video HDR en Dolby Vision de hasta 4K a 60 cps","Video en cámara lenta de 1080p a 120 cps","Video en cámara rápida con estabilización","Cámara rápida con modo Noche","Video QuickTake","Estabilización cinemática de video (4K, 1080p y 720p)"]}
+        },
+        {
+            info:{
+                titulo:"Face ID",
+                lista:["Reconocimiento facial por medio de la cámara TrueDepth"]}
+        },
+        {
+            info:{
+                titulo:"Seguridad",
+                lista:["Emergencia SOS","Detección de Choques"]}
+        },
+        {
+            info:{
+                titulo:"Todos los modelos",
+                lista:["5G (sub-6 GHz) con MIMO 4x45","Gigabit LTE con MIMO 4x4 y LAA5","Wi‑Fi 6 (802.11ax) con MIMO 2x2","Bluetooth 5.3","Chip de banda ultraancha para la detección espacial6","NFC con modo de lectura","Tarjetas Express con carga de reserva"]}
+        },
+        {
+            info:{
+                titulo:"Ubicación",
+                lista:["GPS, GLONASS, Galileo, QZSS y BeiDou","Brújula digital","Wi‑Fi","Red celular","Microlocalización iBeacon"]}
+        },
+        {
+            info:{
+                titulo:"Llamadas de video",
+                lista:["Llamadas de video de FaceTime a través de red celular o Wi-Fi","Llamadas de video de FaceTime HD (1080p) a través de 5G o Wi-Fi","Comparte experiencias como películas, programas de TV, música y apps en una llamada de FaceTime mediante SharePlay","Compartir Pantalla","Modo Retrato en llamadas de video de FaceTime","Audio espacial","Modos de micrófono: Aislamiento de Voz y Espectro Amplio","Zoom con la cámara trasera"]}
+        },
+        {
+            info:{
+                titulo:"Llamadas de audio",
+                lista:["Llamadas de audio de FaceTime","Comparte experiencias como películas, programas de TV, música y apps en una llamada de FaceTime mediante SharePlay","Compartir Pantalla","Audio espacial","Modos de micrófono: Aislamiento de Voz y Espectro Amplio"]}
+        },
+        {
+            info:{
+                titulo:"Reproducción de audio",
+                lista:["Los formatos compatibles incluyen AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus y Dolby Atmos","Reproducción de audio espacial","Volumen máximo configurable por el usuario"]}
+        },
+        {
+            info:{
+                titulo:"Reproducción de video",
+                lista:["Los formatos compatibles incluyen HEVC, H.264 y ProRes","HDR con Dolby Vision, HDR10 y HLG"," AirPlay para duplicación de pantalla y reproducción de fotos y videos hasta 4K HDR a través del Apple TV (segunda generación o posterior) o de una smart TV compatible con AirPlay 2","Compatibilidad con duplicación de video y salida de video: hasta 1080p a través del adaptador de Lightning a AV digital y del adaptador de Lightning a VGA (los adaptadores se venden por separado)"]}
+        },
+        {
+            info:{
+                titulo:"Energía y batería",
+                lista:["Reproducción de video: Hasta 29 horas","Reproducción de video en streaming: Hasta 25 horas","Reproducción de audio: Hasta 95 horas","Carga rápida: Hasta un 50% de carga en aproximadamente 30 minutos con un adaptador de 20 W o superior (disponible por separado)"]}
+        },
+        {
+            info:{
+                titulo:"Ambos modelos:",
+                lista:["Batería de iones de litio recargable integrada","Carga inalámbrica de hasta 15 W con cargadores MagSafe","Carga inalámbrica de hasta 7.5 W con cargadores Qi","Carga mediante el puerto USB de una computadora o con un adaptador de corriente"]}
+        },
+        {
+            info:{
+                titulo:"MagSafe",
+                lista:["Carga inalámbrica de hasta 15 W11","Anillo magnético","Imán de alineación","Identificación de accesorios mediante NFC2","Magnetómetro"]}
+        },
+        {
+            info:{
+                titulo:"Sensores",
+                lista:["Face ID","Barómetro","Giroscopio de alto rango dinámico","Acelerómetro de alta fuerza g","Sensor de proximidad","Dos sensores de luz ambiental"]}
+        },
+        {
+            info:{
+                titulo:"Sistema operativo",
+                lista:["iOS16 es el sistema operativo móvil más personal y seguro del mundo. Incluye funcionalidades avanzadas y está diseñado para proteger tu privacidad."]}
+        },
+
+        ],
+        color: ["black","purple","silver","gold"],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+categoria:['iphone','all']},
+
+
 {
             id:'059',
             nombre:'IPHONE 13',
             secid:'iphone-13',
-            foto:["https://www.macstation.com.ar/img/productos/2582-2.jpg","https://www.macstation.com.ar/img/productos/2581-1.jpg","https://www.macstation.com.ar/img/productos/2585-3.jpg","https://www.macstation.com.ar/img/productos/2635-2583-5.jpg"],
+            foto:[`${Iphone13fotouno}`,`${Iphone13fotodos}`,`${Iphone13fototres}`,`${Iphone13fotocuatro}`,`${Iphone13fotocinco}`],
             precio:"900",
             memoria:["128GB","512GB"],
             ram:["-"],
@@ -1645,7 +1836,7 @@ const productos=[
             id:'060',
             nombre:'IPHONE 13 PRO',
             secid:'iphone-13-pro',
-            foto:["https://www.macstation.com.ar/img/productos/2911-2590-1.jpg","https://www.macstation.com.ar/img/productos/2595-2.jpg","https://www.macstation.com.ar/img/productos/2596-3.jpg"],
+            foto:[`${Iphone13Profotouno}`,`${Iphone13Profotodos}`,`${Iphone13Profototres}`,`${Iphone13Profotocuatro}`,`${Iphone13Profotocinco}`],
             precio:"1170",
             memoria:["128GB"],
             ram:["-"],
@@ -1753,6 +1944,118 @@ const productos=[
             tendencia:false,
             marca:'apple',
     categoria:['iphone','all']},
+    {
+        id:'077',
+        nombre:'IPHONE 13 PRO MAX',
+        secid:'iphone-13-pro',
+        foto:[`${Iphone13ProMaxfotouno}`,`${Iphone13ProMaxfotodos}`,`${Iphone13ProMaxfototres}`,`${Iphone13ProMaxfotocuatro}`,`${Iphone13ProMaxfotocinco}`],
+        precio:"1170",
+        memoria:["128GB"],
+        ram:["-"],
+        componentes:["A15 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)"],
+        descripcion:[
+            {
+            info:{
+                titulo:"Pantalla",
+                lista:["Pantalla Super Retina XDR","Pantalla OLED de 6.1 pulgadas (diagonal) sin marco","Resolución de 2532 x 1170 pixeles a 460 ppi","La pantalla del iPhone 13 Pro tiene esquinas redondeadas que siguen el elegante diseño curvo del teléfono, y las esquinas se encuentran dentro de un rectángulo estándar. Si se mide en forma de rectángulo estándar, la pantalla tiene 6.06 pulgadas en diagonal (el área real de visualización es menor).","Pantalla HDR","True Tone","Amplia gama de colores (P3)","Toque con respuesta háptica","Relación de contraste 2,000,000:1 (normal)","Brillo máximo de 800 nits (normal); pico de brillo de 1,200 nits (HDR)","Revestimiento oleofóbico resistente a huellas dactilares","Compatibilidad para mostrar varios idiomas y caracteres simultáneamente"]}
+        },
+        {
+            info:{
+                titulo:"Resistencia a las salpicaduras, al agua y al polvo",
+                lista:["Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529"]}
+        },    
+        {
+            info:{
+                titulo:"Chip",
+                lista:["Chip A15 Bionic","CPU de 6 núcleos con 2 núcleos de rendimiento y 4 de eficiencia","GPU de 5 núcleos","Neural Engine de 16 núcleos"]}
+        },   
+        {
+            info:{
+                titulo:"Sistema de dos cámaras",
+                lista:["Sistema de cámaras Pro de 12 MP: teleobjetivo, gran angular y ultra gran angular","Teleobjetivo: apertura de ƒ/2.8","Gran angular: apertura de ƒ/1.5","Ultra gran angular: apertura de ƒ/1.8 y ángulo de visión de 120°","Zoom óptico de 2x para alejar","Zoom digital de hasta 5x","Modo Retrato con bokeh avanzado y Control de Profundidad","Iluminación de Retrato con seis efectos (Luz Natural, Luz de Estudio Fotográfico, Luz al Contorno, Reflector, Reflector B y N, Clave Alta en B + y N)","Estabilización óptica de imagen por desplazamiento de sensor (cámara gran angular)","Lente de siete elementos (cámara gran angular); lente de cinco elementos (cámara ultra gran angular)","Flash True Tone con sincronización lenta","Fotos panorámicas (hasta 63 MP)","Cubierta del lente de cristal de zafiro","100% Focus Pixels (cámara gran angular)","Modo Noche","Deep Fusion","HDR Inteligente 4","Estilos Fotográficos","Amplia gama de colores en fotos y Live Photos","Corrección de lente (cámara ultra gran angular)","Corrección avanzada de ojos rojos","Estabilización automática de imagen","Modo Ráfaga","Geoetiquetado de fotos","Captura de imagen en formatos HEIF y JPEG"]}
+        },
+        {
+            info:{
+                titulo:"Grabación de video",
+                lista:["Modo Cine para grabar videos con baja profundidad de campo (1080p a 30 cps)","Grabación de video HDR en Dolby Vision de hasta 4K a 60 cps","Grabación de video 4K a 24 cps, 25 cps, 30 cps o 60 cps","Grabación de video HD de 1080p a 25 cps, 30 cps o 60 cps","Grabación de video HD de 720p a 30 cps","Estabilización óptica de imagen para video (cámara gran angular)","Zoom óptico de 2x para alejar","Zoom digital de hasta 3x","Zoom de audio","Flash True Tone","Video QuickTake","Video en cámara lenta de 1080p a 120 cps o 240 cps","Video en cámara rápida con estabilización","Cámara rápida con modo Noche","Estabilización cinemática de video (4K, 1080p y 720p)","Video con autoenfoque continuo","Toma fotos de 8 MP mientras graba videos 4K","Zoom de reproducción","Grabación de video en formatos HEVC y H.264","Grabación estéreo"]}
+        },
+        {
+            info:{
+                titulo:"Cámara TrueDepth",
+                lista:["Cámara de 12 MP","Apertura de ƒ/2.2","Modo Retrato con bokeh avanzado y Control de Profundidad","Iluminación de Retrato con seis efectos (Luz Natural, Luz de Estudio Fotográfico, Luz al Contorno, Reflector, Reflector B y N, Clave Alta en B y N)","Animoji y Memoji","Modo Noche","Deep Fusion","HDR Inteligente 4","Estilos Fotográficos","Modo Cine para grabar videos con baja profundidad de campo (1080p a 30 cps)","Grabación de video HDR en Dolby Vision de hasta 4K a 60 cps","Grabación de video 4K a 24 cps, 25 cps, 30 cps o 60 cps","Grabación de video HD de 1080p a 25 cps, 30 cps o 60 cps","Video en cámara lenta de 1080p a 120 cps","Video en cámara rápida con estabilización","Cámara rápida con modo Noche","Estabilización cinemática de video (4K, 1080p y 720p)" ,"Video QuickTake","Amplia gama de colores en fotos y Live Photos","Corrección de lente ","Retina Flash","Estabilización automática de imagen","Modo Ráfaga"]}
+        },
+        {
+            info:{
+                titulo:"Face ID",
+                lista:["Reconocimiento facial por medio de la cámara TrueDepth"]}
+        },
+        {
+            info:{
+                titulo:"Seguridad",
+                lista:["Emergencia SOS","Detección de Choques"]}
+        },
+        {
+            info:{
+                titulo:"Todos los modelos",
+                lista:["5G (sub-6 GHz) con MIMO 4x45","Gigabit LTE con MIMO 4x4 y LAA5","Wi‑Fi 6 (802.11ax) con MIMO 2x2","Bluetooth 5.3","Chip de banda ultraancha para la detección espacial6","NFC con modo de lectura","Tarjetas Express con carga de reserva"]}
+        },
+        {
+            info:{
+                titulo:"Ubicación",
+                lista:["GPS, GLONASS, Galileo, QZSS y BeiDou","Brújula digital","Wi‑Fi","Red celular","Microlocalización iBeacon"]}
+        },
+        {
+            info:{
+                titulo:"Llamadas de video",
+                lista:["Llamadas de video de FaceTime a través de red celular o Wi-Fi","Llamadas de video de FaceTime HD (1080p) a través de 5G o Wi-Fi","Comparte experiencias como películas, programas de TV, música y apps en una llamada de FaceTime mediante SharePlay","Compartir Pantalla","Modo Retrato en llamadas de video de FaceTime","Audio espacial","Modos de micrófono: Aislamiento de Voz y Espectro Amplio","Zoom con la cámara trasera"]}
+        },
+        {
+            info:{
+                titulo:"Llamadas de audio",
+                lista:["Llamadas de audio de FaceTime","Comparte experiencias como películas, programas de TV, música y apps en una llamada de FaceTime mediante SharePlay","Compartir Pantalla","Audio espacial","Modos de micrófono: Aislamiento de Voz y Espectro Amplio"]}
+        },
+        {
+            info:{
+                titulo:"Reproducción de audio",
+                lista:["Los formatos compatibles incluyen AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus y Dolby Atmos","Reproducción de audio espacial","Volumen máximo configurable por el usuario"]}
+        },
+        {
+            info:{
+                titulo:"Reproducción de video",
+                lista:["Los formatos compatibles incluyen HEVC, H.264 y ProRes","HDR con Dolby Vision, HDR10 y HLG"," AirPlay para duplicación de pantalla y reproducción de fotos y videos hasta 4K HDR a través del Apple TV (segunda generación o posterior) o de una smart TV compatible con AirPlay 2","Compatibilidad con duplicación de video y salida de video: hasta 1080p a través del adaptador de Lightning a AV digital y del adaptador de Lightning a VGA (los adaptadores se venden por separado)"]}
+        },
+        {
+            info:{
+                titulo:"Energía y batería",
+                lista:["Reproducción de video: Hasta 19 horas","Reproducción de video en streaming: Hasta 15 horas","Reproducción de audio: Hasta 75 horas","Carga rápida: Hasta un 50% de carga en aproximadamente 30 minutos con un adaptador de 20 W o superior (disponible por separado)"]}
+        },
+        {
+            info:{
+                titulo:"Ambos modelos:",
+                lista:["Batería de iones de litio recargable integrada","Carga inalámbrica de hasta 15 W con cargadores MagSafe","Carga inalámbrica de hasta 7.5 W con cargadores Qi","Carga mediante el puerto USB de una computadora o con un adaptador de corriente"]}
+        },
+        {
+            info:{
+                titulo:"MagSafe",
+                lista:["Carga inalámbrica de hasta 15 W11","Anillo magnético","Imán de alineación","Identificación de accesorios mediante NFC2","Magnetómetro"]}
+        },
+        {
+            info:{
+                titulo:"Sensores",
+                lista:["Face ID","Barómetro","Giroscopio de alto rango dinámico","Acelerómetro de alta fuerza g","Sensor de proximidad","Dos sensores de luz ambiental"]}
+        },
+        {
+            info:{
+                titulo:"Sistema operativo",
+                lista:["iOS15 es el sistema operativo móvil más personal y seguro del mundo. Incluye funcionalidades avanzadas y está diseñado para proteger tu privacidad."]}
+        },
+
+        ],
+        color: ["green"],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+categoria:['iphone','all']},
 //watch
 {
     id:'061',
@@ -2105,9 +2408,9 @@ const productos=[
 //imac
     {
         id:'073',
-        nombre:'Imac 7 core 24"',
+        nombre:'IMAC 24" M1',
         secid:'',
-        foto:["https://www.macstation.com.ar/img/productos/2356-1.jpg","https://www.macstation.com.ar/img/productos_multimedia/893-imac-24-in-silver-2-port-pdp-image-position-2-mxla.jpg","https://www.macstation.com.ar/img/productos_multimedia/892-imac-24-in-silver-2-port-pdp-image-position-3-mxla.jpg","https://www.macstation.com.ar/img/productos_multimedia/891-imac-24-in-silver-2-port-pdp-image-position-4-mxla.jpg"],
+        foto:[`${IMACfotouno}`,`${IMACfotodos}`,`${IMACfototres}`,`${IMACfotocuatro}`],
         oferta:true,
         precio:"1550",
         precioAnterior:"1570",
@@ -2126,9 +2429,55 @@ const productos=[
         tendencia:false,
         marca:'apple',
         categoria:['imac','all']},
+//macstudio
 
+{
+    id:'074',
+    nombre:'MAC STUDIO M1 MAX',
+    secid:'',
+    foto:[`${MACM1ULTRAfotouno}`,`${MACM1ULTRAfotodos}`,`${MACM1ULTRAfototres}`,`${MACM1ULTRAfotocuatro}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:[""],
+    ram:[""],
+    componentes:[""],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['pink'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['imac','all']},
 
-
+    {
+        id:'075',
+        nombre:'MAC STUDIO M1 PRO',
+        secid:'',
+        foto:[`${MACM1PROfotouno}`,`${MACM1PROfotodos}`,`${MACM1PROfototres}`,`${MACM1PROfotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:[""],
+        ram:[""],
+        componentes:[""],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['pink'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['imac','all']},
 
 
 
