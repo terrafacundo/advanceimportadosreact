@@ -75,6 +75,75 @@ import Iphone13ProMaxfototres from "./estaticas/media/fotos-productos/apple/Ipho
 import Iphone13ProMaxfotocuatro from "./estaticas/media/fotos-productos/apple/Iphone-13-Pro-Max-4.webp"
 import Iphone13ProMaxfotocinco from "./estaticas/media/fotos-productos/apple/Iphone-13-Pro-Max-5.webp"
 
+import Iphone12fotouno from "./estaticas/media/fotos-productos/apple/Iphone-12-1.webp"
+import Iphone12fotodos from "./estaticas/media/fotos-productos/apple/Iphone-12-2.webp"
+import Iphone12fototres from "./estaticas/media/fotos-productos/apple/Iphone-12-3.webp"
+import Iphone12fotocuatro from "./estaticas/media/fotos-productos/apple/Iphone-12-4.webp"
+import Iphone12fotocinco from "./estaticas/media/fotos-productos/apple/Iphone-12-5.webp"
+
+
+import Iphone11fotouno from "./estaticas/media/fotos-productos/apple/Iphone-11-1.webp"
+import Iphone11fotodos from "./estaticas/media/fotos-productos/apple/Iphone-11-2.webp"
+import Iphone11fototres from "./estaticas/media/fotos-productos/apple/Iphone-11-3.webp"
+import Iphone11fotocuatro from "./estaticas/media/fotos-productos/apple/Iphone-11-4.webp"
+import Iphone11fotocinco from "./estaticas/media/fotos-productos/apple/Iphone-11-5.webp"
+
+import IpadMini6tafotouno from "./estaticas/media/fotos-productos/apple/Ipads/iPad-mini-6ta-1.webp"
+import IpadMini6tafotodos from "./estaticas/media/fotos-productos/apple/Ipads/iPad-mini-6ta-2.webp"
+import IpadMini6tafototres from "./estaticas/media/fotos-productos/apple/Ipads/iPad-mini-6ta-3.webp"
+import IpadMini6tafotocuatro from "./estaticas/media/fotos-productos/apple/Ipads/iPad-mini-6ta-4.webp"
+
+import iPad10nafotouno from "./estaticas/media/fotos-productos/apple/Ipads/iPad-10na-1.webp"
+
+import iPadAir5tafotouno from "./estaticas/media/fotos-productos/apple/Ipads/iPad-Air-5ta-1.webp"
+import iPadAir5tafotodos from "./estaticas/media/fotos-productos/apple/Ipads/iPad-mini-6ta-2.webp"
+import iPadAir5tafototres from "./estaticas/media/fotos-productos/apple/Ipads/iPad-mini-6ta-3.webp"
+
+import iPadPro202111fotouno from "./estaticas/media/fotos-productos/apple/Ipads/iPad-Pro-2021-11-1.webp"
+import iPadPro202111fotodos from "./estaticas/media/fotos-productos/apple/Ipads/iPad-Pro-2021-11-2.webp"
+import iPadPro202111fototres from "./estaticas/media/fotos-productos/apple/Ipads/iPad-Pro-2021-11-3.webp"
+
+
+import iPadPro2021129fotouno from "./estaticas/media/fotos-productos/apple/Ipads/iPad-Pro-2021-129-1.webp"
+import iPadPro2021129fotodos from "./estaticas/media/fotos-productos/apple/Ipads/iPad-Pro-2021-129-2.webp"
+import iPadPro2021129fototres from "./estaticas/media/fotos-productos/apple/Ipads/iPad-Pro-2021-129-3.webp"
+
+
+import iPadPro202211M2fotouno from "./estaticas/media/fotos-productos/apple/Ipads/iPad-Pro-2021-M2-11-1.webp"
+import iPadPro202211M2fotodos from "./estaticas/media/fotos-productos/apple/Ipads/iPad-Pro-2021-M2-11-2.webp"
+import iPadPro202211M2fototres from "./estaticas/media/fotos-productos/apple/Ipads/iPad-Pro-2021-M2-11-3.webp"
+import iPadPro202211M2fotocuatro from "./estaticas/media/fotos-productos/apple/Ipads/iPad-Pro-2021-M2-11-4.webp"
+import iPadPro202211M2fotocinco from "./estaticas/media/fotos-productos/apple/Ipads/iPad-Pro-2021-M2-11-5.webp"
+import iPadPro202211M2fotoseis from "./estaticas/media/fotos-productos/apple/Ipads/iPad-Pro-2021-M2-11-6.webp"
+
+// import iPadPro2022129fotouno from "./estaticas/media/fotos-productos/apple/Ipads/iPad-Pro-2022-129-1.webp"
+// import iPadPro2022129fotodos from "./estaticas/media/fotos-productos/apple/Ipads/iPad-Pro-2022-129-2.webp"
+// import iPadPro2022129fototres from "./estaticas/media/fotos-productos/apple/Ipads/iPad-Pro-2022-129-3.webp"
+
+
+import AppleWatchUltrafotouno from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-ULTRA-1.webp"
+import AppleWatchUltrafotodos from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-ULTRA-2.webp"
+import AppleWatchUltrafototres from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-ULTRA-3.webp"
+import AppleWatchUltrafotocuatro from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-ULTRA-4.webp"
+
+import AppleWatchSE2dafotouno from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-SE-2-1.webp"
+import AppleWatchSE2dafotodos from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-ULTRA-2.webp"
+import AppleWatchSE2dafototres from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-ULTRA-3.webp"
+import AppleWatchSE2dafotocuatro from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-ULTRA-4.webp"
+
+import AppleWatchSerie8fotouno from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-SERIE8-1.webp"
+import AppleWatchSerie8fotodos from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-SERIE8-2.webp"
+import AppleWatchSerie8fototres from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-SERIE8-3.webp"
+import AppleWatchSerie8fotocuatro from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-SERIE8-4.webp"
+
+
+
+
+
+
+
+
+
 const productos=[
     {   
         id:'001',
@@ -2056,46 +2125,274 @@ categoria:['iphone','all']},
         tendencia:false,
         marca:'apple',
 categoria:['iphone','all']},
-//watch
+
 {
-    id:'061',
-    nombre:'Watch Serie 8 41MM',
-    secid:'watch-8-41mm',
-    foto:["https://www.tradeinn.com/f/13933/139331697/apple-watch-series-8-gps-41-mm.jpg"],
-    precio:"575",
-    memoria:["-"],
+    id:'078',
+    nombre:'IPHONE 12',
+    secid:'iphone-12',
+    foto:[`${Iphone12fotouno}`,`${Iphone12fotodos}`,`${Iphone12fototres}`,`${Iphone12fotocuatro}`,`${Iphone12fotocinco}`],
+    precio:"900",
+    memoria:["128GB","512GB"],
     ram:["-"],
-    componentes:["-"],
+    componentes:["A15 Bionic(CPU de 6 núcleos / GPU de 4 núcleos)"],
     descripcion:[
         {
         info:{
-            titulo:"Suave y sin costuras",
-            lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
-                },
-    {
-        info:{
-            titulo:"Pantalla Retina siempre activa",
-            lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
-        }
+            titulo:"Pantalla",
+            lista:["Pantalla Super Retina XDR","Pantalla OLED de 6.1 pulgadas (diagonal) sin marco","Resolución de 2532 x 1170 pixeles a 460 ppi","La pantalla del iPhone 13 tiene esquinas redondeadas que siguen el elegante diseño curvo del teléfono, y las esquinas se encuentran dentro de un rectángulo estándar. Si se mide en forma de rectángulo estándar, la pantalla tiene 6.06 pulgadas en diagonal (el área real de visualización es menor).","Pantalla HDR","True Tone","Amplia gama de colores (P3)","Toque con respuesta háptica","Relación de contraste 2,000,000:1 (normal)","Brillo máximo de 800 nits (normal); pico de brillo de 1,200 nits (HDR)","Revestimiento oleofóbico resistente a huellas dactilares","Compatibilidad para mostrar varios idiomas y caracteres simultáneamente"]}
     },
     {
         info:{
-            titulo:"Más duro que duro",
-            lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
-        }
+            titulo:"Resistencia a las salpicaduras, al agua y al polvo",
+            lista:["Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529"]}
+    },    
+    {
+        info:{
+            titulo:"Chip",
+            lista:["Chip A15 Bionic","CPU de 6 núcleos con 2 núcleos de rendimiento y 4 de eficiencia","GPU de 4 núcleos","Neural Engine de 16 núcleos"]}
+    },   
+    {
+        info:{
+            titulo:"Sistema de dos cámaras",
+            lista:["Sistema de dos cámaras de 12 MP: gran angular y ultra gran angular","Gran angular: apertura de ƒ/1.6","Ultra gran angular: apertura de ƒ/2.4 y ángulo de visión de 120°","Zoom óptico de 2x para alejar","Zoom digital de hasta 5x","Modo Retrato con bokeh avanzado y Control de Profundidad","Iluminación de Retrato con seis efectos (Luz Natural, Luz de Estudio Fotográfico, Luz al Contorno, Reflector, Reflector B y N, Clave Alta en B + y N)","Estabilización óptica de imagen por desplazamiento de sensor (cámara gran angular)","Lente de siete elementos (cámara gran angular); lente de cinco elementos (cámara ultra gran angular)","Flash True Tone con sincronización lenta","Fotos panorámicas (hasta 63 MP)","Cubierta del lente de cristal de zafiro","100% Focus Pixels (cámara gran angular)","Modo Noche","Deep Fusion","HDR Inteligente 4","Estilos Fotográficos","Amplia gama de colores en fotos y Live Photos","Corrección de lente (cámara ultra gran angular)","Corrección avanzada de ojos rojos","Estabilización automática de imagen","Modo Ráfaga","Geoetiquetado de fotos","Captura de imagen en formatos HEIF y JPEG"]}
     },
-        ],
-    color: ['black','white'],
+    {
+        info:{
+            titulo:"Grabación de video",
+            lista:["Modo Cine para grabar videos con baja profundidad de campo (1080p a 30 cps)","Grabación de video HDR en Dolby Vision de hasta 4K a 60 cps","Grabación de video 4K a 24 cps, 25 cps, 30 cps o 60 cps","Grabación de video HD de 1080p a 25 cps, 30 cps o 60 cps","Grabación de video HD de 720p a 30 cps","Estabilización óptica de imagen para video (cámara gran angular)","Zoom óptico de 2x para alejar","Zoom digital de hasta 3x","Zoom de audio","Flash True Tone","Video QuickTake","Video en cámara lenta de 1080p a 120 cps o 240 cps","Video en cámara rápida con estabilización","Cámara rápida con modo Noche","Estabilización cinemática de video (4K, 1080p y 720p)","Video con autoenfoque continuo","Toma fotos de 8 MP mientras graba videos 4K","Zoom de reproducción","Grabación de video en formatos HEVC y H.264","Grabación estéreo"]}
+    },
+    {
+        info:{
+            titulo:"Cámara TrueDepth",
+            lista:["Cámara de 12 MP","Apertura de ƒ/2.2","Modo Retrato con bokeh avanzado y Control de Profundidad","Iluminación de Retrato con seis efectos (Luz Natural, Luz de Estudio Fotográfico, Luz al Contorno, Reflector, Reflector B y N, Clave Alta en B y N)","Animoji y Memoji","Modo Noche","Deep Fusion","HDR Inteligente 4","Estilos Fotográficos","Modo Cine para grabar videos con baja profundidad de campo (1080p a 30 cps)","Grabación de video HDR en Dolby Vision de hasta 4K a 60 cps","Grabación de video 4K a 24 cps, 25 cps, 30 cps o 60 cps","Grabación de video HD de 1080p a 25 cps, 30 cps o 60 cps","Video en cámara lenta de 1080p a 120 cps","Video en cámara rápida con estabilización","Cámara rápida con modo Noche","Estabilización cinemática de video (4K, 1080p y 720p)" ,"Video QuickTake","Amplia gama de colores en fotos y Live Photos","Corrección de lente ","Retina Flash","Estabilización automática de imagen","Modo Ráfaga"]}
+    },
+    {
+        info:{
+            titulo:"Face ID",
+            lista:["Reconocimiento facial por medio de la cámara TrueDepth"]}
+    },
+    {
+        info:{
+            titulo:"Seguridad",
+            lista:["Emergencia SOS","Detección de Choques"]}
+    },
+    {
+        info:{
+            titulo:"Todos los modelos",
+            lista:["5G (sub-6 GHz) con MIMO 4x45","Gigabit LTE con MIMO 4x4 y LAA5","Wi‑Fi 6 (802.11ax) con MIMO 2x2","Bluetooth 5.3","Chip de banda ultraancha para la detección espacial6","NFC con modo de lectura","Tarjetas Express con carga de reserva"]}
+    },
+    {
+        info:{
+            titulo:"Ubicación",
+            lista:["GPS, GLONASS, Galileo, QZSS y BeiDou","Brújula digital","Wi‑Fi","Red celular","Microlocalización iBeacon"]}
+    },
+    {
+        info:{
+            titulo:"Llamadas de video",
+            lista:["Llamadas de video de FaceTime a través de red celular o Wi-Fi","Llamadas de video de FaceTime HD (1080p) a través de 5G o Wi-Fi","Comparte experiencias como películas, programas de TV, música y apps en una llamada de FaceTime mediante SharePlay","Compartir Pantalla","Modo Retrato en llamadas de video de FaceTime","Audio espacial","Modos de micrófono: Aislamiento de Voz y Espectro Amplio","Zoom con la cámara trasera"]}
+    },
+    {
+        info:{
+            titulo:"Llamadas de audio",
+            lista:["Llamadas de audio de FaceTime","Comparte experiencias como películas, programas de TV, música y apps en una llamada de FaceTime mediante SharePlay","Compartir Pantalla","Audio espacial","Modos de micrófono: Aislamiento de Voz y Espectro Amplio"]}
+    },
+    {
+        info:{
+            titulo:"Reproducción de audio",
+            lista:["Los formatos compatibles incluyen AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus y Dolby Atmos","Reproducción de audio espacial","Volumen máximo configurable por el usuario"]}
+    },
+    {
+        info:{
+            titulo:"Reproducción de video",
+            lista:["Los formatos compatibles incluyen HEVC, H.264 y ProRes","HDR con Dolby Vision, HDR10 y HLG"," AirPlay para duplicación de pantalla y reproducción de fotos y videos hasta 4K HDR a través del Apple TV (segunda generación o posterior) o de una smart TV compatible con AirPlay 2","Compatibilidad con duplicación de video y salida de video: hasta 1080p a través del adaptador de Lightning a AV digital y del adaptador de Lightning a VGA (los adaptadores se venden por separado)"]}
+    },
+    {
+        info:{
+            titulo:"Energía y batería",
+            lista:["Reproducción de video: Hasta 19 horas","Reproducción de video en streaming: Hasta 15 horas","Reproducción de audio: Hasta 75 horas","Carga rápida: Hasta un 50% de carga en aproximadamente 30 minutos con un adaptador de 20 W o superior (disponible por separado)"]}
+    },
+    {
+        info:{
+            titulo:"Ambos modelos:",
+            lista:["Batería de iones de litio recargable integrada","Carga inalámbrica de hasta 15 W con cargadores MagSafe","Carga inalámbrica de hasta 7.5 W con cargadores Qi","Carga mediante el puerto USB de una computadora o con un adaptador de corriente"]}
+    },
+    {
+        info:{
+            titulo:"MagSafe",
+            lista:["Carga inalámbrica de hasta 15 W11","Anillo magnético","Imán de alineación","Identificación de accesorios mediante NFC2","Magnetómetro"]}
+    },
+    {
+        info:{
+            titulo:"Sensores",
+            lista:["Face ID","Barómetro","Giroscopio de alto rango dinámico","Acelerómetro de alta fuerza g","Sensor de proximidad","Dos sensores de luz ambiental"]}
+    },
+    {
+        info:{
+            titulo:"Sistema operativo",
+            lista:["iOS15 es el sistema operativo móvil más personal y seguro del mundo. Incluye funcionalidades avanzadas y está diseñado para proteger tu privacidad."]}
+    },
+
+    ],
+    color: ["blue","green","red","midnight","starlight"],
     estado:'En stock',
     tendencia:false,
     marca:'apple',
-    categoria:['watch','all']},
+categoria:['iphone','all']},
+
+{
+    id:'079',
+    nombre:'IPHONE 11',
+    secid:'iphone-11',
+    foto:[`${Iphone11fotouno}`,`${Iphone11fotodos}`,`${Iphone11fototres}`,`${Iphone11fotocuatro}`,`${Iphone11fotocinco}`],
+    precio:"900",
+    memoria:["128GB","512GB"],
+    ram:["-"],
+    componentes:["A15 Bionic(CPU de 6 núcleos / GPU de 4 núcleos)"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Pantalla",
+            lista:["Pantalla Super Retina XDR","Pantalla OLED de 6.1 pulgadas (diagonal) sin marco","Resolución de 2532 x 1170 pixeles a 460 ppi","La pantalla del iPhone 13 tiene esquinas redondeadas que siguen el elegante diseño curvo del teléfono, y las esquinas se encuentran dentro de un rectángulo estándar. Si se mide en forma de rectángulo estándar, la pantalla tiene 6.06 pulgadas en diagonal (el área real de visualización es menor).","Pantalla HDR","True Tone","Amplia gama de colores (P3)","Toque con respuesta háptica","Relación de contraste 2,000,000:1 (normal)","Brillo máximo de 800 nits (normal); pico de brillo de 1,200 nits (HDR)","Revestimiento oleofóbico resistente a huellas dactilares","Compatibilidad para mostrar varios idiomas y caracteres simultáneamente"]}
+    },
+    {
+        info:{
+            titulo:"Resistencia a las salpicaduras, al agua y al polvo",
+            lista:["Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529"]}
+    },    
+    {
+        info:{
+            titulo:"Chip",
+            lista:["Chip A15 Bionic","CPU de 6 núcleos con 2 núcleos de rendimiento y 4 de eficiencia","GPU de 4 núcleos","Neural Engine de 16 núcleos"]}
+    },   
+    {
+        info:{
+            titulo:"Sistema de dos cámaras",
+            lista:["Sistema de dos cámaras de 12 MP: gran angular y ultra gran angular","Gran angular: apertura de ƒ/1.6","Ultra gran angular: apertura de ƒ/2.4 y ángulo de visión de 120°","Zoom óptico de 2x para alejar","Zoom digital de hasta 5x","Modo Retrato con bokeh avanzado y Control de Profundidad","Iluminación de Retrato con seis efectos (Luz Natural, Luz de Estudio Fotográfico, Luz al Contorno, Reflector, Reflector B y N, Clave Alta en B + y N)","Estabilización óptica de imagen por desplazamiento de sensor (cámara gran angular)","Lente de siete elementos (cámara gran angular); lente de cinco elementos (cámara ultra gran angular)","Flash True Tone con sincronización lenta","Fotos panorámicas (hasta 63 MP)","Cubierta del lente de cristal de zafiro","100% Focus Pixels (cámara gran angular)","Modo Noche","Deep Fusion","HDR Inteligente 4","Estilos Fotográficos","Amplia gama de colores en fotos y Live Photos","Corrección de lente (cámara ultra gran angular)","Corrección avanzada de ojos rojos","Estabilización automática de imagen","Modo Ráfaga","Geoetiquetado de fotos","Captura de imagen en formatos HEIF y JPEG"]}
+    },
+    {
+        info:{
+            titulo:"Grabación de video",
+            lista:["Modo Cine para grabar videos con baja profundidad de campo (1080p a 30 cps)","Grabación de video HDR en Dolby Vision de hasta 4K a 60 cps","Grabación de video 4K a 24 cps, 25 cps, 30 cps o 60 cps","Grabación de video HD de 1080p a 25 cps, 30 cps o 60 cps","Grabación de video HD de 720p a 30 cps","Estabilización óptica de imagen para video (cámara gran angular)","Zoom óptico de 2x para alejar","Zoom digital de hasta 3x","Zoom de audio","Flash True Tone","Video QuickTake","Video en cámara lenta de 1080p a 120 cps o 240 cps","Video en cámara rápida con estabilización","Cámara rápida con modo Noche","Estabilización cinemática de video (4K, 1080p y 720p)","Video con autoenfoque continuo","Toma fotos de 8 MP mientras graba videos 4K","Zoom de reproducción","Grabación de video en formatos HEVC y H.264","Grabación estéreo"]}
+    },
+    {
+        info:{
+            titulo:"Cámara TrueDepth",
+            lista:["Cámara de 12 MP","Apertura de ƒ/2.2","Modo Retrato con bokeh avanzado y Control de Profundidad","Iluminación de Retrato con seis efectos (Luz Natural, Luz de Estudio Fotográfico, Luz al Contorno, Reflector, Reflector B y N, Clave Alta en B y N)","Animoji y Memoji","Modo Noche","Deep Fusion","HDR Inteligente 4","Estilos Fotográficos","Modo Cine para grabar videos con baja profundidad de campo (1080p a 30 cps)","Grabación de video HDR en Dolby Vision de hasta 4K a 60 cps","Grabación de video 4K a 24 cps, 25 cps, 30 cps o 60 cps","Grabación de video HD de 1080p a 25 cps, 30 cps o 60 cps","Video en cámara lenta de 1080p a 120 cps","Video en cámara rápida con estabilización","Cámara rápida con modo Noche","Estabilización cinemática de video (4K, 1080p y 720p)" ,"Video QuickTake","Amplia gama de colores en fotos y Live Photos","Corrección de lente ","Retina Flash","Estabilización automática de imagen","Modo Ráfaga"]}
+    },
+    {
+        info:{
+            titulo:"Face ID",
+            lista:["Reconocimiento facial por medio de la cámara TrueDepth"]}
+    },
+    {
+        info:{
+            titulo:"Seguridad",
+            lista:["Emergencia SOS","Detección de Choques"]}
+    },
+    {
+        info:{
+            titulo:"Todos los modelos",
+            lista:["5G (sub-6 GHz) con MIMO 4x45","Gigabit LTE con MIMO 4x4 y LAA5","Wi‑Fi 6 (802.11ax) con MIMO 2x2","Bluetooth 5.3","Chip de banda ultraancha para la detección espacial6","NFC con modo de lectura","Tarjetas Express con carga de reserva"]}
+    },
+    {
+        info:{
+            titulo:"Ubicación",
+            lista:["GPS, GLONASS, Galileo, QZSS y BeiDou","Brújula digital","Wi‑Fi","Red celular","Microlocalización iBeacon"]}
+    },
+    {
+        info:{
+            titulo:"Llamadas de video",
+            lista:["Llamadas de video de FaceTime a través de red celular o Wi-Fi","Llamadas de video de FaceTime HD (1080p) a través de 5G o Wi-Fi","Comparte experiencias como películas, programas de TV, música y apps en una llamada de FaceTime mediante SharePlay","Compartir Pantalla","Modo Retrato en llamadas de video de FaceTime","Audio espacial","Modos de micrófono: Aislamiento de Voz y Espectro Amplio","Zoom con la cámara trasera"]}
+    },
+    {
+        info:{
+            titulo:"Llamadas de audio",
+            lista:["Llamadas de audio de FaceTime","Comparte experiencias como películas, programas de TV, música y apps en una llamada de FaceTime mediante SharePlay","Compartir Pantalla","Audio espacial","Modos de micrófono: Aislamiento de Voz y Espectro Amplio"]}
+    },
+    {
+        info:{
+            titulo:"Reproducción de audio",
+            lista:["Los formatos compatibles incluyen AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus y Dolby Atmos","Reproducción de audio espacial","Volumen máximo configurable por el usuario"]}
+    },
+    {
+        info:{
+            titulo:"Reproducción de video",
+            lista:["Los formatos compatibles incluyen HEVC, H.264 y ProRes","HDR con Dolby Vision, HDR10 y HLG"," AirPlay para duplicación de pantalla y reproducción de fotos y videos hasta 4K HDR a través del Apple TV (segunda generación o posterior) o de una smart TV compatible con AirPlay 2","Compatibilidad con duplicación de video y salida de video: hasta 1080p a través del adaptador de Lightning a AV digital y del adaptador de Lightning a VGA (los adaptadores se venden por separado)"]}
+    },
+    {
+        info:{
+            titulo:"Energía y batería",
+            lista:["Reproducción de video: Hasta 19 horas","Reproducción de video en streaming: Hasta 15 horas","Reproducción de audio: Hasta 75 horas","Carga rápida: Hasta un 50% de carga en aproximadamente 30 minutos con un adaptador de 20 W o superior (disponible por separado)"]}
+    },
+    {
+        info:{
+            titulo:"Ambos modelos:",
+            lista:["Batería de iones de litio recargable integrada","Carga inalámbrica de hasta 15 W con cargadores MagSafe","Carga inalámbrica de hasta 7.5 W con cargadores Qi","Carga mediante el puerto USB de una computadora o con un adaptador de corriente"]}
+    },
+    {
+        info:{
+            titulo:"MagSafe",
+            lista:["Carga inalámbrica de hasta 15 W11","Anillo magnético","Imán de alineación","Identificación de accesorios mediante NFC2","Magnetómetro"]}
+    },
+    {
+        info:{
+            titulo:"Sensores",
+            lista:["Face ID","Barómetro","Giroscopio de alto rango dinámico","Acelerómetro de alta fuerza g","Sensor de proximidad","Dos sensores de luz ambiental"]}
+    },
+    {
+        info:{
+            titulo:"Sistema operativo",
+            lista:["iOS15 es el sistema operativo móvil más personal y seguro del mundo. Incluye funcionalidades avanzadas y está diseñado para proteger tu privacidad."]}
+    },
+
+    ],
+    color: ["blue","green","red","midnight","starlight"],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+categoria:['iphone','all']},
+
+
+//watch
+// {
+//     id:'061',
+//     nombre:'Watch Serie 8 41MM',
+//     secid:'watch-8-41mm',
+//     foto:["https://www.tradeinn.com/f/13933/139331697/apple-watch-series-8-gps-41-mm.jpg"],
+//     precio:"575",
+//     memoria:["-"],
+//     ram:["-"],
+//     componentes:["-"],
+//     descripcion:[
+//         {
+//         info:{
+//             titulo:"Suave y sin costuras",
+//             lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
+//                 },
+//     {
+//         info:{
+//             titulo:"Pantalla Retina siempre activa",
+//             lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
+//         }
+//     },
+//     {
+//         info:{
+//             titulo:"Más duro que duro",
+//             lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
+//         }
+//     },
+//         ],
+//     color: ['black','white'],
+//     estado:'En stock',
+//     tendencia:false,
+//     marca:'apple',
+//     categoria:['watch','all']},
 
 {
     id:'062',
-    nombre:'Watch Serie 8 45MM',
+    nombre:'APPLE WATCH SERIE 8',
     secid:'watch-8-45mm',
-    foto:["https://www.tradeinn.com/f/13933/139331700/apple-watch-series-8-gps-45-mm.jpg"],
+    foto:[`${AppleWatchSerie8fotouno}`,`${AppleWatchSerie8fotodos}`,`${AppleWatchSerie8fototres}`,`${AppleWatchSerie8fotocuatro}`],
     precio:"610",
     memoria:["-"],
     ram:["-"],
@@ -2125,79 +2422,117 @@ categoria:['iphone','all']},
     marca:'apple',
     categoria:['watch','all']},
 
-{
-        id:'063',
-        nombre:'Watch Serie 7 41MM',
-        secid:'watch-7-41mm',
-        foto:["https://www.macstation.com.ar/img/productos/2628-3.jpg","https://www.macstation.com.ar/img/productos/2629-4.jpg"],
-        precio:"430",
-        memoria:["-"],
-        ram:["-"],
-        componentes:["-"],
-        descripcion:[
-            {
-            info:{
-                titulo:"Suave y sin costuras",
-                lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
-                    },
-        {
-            info:{
-                titulo:"Pantalla Retina siempre activa",
-                lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
-            }
-        },
-        {
-            info:{
-                titulo:"Más duro que duro",
-                lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
-            }
-        },
-            ],
-        color: ['blue','green'],
-        estado:'En stock',
-        tendencia:false,
-        marca:'apple',
-    categoria:['watch','all']},
+
 
 {
-        id:'064',
-        nombre:'Watch Serie 7 45MM',
-        secid:'watch-7-45mm',
-        foto:["https://www.macstation.com.ar/img/productos/2689-5.jpg","https://www.macstation.com.ar/img/productos/2686-2.jpg"],
-        precio:"450",
-        memoria:["-"],
-        ram:["-"],
-        componentes:["-"],
-        descripcion:[
-            {
-            info:{
-                titulo:"Suave y sin costuras",
-                lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
-                    },
+    id:'086',
+    nombre:'APPLE WATCH ULTRA',
+    secid:'',
+    foto:[`${AppleWatchUltrafotouno}`,`${AppleWatchUltrafotodos}`,`${AppleWatchUltrafototres}`,`${AppleWatchUltrafotocuatro}`],
+    precio:"610",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
         {
-            info:{
-                titulo:"Pantalla Retina siempre activa",
-                lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
-            }
-        },
-        {
-            info:{
-                titulo:"Más duro que duro",
-                lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
-            }
-        },
-            ],
-        color: ['red','starlight'],
-        estado:'En stock',
-        tendencia:false,
-        marca:'apple',
+        info:{
+            titulo:"Suave y sin costuras",
+            lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
+                },
+    {
+        info:{
+            titulo:"Pantalla Retina siempre activa",
+            lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
+        }
+    },
+    {
+        info:{
+            titulo:"Más duro que duro",
+            lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
+        }
+    },
+        ],
+    color: ['black','white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
     categoria:['watch','all']},
+
+
+
+// {
+//         id:'063',
+//         nombre:'Watch Serie 7 41MM',
+//         secid:'watch-7-41mm',
+//         foto:["https://www.macstation.com.ar/img/productos/2628-3.jpg","https://www.macstation.com.ar/img/productos/2629-4.jpg"],
+//         precio:"430",
+//         memoria:["-"],
+//         ram:["-"],
+//         componentes:["-"],
+//         descripcion:[
+//             {
+//             info:{
+//                 titulo:"Suave y sin costuras",
+//                 lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
+//                     },
+//         {
+//             info:{
+//                 titulo:"Pantalla Retina siempre activa",
+//                 lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
+//             }
+//         },
+//         {
+//             info:{
+//                 titulo:"Más duro que duro",
+//                 lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
+//             }
+//         },
+//             ],
+//         color: ['blue','green'],
+//         estado:'En stock',
+//         tendencia:false,
+//         marca:'apple',
+//     categoria:['watch','all']},
+
+// {
+//         id:'064',
+//         nombre:'Watch Serie 7 45MM',
+//         secid:'watch-7-45mm',
+//         foto:["https://www.macstation.com.ar/img/productos/2689-5.jpg","https://www.macstation.com.ar/img/productos/2686-2.jpg"],
+//         precio:"450",
+//         memoria:["-"],
+//         ram:["-"],
+//         componentes:["-"],
+//         descripcion:[
+//             {
+//             info:{
+//                 titulo:"Suave y sin costuras",
+//                 lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
+//                     },
+//         {
+//             info:{
+//                 titulo:"Pantalla Retina siempre activa",
+//                 lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
+//             }
+//         },
+//         {
+//             info:{
+//                 titulo:"Más duro que duro",
+//                 lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
+//             }
+//         },
+//             ],
+//         color: ['red','starlight'],
+//         estado:'En stock',
+//         tendencia:false,
+//         marca:'apple',
+//     categoria:['watch','all']},
 
 {
             id:'065',
             nombre:'Watch SE 2da Gen 40MM',
             secid:'watch-SE-40mm',
-            foto:["https://www.macstation.com.ar/img/productos/2089-1.jpg"],
+            foto:[`${AppleWatchSE2dafotouno}`,`${AppleWatchSE2dafotodos}`,`${AppleWatchSE2dafototres}`,`${AppleWatchSE2dafotocuatro}`],
             precio:"340",
             memoria:["-"],
             ram:["-"],
@@ -2226,72 +2561,72 @@ categoria:['iphone','all']},
             tendencia:false,
             marca:'apple',
         categoria:['watch','all']},
-{
-            id:'066',
-            nombre:'Watch SE 2da Gen 44MM',
-            secid:'watch-SE-44mm',
-            foto:["https://www.macstation.com.ar/img/productos/2091-1.jpg"],
-            precio:"370",
-            memoria:["-"],
-            ram:["-"],
-            componentes:["-"],
-            descripcion:[
-                {
-                info:{
-                    titulo:"Suave y sin costuras",
-                    lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
-                        },
-            {
-                info:{
-                    titulo:"Pantalla Retina siempre activa",
-                    lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
-                }
-            },
-            {
-                info:{
-                    titulo:"Más duro que duro",
-                    lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
-                }
-            },
-                ],
-            color: ['silver','gray'],
-            estado:'En stock',
-            tendencia:false,
-            marca:'apple',
-        categoria:['watch','all']},
-{
-            id:'067',
-            nombre:'Watch Serie 3 38MM',
-            secid:'watch-3-38mm',
-            foto:["https://http2.mlstatic.com/D_NQ_NP_721808-MLA46397778443_062021-O.webp","https://http2.mlstatic.com/D_NQ_NP_985061-MLA46397868333_062021-O.webp","https://http2.mlstatic.com/D_NQ_NP_706098-MLA46397868334_062021-O.webp","https://http2.mlstatic.com/D_NQ_NP_754313-MLA46397466875_062021-O.webp","https://http2.mlstatic.com/D_NQ_NP_729258-MLA46397778446_062021-O.webp"],
-            precio:"260",
-            memoria:["-"],
-            ram:["-"],
-            componentes:["-"],
-            descripcion:[
-                {
-                info:{
-                    titulo:"Suave y sin costuras",
-                    lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
-                        },
-            {
-                info:{
-                    titulo:"Pantalla Retina siempre activa",
-                    lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
-                }
-            },
-            {
-                info:{
-                    titulo:"Más duro que duro",
-                    lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
-                }
-            },
-                ],
-            color: ['silver','gray'],
-            estado:'En stock',
-            tendencia:false,
-            marca:'apple',
-        categoria:['watch','all']},
+// {
+//             id:'066',
+//             nombre:'Watch SE 2da Gen 44MM',
+//             secid:'watch-SE-44mm',
+//             foto:["https://www.macstation.com.ar/img/productos/2091-1.jpg"],
+//             precio:"370",
+//             memoria:["-"],
+//             ram:["-"],
+//             componentes:["-"],
+//             descripcion:[
+//                 {
+//                 info:{
+//                     titulo:"Suave y sin costuras",
+//                     lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
+//                         },
+//             {
+//                 info:{
+//                     titulo:"Pantalla Retina siempre activa",
+//                     lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
+//                 }
+//             },
+//             {
+//                 info:{
+//                     titulo:"Más duro que duro",
+//                     lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
+//                 }
+//             },
+//                 ],
+//             color: ['silver','gray'],
+//             estado:'En stock',
+//             tendencia:false,
+//             marca:'apple',
+//         categoria:['watch','all']},
+// {
+//             id:'067',
+//             nombre:'Watch Serie 3 38MM',
+//             secid:'watch-3-38mm',
+//             foto:["https://http2.mlstatic.com/D_NQ_NP_721808-MLA46397778443_062021-O.webp","https://http2.mlstatic.com/D_NQ_NP_985061-MLA46397868333_062021-O.webp","https://http2.mlstatic.com/D_NQ_NP_706098-MLA46397868334_062021-O.webp","https://http2.mlstatic.com/D_NQ_NP_754313-MLA46397466875_062021-O.webp","https://http2.mlstatic.com/D_NQ_NP_729258-MLA46397778446_062021-O.webp"],
+//             precio:"260",
+//             memoria:["-"],
+//             ram:["-"],
+//             componentes:["-"],
+//             descripcion:[
+//                 {
+//                 info:{
+//                     titulo:"Suave y sin costuras",
+//                     lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
+//                         },
+//             {
+//                 info:{
+//                     titulo:"Pantalla Retina siempre activa",
+//                     lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
+//                 }
+//             },
+//             {
+//                 info:{
+//                     titulo:"Más duro que duro",
+//                     lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
+//                 }
+//             },
+//                 ],
+//             color: ['silver','gray'],
+//             estado:'En stock',
+//             tendencia:false,
+//             marca:'apple',
+//         categoria:['watch','all']},
 
 //AIRPODS
 {
@@ -2361,33 +2696,33 @@ categoria:['iphone','all']},
     categoria:['accesorios','all']},
 
     //Ipads
-{
-    id:'071',
-    nombre:'iPad (9ª generación) 10.2" Wi-Fi 64GB',
-    secid:'',
-    foto:["https://http2.mlstatic.com/D_NQ_NP_980498-MLA47871333049_102021-O.webp","https://http2.mlstatic.com/D_NQ_NP_991281-MLA47871333051_102021-O.webp","https://http2.mlstatic.com/D_NQ_NP_811627-MLA47871023475_102021-O.webp","https://http2.mlstatic.com/D_NQ_NP_611573-MLA47871010510_102021-O.webp"],
-    precio:"480",
-    memoria:["256GB"],
-    ram:["-"],
-    componentes:["Chip A13 Bionic"],
-    descripcion:[
-        {
-        info:{
-            titulo:"",
-            lista:[""]}
-                },
-        ],
-    color: ['space'],
-    estado:'En stock',
-    tendencia:false,
-    marca:'apple',
-    categoria:['ipad','all']},
+// {
+//     id:'071',
+//     nombre:'iPad (9ª generación) 10.2" Wi-Fi 64GB',
+//     secid:'',
+//     foto:["https://http2.mlstatic.com/D_NQ_NP_980498-MLA47871333049_102021-O.webp","https://http2.mlstatic.com/D_NQ_NP_991281-MLA47871333051_102021-O.webp","https://http2.mlstatic.com/D_NQ_NP_811627-MLA47871023475_102021-O.webp","https://http2.mlstatic.com/D_NQ_NP_611573-MLA47871010510_102021-O.webp"],
+//     precio:"480",
+//     memoria:["256GB"],
+//     ram:["-"],
+//     componentes:["Chip A13 Bionic"],
+//     descripcion:[
+//         {
+//         info:{
+//             titulo:"",
+//             lista:[""]}
+//                 },
+//         ],
+//     color: ['space'],
+//     estado:'En stock',
+//     tendencia:false,
+//     marca:'apple',
+//     categoria:['ipad','all']},
 
     {
         id:'072',
         nombre:'iPad Mini 6ta gen 2021',
         secid:'ipad-mini-6ta',
-        foto:["https://www.macstation.com.ar/img/productos_multimedia/1049-ipad-mini-wi-fi-space-gray-pdp-image-position-1a-coes-v1.jpg","https://www.macstation.com.ar/img/productos_multimedia/1047-ipad-mini-wi-fi-space-gray-pdp-image-position-2-coes-v1.jpg","https://www.macstation.com.ar/img/productos_multimedia/1046-ipad-mini-wi-fi-space-gray-pdp-image-position-3-coes-v1.jpg","https://www.macstation.com.ar/img/productos_multimedia/1044-ipad-mini-wi-fi-space-gray-pdp-image-position-8-coes-v1.jpg","https://www.macstation.com.ar/img/productos/2564-1.jpg"],
+        foto:[`${IpadMini6tafotouno}`,`${IpadMini6tafotodos}`,`${IpadMini6tafototres}`,`${IpadMini6tafotocuatro}`],
         precio:"495",
         memoria:["64GB","256GB"],
         ram:["-"],
@@ -2404,6 +2739,119 @@ categoria:['iphone','all']},
         tendencia:false,
         marca:'apple',
         categoria:['ipad','all']},
+    
+        {
+            id:'080',
+            nombre:'iPad 10na Gen',
+            secid:'',
+            foto:[`${iPad10nafotouno}`],
+            precio:"480",
+            memoria:["256GB"],
+            ram:["-"],
+            componentes:["Chip A13 Bionic"],
+            descripcion:[
+                {
+                info:{
+                    titulo:"",
+                    lista:[""]}
+                        },
+                ],
+            color: ['space'],
+            estado:'En stock',
+            tendencia:false,
+            marca:'apple',
+            categoria:['ipad','all']},
+
+            {
+                id:'081',
+                nombre:'IPAD AIR 5TA GEN M1',
+                secid:'',
+                foto:[`${iPadAir5tafotouno}`,`${iPadAir5tafotodos}`,`${iPadAir5tafototres}`],
+                precio:"480",
+                memoria:["256GB"],
+                ram:["-"],
+                componentes:["Chip A13 Bionic"],
+                descripcion:[
+                    {
+                    info:{
+                        titulo:"",
+                        lista:[""]}
+                            },
+                    ],
+                color: ['space'],
+                estado:'En stock',
+                tendencia:false,
+                marca:'apple',
+                categoria:['ipad','all']},
+
+
+
+            {
+                id:'082',
+                nombre:'IPAD PRO 2021 M1 11´',
+                secid:'',
+                foto:[`${iPadPro202111fotouno}`,`${iPadPro202111fotodos}`,`${iPadPro202111fototres}`],
+                precio:"480",
+                memoria:["256GB"],
+                ram:["-"],
+                componentes:["Chip A13 Bionic"],
+                descripcion:[
+                    {
+                    info:{
+                        titulo:"",
+                        lista:[""]}
+                            },
+                    ],
+                color: ['space'],
+                estado:'En stock',
+                tendencia:false,
+                marca:'apple',
+                categoria:['ipad','all']},
+ 
+
+            {
+                id:'083',
+                nombre:'IPAD PRO 2021 M1 12,9´',
+                secid:'',
+                foto:[`${iPadPro2021129fotouno}`,`${iPadPro2021129fotodos}`,`${iPadPro2021129fototres}`],
+                precio:"480",
+                memoria:["256GB"],
+                ram:["-"],
+                componentes:["Chip A13 Bionic"],
+                descripcion:[
+                    {
+                    info:{
+                        titulo:"",
+                        lista:[""]}
+                            },
+                    ],
+                color: ['space'],
+                estado:'En stock',
+                tendencia:false,
+                marca:'apple',
+                categoria:['ipad','all']},
+    
+            {
+                id:'084',
+                nombre:'IPAD PRO 2021 M2 11´',
+                secid:'',
+                foto:[`${iPadPro202211M2fotouno}`,`${iPadPro202211M2fotodos}`,`${iPadPro202211M2fototres}`,`${iPadPro202211M2fotocuatro}`,`${iPadPro202211M2fotocinco}`,`${iPadPro202211M2fotoseis}`],
+                precio:"480",
+                memoria:["256GB"],
+                ram:["-"],
+                componentes:["Chip A13 Bionic"],
+                descripcion:[
+                    {
+                    info:{
+                        titulo:"",
+                        lista:[""]}
+                            },
+                    ],
+                color: ['space'],
+                estado:'En stock',
+                tendencia:false,
+                marca:'apple',
+                categoria:['ipad','all']},
 
 //imac
     {
