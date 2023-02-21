@@ -120,23 +120,156 @@ import iPadPro202211M2fotoseis from "./estaticas/media/fotos-productos/apple/Ipa
 // import iPadPro2022129fotodos from "./estaticas/media/fotos-productos/apple/Ipads/iPad-Pro-2022-129-2.webp"
 // import iPadPro2022129fototres from "./estaticas/media/fotos-productos/apple/Ipads/iPad-Pro-2022-129-3.webp"
 
+import Airtagfotouno from "./estaticas/media/fotos-productos/apple/acc/Airtag -1.webp"
+import Airtagfotodos from "./estaticas/media/fotos-productos/apple/acc/Airtag-2.webp"
+import Airtagfototres from "./estaticas/media/fotos-productos/apple/acc/Airtag-3.webp"
+import Airtagfotocuatro from "./estaticas/media/fotos-productos/apple/acc/Airtag-4.webp"
 
-import AppleWatchUltrafotouno from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-ULTRA-1.webp"
-import AppleWatchUltrafotodos from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-ULTRA-2.webp"
-import AppleWatchUltrafototres from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-ULTRA-3.webp"
-import AppleWatchUltrafotocuatro from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-ULTRA-4.webp"
+import ApplePencil1fotouno from "./estaticas/media/fotos-productos/apple/acc/Apple-Pencil-1-1.webp"
+import ApplePencil1fotodos from "./estaticas/media/fotos-productos/apple/acc/Apple-Pencil-1-2.webp"
+import ApplePencil1fototres from "./estaticas/media/fotos-productos/apple/acc/Apple-Pencil-1-3.webp"
 
-import AppleWatchSE2dafotouno from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-SE-2-1.webp"
-import AppleWatchSE2dafotodos from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-ULTRA-2.webp"
-import AppleWatchSE2dafototres from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-ULTRA-3.webp"
-import AppleWatchSE2dafotocuatro from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-ULTRA-4.webp"
+import ApplePencil2fotouno from "./estaticas/media/fotos-productos/apple/acc/Apple-Pencil-2-1.webp"
+import ApplePencil2fotodos from "./estaticas/media/fotos-productos/apple/acc/Apple-Pencil-2-2.webp"
+import ApplePencil2fototres from "./estaticas/media/fotos-productos/apple/acc/Apple-Pencil-2-3.webp"
 
-import AppleWatchSerie8fotouno from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-SERIE8-1.webp"
-import AppleWatchSerie8fotodos from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-SERIE8-2.webp"
-import AppleWatchSerie8fototres from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-SERIE8-3.webp"
-import AppleWatchSerie8fotocuatro from "./estaticas/media/fotos-productos/apple/Watch/APPLE-WATCH-SERIE8-4.webp"
+import HomepodMinifotouno from "./estaticas/media/fotos-productos/apple/acc/Homepod-Mini-1.webp"
+import HomepodMinifotodos from "./estaticas/media/fotos-productos/apple/acc/Homepod-Mini-2.webp"
+import HomepodMinifototres from "./estaticas/media/fotos-productos/apple/acc/Homepod-Mini-3.webp"
+
+import smkey12fotouno from "./estaticas/media/fotos-productos/apple/acc/Smart-Keyboard-ipad-pro-12-1.webp"
+import smkey12fotodos from "./estaticas/media/fotos-productos/apple/acc/Smart-Keyboard-ipad-pro-12-2.webp"
+import smkey12fototres from "./estaticas/media/fotos-productos/apple/acc/Smart-Keyboard-ipad-pro-12-3.webp"
+
+import smkey11fotouno from "./estaticas/media/fotos-productos/apple/acc/Smart-Keyboard-ipad-pro-11-1.webp"
+import smkey11fotodos from "./estaticas/media/fotos-productos/apple/acc/Smart-Keyboard-ipad-pro-11-2.webp"
+import smkey11fototres from "./estaticas/media/fotos-productos/apple/acc/Smart-Keyboard-ipad-pro-11-3.webp"
+
+import mmousefotouno from "./estaticas/media/fotos-productos/apple/acc/Magic-mouse-2-1.webp"
+import mmousefotodos from "./estaticas/media/fotos-productos/apple/acc/Magic-mouse-2-2.webp"
+import mmousefototres from "./estaticas/media/fotos-productos/apple/acc/Magic-mouse-2-3.webp"
+
+import S21FEfotouno from "./estaticas/media/fotos-productos/Smartphones/S21FE-1.webp"
+import S21FEfotodos from "./estaticas/media/fotos-productos/Smartphones/S21FE-2.webp"
+import S21FEfototres from "./estaticas/media/fotos-productos/Smartphones/S21FE-3.webp"
+import S21FEfotocuatro from "./estaticas/media/fotos-productos/Smartphones/S21FE-4.webp"
+
+import SM23fotouno from "./estaticas/media/fotos-productos/Smartphones/SM23-1.webp"
+import SM23fotodos from "./estaticas/media/fotos-productos/Smartphones/SM23-2.webp"
+import SM23fototres from "./estaticas/media/fotos-productos/Smartphones/SM23-3.webp"
+import SM23fotocuatro from "./estaticas/media/fotos-productos/Smartphones/SM23-4.webp"
+
+import SM13fotouno from "./estaticas/media/fotos-productos/Smartphones/SM13-1.webp"
+import SM13fotodos from "./estaticas/media/fotos-productos/Smartphones/SM13-2.webp"
+import SM13fototres from "./estaticas/media/fotos-productos/Smartphones/SM13-3.webp"
+import SM13fotocuatro from "./estaticas/media/fotos-productos/Smartphones/SM13-4.webp"
+
+import SA33fotouno from "./estaticas/media/fotos-productos/Smartphones/SA33-1.webp"
+import SA33fotodos from "./estaticas/media/fotos-productos/Smartphones/SA33-2.webp"
+import SA33fototres from "./estaticas/media/fotos-productos/Smartphones/SA33-3.webp"
+import SA33fotocuatro from "./estaticas/media/fotos-productos/Smartphones/SA33-4.webp"
+
+import SA23fotouno from "./estaticas/media/fotos-productos/Smartphones/SA23-1.webp"
+import SA23fotodos from "./estaticas/media/fotos-productos/Smartphones/SA23-2.webp"
+import SA23fototres from "./estaticas/media/fotos-productos/Smartphones/SA23-3.webp"
+import SA23fotocuatro from "./estaticas/media/fotos-productos/Smartphones/SA23-4.webp"
+
+import SA22fotouno from "./estaticas/media/fotos-productos/Smartphones/SA22-1.webp"
+import SA22fotodos from "./estaticas/media/fotos-productos/Smartphones/SA22-2.webp"
+import SA22fototres from "./estaticas/media/fotos-productos/Smartphones/SA22-3.webp"
+import SA22fotocuatro from "./estaticas/media/fotos-productos/Smartphones/SA22-4.webp"
+
+import SA13fotouno from "./estaticas/media/fotos-productos/Smartphones/SA13-1.webp"
+import SA13fotodos from "./estaticas/media/fotos-productos/Smartphones/SA13-2.webp"
+import SA13fototres from "./estaticas/media/fotos-productos/Smartphones/SA13-3.webp"
+import SA13fotocuatro from "./estaticas/media/fotos-productos/Smartphones/SA13-4.webp"
+
+import SA04fotouno from "./estaticas/media/fotos-productos/Smartphones/SA04-1.webp"
+import SA04fotodos from "./estaticas/media/fotos-productos/Smartphones/SA04-2.webp"
+import SA04fototres from "./estaticas/media/fotos-productos/Smartphones/SA04-3.webp"
+import SA04fotocuatro from "./estaticas/media/fotos-productos/Smartphones/SA04-4.webp"
+
+import SA03Sfotouno from "./estaticas/media/fotos-productos/Smartphones/SA03S-1.webp"
+import SA03Sfotodos from "./estaticas/media/fotos-productos/Smartphones/SA03S-2.webp"
+import SA03Sfototres from "./estaticas/media/fotos-productos/Smartphones/SA03S-3.webp"
+import SA03Sfotocuatro from "./estaticas/media/fotos-productos/Smartphones/SA03S-4.webp"
+
+import SA03fotouno from "./estaticas/media/fotos-productos/Smartphones/SA03-1.webp"
+import SA03fotodos from "./estaticas/media/fotos-productos/Smartphones/SA03-2.webp"
+import SA03fototres from "./estaticas/media/fotos-productos/Smartphones/SA03-3.webp"
+import SA03fotocuatro from "./estaticas/media/fotos-productos/Smartphones/SA03-4.webp"
+
+import G200fotouno from "./estaticas/media/fotos-productos/Smartphones/G200-1.webp"
+import G200fotodos from "./estaticas/media/fotos-productos/Smartphones/G200-2.webp"
+import G200fototres from "./estaticas/media/fotos-productos/Smartphones/G200-3.webp"
+import G200fotocuatro from "./estaticas/media/fotos-productos/Smartphones/G200-4.webp"
+
+import G82fotouno from "./estaticas/media/fotos-productos/Smartphones/G82-1.webp"
+import G82fotodos from "./estaticas/media/fotos-productos/Smartphones/G82-2.webp"
+import G82fototres from "./estaticas/media/fotos-productos/Smartphones/G82-3.webp"
+import G82fotocuatro from "./estaticas/media/fotos-productos/Smartphones/G82-4.webp"
+
+import G71fotouno from "./estaticas/media/fotos-productos/Smartphones/G71-1.webp"
+import G71fotodos from "./estaticas/media/fotos-productos/Smartphones/G71-2.webp"
+import G71fototres from "./estaticas/media/fotos-productos/Smartphones/G71-3.webp"
+
+import G52fotouno from "./estaticas/media/fotos-productos/Smartphones/G52-1.webp"
+import G52fotodos from "./estaticas/media/fotos-productos/Smartphones/G52-2.webp"
+import G52fototres from "./estaticas/media/fotos-productos/Smartphones/G52-3.webp"
+import G52fotocuatro from "./estaticas/media/fotos-productos/Smartphones/G52-4.webp"
+
+import G42fotouno from "./estaticas/media/fotos-productos/Smartphones/G42-1.webp"
+import G42fotodos from "./estaticas/media/fotos-productos/Smartphones/G42-2.webp"
+import G42fototres from "./estaticas/media/fotos-productos/Smartphones/G42-3.webp"
+import G42fotocuatro from "./estaticas/media/fotos-productos/Smartphones/G42-4.webp"
+
+import G41fotouno from "./estaticas/media/fotos-productos/Smartphones/G41-1.webp"
+import G41fotodos from "./estaticas/media/fotos-productos/Smartphones/G41-2.webp"
+import G41fototres from "./estaticas/media/fotos-productos/Smartphones/G41-3.webp"
+import G41fotocuatro from "./estaticas/media/fotos-productos/Smartphones/G41-4.webp"
+
+import G32fotouno from "./estaticas/media/fotos-productos/Smartphones/G32-1.webp"
+import G32fotodos from "./estaticas/media/fotos-productos/Smartphones/G32-2.webp"
+import G32fototres from "./estaticas/media/fotos-productos/Smartphones/G32-3.webp"
+
+import G22fotouno from "./estaticas/media/fotos-productos/Smartphones/G22-1.webp"
+import G22fotodos from "./estaticas/media/fotos-productos/Smartphones/G22-2.webp"
+import G22fototres from "./estaticas/media/fotos-productos/Smartphones/G22-3.webp"
+import G22fotocuatro from "./estaticas/media/fotos-productos/Smartphones/G22-4.webp"
+
+import EDGE30NEOfotouno from "./estaticas/media/fotos-productos/Smartphones/EDGE30NEO-1.webp"
+import EDGE30NEOfotodos from "./estaticas/media/fotos-productos/Smartphones/EDGE30NEO-2.webp"
+import EDGE30NEOfototres from "./estaticas/media/fotos-productos/Smartphones/EDGE30NEO-3.webp"
+
+import EDGE30FUSIONfotouno from "./estaticas/media/fotos-productos/Smartphones/EDGE30FUSION-1.webp"
+import EDGE30FUSIONfotodos from "./estaticas/media/fotos-productos/Smartphones/EDGE30FUSION-2.webp"
+import EDGE30FUSIONfototres from "./estaticas/media/fotos-productos/Smartphones/EDGE30FUSION-3.webp"
+import EDGE30FUSIONfotocuatro from "./estaticas/media/fotos-productos/Smartphones/EDGE30FUSION-4.webp"
 
 
+import EDGE30fotouno from "./estaticas/media/fotos-productos/Smartphones/EDGE30-1.webp"
+import EDGE30fotodos from "./estaticas/media/fotos-productos/Smartphones/EDGE30-2.webp"
+import EDGE30fototres from "./estaticas/media/fotos-productos/Smartphones/EDGE30-3.webp"
+
+import E40fotouno from "./estaticas/media/fotos-productos/Smartphones/E40-1.webp"
+import E40fotodos from "./estaticas/media/fotos-productos/Smartphones/E40-2.webp"
+import E40fototres from "./estaticas/media/fotos-productos/Smartphones/E40-3.webp"
+import E40fotocuatro from "./estaticas/media/fotos-productos/Smartphones/E40-4.webp"
+
+import E32fotouno from "./estaticas/media/fotos-productos/Smartphones/E32-1.webp"
+import E32fotodos from "./estaticas/media/fotos-productos/Smartphones/E32-2.webp"
+import E32fototres from "./estaticas/media/fotos-productos/Smartphones/E32-3.webp"
+import E32fotocuatro from "./estaticas/media/fotos-productos/Smartphones/E32-4.webp"
+
+import E22fotouno from "./estaticas/media/fotos-productos/Smartphones/E22-1.webp"
+import E22fotodos from "./estaticas/media/fotos-productos/Smartphones/E22-2.webp"
+import E22fototres from "./estaticas/media/fotos-productos/Smartphones/E22-3.webp"
+
+
+import E20fotouno from "./estaticas/media/fotos-productos/Smartphones/E20-1.webp"
+import E20fotodos from "./estaticas/media/fotos-productos/Smartphones/E20-2.webp"
+import E20fototres from "./estaticas/media/fotos-productos/Smartphones/E20-3.webp"
+import E20fotocuatro from "./estaticas/media/fotos-productos/Smartphones/E20-4.webp"
 
 
 
@@ -2354,45 +2487,45 @@ categoria:['iphone','all']},
 
 
 //watch
-// {
-//     id:'061',
-//     nombre:'Watch Serie 8 41MM',
-//     secid:'watch-8-41mm',
-//     foto:["https://www.tradeinn.com/f/13933/139331697/apple-watch-series-8-gps-41-mm.jpg"],
-//     precio:"575",
-//     memoria:["-"],
-//     ram:["-"],
-//     componentes:["-"],
-//     descripcion:[
-//         {
-//         info:{
-//             titulo:"Suave y sin costuras",
-//             lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
-//                 },
-//     {
-//         info:{
-//             titulo:"Pantalla Retina siempre activa",
-//             lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
-//         }
-//     },
-//     {
-//         info:{
-//             titulo:"Más duro que duro",
-//             lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
-//         }
-//     },
-//         ],
-//     color: ['black','white'],
-//     estado:'En stock',
-//     tendencia:false,
-//     marca:'apple',
-//     categoria:['watch','all']},
+{
+    id:'061',
+    nombre:'Watch Serie 8 41MM',
+    secid:'watch-8-41mm',
+    foto:["https://www.tradeinn.com/f/13933/139331697/apple-watch-series-8-gps-41-mm.jpg"],
+    precio:"575",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Suave y sin costuras",
+            lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
+                },
+    {
+        info:{
+            titulo:"Pantalla Retina siempre activa",
+            lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
+        }
+    },
+    {
+        info:{
+            titulo:"Más duro que duro",
+            lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
+        }
+    },
+        ],
+    color: ['black','white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['watch','all']},
 
 {
     id:'062',
-    nombre:'APPLE WATCH SERIE 8',
+    nombre:'Watch Serie 8 45MM',
     secid:'watch-8-45mm',
-    foto:[`${AppleWatchSerie8fotouno}`,`${AppleWatchSerie8fotodos}`,`${AppleWatchSerie8fototres}`,`${AppleWatchSerie8fotocuatro}`],
+    foto:["https://www.tradeinn.com/f/13933/139331700/apple-watch-series-8-gps-45-mm.jpg"],
     precio:"610",
     memoria:["-"],
     ram:["-"],
@@ -2421,118 +2554,80 @@ categoria:['iphone','all']},
     tendencia:false,
     marca:'apple',
     categoria:['watch','all']},
-
-
 
 {
-    id:'086',
-    nombre:'APPLE WATCH ULTRA',
-    secid:'',
-    foto:[`${AppleWatchUltrafotouno}`,`${AppleWatchUltrafotodos}`,`${AppleWatchUltrafototres}`,`${AppleWatchUltrafotocuatro}`],
-    precio:"610",
-    memoria:["-"],
-    ram:["-"],
-    componentes:["-"],
-    descripcion:[
+        id:'063',
+        nombre:'Watch Serie 7 41MM',
+        secid:'watch-7-41mm',
+        foto:["https://www.macstation.com.ar/img/productos/2628-3.jpg","https://www.macstation.com.ar/img/productos/2629-4.jpg"],
+        precio:"430",
+        memoria:["-"],
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"Suave y sin costuras",
+                lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
+                    },
         {
-        info:{
-            titulo:"Suave y sin costuras",
-            lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
-                },
-    {
-        info:{
-            titulo:"Pantalla Retina siempre activa",
-            lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
-        }
-    },
-    {
-        info:{
-            titulo:"Más duro que duro",
-            lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
-        }
-    },
-        ],
-    color: ['black','white'],
-    estado:'En stock',
-    tendencia:false,
-    marca:'apple',
+            info:{
+                titulo:"Pantalla Retina siempre activa",
+                lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
+            }
+        },
+        {
+            info:{
+                titulo:"Más duro que duro",
+                lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
+            }
+        },
+            ],
+        color: ['blue','green'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
     categoria:['watch','all']},
 
-
-
-// {
-//         id:'063',
-//         nombre:'Watch Serie 7 41MM',
-//         secid:'watch-7-41mm',
-//         foto:["https://www.macstation.com.ar/img/productos/2628-3.jpg","https://www.macstation.com.ar/img/productos/2629-4.jpg"],
-//         precio:"430",
-//         memoria:["-"],
-//         ram:["-"],
-//         componentes:["-"],
-//         descripcion:[
-//             {
-//             info:{
-//                 titulo:"Suave y sin costuras",
-//                 lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
-//                     },
-//         {
-//             info:{
-//                 titulo:"Pantalla Retina siempre activa",
-//                 lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
-//             }
-//         },
-//         {
-//             info:{
-//                 titulo:"Más duro que duro",
-//                 lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
-//             }
-//         },
-//             ],
-//         color: ['blue','green'],
-//         estado:'En stock',
-//         tendencia:false,
-//         marca:'apple',
-//     categoria:['watch','all']},
-
-// {
-//         id:'064',
-//         nombre:'Watch Serie 7 45MM',
-//         secid:'watch-7-45mm',
-//         foto:["https://www.macstation.com.ar/img/productos/2689-5.jpg","https://www.macstation.com.ar/img/productos/2686-2.jpg"],
-//         precio:"450",
-//         memoria:["-"],
-//         ram:["-"],
-//         componentes:["-"],
-//         descripcion:[
-//             {
-//             info:{
-//                 titulo:"Suave y sin costuras",
-//                 lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
-//                     },
-//         {
-//             info:{
-//                 titulo:"Pantalla Retina siempre activa",
-//                 lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
-//             }
-//         },
-//         {
-//             info:{
-//                 titulo:"Más duro que duro",
-//                 lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
-//             }
-//         },
-//             ],
-//         color: ['red','starlight'],
-//         estado:'En stock',
-//         tendencia:false,
-//         marca:'apple',
-//     categoria:['watch','all']},
+{
+        id:'064',
+        nombre:'Watch Serie 7 45MM',
+        secid:'watch-7-45mm',
+        foto:["https://www.macstation.com.ar/img/productos/2689-5.jpg","https://www.macstation.com.ar/img/productos/2686-2.jpg"],
+        precio:"450",
+        memoria:["-"],
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"Suave y sin costuras",
+                lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
+                    },
+        {
+            info:{
+                titulo:"Pantalla Retina siempre activa",
+                lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
+            }
+        },
+        {
+            info:{
+                titulo:"Más duro que duro",
+                lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
+            }
+        },
+            ],
+        color: ['red','starlight'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+    categoria:['watch','all']},
 
 {
             id:'065',
             nombre:'Watch SE 2da Gen 40MM',
             secid:'watch-SE-40mm',
-            foto:[`${AppleWatchSE2dafotouno}`,`${AppleWatchSE2dafotodos}`,`${AppleWatchSE2dafototres}`,`${AppleWatchSE2dafotocuatro}`],
+            foto:["https://www.macstation.com.ar/img/productos/2089-1.jpg"],
             precio:"340",
             memoria:["-"],
             ram:["-"],
@@ -2561,72 +2656,72 @@ categoria:['iphone','all']},
             tendencia:false,
             marca:'apple',
         categoria:['watch','all']},
-// {
-//             id:'066',
-//             nombre:'Watch SE 2da Gen 44MM',
-//             secid:'watch-SE-44mm',
-//             foto:["https://www.macstation.com.ar/img/productos/2091-1.jpg"],
-//             precio:"370",
-//             memoria:["-"],
-//             ram:["-"],
-//             componentes:["-"],
-//             descripcion:[
-//                 {
-//                 info:{
-//                     titulo:"Suave y sin costuras",
-//                     lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
-//                         },
-//             {
-//                 info:{
-//                     titulo:"Pantalla Retina siempre activa",
-//                     lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
-//                 }
-//             },
-//             {
-//                 info:{
-//                     titulo:"Más duro que duro",
-//                     lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
-//                 }
-//             },
-//                 ],
-//             color: ['silver','gray'],
-//             estado:'En stock',
-//             tendencia:false,
-//             marca:'apple',
-//         categoria:['watch','all']},
-// {
-//             id:'067',
-//             nombre:'Watch Serie 3 38MM',
-//             secid:'watch-3-38mm',
-//             foto:["https://http2.mlstatic.com/D_NQ_NP_721808-MLA46397778443_062021-O.webp","https://http2.mlstatic.com/D_NQ_NP_985061-MLA46397868333_062021-O.webp","https://http2.mlstatic.com/D_NQ_NP_706098-MLA46397868334_062021-O.webp","https://http2.mlstatic.com/D_NQ_NP_754313-MLA46397466875_062021-O.webp","https://http2.mlstatic.com/D_NQ_NP_729258-MLA46397778446_062021-O.webp"],
-//             precio:"260",
-//             memoria:["-"],
-//             ram:["-"],
-//             componentes:["-"],
-//             descripcion:[
-//                 {
-//                 info:{
-//                     titulo:"Suave y sin costuras",
-//                     lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
-//                         },
-//             {
-//                 info:{
-//                     titulo:"Pantalla Retina siempre activa",
-//                     lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
-//                 }
-//             },
-//             {
-//                 info:{
-//                     titulo:"Más duro que duro",
-//                     lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
-//                 }
-//             },
-//                 ],
-//             color: ['silver','gray'],
-//             estado:'En stock',
-//             tendencia:false,
-//             marca:'apple',
-//         categoria:['watch','all']},
+{
+            id:'066',
+            nombre:'Watch SE 2da Gen 44MM',
+            secid:'watch-SE-44mm',
+            foto:["https://www.macstation.com.ar/img/productos/2091-1.jpg"],
+            precio:"370",
+            memoria:["-"],
+            ram:["-"],
+            componentes:["-"],
+            descripcion:[
+                {
+                info:{
+                    titulo:"Suave y sin costuras",
+                    lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
+                        },
+            {
+                info:{
+                    titulo:"Pantalla Retina siempre activa",
+                    lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
+                }
+            },
+            {
+                info:{
+                    titulo:"Más duro que duro",
+                    lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
+                }
+            },
+                ],
+            color: ['silver','gray'],
+            estado:'En stock',
+            tendencia:false,
+            marca:'apple',
+        categoria:['watch','all']},
+{
+            id:'067',
+            nombre:'Watch Serie 3 38MM',
+            secid:'watch-3-38mm',
+            foto:["https://http2.mlstatic.com/D_NQ_NP_721808-MLA46397778443_062021-O.webp","https://http2.mlstatic.com/D_NQ_NP_985061-MLA46397868333_062021-O.webp","https://http2.mlstatic.com/D_NQ_NP_706098-MLA46397868334_062021-O.webp","https://http2.mlstatic.com/D_NQ_NP_754313-MLA46397466875_062021-O.webp","https://http2.mlstatic.com/D_NQ_NP_729258-MLA46397778446_062021-O.webp"],
+            precio:"260",
+            memoria:["-"],
+            ram:["-"],
+            componentes:["-"],
+            descripcion:[
+                {
+                info:{
+                    titulo:"Suave y sin costuras",
+                    lista:["Apple Watch Series 8 cuenta con una pantalla siempre encendida grande y brillante. Los bordes angostos empujan la pantalla hasta el borde, lo que da como resultado una integración elegante con la curvatura de la carcasa."]}
+                        },
+            {
+                info:{
+                    titulo:"Pantalla Retina siempre activa",
+                    lista:["Tómalo todo. Hazlo todo. La pantalla brillante siempre encendida hace que las carátulas detalladas del reloj se vean asombrosas y fáciles de leer, incluso cuando tienes la muñeca hacia abajo. La pantalla grande se adapta a todas sus complicaciones favoritas y hace que tocar, escribir y deslizar sea muy fácil."]
+                }
+            },
+            {
+                info:{
+                    titulo:"Más duro que duro",
+                    lista:["Las mismas innovaciones utilizadas para crear la hermosa pantalla siempre encendida de borde a borde también ayudan a que sea increíblemente duradera. Un cristal frontal grueso, una geometría robusta y una base plana lo hacen resistente al agrietamiento."]
+                }
+            },
+                ],
+            color: ['silver','gray'],
+            estado:'En stock',
+            tendencia:false,
+            marca:'apple',
+        categoria:['watch','all']},
 
 //AIRPODS
 {
@@ -2927,10 +3022,788 @@ categoria:['iphone','all']},
         marca:'apple',
         categoria:['imac','all']},
 
+//airtag
+{
+    id:'088',
+    nombre:'AIRTAG',
+    secid:'',
+    foto:[`${Airtagfotouno}`,`${Airtagfotodos}`,`${Airtagfototres}`,`${Airtagfotocuatro}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:[""],
+    ram:[""],
+    componentes:[""],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['pink'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['accesorios','all']},
+
+{
+    id:'089',
+    nombre:'APPLE PENCIL 1',
+    secid:'',
+    foto:[`${ApplePencil1fotouno}`,`${ApplePencil1fotodos}`,`${ApplePencil1fototres}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:[""],
+    ram:[""],
+    componentes:[""],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['accesorios','all']},
+
+    {
+    id:'090',
+    nombre:'APPLE PENCIL 2',
+    secid:'',
+    foto:[`${ApplePencil2fotouno}`,`${ApplePencil2fotodos}`,`${ApplePencil2fototres}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:[""],
+    ram:[""],
+    componentes:[""],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['accesorios','all']},
+
+    {
+        id:'091',
+        nombre:'HOMEPOD MINI',
+        secid:'',
+        foto:[`${HomepodMinifotouno}`,`${HomepodMinifotodos}`,`${HomepodMinifototres}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:[""],
+        ram:[""],
+        componentes:[""],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['accesorios','all']},
+
+    {
+        id:'092',
+        nombre:'SMART KEYBOARD IPAD PRO 12',
+        secid:'',
+        foto:[`${smkey12fotouno}`,`${smkey12fotodos}`,`${smkey12fototres}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:[""],
+        ram:[""],
+        componentes:[""],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['accesorios','all']},
+
+    {
+        id:'093',
+        nombre:'SMART KEYBOARD IPAD PRO 11',
+        secid:'',
+        foto:[`${smkey11fotouno}`,`${smkey11fotodos}`,`${smkey11fototres}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:[""],
+        ram:[""],
+        componentes:[""],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['accesorios','all']},
+
+    {
+        id:'094',
+        nombre:'MAGIC MOUSE 2',
+        secid:'',
+        foto:[`${mmousefotouno}`,`${mmousefotodos}`,`${mmousefototres}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:[""],
+        ram:[""],
+        componentes:[""],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'samsung',
+        categoria:['accesorios','all']},
 
 
 
+    //smartphones
 
+    {
+        id:'095',
+        nombre:'SAMSUNG S21 FE',
+        secid:'',
+        foto:[`${S21FEfotouno}`,`${S21FEfotodos}`,`${S21FEfototres}`,`${S21FEfotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["128GB"],
+        ram:["6GB"],
+        componentes:[""],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']},
+
+    {
+        id:'096',
+        nombre:'SAMSUNG M23',
+        secid:'',
+        foto:[`${SM23fotouno}`,`${SM23fotodos}`,`${SM23fototres}`,`${SM23fotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["128GB"],
+        ram:["4GB"],
+        componentes:[""],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']},        
+
+
+    {
+        id:'097',
+        nombre:'SAMSUNG M13',
+        secid:'',
+        foto:[`${SM13fotouno}`,`${SM13fotodos}`,`${SM13fototres}`,`${SM13fotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["128GB"],
+        ram:["4GB"],
+        componentes:[""],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']},     
+
+    {
+        id:'098',
+        nombre:'SAMSUNG A33',
+        secid:'',
+        foto:[`${SA33fotouno}`,`${SA33fotodos}`,`${SA33fototres}`,`${SA33fotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["128GB"],
+        ram:["6GB"],
+        componentes:[""],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']},    
+
+    {
+        id:'099',
+        nombre:'SAMSUNG A23',
+        secid:'',
+        foto:[`${SA23fotouno}`,`${SA23fotodos}`,`${SA23fototres}`,`${SA23fotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["128GB"],
+        ram:["4GB"],
+        componentes:[""],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']},  
+
+    {
+        id:'100',
+        nombre:'SAMSUNG A22',
+        secid:'',
+        foto:[`${SA22fotouno}`,`${SA22fotodos}`,`${SA22fototres}`,`${SA22fotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["128GB"],
+        ram:["4GB"],
+        componentes:[""],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']},  
+
+    {
+        id:'101',
+        nombre:'SAMSUNG A13',
+        secid:'',
+        foto:[`${SA13fotouno}`,`${SA13fotodos}`,`${SA13fototres}`,`${SA13fotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["64GB"],
+        ram:["4GB"],
+        componentes:[""],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']},  
+
+
+    {
+        id:'102',
+        nombre:'SAMSUNG A04',
+        secid:'',
+        foto:[`${SA04fotouno}`,`${SA04fotodos}`,`${SA04fototres}`,`${SA04fotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["64GB"],
+        ram:["4GB"],
+        componentes:[""],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']}, 
+
+    {
+        id:'103',
+        nombre:'SAMSUNG A03s',
+        secid:'',
+        foto:[`${SA03Sfotouno}`,`${SA03Sfotodos}`,`${SA03Sfototres}`,`${SA03Sfotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["64GB"],
+        ram:["4GB"],
+        componentes:[""],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']}, 
+
+    {
+        id:'104',
+        nombre:'SAMSUNG A03',
+        secid:'',
+        foto:[`${SA03fotouno}`,`${SA03fotodos}`,`${SA03fototres}`,`${SA03fotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["64GB"],
+        ram:["4GB"],
+        componentes:[""],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']}, 
+
+    {
+        id:'105',
+        nombre:'MOTOROLA G200',
+        secid:'',
+        foto:[`${G200fotouno}`,`${G200fotodos}`,`${G200fototres}`,`${G200fotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["128GB"],
+        ram:["8GB"],
+        componentes:[""],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']}, 
+
+    {
+        id:'106',
+        nombre:'MOTOROLA G82',
+        secid:'',
+        foto:[`${G82fotouno}`,`${G82fotodos}`,`${G82fototres}`,`${G82fotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["128GB"],
+        ram:["6GB"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']}, 
+
+    {
+        id:'107',
+        nombre:'MOTOROLA G71',
+        secid:'',
+        foto:[`${G71fotouno}`,`${G71fotodos}`,`${G71fototres}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["128GB"],
+        ram:["6GB"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']},
+
+    {
+        id:'108',
+        nombre:'MOTOROLA G52',
+        secid:'',
+        foto:[`${G52fotouno}`,`${G52fotodos}`,`${G52fototres}`,`${G52fotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["128GB"],
+        ram:["6GB"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']}, 
+
+    {
+        id:'109',
+        nombre:'MOTOROLA G42',
+        secid:'',
+        foto:[`${G42fotouno}`,`${G42fotodos}`,`${G42fototres}`,`${G42fotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["128GB"],
+        ram:["4GB"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']}, 
+
+
+    {
+        id:'110',
+        nombre:'MOTOROLA G41',
+        secid:'',
+        foto:[`${G41fotouno}`,`${G41fotodos}`,`${G41fototres}`,`${G41fotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["128GB"],
+        ram:["4GB"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']}, 
+
+        {
+            id:'111',
+            nombre:'MOTOROLA G32',
+            secid:'',
+            foto:[`${G32fotouno}`,`${G32fotodos}`,`${G32fototres}`],
+            oferta:false,
+            precio:"",
+            precioAnterior:"",
+            memoria:["128GB"],
+            ram:["4GB"],
+            componentes:["-"],
+            descripcion:[
+                {
+                info:{
+                    titulo:"",
+                    lista:[""]}
+                        },
+                ],
+            color: ['white'],
+            estado:'En stock',
+            tendencia:false,
+            marca:'apple',
+            categoria:['smartphones','all']}, 
+
+
+    {
+        id:'112',
+        nombre:'MOTOROLA G22',
+        secid:'',
+        foto:[`${G22fotouno}`,`${G22fotodos}`,`${G22fototres}`,`${G22fotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["128GB"],
+        ram:["4GB"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']}, 
+
+
+    {
+        id:'113',
+        nombre:'MOTOROLA EDGE 30 NEO',
+        secid:'',
+        foto:[`${EDGE30NEOfotouno}`,`${EDGE30NEOfotodos}`,`${EDGE30NEOfototres}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["128GB"],
+        ram:["8GB"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']}, 
+
+
+    {
+        id:'114',
+        nombre:'MOTOROLA EDGE 30 FUSION',
+        secid:'',
+        foto:[`${EDGE30FUSIONfotouno}`,`${EDGE30FUSIONfotodos}`,`${EDGE30FUSIONfototres}`,`${EDGE30FUSIONfotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["256GB"],
+        ram:["12GB"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']}, 
+
+
+    {
+        id:'115',
+        nombre:'MOTOROLA EDGE 30',
+        secid:'',
+        foto:[`${EDGE30fotouno}`,`${EDGE30fotodos}`,`${EDGE30fototres}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["128GB"],
+        ram:["8GB"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']}, 
+
+    {
+        id:'116',
+        nombre:'MOTOROLA E40',
+        secid:'',
+        foto:[`${E40fotouno}`,`${E40fotodos}`,`${E40fototres}`,`${E40fotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["64GB"],
+        ram:["4GB"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']}, 
+
+    {
+        id:'117',
+        nombre:'MOTOROLA E32',
+        secid:'',
+        foto:[`${E32fotouno}`,`${E32fotodos}`,`${E32fototres}`,`${E32fotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["64GB"],
+        ram:["2GB"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']}, 
+
+    {
+        id:'118',
+        nombre:'MOTOROLA E22',
+        secid:'',
+        foto:[`${E22fotouno}`,`${E22fotodos}`,`${E22fototres}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["32GB"],
+        ram:["3GB"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']}, 
+
+    {
+        id:'119',
+        nombre:'MOTOROLA E20',
+        secid:'',
+        foto:[`${E20fotouno}`,`${E20fotodos}`,`${E20fototres}`,`${E20fotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["32GB"],
+        ram:["3GB"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['smartphones','all']}, 
+
+
+        
 ];
 
 export default productos
