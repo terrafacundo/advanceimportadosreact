@@ -13,7 +13,7 @@ import accesorios from "./media/banners/accesorios-web.jpg"
 const PaginaGaming =()=>{
     return(
         <div className="pre-banner">
-            <h2 className="banner-cotizar">Gaming</h2>
+            {/* <h2 className="banner-cotizar">Gaming</h2> */}
 
             <CarouselFade banner1={gamingweb} banner2={monitorweb} banner3={accesorios} banner4=""/>
 
