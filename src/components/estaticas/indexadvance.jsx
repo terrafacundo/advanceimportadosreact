@@ -6,10 +6,18 @@ import contacto from "./media/arroba.svg"
 import whatsapp from "./media/whatsapp.svg"
 import CarouselResenas from "./CarouselResenas";
 
+import gamingweb from "./media/banners/gaming-web.jpg"
+import goproweb from "./media/banners/go-pro-web.jpg"
+import monitorweb from "./media/banners/monitor-web.jpg"
+import bannerweb from "./media/banners/banner-web-2.jpg"
+
+
+
+
 const Indexadvance =()=>{
     return(
         <div className="index-view">
-            <CarouselFade/>
+            <CarouselFade banner1={gamingweb} banner2={monitorweb} banner3={goproweb} banner4={bannerweb}/>
             <div className="info-general-index">
                 <div className="info-general-tarjetas">
                     <img src={horarios}></img>

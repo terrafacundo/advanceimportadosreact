@@ -10,8 +10,8 @@ import mac from './media/mac.jpg'
 import imac from  './media/imac.jpg'
 import CarouselFade from "../carousel";
 
-import bannerap1 from  './media/banner-ap-1.jpeg'
-
+import banner1 from  './media/banners/productos-apple.jpg'
+import banner2 from  './media/banners/macbooks.jpg'
 
 
 const PaginaApple =()=>{
@@ -19,7 +19,7 @@ const PaginaApple =()=>{
         <div className="pre-banner">
             {/* <h2 className="banner-cotizar">Apple</h2> */}
 
-            <CarouselFade banner1={bannerap1} />
+            <CarouselFade banner1={banner1} banner2={banner2} banner3=""  banner4="" />
 
             <div className="galeria_productos_apple">
                 <RedireccionadorApple link='Iphone' nombrebanner={iphone}/>

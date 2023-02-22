@@ -265,11 +265,63 @@ import E22fotouno from "./estaticas/media/fotos-productos/Smartphones/E22-1.webp
 import E22fotodos from "./estaticas/media/fotos-productos/Smartphones/E22-2.webp"
 import E22fototres from "./estaticas/media/fotos-productos/Smartphones/E22-3.webp"
 
-
 import E20fotouno from "./estaticas/media/fotos-productos/Smartphones/E20-1.webp"
 import E20fotodos from "./estaticas/media/fotos-productos/Smartphones/E20-2.webp"
 import E20fototres from "./estaticas/media/fotos-productos/Smartphones/E20-3.webp"
 import E20fotocuatro from "./estaticas/media/fotos-productos/Smartphones/E20-4.webp"
+
+import AG84fotouno from "./estaticas/media/fotos-productos/Sillas/AG84-1.jpg"
+import AG84fotodos from "./estaticas/media/fotos-productos/Sillas/AG84-2.jpg"
+import AG84fototres from "./estaticas/media/fotos-productos/Sillas/AG84-3.jpg"
+import AG84fotocuatro from "./estaticas/media/fotos-productos/Sillas/AG84-4.jpg"
+import AG84fotocinco from "./estaticas/media/fotos-productos/Sillas/AG84-5.jpg"
+
+import AG61fotouno from "./estaticas/media/fotos-productos/Sillas/AG61-1.jpg"
+import AG61fotodos from "./estaticas/media/fotos-productos/Sillas/AG61-2.jpg"
+import AG61fototres from "./estaticas/media/fotos-productos/Sillas/AG61-3.jpg"
+import AG61fotocuatro from "./estaticas/media/fotos-productos/Sillas/AG61-4.jpg"
+import AG61fotocinco from "./estaticas/media/fotos-productos/Sillas/AG61-5.jpg"
+import AG61fotoseis from "./estaticas/media/fotos-productos/Sillas/AG61-6.jpg"
+
+import AG41fotouno from "./estaticas/media/fotos-productos/Sillas/AG41-1.jpg"
+import AG41fotodos from "./estaticas/media/fotos-productos/Sillas/AG41-2.jpg"
+import AG41fototres from "./estaticas/media/fotos-productos/Sillas/AG41-3.jpg"
+import AG41fotocuatro from "./estaticas/media/fotos-productos/Sillas/AG41-4.jpg"
+import AG41fotocinco from "./estaticas/media/fotos-productos/Sillas/AG41-5.jpg"
+import AG41fotoseis from "./estaticas/media/fotos-productos/Sillas/AG41-6.jpg"
+
+import AG19fotouno from "./estaticas/media/fotos-productos/Sillas/AG19-1.jpg"
+import AG19fotodos from "./estaticas/media/fotos-productos/Sillas/AG19-2.jpg"
+import AG19fototres from "./estaticas/media/fotos-productos/Sillas/AG19-3.jpg"
+import AG19fotocuatro from "./estaticas/media/fotos-productos/Sillas/AG19-4.jpg"
+
+import TELHIT501fotouno from "./estaticas/media/fotos-productos/Tele/TELHIT501-1.webp"
+import TELHIT501fotodos from "./estaticas/media/fotos-productos/Tele/TELHIT501-2.webp"
+import TELHIT501fototres from "./estaticas/media/fotos-productos/Tele/TELHIT501-3.webp"
+
+import TELHIT551fotouno from "./estaticas/media/fotos-productos/Tele/TELHIT551-1.webp"
+import TELHIT551fotodos from "./estaticas/media/fotos-productos/Tele/TELHIT551-2.webp"
+
+import noblex39fotouno from "./estaticas/media/fotos-productos/Tele/noblex39-1.webp"
+import noblex39fotodos from "./estaticas/media/fotos-productos/Tele/noblex39-2.webp"
+
+import noblex50fotouno from "./estaticas/media/fotos-productos/Tele/noblex50-1.jpg"
+import noblex50fotodos from "./estaticas/media/fotos-productos/Tele/noblex50-2.jpg"
+
+import Quint50frlfotouno from "./estaticas/media/fotos-productos/Tele/Quint50frl-1.webp"
+import Quint50frlfotodos from "./estaticas/media/fotos-productos/Tele/Quint50frl-2.webp"
+import Quint50frlfototres from "./estaticas/media/fotos-productos/Tele/Quint50frl-3.webp"
+import Quint50frlfotocuatro from "./estaticas/media/fotos-productos/Tele/Quint50frl-4.webp"
+import Quint50frlfotocinco from "./estaticas/media/fotos-productos/Tele/Quint50frl-5.webp"
+import Quint50frlfotoseis from "./estaticas/media/fotos-productos/Tele/Quint50frl-6.webp"
+
+import Quint50frl2fotouno from "./estaticas/media/fotos-productos/Tele/Quint50frl2-1.webp"
+import Quint50frl2fotodos from "./estaticas/media/fotos-productos/Tele/Quint50frl2-2.webp"
+import Quint50frl2fototres from "./estaticas/media/fotos-productos/Tele/Quint50frl2-3.webp"
+import Quint50frl2fotocuatro from "./estaticas/media/fotos-productos/Tele/Quint50frl2-4.webp"
+
+
+
 
 
 
@@ -3802,8 +3854,277 @@ categoria:['iphone','all']},
         marca:'apple',
         categoria:['smartphones','all']}, 
 
+//silla gamer
 
+{
+    id:'120',
+    nombre:'AG84 AUSTIN',
+    secid:'',
+    foto:[`${AG84fotouno}`,`${AG84fotodos}`,`${AG84fototres}`,`${AG84fotocuatro}`,`${AG84fotocinco}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['sillas','all']}, 
         
+
+{
+    id:'121',
+    nombre:'AG61 DRIFT',
+    secid:'',
+    foto:[`${AG61fotouno}`,`${AG61fotodos}`,`${AG61fototres}`,`${AG61fotocuatro}`,`${AG61fotocinco}`,`${AG61fotoseis}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['sillas','all']}, 
+
+
+
+    {
+    id:'122',
+    nombre:'AG41 RHODES',
+    secid:'',
+    foto:[`${AG41fotouno}`,`${AG41fotodos}`,`${AG41fototres}`,`${AG41fotocuatro}`,`${AG41fotocinco}`,`${AG41fotoseis}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['sillas','all']}, 
+
+    {
+    id:'123',
+    nombre:'AG19 VALVE',
+    secid:'',
+    foto:[`${AG19fotouno}`,`${AG19fotodos}`,`${AG19fototres}`,`${AG19fotocuatro}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['sillas','all']}, 
+
+// TELEVIISONES
+
+//HITACHI
+    {
+    id:'124',
+    nombre:`HITACHI 50" 4K ANDROID`,
+    secid:'',
+    foto:[`${TELHIT501fotouno}`,`${TELHIT501fotodos}`,`${TELHIT501fototres}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['televisiones','all']}, 
+
+
+        {
+    id:'125',
+    nombre:`HITACHI 55" 4K ANDROID`,
+    secid:'',
+    foto:[`${TELHIT551fotouno}`,`${TELHIT551fotodos}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['televisiones','all']}, 
+
+
+        {
+    id:'126',
+    nombre:`NOBLEX 39"`,
+    secid:'',
+    foto:[`${noblex39fotouno}`,`${noblex39fotodos}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['televisiones','all']}, 
+
+        {
+    id:'127',
+    nombre:`NOBLEX ANDROID 50"`,
+    secid:'',
+    foto:[`${noblex50fotouno}`,`${noblex50fotodos}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['televisiones','all']},
+
+        {
+    id:'128',
+    nombre:`QUINT 50 FRAMELESS`,
+    secid:'',
+    foto:[`${Quint50frlfotouno}`,`${Quint50frlfotodos}`,`${Quint50frlfototres}`,`${Quint50frlfotocuatro}`,`${Quint50frlfotocinco}`,`${Quint50frlfotoseis}`,],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['televisiones','all']},
+
+        {
+    id:'129',
+    nombre:`Smart TV Quint QT1-50FRAME 4K 50`,
+    secid:'',
+    foto:[`${Quint50frl2fotouno}`,`${Quint50frl2fotodos}`,`${Quint50frl2fototres}`,`${Quint50frl2fotocuatro}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['televisiones','all']},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ];
 
 export default productos
