@@ -320,12 +320,40 @@ import Quint50frl2fotodos from "./estaticas/media/fotos-productos/Tele/Quint50fr
 import Quint50frl2fototres from "./estaticas/media/fotos-productos/Tele/Quint50frl2-3.webp"
 import Quint50frl2fotocuatro from "./estaticas/media/fotos-productos/Tele/Quint50frl2-4.webp"
 
+import TCL75fotouno from "./estaticas/media/fotos-productos/Tele/TCL75-1.webp"
+import TCL75fotodos from "./estaticas/media/fotos-productos/Tele/TCL75-2.webp"
+import TCL75fototres from "./estaticas/media/fotos-productos/Tele/TCL75-3.webp"
+import TCL75fotocuatro from "./estaticas/media/fotos-productos/Tele/TCL75-4.webp"
+import TCL75fotocinco from "./estaticas/media/fotos-productos/Tele/TCL75-5.webp"
 
+import TCLled50fotouno from "./estaticas/media/fotos-productos/Tele/TCLled50-1.webp"
+import TCLled50fotodos from "./estaticas/media/fotos-productos/Tele/TCLled50-2.webp"
+import TCLled50fototres from "./estaticas/media/fotos-productos/Tele/TCLled50-3.webp"
+import TCLled50fotocuatro from "./estaticas/media/fotos-productos/Tele/TCLled50-4.webp"
+import TCLled50fotocinco from "./estaticas/media/fotos-productos/Tele/TCLled50-5.webp"
+import TCLled50fotoseis from "./estaticas/media/fotos-productos/Tele/TCLled50-6.webp"
 
+import TCLMINIQLED55fotouno from "./estaticas/media/fotos-productos/Tele/TCLMINIQLED55-1.webp"
+import TCLMINIQLED55fotodos from "./estaticas/media/fotos-productos/Tele/TCLMINIQLED55-2.webp"
+import TCLMINIQLED55fototres from "./estaticas/media/fotos-productos/Tele/TCLMINIQLED55-3.webp"
+import TCLMINIQLED55fotocuatro from "./estaticas/media/fotos-productos/Tele/TCLMINIQLED55-4.webp"
 
+import TCL65UHDfotouno from "./estaticas/media/fotos-productos/Tele/TCL65UHD-1.webp"
+import TCL65UHDfotodos from "./estaticas/media/fotos-productos/Tele/TCL65UHD-2.webp"
+import TCL65UHDfototres from "./estaticas/media/fotos-productos/Tele/TCL65UHD-3.webp"
+import TCL65UHDfotocuatro from "./estaticas/media/fotos-productos/Tele/TCL65UHD-4.webp"
 
+import RCA39fotouno from "./estaticas/media/fotos-productos/Tele/RCA39-1.webp"
 
+import RCA40fotouno from "./estaticas/media/fotos-productos/Tele/RCA40-1.webp"
+import RCA40fotodos from "./estaticas/media/fotos-productos/Tele/RCA40-2.webp"
+import RCA40fototres from "./estaticas/media/fotos-productos/Tele/RCA40-3.webp"
 
+import RCA50fotouno from "./estaticas/media/fotos-productos/Tele/RCA50-1.webp"
+
+import RCA554Kfotouno from "./estaticas/media/fotos-productos/Tele/RCA554K-1.webp"
+
+import RCA654Kfotouno from "./estaticas/media/fotos-productos/Tele/RCA654K-1.webp"
 
 
 
@@ -4104,24 +4132,224 @@ categoria:['iphone','all']},
     marca:'apple',
     categoria:['televisiones','all']},
 
+        {
+
+    id:'130',
+    nombre:`TCL 75 UHD`,
+    secid:'',
+    foto:[`${TCL75fotouno}`,`${TCL75fotodos}`,`${TCL75fototres}`,`${TCL75fotocuatro}`,`${TCL75fotocinco}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['televisiones','all']},
+
+    {
+    id:'131',
+    nombre:`TCL LED 50 UHD`,
+    secid:'',
+    foto:[`${TCLled50fotouno}`,`${TCLled50fotodos}`,`${TCLled50fototres}`,`${TCLled50fotocuatro}`,`${TCLled50fotocinco}`,`${TCLled50fotoseis}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['televisiones','all']},
+
+    {
+    id:'132',
+    nombre:`TCL MINI QLED 55 UHD`,
+    secid:'',
+    foto:[`${TCLMINIQLED55fotouno}`,`${TCLMINIQLED55fotodos}`,`${TCLMINIQLED55fototres}`,`${TCLMINIQLED55fotocuatro}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['televisiones','all']},
+
+    {
+    id:'133',
+    nombre:`TCL 65 UHD`,
+    secid:'',
+    foto:[`${TCL65UHDfotouno}`,`${TCL65UHDfotodos}`,`${TCL65UHDfototres}`,`${TCL65UHDfotocuatro}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['televisiones','all']},
 
 
+    {
+    id:'134',
+    nombre:`RCA 39 ANDROID`,
+    secid:'',
+    foto:[`${RCA39fotouno}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['televisiones','all']},
 
 
+    {
+    id:'135',
+    nombre:`RCA 40 ANDROID`,
+    secid:'',
+    foto:[`${RCA40fotouno}`,`${RCA40fotodos}`,`${RCA40fototres}`,],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['televisiones','all']},
 
+    {
+    id:'136',
+    nombre:`RCA 50 ANDROID`,
+    secid:'',
+    foto:[`${RCA50fotouno}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['televisiones','all']},
 
+    {
+    id:'137',
+    nombre:`RCA 55 4K`,
+    secid:'',
+    foto:[`${RCA554Kfotouno}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['televisiones','all']},
 
-
-
-
-
-
-
-
-
-
-
-
+    {
+    id:'138',
+    nombre:`RCA 65 4K`,
+    secid:'',
+    foto:[`${RCA654Kfotouno}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['televisiones','all']},
 
 
 
