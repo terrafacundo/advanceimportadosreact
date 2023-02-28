@@ -355,6 +355,49 @@ import RCA554Kfotouno from "./estaticas/media/fotos-productos/Tele/RCA554K-1.web
 
 import RCA654Kfotouno from "./estaticas/media/fotos-productos/Tele/RCA654K-1.webp"
 
+import NVIDIA3060TIfotouno from "./estaticas/media/fotos-productos/graficas/NVIDIA3060TI-1.webp"
+import NVIDIA3060TIfotodos from "./estaticas/media/fotos-productos/graficas/NVIDIA3060TI-2.webp"
+import NVIDIA3060TIfototres from "./estaticas/media/fotos-productos/graficas/NVIDIA3060TI-3.webp"
+
+import NVIDIA3060fotouno from "./estaticas/media/fotos-productos/graficas/NVIDIA3060-1.webp"
+import NVIDIA3060fotodos from "./estaticas/media/fotos-productos/graficas/NVIDIA3060-2.webp"
+import NVIDIA3060fototres from "./estaticas/media/fotos-productos/graficas/NVIDIA3060-3.webp"
+
+import GB3080RTXfotouno from "./estaticas/media/fotos-productos/graficas/GB3080RTX-1.jpg"
+import GB3080RTXfotodos from "./estaticas/media/fotos-productos/graficas/GB3080RTX-2.jpg"
+import GB3080RTXfototres from "./estaticas/media/fotos-productos/graficas/GB3080RTX-3.jpg"
+import GB3080RTXfotocuatro from "./estaticas/media/fotos-productos/graficas/GB3080RTX-4.jpg"
+
+import GB1660GTXfotouno from "./estaticas/media/fotos-productos/graficas/GB1660GTX-1.jpg"
+import GB1660GTXfotodos from "./estaticas/media/fotos-productos/graficas/GB1660GTX-2.jpg"
+import GB1660GTXfototres from "./estaticas/media/fotos-productos/graficas/GB1660GTX-3.jpg"
+import GB1660GTXfotocuatro from "./estaticas/media/fotos-productos/graficas/GB1660GTX-4.jpg"
+import GB1660GTXfotocinco from "./estaticas/media/fotos-productos/graficas/GB1660GTX-5.jpg"
+import GB1660GTXfotoseis from "./estaticas/media/fotos-productos/graficas/GB1660GTX-6.jpg"
+
+import EVGARTX3080TIfotouno from "./estaticas/media/fotos-productos/graficas/EVGARTX3080TI-1.webp"
+import EVGARTX3080TIfotodos from "./estaticas/media/fotos-productos/graficas/EVGARTX3080TI-2.webp"
+import EVGARTX3080TIfototres from "./estaticas/media/fotos-productos/graficas/EVGARTX3080TI-3.webp"
+import EVGARTX3080TIfotocuatro from "./estaticas/media/fotos-productos/graficas/EVGARTX3080TI-4.webp"
+import EVGARTX3080TIfotocinco from "./estaticas/media/fotos-productos/graficas/EVGARTX3080TI-5.webp"
+
+import EVGARTX3070TIfotouno from "./estaticas/media/fotos-productos/graficas/EVGARTX3070TI-1.webp"
+import EVGARTX3070TIfotodos from "./estaticas/media/fotos-productos/graficas/EVGARTX3070TI-2.webp"
+import EVGARTX3070TIfototres from "./estaticas/media/fotos-productos/graficas/EVGARTX3080TI-3.webp"
+import EVGARTX3070TIfotocuatro from "./estaticas/media/fotos-productos/graficas/EVGARTX3070TI-4.webp"
+
+import EVGARTX3070fotouno from "./estaticas/media/fotos-productos/graficas/EVGARTX3070-1.webp"
+import EVGARTX3070fotodos from "./estaticas/media/fotos-productos/graficas/EVGARTX3070-2.webp"
+import EVGARTX3070fototres from "./estaticas/media/fotos-productos/graficas/EVGARTX3080-3.webp"
+import EVGARTX3070fotocuatro from "./estaticas/media/fotos-productos/graficas/EVGARTX3070-4.webp"
+import EVGARTX3070fotocinco from "./estaticas/media/fotos-productos/graficas/EVGARTX3070-5.webp"
+
+import EVGARTX2060fotouno from "./estaticas/media/fotos-productos/graficas/EVGARTX2060-1.webp"
+import EVGARTX2060fotodos from "./estaticas/media/fotos-productos/graficas/EVGARTX2060-2.webp"
+import EVGARTX2060fototres from "./estaticas/media/fotos-productos/graficas/EVGARTX2060-3.webp"
+import EVGARTX2060fotocuatro from "./estaticas/media/fotos-productos/graficas/EVGARTX2060-4.webp"
+import EVGARTX2060fotocinco from "./estaticas/media/fotos-productos/graficas/EVGARTX2060-5.webp"
+
 
 
 const productos=[
@@ -3076,7 +3119,7 @@ categoria:['iphone','all']},
     estado:'En stock',
     tendencia:false,
     marca:'apple',
-    categoria:['imac','all']},
+    categoria:['macstudio','all']},
 
     {
         id:'075',
@@ -3100,7 +3143,7 @@ categoria:['iphone','all']},
         estado:'En stock',
         tendencia:false,
         marca:'apple',
-        categoria:['imac','all']},
+        categoria:['macstudio','all']},
 
 //airtag
 {
@@ -4350,6 +4393,204 @@ categoria:['iphone','all']},
     tendencia:false,
     marca:'apple',
     categoria:['televisiones','all']},
+
+    {
+    id:'139',
+    nombre:`NVIDIA 3060TI`,
+    secid:'',
+    foto:[`${NVIDIA3060TIfotouno}`,`${NVIDIA3060TIfotodos}`,`${NVIDIA3060TIfototres}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['mineria','all']},
+
+    {
+    id:'140',
+    nombre:`NVIDIA 3060`,
+    secid:'',
+    foto:[`${NVIDIA3060fotouno}`,`${NVIDIA3060fotodos}`,`${NVIDIA3060fototres}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['mineria','all']},
+
+    {
+    id:'141',
+    nombre:`GIGABYTE RTX 3080 GAMING OC 12GB`,
+    secid:'',
+    foto:[`${GB3080RTXfotouno}`,`${GB3080RTXfotodos}`,`${GB3080RTXfototres}`,`${GB3080RTXfotocuatro}`,],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['mineria','all']},
+
+    {
+    id:'142',
+    nombre:`GIGABYTE GTX 1660 OC 6GB`,
+    secid:'',
+    foto:[`${GB1660GTXfotouno}`,`${GB1660GTXfotodos}`,`${GB1660GTXfototres}`,`${GB1660GTXfotocuatro}`,`${GB1660GTXfotocinco}`,`${GB1660GTXfotoseis}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['mineria','all']},
+
+    {
+    id:'143',
+    nombre:`EVGA RTX3080TI XC3 ULTRA 12GB`,
+    secid:'',
+    foto:[`${EVGARTX3080TIfotouno}`,`${EVGARTX3080TIfotodos}`,`${EVGARTX3080TIfototres}`,`${EVGARTX3080TIfotocuatro}`,`${EVGARTX3080TIfotocinco}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['mineria','all']},
+
+    {
+    id:'144',
+    nombre:`EVGA RTX3070TI FTW 3 ULTRA 8GB`,
+    secid:'',
+    foto:[`${EVGARTX3070TIfotouno}`,`${EVGARTX3070TIfotodos}`,`${EVGARTX3070TIfototres}`,`${EVGARTX3070TIfotocuatro}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['mineria','all']},
+
+    {
+    id:'145',
+    nombre:`EVGA RTX3070`,
+    secid:'',
+    foto:[`${EVGARTX3070fotouno}`,`${EVGARTX3070fotodos}`,`${EVGARTX3070fototres}`,`${EVGARTX3070fotocuatro}`,`${EVGARTX3070fotocinco}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['mineria','all']},
+
+    {
+    id:'146',
+    nombre:`EVGA RTX2060 SC 6GB`,
+    secid:'',
+    foto:[`${EVGARTX2060fotouno}`,`${EVGARTX2060fotodos}`,`${EVGARTX2060fototres}`,`${EVGARTX2060fotocuatro}`,`${EVGARTX2060fotocinco}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"",
+            lista:[""]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['mineria','all']},
+
+
+
+
+
+
 
 
 
