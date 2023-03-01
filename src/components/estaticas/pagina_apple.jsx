@@ -10,8 +10,8 @@ import mac from './media/mac.jpg'
 import imac from  './media/imac.jpg'
 import CarouselFade from "../carousel";
 
-import banner1 from  './media/banners/productos-apple.jpg'
-import banner2 from  './media/banners/macbooks.jpg'
+import banner1 from  './media/banners/banner-1-apple.jpg'
+import banner2 from  './media/banners/banner-2-apple.jpg'
 
 
 const PaginaApple =()=>{

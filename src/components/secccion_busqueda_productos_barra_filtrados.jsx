@@ -7,6 +7,7 @@ const FiltroBusquedas =()=>{
         <div className="sector_busqueda_filtros" >
             <Link to="/filt/all" tipo="inicio"><h2 className="texto_boton_busq">Todos</h2></Link>
             <Link to="/filt/iphone" tipo="no-inicio"><h2 className="texto_boton_busq">Iphone</h2></Link>
+            <Link to="/filt/ipad" tipo="no-inicio"><h2 className="texto_boton_busq">iPad</h2></Link>
             <Link to="/filt/macbook" tipo="no-inicio"><h2 className="texto_boton_busq">Macbook</h2></Link>
             <Link to="/filt/macstudio" tipo="no-inicio"><h2 className="texto_boton_busq">MacStudio</h2></Link>
             <Link to="/filt/imac" tipo="no-inicio"><h2 className="texto_boton_busq">Imac</h2></Link>

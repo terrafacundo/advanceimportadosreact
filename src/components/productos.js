@@ -383,12 +383,12 @@ import EVGARTX3080TIfotocinco from "./estaticas/media/fotos-productos/graficas/E
 
 import EVGARTX3070TIfotouno from "./estaticas/media/fotos-productos/graficas/EVGARTX3070TI-1.webp"
 import EVGARTX3070TIfotodos from "./estaticas/media/fotos-productos/graficas/EVGARTX3070TI-2.webp"
-import EVGARTX3070TIfototres from "./estaticas/media/fotos-productos/graficas/EVGARTX3080TI-3.webp"
+import EVGARTX3070TIfototres from "./estaticas/media/fotos-productos/graficas/EVGARTX3070TI-3.webp"
 import EVGARTX3070TIfotocuatro from "./estaticas/media/fotos-productos/graficas/EVGARTX3070TI-4.webp"
 
 import EVGARTX3070fotouno from "./estaticas/media/fotos-productos/graficas/EVGARTX3070-1.webp"
 import EVGARTX3070fotodos from "./estaticas/media/fotos-productos/graficas/EVGARTX3070-2.webp"
-import EVGARTX3070fototres from "./estaticas/media/fotos-productos/graficas/EVGARTX3080-3.webp"
+import EVGARTX3070fototres from "./estaticas/media/fotos-productos/graficas/EVGARTX3070-3.webp"
 import EVGARTX3070fotocuatro from "./estaticas/media/fotos-productos/graficas/EVGARTX3070-4.webp"
 import EVGARTX3070fotocinco from "./estaticas/media/fotos-productos/graficas/EVGARTX3070-5.webp"
 
@@ -1065,328 +1065,328 @@ const productos=[
         marca:'apple',
         categoria:['notebook','all']},
 
-    //placas de video
-    {
-        id:'014',
-        nombre:'RTX 2060 12GB REVEL DUAL FAN (12GB GDDR6)',
-        foto:["https://http2.mlstatic.com/D_NQ_NP_727800-MLA45713390694_042021-O.webp","https://http2.mlstatic.com/D_NQ_NP_723596-MLA45713338880_042021-O.webp","https://http2.mlstatic.com/D_NQ_NP_708917-MLA45713338896_042021-O.webp","https://http2.mlstatic.com/D_NQ_NP_974659-MLA45713440524_042021-O.webp"],
-        precio:"",
-        memoria:[""],
-        ram:["12GB GDDR6"],
-        componentes:[""],
-        descripcion:[{
-            info:{
-                titulo:"Sobre la 'VIDEO GEFORCE RTX 2060 12GB PNY REVEL DUAL FAN'",
-                lista:["Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero."]},
-            },
-            {
-                info:{
-                    titulo:"Velocidad en cada lectura",
-                    lista:["Como cuenta con 1920 núcleos, los cálculos para el procesamiento de gráficos se realizarán de forma simultánea logrando un resultado óptimo del trabajo de la placa. Esto le permitirá ejecutar lecturas dispersas y rápidas de y hacia la GPU."]},
-                },
-            {
-                info:{
-                    titulo:"Calidad de imagen",
-                    lista:["Criterio fundamental a la hora de elegir una placa de video, su resolución de 7680x4320 no te defraudará. La decodificación de los píxeles en tu pantalla te harán ver hasta los detalles más ínfimos en cada ilustración."]},
-                }],
-        color: ["black"],
-        estado:'En stock',
-        tendencia:false,
-        marca:'apple',
-        categoria:['mineria','all']},
+    //placas de video vieja pag
+    // {
+    //     id:'014',
+    //     nombre:'RTX 2060 12GB REVEL DUAL FAN (12GB GDDR6)',
+    //     foto:["https://http2.mlstatic.com/D_NQ_NP_727800-MLA45713390694_042021-O.webp","https://http2.mlstatic.com/D_NQ_NP_723596-MLA45713338880_042021-O.webp","https://http2.mlstatic.com/D_NQ_NP_708917-MLA45713338896_042021-O.webp","https://http2.mlstatic.com/D_NQ_NP_974659-MLA45713440524_042021-O.webp"],
+    //     precio:"",
+    //     memoria:[""],
+    //     ram:["12GB GDDR6"],
+    //     componentes:[""],
+    //     descripcion:[{
+    //         info:{
+    //             titulo:"Sobre la 'VIDEO GEFORCE RTX 2060 12GB PNY REVEL DUAL FAN'",
+    //             lista:["Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero."]},
+    //         },
+    //         {
+    //             info:{
+    //                 titulo:"Velocidad en cada lectura",
+    //                 lista:["Como cuenta con 1920 núcleos, los cálculos para el procesamiento de gráficos se realizarán de forma simultánea logrando un resultado óptimo del trabajo de la placa. Esto le permitirá ejecutar lecturas dispersas y rápidas de y hacia la GPU."]},
+    //             },
+    //         {
+    //             info:{
+    //                 titulo:"Calidad de imagen",
+    //                 lista:["Criterio fundamental a la hora de elegir una placa de video, su resolución de 7680x4320 no te defraudará. La decodificación de los píxeles en tu pantalla te harán ver hasta los detalles más ínfimos en cada ilustración."]},
+    //             }],
+    //     color: ["black"],
+    //     estado:'En stock',
+    //     tendencia:false,
+    //     marca:'apple',
+    //     categoria:['mineria','all']},
 
-    {
-        id:'015',
-        nombre:'RTX 2060 12GB REVEL DUAL FAN (12GB GDDR6)',
-        foto:["https://http2.mlstatic.com/D_NQ_NP_727800-MLA45713390694_042021-O.webp","https://http2.mlstatic.com/D_NQ_NP_723596-MLA45713338880_042021-O.webp","https://http2.mlstatic.com/D_NQ_NP_708917-MLA45713338896_042021-O.webp","https://http2.mlstatic.com/D_NQ_NP_974659-MLA45713440524_042021-O.webp"],
-        precio:"",
-        memoria:[""],
-        ram:["12GB GDDR6"],
-        componentes:[""],
-        descripcion:[{
-            info:{
-                titulo:"Sobre la 'VIDEO GEFORCE RTX 2060 12GB PNY REVEL DUAL FAN'",
-                lista:["Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero."]},
-            },
-            {
-                info:{
-                    titulo:"Velocidad en cada lectura",
-                    lista:["Como cuenta con 1920 núcleos, los cálculos para el procesamiento de gráficos se realizarán de forma simultánea logrando un resultado óptimo del trabajo de la placa. Esto le permitirá ejecutar lecturas dispersas y rápidas de y hacia la GPU."]},
-                },
-            {
-                info:{
-                    titulo:"Calidad de imagen",
-                    lista:["Criterio fundamental a la hora de elegir una placa de video, su resolución de 7680x4320 no te defraudará. La decodificación de los píxeles en tu pantalla te harán ver hasta los detalles más ínfimos en cada ilustración."]},
-                }],
-        color: ["black"],
-        estado:'En stock',
-        tendencia:false,
-        marca:'apple',
-        categoria:['mineria','all']}, 
+    // {
+    //     id:'015',
+    //     nombre:'RTX 2060 12GB REVEL DUAL FAN (12GB GDDR6)',
+    //     foto:["https://http2.mlstatic.com/D_NQ_NP_727800-MLA45713390694_042021-O.webp","https://http2.mlstatic.com/D_NQ_NP_723596-MLA45713338880_042021-O.webp","https://http2.mlstatic.com/D_NQ_NP_708917-MLA45713338896_042021-O.webp","https://http2.mlstatic.com/D_NQ_NP_974659-MLA45713440524_042021-O.webp"],
+    //     precio:"",
+    //     memoria:[""],
+    //     ram:["12GB GDDR6"],
+    //     componentes:[""],
+    //     descripcion:[{
+    //         info:{
+    //             titulo:"Sobre la 'VIDEO GEFORCE RTX 2060 12GB PNY REVEL DUAL FAN'",
+    //             lista:["Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero."]},
+    //         },
+    //         {
+    //             info:{
+    //                 titulo:"Velocidad en cada lectura",
+    //                 lista:["Como cuenta con 1920 núcleos, los cálculos para el procesamiento de gráficos se realizarán de forma simultánea logrando un resultado óptimo del trabajo de la placa. Esto le permitirá ejecutar lecturas dispersas y rápidas de y hacia la GPU."]},
+    //             },
+    //         {
+    //             info:{
+    //                 titulo:"Calidad de imagen",
+    //                 lista:["Criterio fundamental a la hora de elegir una placa de video, su resolución de 7680x4320 no te defraudará. La decodificación de los píxeles en tu pantalla te harán ver hasta los detalles más ínfimos en cada ilustración."]},
+    //             }],
+    //     color: ["black"],
+    //     estado:'En stock',
+    //     tendencia:false,
+    //     marca:'apple',
+    //     categoria:['mineria','all']}, 
 
-    {
-        id:'016',
-        nombre:"RTX 3060 GAMING Z TRIO 12G (12GB GDDR6)",
-        foto:["https://http2.mlstatic.com/D_NQ_NP_842844-MLA51562583055_092022-O.webp","https://http2.mlstatic.com/D_NQ_NP_736523-MLA51562390948_092022-O.webp","https://http2.mlstatic.com/D_NQ_NP_675271-MLA51562475690_092022-O.webp"],
-        precio:"",
-        memoria:[""],
-        ram:["12GB GDDR6"],
-        componentes:[""],
-        descripcion:[{
-            info:{
-                titulo:"",
-                lista:["GeForce RTX™ 3060 GAMING Z TRIO 12G","NVIDIA® GeForce RTX™ 3060","PCI Express® Gen 4","Boost: 1867 MHz","3584 Units","15 Gbps","12GB GDDR6","192-bit","DisplayPort x 3 (v1.4a) / HDMI x 1 (Supports 4K@120Hz as specified in HDMI 2.1)","170W","8-pin x 2","550W","324 x 140 x 57mm","1460 g / 2288 g"]}
-            }],
-        color: ["black"],
-        estado:'En stock',
-        tendencia:false,
-        marca:'apple',
-        categoria:['mineria','all']},
-    {
-        id:'017',
-        nombre:'RTX 3060 TI VENTUS 3X 8G OC (8GB GDDR6)',
-        foto:["https://http2.mlstatic.com/D_NQ_NP_738876-MLA48688406522_122021-O.webp","https://http2.mlstatic.com/D_NQ_NP_898892-MLA48688363943_122021-O.webp","https://http2.mlstatic.com/D_NQ_NP_793677-MLA48688406523_122021-O.webp"],
-        precio:"",
-        memoria:[""],
-        ram:["8GB GDDR6"],
-        componentes:[""],
-        descripcion:[{
-            info:{
-                titulo:"RTX 3060 TI VENTUS 3X 8G OC (8GB GDDR6)",
-                lista:["Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero."]},
-            },
-            {
-                info:{
-                    titulo:"Velocidad en cada lectura",
-                    lista:["Cuenta con 4864 núcleos, por lo que la interfaz de la placa será algo sorprendente. Este tipo de estructura es apropiado para el procesamiento de tecnologías más complejas y modernas caracterizadas por grandes volúmenes de datos."]},
-                },
-            {
-                info:{
-                    titulo:"Calidad de imagen",
-                    lista:["Criterio fundamental a la hora de elegir una placa de video, su resolución de 7680x4320 no te defraudará. La decodificación de los píxeles en tu pantalla te harán ver hasta los detalles más ínfimos en cada ilustración."]},
-                }],
-        color: ["black"],
-        estado:'En stock',
-        tendencia:false,
-        marca:'apple',
-        categoria:['mineria','all']},
+    // {
+    //     id:'016',
+    //     nombre:"RTX 3060 GAMING Z TRIO 12G (12GB GDDR6)",
+    //     foto:["https://http2.mlstatic.com/D_NQ_NP_842844-MLA51562583055_092022-O.webp","https://http2.mlstatic.com/D_NQ_NP_736523-MLA51562390948_092022-O.webp","https://http2.mlstatic.com/D_NQ_NP_675271-MLA51562475690_092022-O.webp"],
+    //     precio:"",
+    //     memoria:[""],
+    //     ram:["12GB GDDR6"],
+    //     componentes:[""],
+    //     descripcion:[{
+    //         info:{
+    //             titulo:"",
+    //             lista:["GeForce RTX™ 3060 GAMING Z TRIO 12G","NVIDIA® GeForce RTX™ 3060","PCI Express® Gen 4","Boost: 1867 MHz","3584 Units","15 Gbps","12GB GDDR6","192-bit","DisplayPort x 3 (v1.4a) / HDMI x 1 (Supports 4K@120Hz as specified in HDMI 2.1)","170W","8-pin x 2","550W","324 x 140 x 57mm","1460 g / 2288 g"]}
+    //         }],
+    //     color: ["black"],
+    //     estado:'En stock',
+    //     tendencia:false,
+    //     marca:'apple',
+    //     categoria:['mineria','all']},
+    // {
+    //     id:'017',
+    //     nombre:'RTX 3060 TI VENTUS 3X 8G OC (8GB GDDR6)',
+    //     foto:["https://http2.mlstatic.com/D_NQ_NP_738876-MLA48688406522_122021-O.webp","https://http2.mlstatic.com/D_NQ_NP_898892-MLA48688363943_122021-O.webp","https://http2.mlstatic.com/D_NQ_NP_793677-MLA48688406523_122021-O.webp"],
+    //     precio:"",
+    //     memoria:[""],
+    //     ram:["8GB GDDR6"],
+    //     componentes:[""],
+    //     descripcion:[{
+    //         info:{
+    //             titulo:"RTX 3060 TI VENTUS 3X 8G OC (8GB GDDR6)",
+    //             lista:["Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero."]},
+    //         },
+    //         {
+    //             info:{
+    //                 titulo:"Velocidad en cada lectura",
+    //                 lista:["Cuenta con 4864 núcleos, por lo que la interfaz de la placa será algo sorprendente. Este tipo de estructura es apropiado para el procesamiento de tecnologías más complejas y modernas caracterizadas por grandes volúmenes de datos."]},
+    //             },
+    //         {
+    //             info:{
+    //                 titulo:"Calidad de imagen",
+    //                 lista:["Criterio fundamental a la hora de elegir una placa de video, su resolución de 7680x4320 no te defraudará. La decodificación de los píxeles en tu pantalla te harán ver hasta los detalles más ínfimos en cada ilustración."]},
+    //             }],
+    //     color: ["black"],
+    //     estado:'En stock',
+    //     tendencia:false,
+    //     marca:'apple',
+    //     categoria:['mineria','all']},
 
-    {
-        id:'018',
-        nombre:'RTX 3070 VENTUS 2X 8GB',
-        foto:["https://http2.mlstatic.com/D_NQ_NP_716321-MLA44833373951_022021-O.webp","https://http2.mlstatic.com/D_NQ_NP_827131-MLA44835106191_022021-O.webp","https://http2.mlstatic.com/D_NQ_NP_914954-MLA44833373952_022021-O.webp"],
-        precio:"",
-        memoria:[""],
-        ram:["8GB"],
-        componentes:[""],
-        descripcion:[{
-            info:{
-                titulo:"RTX 3070 VENTUS 2X 8GB",
-                lista:["Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero."]},
-            },
-            {
-                info:{
-                    titulo:"Velocidad en cada lectura",
-                    lista:["Cuenta con 5888 núcleos, por lo que la interfaz de la placa será algo sorprendente. Este tipo de estructura es apropiado para el procesamiento de tecnologías más complejas y modernas caracterizadas por grandes volúmenes de datos."]},
-                },
-            {
-                info:{
-                    titulo:"Calidad de imagen",
-                    lista:["Criterio fundamental a la hora de elegir una placa de video, su resolución de 7680x4320 no te defraudará. La decodificación de los píxeles en tu pantalla te harán ver hasta los detalles más ínfimos en cada ilustración."]},
-                }],
-        color: ["black"],
-        estado:'En stock',
-        tendencia:false,
-        marca:'apple',
-        categoria:['mineria','all']},
+    // {
+    //     id:'018',
+    //     nombre:'RTX 3070 VENTUS 2X 8GB',
+    //     foto:["https://http2.mlstatic.com/D_NQ_NP_716321-MLA44833373951_022021-O.webp","https://http2.mlstatic.com/D_NQ_NP_827131-MLA44835106191_022021-O.webp","https://http2.mlstatic.com/D_NQ_NP_914954-MLA44833373952_022021-O.webp"],
+    //     precio:"",
+    //     memoria:[""],
+    //     ram:["8GB"],
+    //     componentes:[""],
+    //     descripcion:[{
+    //         info:{
+    //             titulo:"RTX 3070 VENTUS 2X 8GB",
+    //             lista:["Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero."]},
+    //         },
+    //         {
+    //             info:{
+    //                 titulo:"Velocidad en cada lectura",
+    //                 lista:["Cuenta con 5888 núcleos, por lo que la interfaz de la placa será algo sorprendente. Este tipo de estructura es apropiado para el procesamiento de tecnologías más complejas y modernas caracterizadas por grandes volúmenes de datos."]},
+    //             },
+    //         {
+    //             info:{
+    //                 titulo:"Calidad de imagen",
+    //                 lista:["Criterio fundamental a la hora de elegir una placa de video, su resolución de 7680x4320 no te defraudará. La decodificación de los píxeles en tu pantalla te harán ver hasta los detalles más ínfimos en cada ilustración."]},
+    //             }],
+    //     color: ["black"],
+    //     estado:'En stock',
+    //     tendencia:false,
+    //     marca:'apple',
+    //     categoria:['mineria','all']},
 
-    {
-        id:'019',
-        nombre:'RTX 3070 TI VENTUS 3X 8G OC (8GB GDDR6X)',
-        foto:["https://http2.mlstatic.com/D_NQ_NP_617574-MLA48654681863_122021-O.webp","https://http2.mlstatic.com/D_NQ_NP_648066-MLA48654665840_122021-O.webp","https://http2.mlstatic.com/D_NQ_NP_765825-MLA48654681862_122021-O.webp","https://http2.mlstatic.com/D_NQ_NP_857623-MLA50400215679_062022-O.webp"],
-        precio:"",
-        memoria:[""],
-        ram:["8GB GDDR6"],
-        componentes:[""],
-        descripcion:[{
-            info:{
-                titulo:"RTX 3070 VENTUS 2X 8GB",
-                lista:["Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero."]},
-            },
-            {
-                info:{
-                    titulo:"Velocidad en cada lectura",
-                    lista:["Cuenta con 6144 núcleos, por lo que la interfaz de la placa será algo sorprendente. Este tipo de estructura es apropiado para el procesamiento de tecnologías más complejas y modernas caracterizadas por grandes volúmenes de datos."]},
-                },
-            {
-                info:{
-                    titulo:"Calidad de imagen",
-                    lista:["Criterio fundamental a la hora de elegir una placa de video, su resolución de 7680x4320 no te defraudará. La decodificación de los píxeles en tu pantalla te harán ver hasta los detalles más ínfimos en cada ilustración."]},
-                }],
-        color: ["black"],
-        estado:'En stock',
-        tendencia:false,
-        marca:'apple',
-        categoria:['mineria','all']},
+    // {
+    //     id:'019',
+    //     nombre:'RTX 3070 TI VENTUS 3X 8G OC (8GB GDDR6X)',
+    //     foto:["https://http2.mlstatic.com/D_NQ_NP_617574-MLA48654681863_122021-O.webp","https://http2.mlstatic.com/D_NQ_NP_648066-MLA48654665840_122021-O.webp","https://http2.mlstatic.com/D_NQ_NP_765825-MLA48654681862_122021-O.webp","https://http2.mlstatic.com/D_NQ_NP_857623-MLA50400215679_062022-O.webp"],
+    //     precio:"",
+    //     memoria:[""],
+    //     ram:["8GB GDDR6"],
+    //     componentes:[""],
+    //     descripcion:[{
+    //         info:{
+    //             titulo:"RTX 3070 VENTUS 2X 8GB",
+    //             lista:["Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero."]},
+    //         },
+    //         {
+    //             info:{
+    //                 titulo:"Velocidad en cada lectura",
+    //                 lista:["Cuenta con 6144 núcleos, por lo que la interfaz de la placa será algo sorprendente. Este tipo de estructura es apropiado para el procesamiento de tecnologías más complejas y modernas caracterizadas por grandes volúmenes de datos."]},
+    //             },
+    //         {
+    //             info:{
+    //                 titulo:"Calidad de imagen",
+    //                 lista:["Criterio fundamental a la hora de elegir una placa de video, su resolución de 7680x4320 no te defraudará. La decodificación de los píxeles en tu pantalla te harán ver hasta los detalles más ínfimos en cada ilustración."]},
+    //             }],
+    //     color: ["black"],
+    //     estado:'En stock',
+    //     tendencia:false,
+    //     marca:'apple',
+    //     categoria:['mineria','all']},
 
-    {
-        id:'020',
-        nombre:'RTX 3070 TI VENTUS 3X 8G OC (8GB GDDR6X)',
-        foto:"",
-        memoria:[""],
-        ram:["8GB GDDR6"],
-        componentes:[""],
-        descripcion:[{
-            info:{
-                titulo:"RTX 3070 VENTUS 2X 8GB",
-                lista:["Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero."]},
-            },
-            {
-                info:{
-                    titulo:"Velocidad en cada lectura",
-                    lista:["Cuenta con 6144 núcleos, por lo que la interfaz de la placa será algo sorprendente. Este tipo de estructura es apropiado para el procesamiento de tecnologías más complejas y modernas caracterizadas por grandes volúmenes de datos."]},
-                },
-            {
-                info:{
-                    titulo:"Calidad de imagen",
-                    lista:["Criterio fundamental a la hora de elegir una placa de video, su resolución de 7680x4320 no te defraudará. La decodificación de los píxeles en tu pantalla te harán ver hasta los detalles más ínfimos en cada ilustración."]},
-                }],
-        color: ["black"],
-        estado:'En stock',
-        tendencia:false,
-        marca:'apple',
-        categoria:['mineria','all']},
+    // {
+    //     id:'020',
+    //     nombre:'RTX 3070 TI VENTUS 3X 8G OC (8GB GDDR6X)',
+    //     foto:"",
+    //     memoria:[""],
+    //     ram:["8GB GDDR6"],
+    //     componentes:[""],
+    //     descripcion:[{
+    //         info:{
+    //             titulo:"RTX 3070 VENTUS 2X 8GB",
+    //             lista:["Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero."]},
+    //         },
+    //         {
+    //             info:{
+    //                 titulo:"Velocidad en cada lectura",
+    //                 lista:["Cuenta con 6144 núcleos, por lo que la interfaz de la placa será algo sorprendente. Este tipo de estructura es apropiado para el procesamiento de tecnologías más complejas y modernas caracterizadas por grandes volúmenes de datos."]},
+    //             },
+    //         {
+    //             info:{
+    //                 titulo:"Calidad de imagen",
+    //                 lista:["Criterio fundamental a la hora de elegir una placa de video, su resolución de 7680x4320 no te defraudará. La decodificación de los píxeles en tu pantalla te harán ver hasta los detalles más ínfimos en cada ilustración."]},
+    //             }],
+    //     color: ["black"],
+    //     estado:'En stock',
+    //     tendencia:false,
+    //     marca:'apple',
+    //     categoria:['mineria','all']},
 
-    {
-        id:'021',
-        nombre:'RTX 3070 TI XLR8 GAMING REVEL EPIC-X RGB 3xFAN 8GB GDDR6X',
-        foto:["https://http2.mlstatic.com/D_NQ_NP_876213-MLA49200884523_022022-O.webp","https://http2.mlstatic.com/D_NQ_NP_871373-MLA49200941119_022022-O.webp","https://http2.mlstatic.com/D_NQ_NP_844874-MLA49200928247_022022-O.webp","https://http2.mlstatic.com/D_NQ_NP_859319-MLA49200877536_022022-O.webp","https://http2.mlstatic.com/D_NQ_NP_631227-MLA49200786907_022022-O.webp"],
-        precio:"",
-        memoria:[""],
-        ram:["8GB GDDR6X"],
-        componentes:[""],
-        descripcion:[{
-            info:{
-                titulo:"Sobre 'RTX 3070 TI XLR8 GAMING REVEL EPIC-X RGB 3xFAN 8GB GDDR6X'",
-                lista:["Núcleos de trazado de rayos de segunda generación","Núcleos de tensor de tercera generación","PCI Express ® Gen 4","Microsoft DirectX ® 12 Ultimate","Memoria gráfica GDDR6X","NVIDIA DLS","NVIDIA ® GeForce Experience","NVIDIA G-SYNC ®","NVIDIA GPU Boost ™","Controladores Game Ready","API Vulkan RT, OpenGL 4.6","Admite HDR 4k 120Hz, HDR 8K 60Hz y frecuencia de actualización variable como se especifica en HDMI 2.1","Codificador NVIDIA de séptima generación","Decodificador NVIDIA de 5.a generación","HDCP 2.3","Listo para VR Número de pieza de PNY VCG3070T8TFXMPB","Código UPC 751492647760","Núcleos CUDA 6144","Velocidad de reloj 1575 MHz","Velocidad de impulso 1770 MHz","Velocidad de memoria (Gbps) 19","Tamaño de la memoria GDDR6X de 8 GB","interfaz de memoria 256 bits","Ancho de banda de memoria (GB / seg) 608","TDP 290 W","NVLink No soportado","Salidas DisplayPort 1.4 (x3), HDMI 2.1","Pantalla multiple 4","Resolución 7680 × 4320 @ 60Hz (digital)","Entrada de alimentación Dos de 8 pines","Tipo de bus PCI-Express 4.0 × 16","Dimensiones de la tarjeta 12.48 “x 4.53” x 2.36 “; 3 ranuras","Dimensiones de la caja 7.48 “x 14.96” x 3.54 “"]}}],
-        color: ["black"],
-        estado:'En stock',
-        tendencia:false,
-        marca:'apple',
-        categoria:['mineria','all']},
-
-
-    {
-        id:'022',
-        nombre:'RTX 3080 LHR UPRISING TRIPLE FAN 12GB GDDR6X',
-        foto:["https://http2.mlstatic.com/D_NQ_NP_856124-MLA51604839769_092022-O.webp"],
-        precio:"",
-        memoria:[""],
-        ram:["12GB GDDR6X"],
-        componentes:[],
-        descripcion:[{
-            info:{
-                titulo:"Sobre 'RTX 3080 LHR UPRISING TRIPLE FAN 12GB GDDR6X'",
-                lista:["2nd Gen Ray Tracing Cores","3rd Gen Tensor Cores","PCI Express® Gen 4","Microsoft DirectX® 12 Ultimate","GDDR6 Graphics Memory","NVIDIA DLSS","NVIDIA® GeForce Experience™","NVIDIA G-SYNC®","NVIDIA GPU Boost™","Game Ready Drivers","Vulkan RT API, OpenGL 4.6","DisplayPort 1.4a","7th Gen NVIDIA Encoder","5th Gen NVIDIA Decoder","HDCP 2.3","Supports 4k 120Hz HDR, 8K 60Hz HDR and Variable Refresh Rate as specified in HDMI 2.1","VR Ready","LHR 52 MH/s ETH hash rate (est.)"]}}],
-        color: ["black"],
-        estado:'En stock',
-        tendencia:false,
-        marca:'apple',
-        categoria:['mineria','all']},
+    // {
+    //     id:'021',
+    //     nombre:'RTX 3070 TI XLR8 GAMING REVEL EPIC-X RGB 3xFAN 8GB GDDR6X',
+    //     foto:["https://http2.mlstatic.com/D_NQ_NP_876213-MLA49200884523_022022-O.webp","https://http2.mlstatic.com/D_NQ_NP_871373-MLA49200941119_022022-O.webp","https://http2.mlstatic.com/D_NQ_NP_844874-MLA49200928247_022022-O.webp","https://http2.mlstatic.com/D_NQ_NP_859319-MLA49200877536_022022-O.webp","https://http2.mlstatic.com/D_NQ_NP_631227-MLA49200786907_022022-O.webp"],
+    //     precio:"",
+    //     memoria:[""],
+    //     ram:["8GB GDDR6X"],
+    //     componentes:[""],
+    //     descripcion:[{
+    //         info:{
+    //             titulo:"Sobre 'RTX 3070 TI XLR8 GAMING REVEL EPIC-X RGB 3xFAN 8GB GDDR6X'",
+    //             lista:["Núcleos de trazado de rayos de segunda generación","Núcleos de tensor de tercera generación","PCI Express ® Gen 4","Microsoft DirectX ® 12 Ultimate","Memoria gráfica GDDR6X","NVIDIA DLS","NVIDIA ® GeForce Experience","NVIDIA G-SYNC ®","NVIDIA GPU Boost ™","Controladores Game Ready","API Vulkan RT, OpenGL 4.6","Admite HDR 4k 120Hz, HDR 8K 60Hz y frecuencia de actualización variable como se especifica en HDMI 2.1","Codificador NVIDIA de séptima generación","Decodificador NVIDIA de 5.a generación","HDCP 2.3","Listo para VR Número de pieza de PNY VCG3070T8TFXMPB","Código UPC 751492647760","Núcleos CUDA 6144","Velocidad de reloj 1575 MHz","Velocidad de impulso 1770 MHz","Velocidad de memoria (Gbps) 19","Tamaño de la memoria GDDR6X de 8 GB","interfaz de memoria 256 bits","Ancho de banda de memoria (GB / seg) 608","TDP 290 W","NVLink No soportado","Salidas DisplayPort 1.4 (x3), HDMI 2.1","Pantalla multiple 4","Resolución 7680 × 4320 @ 60Hz (digital)","Entrada de alimentación Dos de 8 pines","Tipo de bus PCI-Express 4.0 × 16","Dimensiones de la tarjeta 12.48 “x 4.53” x 2.36 “; 3 ranuras","Dimensiones de la caja 7.48 “x 14.96” x 3.54 “"]}}],
+    //     color: ["black"],
+    //     estado:'En stock',
+    //     tendencia:false,
+    //     marca:'apple',
+    //     categoria:['mineria','all']},
 
 
-    {
-        id:'024',
-        nombre:'RTX 3080 TI XLR8 GAMING REVEL EPIC-X RGB 3xFAN 12GB GDDR6X',
-        foto:["https://http2.mlstatic.com/D_NQ_NP_898724-MLA50584496604_072022-O.webp","https://http2.mlstatic.com/D_NQ_NP_705704-MLA50584496608_072022-O.webp","https://http2.mlstatic.com/D_NQ_NP_911594-MLA50584496607_072022-O.webp"],
-        precio:"",
-        memoria:[""],
-        ram:["12GB GDDRA6X"],
-        componentes:[""],
-        descripcion:[{
-            info:{
-                titulo:"RTX 3080 TI XLR8 GAMING REVEL EPIC-X RGB 3xFAN 12GB GDDR6X",
-                lista:["Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero."]},
-            },
-            {
-                info:{
-                    titulo:"Velocidad en cada lectura",
-                    lista:["Cuenta con 10240 núcleos, por lo que la interfaz de la placa será algo sorprendente. Este tipo de estructura es apropiado para el procesamiento de tecnologías más complejas y modernas caracterizadas por grandes volúmenes de datos."]},
-                },
-            {
-                info:{
-                    titulo:"Calidad de imagen",
-                    lista:["Criterio fundamental a la hora de elegir una placa de video, su resolución de 7680x4320 no te defraudará. La decodificación de los píxeles en tu pantalla te harán ver hasta los detalles más ínfimos en cada ilustración."]},
-                }],
-        color: ["black"],
-        estado:'En stock',
-        tendencia:false,
-        marca:'apple',
-        categoria:['mineria','all']},
+    // {
+    //     id:'022',
+    //     nombre:'RTX 3080 LHR UPRISING TRIPLE FAN 12GB GDDR6X',
+    //     foto:["https://http2.mlstatic.com/D_NQ_NP_856124-MLA51604839769_092022-O.webp"],
+    //     precio:"",
+    //     memoria:[""],
+    //     ram:["12GB GDDR6X"],
+    //     componentes:[],
+    //     descripcion:[{
+    //         info:{
+    //             titulo:"Sobre 'RTX 3080 LHR UPRISING TRIPLE FAN 12GB GDDR6X'",
+    //             lista:["2nd Gen Ray Tracing Cores","3rd Gen Tensor Cores","PCI Express® Gen 4","Microsoft DirectX® 12 Ultimate","GDDR6 Graphics Memory","NVIDIA DLSS","NVIDIA® GeForce Experience™","NVIDIA G-SYNC®","NVIDIA GPU Boost™","Game Ready Drivers","Vulkan RT API, OpenGL 4.6","DisplayPort 1.4a","7th Gen NVIDIA Encoder","5th Gen NVIDIA Decoder","HDCP 2.3","Supports 4k 120Hz HDR, 8K 60Hz HDR and Variable Refresh Rate as specified in HDMI 2.1","VR Ready","LHR 52 MH/s ETH hash rate (est.)"]}}],
+    //     color: ["black"],
+    //     estado:'En stock',
+    //     tendencia:false,
+    //     marca:'apple',
+    //     categoria:['mineria','all']},
+
+
+    // {
+    //     id:'024',
+    //     nombre:'RTX 3080 TI XLR8 GAMING REVEL EPIC-X RGB 3xFAN 12GB GDDR6X',
+    //     foto:["https://http2.mlstatic.com/D_NQ_NP_898724-MLA50584496604_072022-O.webp","https://http2.mlstatic.com/D_NQ_NP_705704-MLA50584496608_072022-O.webp","https://http2.mlstatic.com/D_NQ_NP_911594-MLA50584496607_072022-O.webp"],
+    //     precio:"",
+    //     memoria:[""],
+    //     ram:["12GB GDDRA6X"],
+    //     componentes:[""],
+    //     descripcion:[{
+    //         info:{
+    //             titulo:"RTX 3080 TI XLR8 GAMING REVEL EPIC-X RGB 3xFAN 12GB GDDR6X",
+    //             lista:["Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero."]},
+    //         },
+    //         {
+    //             info:{
+    //                 titulo:"Velocidad en cada lectura",
+    //                 lista:["Cuenta con 10240 núcleos, por lo que la interfaz de la placa será algo sorprendente. Este tipo de estructura es apropiado para el procesamiento de tecnologías más complejas y modernas caracterizadas por grandes volúmenes de datos."]},
+    //             },
+    //         {
+    //             info:{
+    //                 titulo:"Calidad de imagen",
+    //                 lista:["Criterio fundamental a la hora de elegir una placa de video, su resolución de 7680x4320 no te defraudará. La decodificación de los píxeles en tu pantalla te harán ver hasta los detalles más ínfimos en cada ilustración."]},
+    //             }],
+    //     color: ["black"],
+    //     estado:'En stock',
+    //     tendencia:false,
+    //     marca:'apple',
+    //     categoria:['mineria','all']},
 
     
-    {
-        id:'025',
-        nombre:'RTX 3090 VENTUS 3X 24G OC (2476)',
-        foto:["https://http2.mlstatic.com/D_NQ_NP_692818-MLA44385884034_122020-O.webp","https://http2.mlstatic.com/D_NQ_NP_781131-MLA44385614407_122020-O.webp"],
-        precio:"",
-        memoria:[""],
-        ram:["24GB"],
-        componentes:[""],
-        descripcion:[{
-            info:{
-                titulo:"RTX 3090 VENTUS 3X 24G OC (2476)",
-                lista:["Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero."]},
-            },
-            {
-                info:{
-                    titulo:"Velocidad en cada lectura",
-                    lista:["Cuenta con 10496 núcleos, por lo que la interfaz de la placa será algo sorprendente. Este tipo de estructura es apropiado para el procesamiento de tecnologías más complejas y modernas caracterizadas por grandes volúmenes de datos."]},
-                },
-            {
-                info:{
-                    titulo:"Calidad de imagen",
-                    lista:["Criterio fundamental a la hora de elegir una placa de video, su resolución de 7680x4320 no te defraudará. La decodificación de los píxeles en tu pantalla te harán ver hasta los detalles más ínfimos en cada ilustración."]},
-                }],
-        color: ["black"],
-        estado:'En stock',
-        tendencia:false,
-        marca:'apple',
-        categoria:['mineria','all']},
+    // {
+    //     id:'025',
+    //     nombre:'RTX 3090 VENTUS 3X 24G OC (2476)',
+    //     foto:["https://http2.mlstatic.com/D_NQ_NP_692818-MLA44385884034_122020-O.webp","https://http2.mlstatic.com/D_NQ_NP_781131-MLA44385614407_122020-O.webp"],
+    //     precio:"",
+    //     memoria:[""],
+    //     ram:["24GB"],
+    //     componentes:[""],
+    //     descripcion:[{
+    //         info:{
+    //             titulo:"RTX 3090 VENTUS 3X 24G OC (2476)",
+    //             lista:["Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero."]},
+    //         },
+    //         {
+    //             info:{
+    //                 titulo:"Velocidad en cada lectura",
+    //                 lista:["Cuenta con 10496 núcleos, por lo que la interfaz de la placa será algo sorprendente. Este tipo de estructura es apropiado para el procesamiento de tecnologías más complejas y modernas caracterizadas por grandes volúmenes de datos."]},
+    //             },
+    //         {
+    //             info:{
+    //                 titulo:"Calidad de imagen",
+    //                 lista:["Criterio fundamental a la hora de elegir una placa de video, su resolución de 7680x4320 no te defraudará. La decodificación de los píxeles en tu pantalla te harán ver hasta los detalles más ínfimos en cada ilustración."]},
+    //             }],
+    //     color: ["black"],
+    //     estado:'En stock',
+    //     tendencia:false,
+    //     marca:'apple',
+    //     categoria:['mineria','all']},
 
-    {
-        id:'026',
-        nombre:'RTX 3090 TI XLR8 GAMING UPRISING EPIC-X RGB 3xFAN 24GB GDDR6X',
-        foto:["https://http2.mlstatic.com/D_NQ_NP_640210-MLA50149474308_052022-O.webp","https://http2.mlstatic.com/D_NQ_NP_951892-MLA50149504184_052022-O.webp","https://http2.mlstatic.com/D_NQ_NP_740502-MLA50149525070_052022-O.webp","https://http2.mlstatic.com/D_NQ_NP_817254-MLA50149508181_052022-O.webp"],
-        precio:"",
-        memoria:[""],
-        ram:["24GB GDRR6X"],
-        componentes:[""],
-        descripcion:[{
-            info:{
-                titulo:"Visión general",
-                lista:["La GeForce RTX™ 3090 es una GPU grande y feroz (BFGPU) con un rendimiento de clase TITAN. Está alimentado por Ampere, la arquitectura RTX de segunda generación de NVIDIA, que duplica el trazado de rayos y el rendimiento de IA con RT Cores, Tensor Cores mejorados y nuevos multiprocesadores de transmisión. Además, cuenta con una asombrosa memoria G6X de 24 GB, todo para brindar la mejor experiencia de juego."]},
-            },
-            {
-                info:{
-                    titulo:"Nuevo enfoque",
-                    lista:["La nueva arquitectura NVIDIA Ampere presenta nuevos núcleos Ray Tracing de segunda generación y núcleos Tensor de tercera generación con mayor rendimiento. Los multiprocesadores de transmisión NVIDIA Ampere son los componentes básicos de la GPU más rápida y eficiente del mundo para jugadores y creadores."]},
-                },
-            {
-                info:{
-                    titulo:"Tecnología de vanguardia",
-                    lista:["Las GPU de la serie GeForce RTX 30 cuentan con la tecnología de la arquitectura RTX de segunda generación de NVIDIA, lo que ofrece el máximo rendimiento, gráficos con trazado de rayos y aceleración de IA para jugadores y creadores."]},
-                },
-                {
-                    info:{
-                        titulo:"CARACTERÍSTICAS CLAVE",
-                        lista:["Núcleos de trazado de rayos de segunda generación","Núcleos de tensor de tercera generación","PCI Express® Gen 4","Microsoft DirectX® 12 Ultimate","Memoria gráfica GDDR6X","NVIDIA DLSS","NVIDIA® GeForce Experience ™","NVIDIA G- SYNC®","NVIDIA GPU Boost™","NVIDIA NVLink™ (listo para SLI)","Controladores listos para juegos","API VulkanRT, OpenGL 4.6","HDCP 2.3","Listo para realidad virtual","Admite 4k 120Hz HDR, 8K 60Hz HDR y frecuencia de actualización variable como se especifica en HDMI 2.1"]},
-                    }],
-        color: ["black"],
-        estado:'En stock',
-        tendencia:false,
-        marca:'apple',
-        categoria:['mineria','all']},
+    // {
+    //     id:'026',
+    //     nombre:'RTX 3090 TI XLR8 GAMING UPRISING EPIC-X RGB 3xFAN 24GB GDDR6X',
+    //     foto:["https://http2.mlstatic.com/D_NQ_NP_640210-MLA50149474308_052022-O.webp","https://http2.mlstatic.com/D_NQ_NP_951892-MLA50149504184_052022-O.webp","https://http2.mlstatic.com/D_NQ_NP_740502-MLA50149525070_052022-O.webp","https://http2.mlstatic.com/D_NQ_NP_817254-MLA50149508181_052022-O.webp"],
+    //     precio:"",
+    //     memoria:[""],
+    //     ram:["24GB GDRR6X"],
+    //     componentes:[""],
+    //     descripcion:[{
+    //         info:{
+    //             titulo:"Visión general",
+    //             lista:["La GeForce RTX™ 3090 es una GPU grande y feroz (BFGPU) con un rendimiento de clase TITAN. Está alimentado por Ampere, la arquitectura RTX de segunda generación de NVIDIA, que duplica el trazado de rayos y el rendimiento de IA con RT Cores, Tensor Cores mejorados y nuevos multiprocesadores de transmisión. Además, cuenta con una asombrosa memoria G6X de 24 GB, todo para brindar la mejor experiencia de juego."]},
+    //         },
+    //         {
+    //             info:{
+    //                 titulo:"Nuevo enfoque",
+    //                 lista:["La nueva arquitectura NVIDIA Ampere presenta nuevos núcleos Ray Tracing de segunda generación y núcleos Tensor de tercera generación con mayor rendimiento. Los multiprocesadores de transmisión NVIDIA Ampere son los componentes básicos de la GPU más rápida y eficiente del mundo para jugadores y creadores."]},
+    //             },
+    //         {
+    //             info:{
+    //                 titulo:"Tecnología de vanguardia",
+    //                 lista:["Las GPU de la serie GeForce RTX 30 cuentan con la tecnología de la arquitectura RTX de segunda generación de NVIDIA, lo que ofrece el máximo rendimiento, gráficos con trazado de rayos y aceleración de IA para jugadores y creadores."]},
+    //             },
+    //             {
+    //                 info:{
+    //                     titulo:"CARACTERÍSTICAS CLAVE",
+    //                     lista:["Núcleos de trazado de rayos de segunda generación","Núcleos de tensor de tercera generación","PCI Express® Gen 4","Microsoft DirectX® 12 Ultimate","Memoria gráfica GDDR6X","NVIDIA DLSS","NVIDIA® GeForce Experience ™","NVIDIA G- SYNC®","NVIDIA GPU Boost™","NVIDIA NVLink™ (listo para SLI)","Controladores listos para juegos","API VulkanRT, OpenGL 4.6","HDCP 2.3","Listo para realidad virtual","Admite 4k 120Hz HDR, 8K 60Hz HDR y frecuencia de actualización variable como se especifica en HDMI 2.1"]},
+    //                 }],
+    //     color: ["black"],
+    //     estado:'En stock',
+    //     tendencia:false,
+    //     marca:'apple',
+    //     categoria:['mineria','all']},
 
 
 
@@ -2948,9 +2948,28 @@ categoria:['iphone','all']},
         descripcion:[
             {
             info:{
-                titulo:"",
-                lista:[""]}
-                    },
+                titulo:"Nuevo iPad mini.",
+                lista:["Con una pantalla Liquid Retina de 8,3 pulgadas de borde a borde, el potente chip A15 Bionic con Neural Engine, ultra gran angular frontal de 12 Mpx con Encuadre Centrado, conectividad USB-C y supervelocidad 5G.",
+                "Toma apuntes, anota documentos y escribe al instante tus grandes ideas con el Apple Pencil (2.ª generación), que se acopla de forma magnética y se carga sin cables."]
+                }
+            },
+            {
+            info:{    
+                titulo:"Prestaciones destacadas",
+                lista:["Pantalla Liquid Retina de 8,3 pulgadas con True Tone y gama cromática amplia.",
+                "Chip A15 Bionic con Neural Engine.",
+                "Touch ID para autenticarse de forma segura y usar Apple Pay.",
+                "Gran angular trasero de 12 Mpx y ultra gran angular frontal de 12 Mpx con Encuadre Centrado.",
+                "Disponible en púrpura, blanco estrella, rosa y gris espacial.",
+                "Altavoces estéreo (en horizontal).",
+                "Conexión 5G para descargas ultrarrápidas y streaming de vídeo.",
+                "Conexión wifi ultraveloz de 6.ª generación.",
+                "Hasta 10 horas de autonomía.",
+                "Conector USB-C para cargar el iPad y conectar accesorios.",
+                "Compatible con el Apple Pencil (2.ª generación).",
+                "iPadOS 15 es tan potente como fácil de usar y está diseñado para multiplicar la versatilidad del iPad."]}
+
+            }
             ],
         color: ['starlight','purple','space'],
         estado:'En stock',
@@ -2970,9 +2989,48 @@ categoria:['iphone','all']},
             descripcion:[
                 {
                 info:{
-                    titulo:"",
-                    lista:[""]}
+                    titulo:"El iPad se dio una tuneadita.",
+                    lista:["El nuevo iPad enamora a primera vista. Tiene una pantalla Liquid Retina de 10.9 pulgadas con diseño de borde a borde perfecta para trabajar, darles forma a tus ideas y hacer videollamadas.Viene en cuatro colores que van a alegrar tus días. Y si lo combinas con los accesorios diseñados especialmente para el iPad, tus posibilidades son infinitas. Más poderoso, más bonito y más capaz. Más no se puede pedir."]}
                         },
+                {
+                info:{
+                    titulo:"Diseño",
+                    lista:["Alto:248,6mm",
+                    "Ancho:179,5mm",
+                    "Grosor:7mm",
+                    "Peso:477g",
+                    "Lector de huellas:SI","Colores:Plata, azul, rosa y amarillo","Las dimensiones del Apple iPad 10ª gen (2022) son de 248,6 mm de alto por 179,5 mm de ancho. El tablet tiene un grosor de 7 mm y un peso de 477 g. A nivel de diseño es importante destacar que el tablet tiene lector de huellas. Puedes comprar el iPad 10ª gen (2022) en Plata, azul, rosa y amarillo."
+                ]}
+                        },
+                {
+                info:{
+                    titulo:"Pantalla",
+                    lista:["Tamaño:10,90″","Formato:4:3","Tipo pantalla:IPS Liquid retina","Resolución:2360×1640","Densidad de píxeles:264 ppp","Tipo de protección:Oleofóbica antihuellas","Extras:Pantalla Multi-Touch, True Tone, brillo de 500 nits, compatible con Apple Pencil 1ª gen","La diagonal de la pantalla del Apple iPad 10ª gen (2022) es de 10,9 pulgadas y presume de una resolución de 2360×1640 píxeles. Esta combinacion arroja una densidad media de 264 píxeles por pulgada. Además, el iPad 10ª gen (2022) cuenta con protección Oleofóbica antihuellas en la pantalla."]}
+                        },
+
+                {
+                info:{
+                    titulo:"Software",
+                    lista:["Sistema operativo:IOS","Versión SO:16"]}
+                        },
+                {
+                info:{
+                    titulo:"Hardware",
+                    lista:["Procesador:A14 Bionic","CPU2:arquitectura de 64 bits Neural Engine","Almacenamiento:Memoria Interna:32 GB","Ampliación por MicroSD: NO","El procesador del Apple iPad 10ª gen (2022) es un A14 Bionic Ese SoC cuenta con 1 CPU que trabajan con la siguiente arquitectura: arquitectura de 64 bits Neural Engine con núcleos a GHz de velocidad. Entre las características técnicas también cabe destacar la memoria interna de 32 GB de la que dispone de este tablet . no puede ampliarse a través de una tarjeta microSD."]}
+                        },
+
+                {
+                info:{
+                    titulo:"Cámara",
+                    lista:["Cámara principal:Resolución:12 MP","Apertura:f/1.8","Estabilizador óptico para foto:NO","Vídeo:UHD 4K","Características:Zoom digital hasta x5, lente de cinco elementos, enfoque automático con Focus Pixels, fotos panorámicas (hasta 63 Mpx), HDR Inteligente 3, geoetiquetado de fotos, estabilización automática de imagen",
+                    "Cámara frontal:Resolución:12.0",
+                    "Apertura:f/2.4","Flash:Retina Flash","Vídeo:Full HD 1080p","Características:HDR Inteligente 3, grabación de vídeo en 1080p HD a 25, 30 o 60 fps, vídeo en time‑lapse con estabili­zación, rango dinámico ampliado para vídeo hasta 30 fps, estabilización de vídeo con calidad de cine (1080p y 720p), Encuadre centrado","El Apple iPad 10ª gen (2022) tiene una cámara trasera de 12 megapíxeles. A nivel de vídeo el tablet es capaz de grabar vídeo a una resolución máxima de UHD 4K. La cámara frontal para selfies dispone de 12 MP La relación focal de esta cámara frontal es de f/2.4 La cámara frontal del iPad 10ª gen (2022) puede grabar vídeo para realizar videollamadas a una resolución máxima de Full HD 1080p."]}
+                        },
+                {
+                info:{
+                    titulo:"Batería",
+                    lista:["Capacidad:7.743 mAh","Batería extraible:NO","Carga rápida:NO","Versión:USB PD 20 W","Carga inalámbrica:NO","La batería del iPad 10ª gen (2022) tiene una capacidad de 7743 mAh, lo que tiene una relación directa sobre su automía. En este caso la batería del iPad 10ª gen (2022) no es extraíble así que no podrás cambiarla por otra. Por otro lado el tablet no tiene carga rápida."]}
+                        }
                 ],
             color: ['space'],
             estado:'En stock',
@@ -2992,8 +3050,20 @@ categoria:['iphone','all']},
                 descripcion:[
                     {
                     info:{
-                        titulo:"",
-                        lista:[""]}
+                        titulo:"Lo que tenés que saber de este producto",
+                        lista:["Pantalla Liquid Retina de 10.9 pulgadas (1) con True Tone, amplia gama de colores P3 y revestimiento antirreflejo.",
+                        "Chip M1 de Apple con Neural Engine.",
+                        "Cámara gran angular de 12 MP.",
+                        "Cámara frontal ultra gran angular de 12 MP con Encuadre Centrado.",
+                        "Hasta 256 GB de almacenamiento.",
+                        "Disponible en azul, morado, rosa, blanco estelar y gris espacial.",
+                        "Bocinas (parlantes) estéreo en horizontal.",
+                        "Touch ID para una autenticación segura y para Apple Pay.",
+                        "Batería para todo el día.",
+                        "Conexiones Wi-Fi 6 para conectarte donde quieras.",
+                        "Conector USB-C para cargar el iPad Air y para conectar accesorios.",
+                        "Compatible con el Magic Keyboard, el Smart Keyboard Folio y el Apple Pencil (segunda generación).",
+                        "iPadOS 15 es tan poderoso como fácil de usar y está diseñado para la versatilidad del iPad."]}
                             },
                     ],
                 color: ['space'],
@@ -3016,8 +3086,19 @@ categoria:['iphone','all']},
                 descripcion:[
                     {
                     info:{
-                        titulo:"",
-                        lista:[""]}
+                        titulo:"Lo que tenés que saber de este producto",
+                        lista:["",
+                    "Chip M1 de Apple para un rendimiento fuera de serie.",
+                    "Increíble pantalla Liquid Retina de 11 pulgadas(1) con ProMotion, True Tone y amplia gama de colores P3.",
+                    "Sistema de cámara TrueDepth ultra gran angular con Encuadre Centrado.",
+                    "Cámara gran angular de 12 MP, cámara ultra gran angular de 10 MP y escáner LiDAR para experiencias de realidad aumentada envolventes.",
+                    "Conexiones Wi-Fi 6 para conectarte en todas partes.",
+                    "Una batería que te acompaña todo el día.Puerto Thunderbolt para conectar almacenamiento externo de alta velocidad, monitores y bases.",
+                    "Face ID para una autenticación segura.",
+                    "Cuatro parlantes y cinco micrófonos con calidad de estudio.",
+                    "Compatible con el Apple Pencil (segunda generación), el Magic Keyboard y el Smart Keyboard Folio.",
+                    "iPadOS es poderoso e intuitivo, y está diseñado especialmente para el iPad.",
+                    "Más de 1 millón de apps en el App Store sólo para el iPad."]}
                             },
                     ],
                 color: ['space'],
@@ -3033,14 +3114,14 @@ categoria:['iphone','all']},
                 secid:'',
                 foto:[`${iPadPro2021129fotouno}`,`${iPadPro2021129fotodos}`,`${iPadPro2021129fototres}`],
                 precio:"480",
-                memoria:["256GB"],
-                ram:["-"],
-                componentes:["Chip A13 Bionic"],
+                memoria:["128GB"],
+                ram:["8GB"],
+                componentes:["8 NUCLEOS M1"],
                 descripcion:[
                     {
                     info:{
-                        titulo:"",
-                        lista:[""]}
+                        titulo:"Caracteristicas Basicas:",
+                        lista:["Pantalla táctil de retina líquida de 11","CPU de 8 núcleos Apple M1","2388 x 1668 Resolución de la pantalla (264 PPI)","128GB almacenamiento","8GB RAM","Bluetooth 5.0","Wi-Fi 6 (802.11ax)","Cámaras traseras de 12MP y 10MP","Cámara de ultra ancha de 12MP frontal"]}
                             },
                     ],
                 color: ['space'],
@@ -3055,14 +3136,14 @@ categoria:['iphone','all']},
                 secid:'',
                 foto:[`${iPadPro202211M2fotouno}`,`${iPadPro202211M2fotodos}`,`${iPadPro202211M2fototres}`,`${iPadPro202211M2fotocuatro}`,`${iPadPro202211M2fotocinco}`,`${iPadPro202211M2fotoseis}`],
                 precio:"480",
-                memoria:["256GB"],
-                ram:["-"],
-                componentes:["Chip A13 Bionic"],
+                memoria:["128GB"],
+                ram:["8GB"],
+                componentes:["8 NUCLEOS M2"],
                 descripcion:[
                     {
                     info:{
-                        titulo:"",
-                        lista:[""]}
+                        titulo:"Características:",
+                        lista:["Pantalla táctil Liquid Retina de 11","Resolución de pantalla de 2388 x 1668 (264 ppp)","CPU Apple M2 de 8 núcleos","Almacenamiento de 128 GB | RAM de 8GB","WiFi 6E (802.11ax) | Bluetooth 5.3","Cámara frontal ultraancha de 12MP","Cámaras traseras de 12MP y 10MP","Conectividad Thunderbolt de 40 Gb/s","Compatible con Apple Pencil (2.ª generación)iPad OS"]}
                             },
                     ],
                 color: ['space'],
@@ -4394,6 +4475,7 @@ categoria:['iphone','all']},
     marca:'apple',
     categoria:['televisiones','all']},
 
+    //placas nueva pag
     {
     id:'139',
     nombre:`NVIDIA 3060TI`,
@@ -4408,8 +4490,10 @@ categoria:['iphone','all']},
     descripcion:[
         {
         info:{
-            titulo:"",
-            lista:[""]}
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["Interfaz PCI-Express 4.0.",
+                "Bus de memoria: 384bit.",
+                "Cantidad de núcleos: 10240."]}
                 },
         ],
     color: ['white'],
@@ -4456,8 +4540,19 @@ categoria:['iphone','all']},
     descripcion:[
         {
         info:{
-            titulo:"",
-            lista:[""]}
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["Interfaz PCI-Express 4.0.",
+            "Bus de memoria: 384bit.",
+            "Cantidad de núcleos: 10240.",
+            "Frecuencia boost del núcleo de 1665MHz",
+            "Resolución máxima: 7680x4320.",
+            "Compatible con directX y openGL.",
+            "Requiere de 750W de alimentación.",
+            "Permite la conexión de hasta 4 pantallas simultáneas.",
+            "Formatos de conexión: 3 DisplayPort 1.4a, HDMI 2.1.",
+            "Incluye accesorios.",
+            "Ideal para trabajar a alta velocidad.",
+            ]}
                 },
         ],
     color: ['white'],
@@ -4480,8 +4575,18 @@ categoria:['iphone','all']},
     descripcion:[
         {
         info:{
-            titulo:"",
-            lista:[""]}
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["Interfaz PCI-Express 3.0.",
+            "Bus de memoria: 192bit.",
+            "Cantidad de núcleos: 1408.",
+            "Frecuencia base del núcleo de 1830MHz.",
+            "Resolución máxima: 7680x4320.",
+            "Compatible con directX y openGL.",
+            "Requiere de 450W de alimentación.",
+            "Permite la conexión de hasta 4 pantallas simultáneas.",
+            "Formatos de conexión: 3 DisplayPort 1.4, HDMI 2.0b.",
+            "Incluye accesorios.",
+            "Ideal para trabajar a alta velocidad.",]}
                 },
         ],
     color: ['white'],
@@ -4516,6 +4621,39 @@ categoria:['iphone','all']},
 
     {
     id:'144',
+    nombre:`EVGA RTX3070TI FTW 3 ULTRA 12GB`,
+    secid:'',
+    foto:[`${EVGARTX3070TIfotouno}`,`${EVGARTX3070TIfotodos}`,`${EVGARTX3070TIfototres}`,`${EVGARTX3070TIfotocuatro}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["Interfaz PCI-Express 4.0.",
+            "Memoria gráfica GDDR6X de 19000MHz.",
+            "Bus de memoria: 384bit.",
+            "Cantidad de núcleos: 10240.",
+            "Frecuencia boost del núcleo de 1800MHz.",
+            "Resolución máxima: 7680x4320.",
+            "Compatible con directX y openGL.",
+            "Requiere de 750W de alimentación.",
+            "Formatos de conexión: 3 DisplayPort 1.4, HDMI 2.1.",
+            "Ideal para trabajar a alta velocidad."]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['mineria','all']},
+
+    {
+    id:'147',
     nombre:`EVGA RTX3070TI FTW 3 ULTRA 8GB`,
     secid:'',
     foto:[`${EVGARTX3070TIfotouno}`,`${EVGARTX3070TIfotodos}`,`${EVGARTX3070TIfototres}`,`${EVGARTX3070TIfotocuatro}`],
@@ -4528,8 +4666,17 @@ categoria:['iphone','all']},
     descripcion:[
         {
         info:{
-            titulo:"",
-            lista:[""]}
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["Interfaz PCI-Express 4.0.",
+            "Memoria gráfica GDDR6X de 19000MHz.",
+            "Bus de memoria: 256bit.",
+            "Cantidad de núcleos: 6144.",
+            "Frecuencia boost del núcleo de 1860MHz.",
+            "Resolución máxima: 7680x4320.",
+            "Compatible con directX y openGL.",
+            "Requiere de 750W de alimentación.",
+            "Formatos de conexión: 3 DisplayPort 1.4, HDMI 2.1.",
+            "Ideal para trabajar a alta velocidad."]}
                 },
         ],
     color: ['white'],
@@ -4537,6 +4684,7 @@ categoria:['iphone','all']},
     tendencia:false,
     marca:'apple',
     categoria:['mineria','all']},
+
 
     {
     id:'145',
@@ -4577,7 +4725,17 @@ categoria:['iphone','all']},
         {
         info:{
             titulo:"",
-            lista:[""]}
+            lista:["Lo que tenés que saber de este producto",
+            "Interfaz PCI-Express 3.0.",
+            "Bus de memoria: 192bit.",
+            "Cantidad de núcleos: 1920.",
+            "Frecuencia boost del núcleo de 1710MHz.",
+            "Resolución máxima: 7680x4320.",
+            "Compatible con directX y openGL.",
+            "Requiere de 500W de alimentación.",
+            "Permite la conexión de hasta 3 pantallas simultáneas.",
+            "Formatos de conexión: HDMI 2.0b, DisplayPort 1.4, DL-DVI-D.",
+            "Ideal para trabajar a alta velocidad.",]}
                 },
         ],
     color: ['white'],
@@ -4586,11 +4744,110 @@ categoria:['iphone','all']},
     marca:'apple',
     categoria:['mineria','all']},
 
+    {
+    id:'148',
+    nombre:`MSI RTX 3070 Gaming X Trio`,
+    secid:'',
+    foto:"",
+    // foto:[`${EVGARTX2060fotouno}`,`${EVGARTX2060fotodos}`,`${EVGARTX2060fototres}`,`${EVGARTX2060fotocuatro}`,`${EVGARTX2060fotocinco}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["Interfaz PCI-Express 4.0.",
+            "Bus de memoria: 256bit.",
+            "Cantidad de núcleos: 5888.",
+            "Frecuencia boost del núcleo de 1845MHz.",
+            "Resolución máxima: 7680x4320.",
+            "Compatible con directX y openGL.",
+            "Requiere de 650W de alimentación.",
+            "Permite la conexión de hasta 4 pantallas simultáneas.",
+            "Formatos de conexión: 3 DisplayPort 1.4, HDMI 2.1.",
+            "Ideal para trabajar a alta velocidad."
+        ]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['mineria','all']},
 
+    {
+    id:'149',
+    nombre:`MSI RTX 3070 Gaming X Trio`,
+    secid:'',
+    foto:"",
+    // foto:[`${EVGARTX2060fotouno}`,`${EVGARTX2060fotodos}`,`${EVGARTX2060fototres}`,`${EVGARTX2060fotocuatro}`,`${EVGARTX2060fotocinco}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["Interfaz PCI-Express 4.0.",
+            "Bus de memoria: 192bit.",
+            "Cantidad de núcleos: 3584.",
+            "Frecuencia boost del núcleo de 1837MHz.",
+            "Resolución máxima: 7680x4320.",
+            "Compatible con directX y openGL.",
+            "Requiere de 550W de alimentación.",
+            "Permite la conexión de hasta 4 pantallas simultáneas.",
+            "Formatos de conexión: 3 DisplayPort 1.4, HDMI 2.1.",
+            "Ideal para trabajar a alta velocidad."
+        ]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['mineria','all']},
 
-
-
-
+    {
+    id:'150',
+    nombre:`MSI RTX 3060Ti Gaming X LHR`,
+    secid:'',
+    foto:"",
+    // foto:[`${EVGARTX2060fotouno}`,`${EVGARTX2060fotodos}`,`${EVGARTX2060fototres}`,`${EVGARTX2060fotocuatro}`,`${EVGARTX2060fotocinco}`],
+    oferta:false,
+    precio:"",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["Interfaz PCI-Express 4.0.",
+            "Bus de memoria: 256bit.",
+            "Cantidad de núcleos: 4846.",
+            "Frecuencia boost del núcleo de 1695MHz.",
+            "Resolución máxima: 7680x4320.",
+            "Compatible con directX y openGL.",
+            "Requiere de 600W de alimentación.",
+            "Permite la conexión de hasta 4 pantallas simultáneas.",
+            "Formatos de conexión: 3 DisplayPort 1.4, HDMI 2.1.",
+            "Ideal para trabajar a alta velocidad."
+        ]}
+                },
+        ],
+    color: ['white'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['mineria','all']},
 
 
 
