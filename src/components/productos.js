@@ -469,80 +469,80 @@ const productos=[
         ],
         color: ['space','silver','midnight','gold'],
         estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['macbook','all']},
+    {   
+        id:'002', 
+        nombre:'MacBook M2 PRO 13,6"',
+        secid:'mb-m2-pro-13',
+        foto:[],
+        precio:"1495",
+        memoria:['256GB','512GB','1TB','2TB'],
+        ram:['8GB','16GB', '24GB'],
+        componentes:['CPU 8GB/8GB GPU'],
+        descripcion:[
+            {
+            info:{
+                titulo:"Chip M2 de Apple",
+                lista:["CPU de 8 núcleos con 4 núcleos de rendimiento y 4 de eficiencia","GPU de 10 núcleos","Neural Engine de 16 núcleos","100 GB/s de ancho de banda de memoria"]}
+            },
+            {
+            info:{
+                titulo:"Motor multimedia",
+                lista:["H.264, HEVC, ProRes y ProRes RAW con aceleración por hardware","Motor de decodificación de video","Motor de codificación de video","Motor de codificación y decodificación ProRes"]}
+            },
+            {
+            info:{
+                titulo:"Pantalla Retina",
+                lista:["Pantalla de 13.3 pulgadas (diagonal) retroiluminada por LED con tecnología IPS; resolución nativa de 2560 x 1600 a 227 pixeles por pulgada compatible con millones de colores","Brillo de 500 nits","Amplia gama de colores (P3)","Tecnología True Tone"]
+            }},
+            {
+            info:{
+                titulo:"Batería y energía",
+                lista:["Hasta 20 horas de reproducción de video en la app Apple TV","Hasta 17 horas de navegación web inalámbrica","Batería de polímero de litio de 58.2 Wh","Adaptador de corriente USB-C de 67 W"]}
+            },
+            {
+            info:{
+                titulo:"Carga y Expansión",
+                lista:["Dos puertos Thunderbolt / USB 4 compatibles","DisplayPort","Thunderbolt 3 (hasta 40 Gb/s)","USB 4 (hasta 40 Gb/s)","USB 3.1 de segunda generación (hasta 10 Gb/s)"]}
+            },
+            {
+            info:{
+                titulo:"Memoria",
+                lista:["8 GB (Memoria unificada de 8 GB)","Configurable con: 16 GB o 24 GB"]}
+            },
+            {
+            info:{
+                titulo:"Teclado y trackpad",
+                lista:["65 (EE.UU.) o 66 (ISO) teclas, incluidas 4 teclas de flecha en forma de “T” invertida","Touch Bar","Touch ID","Sensor de luz ambiental","Trackpad Force Touch con control preciso del cursor y sensibilidad a la presión. Permite clics fuertes, aceleradores, trazos sensibles a la presión y gestos Multi‑Touch."]}
+            },
+            {
+            info:{
+                titulo:"Cámara",
+                lista:["Cámara FaceTime HD de 720p","Procesador de señal de imagen avanzado con video computacional"]}
+            },
+            {
+            info:{
+                titulo:"Audio",
+                lista:["Bocinas estéreo con alto rango dinámico","Amplio sonido estéreo","Compatible con audio espacial al reproducir música o video con Dolby Atmos en las bocinas integradas","Audio espacial con seguimiento dinámico de la cabeza al usar los AirPods (tercera generación), AirPods Pro y AirPods Max","Sistema de tres micrófonos con tecnología beamforming direccional","Entrada de 3.5 mm para audífonos con compatibilidad avanzada para audífonos de alta impedancia"]}
+            },
+            {
+            info:{
+                titulo:"Compatibilidad con monitores",
+                lista:["Es compatible simultáneamente con la resolución nativa de la pantalla integrada en millones de colores y un monitor externo con resolución de hasta 6K a 60 Hz","Salida de video digital Thunderbolt 3","Salida DisplayPort nativa a través de USB‑C","Compatible con salidas VGA, HDMI, DVI y Thunderbolt 2 mediante adaptadores (se venden por separado)"]}
+            },
+            {
+            info:{
+                titulo:"Tamaño y peso",
+                lista:["Grosor: 1.56 cm","Ancho: 30.41 cm","Profundidad: 21.24 cm","Peso: 1.4 kg"]}
+            }
+        ],
+        color: ['space','silver'],
+        estado:'En stock',
         tendencia:true,
         marca:'apple',
         categoria:['macbook','all']},
-    // {   
-    //     id:'002', 
-    //     nombre:'MacBook M2 PRO 13,6"',
-    //     secid:'mb-m2-pro-13',
-    //     foto:[],
-    //     precio:"1495",
-    //     memoria:['256GB','512GB','1TB','2TB'],
-    //     ram:['8GB','16GB', '24GB'],
-    //     componentes:['CPU 8GB/8GB GPU'],
-    //     descripcion:[
-    //         {
-    //         info:{
-    //             titulo:"Chip M2 de Apple",
-    //             lista:["CPU de 8 núcleos con 4 núcleos de rendimiento y 4 de eficiencia","GPU de 10 núcleos","Neural Engine de 16 núcleos","100 GB/s de ancho de banda de memoria"]}
-    //         },
-    //         {
-    //         info:{
-    //             titulo:"Motor multimedia",
-    //             lista:["H.264, HEVC, ProRes y ProRes RAW con aceleración por hardware","Motor de decodificación de video","Motor de codificación de video","Motor de codificación y decodificación ProRes"]}
-    //         },
-    //         {
-    //         info:{
-    //             titulo:"Pantalla Retina",
-    //             lista:["Pantalla de 13.3 pulgadas (diagonal) retroiluminada por LED con tecnología IPS; resolución nativa de 2560 x 1600 a 227 pixeles por pulgada compatible con millones de colores","Brillo de 500 nits","Amplia gama de colores (P3)","Tecnología True Tone"]
-    //         }},
-    //         {
-    //         info:{
-    //             titulo:"Batería y energía",
-    //             lista:["Hasta 20 horas de reproducción de video en la app Apple TV","Hasta 17 horas de navegación web inalámbrica","Batería de polímero de litio de 58.2 Wh","Adaptador de corriente USB-C de 67 W"]}
-    //         },
-    //         {
-    //         info:{
-    //             titulo:"Carga y Expansión",
-    //             lista:["Dos puertos Thunderbolt / USB 4 compatibles","DisplayPort","Thunderbolt 3 (hasta 40 Gb/s)","USB 4 (hasta 40 Gb/s)","USB 3.1 de segunda generación (hasta 10 Gb/s)"]}
-    //         },
-    //         {
-    //         info:{
-    //             titulo:"Memoria",
-    //             lista:["8 GB (Memoria unificada de 8 GB)","Configurable con: 16 GB o 24 GB"]}
-    //         },
-    //         {
-    //         info:{
-    //             titulo:"Teclado y trackpad",
-    //             lista:["65 (EE.UU.) o 66 (ISO) teclas, incluidas 4 teclas de flecha en forma de “T” invertida","Touch Bar","Touch ID","Sensor de luz ambiental","Trackpad Force Touch con control preciso del cursor y sensibilidad a la presión. Permite clics fuertes, aceleradores, trazos sensibles a la presión y gestos Multi‑Touch."]}
-    //         },
-    //         {
-    //         info:{
-    //             titulo:"Cámara",
-    //             lista:["Cámara FaceTime HD de 720p","Procesador de señal de imagen avanzado con video computacional"]}
-    //         },
-    //         {
-    //         info:{
-    //             titulo:"Audio",
-    //             lista:["Bocinas estéreo con alto rango dinámico","Amplio sonido estéreo","Compatible con audio espacial al reproducir música o video con Dolby Atmos en las bocinas integradas","Audio espacial con seguimiento dinámico de la cabeza al usar los AirPods (tercera generación), AirPods Pro y AirPods Max","Sistema de tres micrófonos con tecnología beamforming direccional","Entrada de 3.5 mm para audífonos con compatibilidad avanzada para audífonos de alta impedancia"]}
-    //         },
-    //         {
-    //         info:{
-    //             titulo:"Compatibilidad con monitores",
-    //             lista:["Es compatible simultáneamente con la resolución nativa de la pantalla integrada en millones de colores y un monitor externo con resolución de hasta 6K a 60 Hz","Salida de video digital Thunderbolt 3","Salida DisplayPort nativa a través de USB‑C","Compatible con salidas VGA, HDMI, DVI y Thunderbolt 2 mediante adaptadores (se venden por separado)"]}
-    //         },
-    //         {
-    //         info:{
-    //             titulo:"Tamaño y peso",
-    //             lista:["Grosor: 1.56 cm","Ancho: 30.41 cm","Profundidad: 21.24 cm","Peso: 1.4 kg"]}
-    //         }
-    //     ],
-    //     color: ['space','silver'],
-    //     estado:'En stock',
-    //     tendencia:true,
-    //     marca:'apple',
-    //     categoria:['macbook','all']},
     {   
         id:'003',
         nombre:'MacBook M1 AIR 13,3"',
@@ -606,7 +606,7 @@ const productos=[
         ],
         color: ['space','silver','gold'],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:['macbook','all']},
     {   
@@ -687,7 +687,7 @@ const productos=[
         ],
         color: ['space','silver'],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:['macbook','all']},
     {   
@@ -768,7 +768,7 @@ const productos=[
         ],
         color: ['space','silver','midnight','gold'],
         estado:'En stock',
-        tendencia:true,
+        tendencia:false,
         marca:'apple',
         categoria:['macbook','all']},
     {   
@@ -1700,7 +1700,7 @@ const productos=[
         ],
         color: ["midnight","blue","purple","red","starlight"],
         estado:'En stock',
-        tendencia:false,
+        tendencia:true,
         marca:'apple',
     categoria:['iphone','all']},
 
@@ -2640,7 +2640,7 @@ categoria:['iphone','all']},
         ],
     color: ['black','white'],
     estado:'En stock',
-    tendencia:false,
+    tendencia:true,
     marca:'apple',
     categoria:['watch','all']},
 
@@ -2909,7 +2909,7 @@ categoria:['iphone','all']},
         ],
     color: ['white'],
     estado:'En stock',
-    tendencia:false,
+    tendencia:true,
     marca:'apple',
     categoria:['accesorios','all']},
 
@@ -3135,7 +3135,9 @@ categoria:['iphone','all']},
                 nombre:'IPAD PRO 2021 M2 11´',
                 secid:'',
                 foto:[`${iPadPro202211M2fotouno}`,`${iPadPro202211M2fotodos}`,`${iPadPro202211M2fototres}`,`${iPadPro202211M2fotocuatro}`,`${iPadPro202211M2fotocinco}`,`${iPadPro202211M2fotoseis}`],
-                precio:"480",
+                oferta:true,
+                precio:"",
+                precioAnterior:"",
                 memoria:["128GB"],
                 ram:["8GB"],
                 componentes:["8 NUCLEOS M2"],
@@ -3404,7 +3406,7 @@ categoria:['iphone','all']},
         nombre:'SAMSUNG S21 FE',
         secid:'',
         foto:[`${S21FEfotouno}`,`${S21FEfotodos}`,`${S21FEfototres}`,`${S21FEfotocuatro}`],
-        oferta:false,
+        oferta:true,
         precio:"",
         precioAnterior:"",
         memoria:["128GB"],
@@ -4064,7 +4066,7 @@ categoria:['iphone','all']},
     nombre:'AG41 RHODES',
     secid:'',
     foto:[`${AG41fotouno}`,`${AG41fotodos}`,`${AG41fototres}`,`${AG41fotocuatro}`,`${AG41fotocinco}`,`${AG41fotoseis}`],
-    oferta:false,
+    oferta:true,
     precio:"",
     precioAnterior:"",
     memoria:["-"],
