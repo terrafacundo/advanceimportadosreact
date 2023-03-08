@@ -398,6 +398,57 @@ import EVGARTX2060fototres from "./estaticas/media/fotos-productos/graficas/EVGA
 import EVGARTX2060fotocuatro from "./estaticas/media/fotos-productos/graficas/EVGARTX2060-4.webp"
 import EVGARTX2060fotocinco from "./estaticas/media/fotos-productos/graficas/EVGARTX2060-5.webp"
 
+import DJIMAVICMINIfotouno from "./estaticas/media/fotos-productos/drones/dji-mavic-mini-2-1.webp"
+import DJIMAVICMINIfotodos from "./estaticas/media/fotos-productos/drones/dji-mavic-mini-2-2.webp"
+import DJIMAVICMINIfototres from "./estaticas/media/fotos-productos/drones/dji-mavic-mini-2-3.webp"
+import DJIMAVICMINIfotocuatro from "./estaticas/media/fotos-productos/drones/dji-mavic-mini-2-4.webp"
+import DJIMAVICMINIfotocinco from "./estaticas/media/fotos-productos/drones/dji-mavic-mini-2-5.webp"
+
+import PHILIPSOLED77fotouno from "./estaticas/media/fotos-productos/Tele/philips-oled-77-1.webp"
+import PHILIPSOLED77fotodos from "./estaticas/media/fotos-productos/Tele/philips-oled-77-2.webp"
+import PHILIPSOLED77fototres from "./estaticas/media/fotos-productos/Tele/philips-oled-77-3.webp"
+
+import PHILIPS4kUHD55fotouno from "./estaticas/media/fotos-productos/Tele/philips-55-4k-uhd-1.webp"
+import PHILIPS4kUHD55fotodos from "./estaticas/media/fotos-productos/Tele/philips-55-4k-uhd-2.webp"
+import PHILIPS4kUHD55fototres from "./estaticas/media/fotos-productos/Tele/philips-55-4k-uhd-3.webp"
+
+import PHILIPS4kUHD50fotouno from "./estaticas/media/fotos-productos/Tele/philips-50-4k-uhd-1.webp"
+import PHILIPS4kUHD50fotodos from "./estaticas/media/fotos-productos/Tele/philips-50-4k-uhd-2.webp"
+
+import PHILIPS4kUHD65fotouno from "./estaticas/media/fotos-productos/Tele/philips-65-4k-uhd-1.webp"
+import PHILIPS4kUHD65fotodos from "./estaticas/media/fotos-productos/Tele/philips-65-4k-uhd-2.webp"
+import PHILIPS4kUHD65fototres from "./estaticas/media/fotos-productos/Tele/philips-65-4k-uhd-3.webp"
+
+import PHILIPS32LEDfotouno from "./estaticas/media/fotos-productos/Tele/philips-32LED-1.webp"
+import PHILIPS32LEDfotodos from "./estaticas/media/fotos-productos/Tele/philips-32LED-2.webp"
+import PHILIPS32LEDfototres from "./estaticas/media/fotos-productos/Tele/philips-32LED-3.webp"
+import PHILIPS32LEDfotocuatro from "./estaticas/media/fotos-productos/Tele/philips-32LED-4.webp"
+
+import PHILIPS4kUHD502fotouno from "./estaticas/media/fotos-productos/Tele/philips-502-4k-uhd-1.webp"
+import PHILIPS4kUHD502fotodos from "./estaticas/media/fotos-productos/Tele/philips-502-4k-uhd-2.webp"
+
+import PHILIPS32hdfotouno from "./estaticas/media/fotos-productos/Tele/philips32hd-1.webp"
+import PHILIPS32hdfotodos from "./estaticas/media/fotos-productos/Tele/philips32hd-2.webp"
+
+import PHILIPS32hd2fotouno from "./estaticas/media/fotos-productos/Tele/philips32hd2-1.webp"
+import PHILIPS32hd2fotodos from "./estaticas/media/fotos-productos/Tele/philips32hd2-2.webp"
+import PHILIPS32hd2fototres from "./estaticas/media/fotos-productos/Tele/philips32hd2-3.webp"
+
+import PHILIPS434KUHDBTfotouno from "./estaticas/media/fotos-productos/Tele/PHILIPS434KUHDBT-1.webp"
+import PHILIPS434KUHDBTfotodos from "./estaticas/media/fotos-productos/Tele/PHILIPS434KUHDBT-2.webp"
+import PHILIPS434KUHDBTfototres from "./estaticas/media/fotos-productos/Tele/PHILIPS434KUHDBT-3.webp"
+
+import PHILIPS704KUHDfotouno from "./estaticas/media/fotos-productos/Tele/PHILIPS704KUHD-1.webp"
+import PHILIPS704KUHDfotodos from "./estaticas/media/fotos-productos/Tele/PHILIPS704KUHD-2.webp"
+
+
+import PHILIPS754KUHDfotouno from "./estaticas/media/fotos-productos/Tele/PHILIPS754KUHD-1.webp"
+import PHILIPS754KUHDfotodos from "./estaticas/media/fotos-productos/Tele/PHILIPS754KUHD-2.webp"
+
+
+import GOPROBLACKHERO11fotouno from "./estaticas/media/fotos-productos/GOPRO/GOPROBLACKHERO11-1.webp"
+import GOPROBLACKHERO11fotodos from "./estaticas/media/fotos-productos/GOPRO/GOPROBLACKHERO11-2.webp"
+import GOPROBLACKHERO11fototres from "./estaticas/media/fotos-productos/GOPRO/GOPROBLACKHERO11-3.webp"
 
 
 const productos=[
@@ -4820,8 +4871,7 @@ categoria:['iphone','all']},
     id:'150',
     nombre:`MSI RTX 3060Ti Gaming X LHR`,
     secid:'',
-    foto:"",
-    // foto:[`${EVGARTX2060fotouno}`,`${EVGARTX2060fotodos}`,`${EVGARTX2060fototres}`,`${EVGARTX2060fotocuatro}`,`${EVGARTX2060fotocinco}`],
+    foto:[`${EVGARTX2060fotouno}`,`${EVGARTX2060fotodos}`,`${EVGARTX2060fototres}`,`${EVGARTX2060fotocuatro}`,`${EVGARTX2060fotocinco}`],
     oferta:false,
     precio:"",
     precioAnterior:"",
@@ -4832,16 +4882,23 @@ categoria:['iphone','all']},
         {
         info:{
             titulo:"Lo que tenés que saber de este producto",
-            lista:["Interfaz PCI-Express 4.0.",
-            "Bus de memoria: 256bit.",
-            "Cantidad de núcleos: 4846.",
-            "Frecuencia boost del núcleo de 1695MHz.",
-            "Resolución máxima: 7680x4320.",
-            "Compatible con directX y openGL.",
-            "Requiere de 600W de alimentación.",
-            "Permite la conexión de hasta 4 pantallas simultáneas.",
-            "Formatos de conexión: 3 DisplayPort 1.4, HDMI 2.1.",
-            "Ideal para trabajar a alta velocidad."
+            lista:["Versión: Fly More Combo.",
+            "Tipo de drone: aéreo.",
+            "GPS incluido.",
+            "Con conexión WIFI.",
+            "Alcanza una velocidad máxima de 16m/s.",
+            "Posee 4 motores.",
+            "Resolución máxima de la cámara: 4K.",
+            "Tiempo máximo de vuelo: 31m.",
+            "Incluye 3 baterías.",
+            "Con giro 360.",
+            "Viene con modo retención de altitud para vuelos estables.",
+            "Cuenta con función de auto retorno.",
+            "Es plegable.",
+            "Incluye control remoto.",
+            "Con accesorios incluidos.",
+            "Tecnología móvil al alcance de tu mano.",
+            "La duración de la batería depende del uso que se le dé al producto"
         ]}
                 },
         ],
@@ -4851,8 +4908,366 @@ categoria:['iphone','all']},
     marca:'apple',
     categoria:['mineria','all']},
 
+    {
+        id:'151',
+        nombre:`Mini drone DJI Mavic Mini 2`,
+        secid:'',
+        foto:[`${DJIMAVICMINIfotouno}`,`${DJIMAVICMINIfotodos}`,`${DJIMAVICMINIfototres}`,`${DJIMAVICMINIfotocuatro}`,`${DJIMAVICMINIfotocinco}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["-"],
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"Lo que tenés que saber de este producto",
+                lista:["Interfaz PCI-Express 4.0.",
+                "Bus de memoria: 256bit.",
+                "Cantidad de núcleos: 4846.",
+                "Frecuencia boost del núcleo de 1695MHz.",
+                "Resolución máxima: 7680x4320.",
+                "Compatible con directX y openGL.",
+                "Requiere de 600W de alimentación.",
+                "Permite la conexión de hasta 4 pantallas simultáneas.",
+                "Formatos de conexión: 3 DisplayPort 1.4, HDMI 2.1.",
+                "Ideal para trabajar a alta velocidad."
+            ]}
+                    },
+            ],
+        color: ['black'],
+        estado:'En stock',
+        tendencia:true,
+        marca:'apple',
+        categoria:['drones','all']},
 
 
+    {
+        id:'152',
+        nombre:`PHILIPS OLED 77" ANDROID 4K UHD`,
+        secid:'',
+        foto:[`${PHILIPSOLED77fotouno}`,`${PHILIPSOLED77fotodos}`,`${PHILIPSOLED77fototres}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["-"],
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"Lo que tenés que saber de este producto",
+                lista:["Televidor Smart Oled Android. Pantalla: OLED 4K Ultra HD",
+                "Tamano de pantalla: 77",
+                "Resolucion de panel: 3840 x 2160.",
+                "Frecuencia de actualizacion nativa: 120 Hz.",
+                "Resolución máxima: 7680x4320.",
+                "Cantidad de conexiones HDMI: 4.",
+                "Conexion inalambrica: Wi-Fi 802.11ac, 2x2, doble banda, Bluetooth 5.0",
+                "Cantidad de puertos USB: 3",
+                "Las luces LED alrededor de los cuatro lados del televisor brillan y cambian de color en perfecta sincronia con los colores de la accion en pantalla o de la musica. El procesador Philips P5 con IA ofrece una imagen tan real que parece que podes introducirte en ella. Un algoritmo de IA de aprendizaje avanzado procesa las imagenes de forma similar al cerebro humano. Independientemente de lo que veas, podras disfrutar de unos detalles y un contraste realistas, un color vivo y un movimiento suave."
+            ]}
+                    },
+            ],
+        color: ['black'],
+        estado:'En stock',
+        tendencia:true,
+        marca:'apple',
+        categoria:['televisiones','all']},
+
+    {
+        id:'153',
+        nombre:`PHILIPS 55 4K UHD`,
+        secid:'',
+        foto:[`${PHILIPS4kUHD55fotouno}`,`${PHILIPS4kUHD55fotodos}`,`${PHILIPS4kUHD55fototres}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["-"],
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"Lo que tenés que saber de este producto",
+                lista:[
+            ]}
+                    },
+            ],
+        color: ['black'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['televisiones','all']},
+
+
+    {
+        id:'154',
+        nombre:`PHILIPS 50 4K UHD`,
+        secid:'',
+        foto:[`${PHILIPS4kUHD50fotouno}`,`${PHILIPS4kUHD50fotodos}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["-"],
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"Lo que tenés que saber de este producto",
+                lista:[
+            ]}
+                    },
+            ],
+        color: ['black'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['televisiones','all']},
+
+
+        {
+        id:'155',
+        nombre:`PHILIPS 65 4K UHD`,
+        secid:'',
+        foto:[`${PHILIPS4kUHD65fotouno}`,`${PHILIPS4kUHD65fotodos}`,`${PHILIPS4kUHD65fototres}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["-"],
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"Lo que tenés que saber de este producto",
+                lista:[
+            ]}
+                    },
+            ],
+        color: ['black'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['televisiones','all']},
+
+
+            {
+        id:'156',
+        nombre:`PHILIPS 32 LED`,
+        secid:'',
+        foto:[`${PHILIPS32LEDfotouno}`,`${PHILIPS32LEDfotodos}`,`${PHILIPS32LEDfototres}`,`${PHILIPS32LEDfotocuatro}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["-"],
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"Lo que tenés que saber de este producto",
+                lista:[
+            ]}
+                    },
+            ],
+        color: ['black'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['televisiones','all']},
+
+
+            {
+        id:'157',
+        nombre:`PHILIPS 50 4K UHD`,
+        secid:'',
+        foto:[`${PHILIPS4kUHD502fotouno}`,`${PHILIPS4kUHD502fotodos}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["-"],
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"Lo que tenés que saber de este producto",
+                lista:[
+            ]}
+                    },
+            ],
+        color: ['black'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['televisiones','all']},
+        
+
+                    {
+        id:'158',
+        nombre:`PHILIPS 32 HD`,
+        secid:'',
+        foto:[`${PHILIPS32hdfotouno}`,`${PHILIPS32hdfotodos}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["-"],
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"Lo que tenés que saber de este producto",
+                lista:[
+            ]}
+                    },
+            ],
+        color: ['black'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['televisiones','all']},
+
+
+                    {
+        id:'159',
+        nombre:`PHILIPS 32 HD`,
+        secid:'',
+        foto:[`${PHILIPS32hd2fotouno}`,`${PHILIPS32hd2fotodos}`,`${PHILIPS32hd2fototres}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["-"],
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"Lo que tenés que saber de este producto",
+                lista:[
+            ]}
+                    },
+            ],
+        color: ['black'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['televisiones','all']},
+
+
+    {
+        id:'160',
+        nombre:`PHILIPS 43 4K UHD ANDROID BT`,
+        secid:'',
+        foto:[`${PHILIPS434KUHDBTfotouno}`,`${PHILIPS434KUHDBTfotodos}`,`${PHILIPS434KUHDBTfototres}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["-"],
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"Lo que tenés que saber de este producto",
+                lista:[
+            ]}
+                    },
+            ],
+        color: ['black'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['televisiones','all']},
+
+    {
+        id:'161',
+        nombre:`PHILIPS 70 4K UHD ANDROID `,
+        secid:'',
+        foto:[`${PHILIPS704KUHDfotouno}`,`${PHILIPS704KUHDfotodos}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["-"],
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"Lo que tenés que saber de este producto",
+                lista:[
+            ]}
+                    },
+            ],
+        color: ['black'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['televisiones','all']},
+
+    {
+        id:'162',
+        nombre:`PHILIPS 75 4K UHD ANDROID `,
+        secid:'',
+        foto:[`${PHILIPS754KUHDfotouno}`,`${PHILIPS754KUHDfotodos}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["-"],
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"Lo que tenés que saber de este producto",
+                lista:[
+            ]}
+                    },
+            ],
+        color: ['black'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['televisiones','all']},
+
+        //FIN DE TELE - INICIO GOPRO
+
+    {
+        id:'163',
+        nombre:`GOPRO BLACK HERO 11 `,
+        secid:'',
+        foto:[`${GOPROBLACKHERO11fotouno}`,`${GOPROBLACKHERO11fotodos}`,`${GOPROBLACKHERO11fototres}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:["-"],
+        ram:["-"],
+        componentes:["-"],
+        descripcion:[
+            {
+            info:{
+                titulo:"Lo que tenés que saber de este producto",
+                lista:[
+                    "Resolución fotográfica de 27Mpx para capturas de excelente calidad.",
+                    "Videos con gran nivel de detalle gracias a su resolución 5312x2988, 3840x2160, 4000x3000, 2704x1520, 2704x2028.",
+                    "Dispone de pantalla táctil que facilita su configuración.",
+                    "Ideal para documentar experiencias únicas con su visión nocturna.",
+                    "Es a prueba de agua.",
+                    "Incluye múltiples accesorios para potenciar las funcionalidades de la cámara al máximo.",
+                    "Dimensiones: 71.8mm de ancho, 50.8mm de alto y 33.6mm de profundidad.",
+                    "Tu mejor opción para registrar momentos inolvidables.",
+                    "La duración de la batería depende del uso que se le dé al producto."
+            ]}
+                    },
+            ],
+        color: ['black'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['go-pro','all']},
 ];
 
 export default productos
