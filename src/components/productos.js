@@ -1647,10 +1647,10 @@ const productos=[
         nombre:'IPHONE 14',
         secid:'iphone-14',
         foto:[`${Iphone14fotouno}`,`${Iphone14fotodos}`,`${Iphone14fototres}`,`${Iphone14fotocuatro}`,`${Iphone14fotocinco}`],
-        precio:"1080",
+        precio:"930",
         memoria:["128GB","256GB"],
         ram:["-"],
-        componentes:["A15 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)"],
+        componentes:["-"],
         descripcion:[
             {
             info:{
@@ -1749,7 +1749,7 @@ const productos=[
         },
 
         ],
-        color: ["midnight","blue","purple","red","starlight"],
+        color: ["midnight","blue","purple","starlight"],
         estado:'En stock',
         tendencia:true,
         marca:'apple',
@@ -1761,9 +1761,9 @@ const productos=[
             secid:'iphone-14-pro',
             foto:[`${Iphone14PROfotouno}`,`${Iphone14PROfotodos}`,`${Iphone14PROfototres}`,`${Iphone14PROfotocuatro}`,`${Iphone14PROfotocinco}`,],
             precio:"1080",
-            memoria:["128GB","256GB","512GB"],
+            memoria:["128GB","256GB","512GB","1TB"],
             ram:["-"],
-            componentes:["A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)"],
+            componentes:["-"],
             descripcion:[
                 {
                 info:{
@@ -1876,7 +1876,7 @@ const productos=[
             precio:"1710",
             memoria:["128GB","256GB","512GB","1TB"],
             ram:["-"],
-            componentes:["A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)"],
+            componentes:["-"],
             descripcion:[
                 {
                 info:{
@@ -1975,7 +1975,7 @@ const productos=[
             },
     
             ],
-            color: ["black","purple","silver","gold"],
+            color: ["midnight","purple","silver","gold"],
             estado:'En stock',
             tendencia:false,
             marca:'apple',
@@ -1984,12 +1984,12 @@ const productos=[
     {
         id:'076',
         nombre:'IPHONE 14 Plus',
-        secid:'iphone-14-plus',
+        secid:'iphone-14-ps',
         foto:[`${Iphone14Plusfotouno}`,`${Iphone14Plusfotodos}`,`${Iphone14Plusfototres}`,`${Iphone14Plusfotocuatro}`,`${Iphone14Plusfotocinco}`],
         precio:"1710",
-        memoria:["128GB","256GB","512GB","1TB"],
+        memoria:["128GB"],
         ram:["-"],
-        componentes:["A16 Bionic(CPU de 6 núcleos / GPU de 5 núcleos)"],
+        componentes:["-"],
         descripcion:[
             {
             info:{
@@ -2088,7 +2088,7 @@ const productos=[
         },
 
         ],
-        color: ["black","purple","silver","gold"],
+        color: ["midnight","purple"],
         estado:'En stock',
         tendencia:false,
         marca:'apple',
@@ -2100,10 +2100,10 @@ categoria:['iphone','all']},
             nombre:'IPHONE 13',
             secid:'iphone-13',
             foto:[`${Iphone13fotouno}`,`${Iphone13fotodos}`,`${Iphone13fototres}`,`${Iphone13fotocuatro}`,`${Iphone13fotocinco}`],
-            precio:"900",
-            memoria:["128GB","512GB"],
+            precio:"825",
+            memoria:["128GB","256GB"],
             ram:["-"],
-            componentes:["A15 Bionic(CPU de 6 núcleos / GPU de 4 núcleos)"],
+            componentes:["-"],
             descripcion:[
                 {
                 info:{
@@ -2202,7 +2202,7 @@ categoria:['iphone','all']},
             },
     
             ],
-            color: ["blue","green","red","midnight","starlight"],
+            color: ["blue","green","pink","midnight","starlight"],
             estado:'En stock',
             tendencia:false,
             marca:'apple',
@@ -2551,10 +2551,10 @@ categoria:['iphone','all']},
     nombre:'IPHONE 11',
     secid:'iphone-11',
     foto:[`${Iphone11fotouno}`,`${Iphone11fotodos}`,`${Iphone11fototres}`,`${Iphone11fotocuatro}`,`${Iphone11fotocinco}`],
-    precio:"900",
-    memoria:["128GB","512GB"],
+    precio:"560",
+    memoria:["64GB","128GB"],
     ram:["-"],
-    componentes:["A15 Bionic(CPU de 6 núcleos / GPU de 4 núcleos)"],
+    componentes:["-"],
     descripcion:[
         {
         info:{
@@ -2653,7 +2653,7 @@ categoria:['iphone','all']},
     },
 
     ],
-    color: ["blue","green","red","midnight","starlight"],
+    color: ["black","white"],
     estado:'En stock',
     tendencia:false,
     marca:'apple',
