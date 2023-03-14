@@ -69,6 +69,7 @@ const ListadoProductosPro =({categoria})=>{
                 nuevo_Array?.map((x) =>(
                 // <SwiperSlide>
                     <ProductoDetalle
+                    nombreCorto={x.nombreCorto}
                     key={x.id}
                     id={x.id}
                     nombre={x.nombre}
@@ -85,6 +86,7 @@ const ListadoProductosPro =({categoria})=>{
             return(
                 nuevo_Array_seg_pos.map((x) =>(
                     <ProductoDetalle
+                    nombreCorto={x.nombreCorto}
                     key={x.id}
                     id={x.id}
                     nombre={x.nombre}

@@ -527,7 +527,7 @@ const productos=[
         id:'002', 
         nombre:'MacBook M2 PRO 13,6"',
         secid:'mb-m2-pro-13',
-        foto:[],
+        foto:[`${M2fotouno}`,`${M2fotodos}`],
         precio:"1495",
         memoria:['256GB','512GB','1TB','2TB'],
         ram:['8GB','16GB', '24GB'],
@@ -1446,6 +1446,7 @@ const productos=[
 {
     id:'027',
     nombre:'ASUS - Monitor para juegos IPS de 1ms FreeSync Extreme Low Motion Blur Eye Care DisplayPort HDMI VGA, Negro',
+    nombreCorto:"Monitor ASUS",
     foto:["https://m.media-amazon.com/images/I/91G9etn8L4L._AC_SX425_.jpg","https://m.media-amazon.com/images/I/81e9oegCAAL._AC_SX425_.jpg","https://m.media-amazon.com/images/I/81-nlV0dprL._AC_SY355_.jpg","https://m.media-amazon.com/images/I/81n0rn8O4cL._AC_SY355_.jpg","https://m.media-amazon.com/images/I/81x3Ob1Zj-L._AC_SY355_.jpg","https://m.media-amazon.com/images/I/91A15BoQLxL._AC_SY355_.jpg","https://m.media-amazon.com/images/I/81adV8A3UpL._AC_SY355_.jpg"],
     precio:"159.99",
     memoria:["-"],
@@ -1503,6 +1504,7 @@ const productos=[
 {
     id:'049',
     nombre:'Monitor AOC para videojuegos, curvado, sin marco, FHD 1ms VA 24"',
+    nombreCorto:'Monitor AOC Gaming',
     foto:["https://m.media-amazon.com/images/I/81GJkTKuLnL._AC_SX425_.jpg","https://m.media-amazon.com/images/I/61DJUumg+pL._AC_SX425_.jpg","https://m.media-amazon.com/images/I/71nN489-odL._AC_SX425_.jpg","https://m.media-amazon.com/images/I/51QIgIn1k6L._AC_SX425_.jpg","https://m.media-amazon.com/images/I/517TyQbxqgL._AC_SX425_.jpg","https://m.media-amazon.com/images/I/51jeC9ov2pL._AC_SX425_.jpg","https://m.media-amazon.com/images/I/41wdKKSo0IL._AC_SX425_.jpg"],
     precio:"209.99",
     memoria:["-"],
@@ -1524,6 +1526,7 @@ const productos=[
 {
     id:'050',
     nombre:'Monitor SAMSUNG FHD de 24 pulgadas con diseño sin bisel, LS24R350FHNXZA, gris azul oscuro',
+    nombreCorto:'Monitor Samsung FHD 24"',
     foto:["https://m.media-amazon.com/images/I/91l+VjqPr7L._AC_SX425_.jpg","https://m.media-amazon.com/images/I/81vI5EDzkEL._AC_SX425_.jpg","https://m.media-amazon.com/images/I/81DCTekuZsL._AC_SX425_.jpg","https://m.media-amazon.com/images/I/61PWv7XKs8L._AC_SX425_.jpg"],
     precio:"152.93",
     memoria:["-"],
@@ -1544,6 +1547,7 @@ const productos=[
 {
     id:'051',
     nombre:'Monitor LG 34GP83A-B 34´´ 21: 9 UltraGear Curvo QHD (3440 x 1440) 1 ms Nano IPS con 160Hz - Negro',
+    nombreCorto:'Monitor LG 9 UltraGear Curvo QHD',
     foto:["https://m.media-amazon.com/images/I/71UnbkzLquL.__AC_SX300_SY300_QL70_FMwebp_.jpg","https://m.media-amazon.com/images/I/71vmlCSjLML._AC_SX425_.jpg","https://m.media-amazon.com/images/I/71nwpsHJjIL._AC_SX425_.jpg"],
     precio:"599.99",
     memoria:["-"],
@@ -1564,6 +1568,7 @@ const productos=[
 {
     id:'052',
     nombre:'Monitor LG 32GN650-B Monitor de 32´´ QHD (2560 x 1440), frecuencia de actualización de 165 Hz, 1 ms MBR, HDR 10, sRGB 95%, Negro',
+    nombreCorto:'Monitor LG 32" QHD',
     foto:["https://m.media-amazon.com/images/I/51DG5X9vJlL._AC_SX425_.jpg","https://m.media-amazon.com/images/I/515DS3iB7KL._AC_SX425_.jpg","https://m.media-amazon.com/images/I/41Zanqo8O9L._AC_SX425_.jpg"],
     precio:"396.99",
     memoria:["-"],
@@ -1584,6 +1589,7 @@ const productos=[
 {
     id:'053',
     nombre:'Monitor LG 34GL750-B 21: 9 Ultragear Monitor curvado para juegos compatible con Wfhd (2560 X 1080) IPS 144Hz G-SYNC, 34 pulgadas, negro',
+    nombreCorto:'Monitor LG 9 UltraGear Curvo',
     foto:["https://m.media-amazon.com/images/I/71S9dis6PRL._AC_SX425_.jpg","https://m.media-amazon.com/images/I/51qCI4g2L0L._AC_SY879_.jpg","https://m.media-amazon.com/images/I/71sXSda+FML._AC_SX425_.jpg"],
     precio:"449.99",
     memoria:["-"],
@@ -1603,6 +1609,7 @@ const productos=[
 
 {
     id:'054',
+    nombreCorto:'Monitor Samsung Gaming 49"',
     nombre:'Monitor SAMSUNG de juegos de 49 pulgadas, monitor curvado ultra-ancho, 240 Hz 1 ms, Quantum Mini LED, G-Sync, monitor de altura ajustable, HDR 2000, Odyssey Neo G9, G95NA (LS49AG952NXZA)',
     foto:["https://m.media-amazon.com/images/I/81gf+wgrcfS._AC_SX679_.jpg","https://m.media-amazon.com/images/I/61FF3XndPaS._AC_SX679_.jpg","https://m.media-amazon.com/images/I/71RPplzYxKL._AC_SX425_.jpg","https://m.media-amazon.com/images/I/81FOvKTE7qL._AC_SX425_.jpg","https://m.media-amazon.com/images/I/71Y2qybV9+L._AC_SX425_.jpg"],
     precio:"449.99",
@@ -1624,6 +1631,7 @@ const productos=[
 {
         id:'055',
         nombre:'ASUS TUF Gaming - Monitor curvado 1080P de 23.6 pulgadas',
+        nombreCorto:'Monitor ASUS TUF Gaming 23"',
         foto:["https://m.media-amazon.com/images/I/81GL+Sz8RkL._AC_SX425_.jpg","https://m.media-amazon.com/images/I/81zpqg3iUCL._AC_SX425_.jpg","https://m.media-amazon.com/images/I/812F3BZDUBL._AC_SX425_.jpg","https://m.media-amazon.com/images/I/81V76jOljOL._AC_SX425_.jpg","https://m.media-amazon.com/images/I/81l2t1GXo3L._AC_SX425_.jpg"],
         precio:"449.99",
         memoria:["-"],
@@ -2901,7 +2909,7 @@ categoria:['iphone','all']},
 {
     id:'068',
     nombre:'Apple Airpods 2 con Estuche de Carga Inalambrica',
-    secid:'',
+    secid:'airpods-2',
     foto:["https://www.macstation.com.ar/img/productos/1434-1407-1.jpg","https://www.macstation.com.ar/img/productos_multimedia/1083-2.jpg","https://www.macstation.com.ar/img/productos_multimedia/1082-3.jpg",],
     precio:"165",
     memoria:["-"],
