@@ -1656,7 +1656,7 @@ const productos=[
         secid:'iphone-14',
         foto:[`${Iphone14fotouno}`,`${Iphone14fotodos}`,`${Iphone14fototres}`,`${Iphone14fotocuatro}`,`${Iphone14fotocinco}`],
         precio:"930",
-        memoria:["128GB","256GB"],
+        memoria:["128GB","256GB","512GB"],
         ram:["-"],
         componentes:["-"],
         descripcion:[

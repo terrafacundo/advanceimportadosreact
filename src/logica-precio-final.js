@@ -2773,22 +2773,22 @@ if(secid==='watch-8-45mm' &&color==='starlight'){
 //iphone 11
 if(secid==='iphone-11' && almacenamiento==='64GB' && ram==='-' && componente==='-' && color==='black'){
     return(
-        <div className="precio-final">U$D 560</div>
+        <div className="precio-final">U$D 540</div>
     )
 }
 if(secid==='iphone-11' && almacenamiento==='64GB' && ram==='-' && componente==='-' && color==='white'){
     return(
-        <div className="precio-final">U$D 560</div>
+        <div className="precio-final">U$D 540</div>
     )
 }
 if(secid==='iphone-11' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='black'){
     return(
-        <div className="precio-final">U$D 630</div>
+        <div className="precio-final">U$D 620</div>
     )
 }
 if(secid==='iphone-11' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='white'){
     return(
-        <div className="precio-final">U$D 630</div>
+        <div className="precio-final">U$D 620</div>
     )
 }
 
@@ -2796,42 +2796,52 @@ if(secid==='iphone-11' && almacenamiento==='128GB' && ram==='-' && componente===
 
 if(secid==='iphone-13' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='midnight'){
     return(
-        <div className="precio-final">U$D 825</div>
+        <div className="precio-final">U$D 810</div>
     )
 }
 if(secid==='iphone-13' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='starlight'){
     return(
-        <div className="precio-final">U$D 825</div>
+        <div className="precio-final">U$D 810</div>
     )
 }
 if(secid==='iphone-13' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='blue'){
     return(
-        <div className="precio-final">U$D 825</div>
+        <div className="precio-final">U$D 800</div>
     )
 }
 if(secid==='iphone-13' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='green'){
     return(
-        <div className="precio-final">U$D 825</div>
+        <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
     )
 }
 if(secid==='iphone-13' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='pink'){
     return(
-        <div className="precio-final">U$D 835</div>
+        <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
     )
 }
 if(secid==='iphone-13' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color==='midnight'){
     return(
-        <div className="precio-final">U$D 965</div>
+        <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
     )
 }
 if(secid==='iphone-13' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color==='blue'){
     return(
-        <div className="precio-final">U$D 965</div>
+        <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
     )
 }
 if(secid==='iphone-13' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color==='pink'){
     return(
-        <div className="precio-final">U$D 965</div>
+        <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
     )
 }
 
@@ -2839,55 +2849,92 @@ if(secid==='iphone-13' && almacenamiento==='256GB' && ram==='-' && componente===
 //iphone-14
 if(secid==='iphone-14' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='midnight'){
     return(
-        <div className="precio-final">U$D 930</div>
+        <div className="precio-final">U$D 905</div>
     )
 }
 if(secid==='iphone-14' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='starlight'){
     return(
-        <div className="precio-final">U$D 930</div>
+        <div className="precio-final">U$D 905</div>
     )
 }
 if(secid==='iphone-14' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='purple'){
     return(
-        <div className="precio-final">U$D 930</div>
+        <div className="precio-final">U$D 905</div>
     )
 }
 if(secid==='iphone-14' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='blue'){
     return(
-        <div className="precio-final">U$D 930</div>
+        <div className="precio-final">U$D 905</div>
     )
 }
 if(secid==='iphone-14' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color==='midnight'){
     return(
-        <div className="precio-final">U$D 1035</div>
+        <div className="precio-final">U$D 1080</div>
     )
 }
 if(secid==='iphone-14' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color==='starlight'){
     return(
-        <div className="precio-final">U$D 1040</div>
+        <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
     )
 }
 if(secid==='iphone-14' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color==='purple'){
     return(
-        <div className="precio-final">U$D 1040</div>
+        <div className="precio-final">U$D 1080</div>
     )
 }
 if(secid==='iphone-14' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color==='blue'){
     return(
-        <div className="precio-final">U$D 1035</div>
+        <div className="precio-final">U$D 1080</div>
     )
 }
+
+if(secid==='iphone-14' && almacenamiento==='512GB' && ram==='-' && componente==='-' && color==='midnight'){
+    return(
+        <div className="precio-final">U$D 1115</div>
+    )
+}
+if(secid==='iphone-14' && almacenamiento==='512GB' && ram==='-' && componente==='-' && color==='starlight'){
+    return(
+        <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
+    )
+}
+if(secid==='iphone-14' && almacenamiento==='512GB' && ram==='-' && componente==='-' && color==='purple'){
+    return(
+        <div className="precio-final">U$D 1115</div>
+    )
+}
+if(secid==='iphone-14' && almacenamiento==='512GB' && ram==='-' && componente==='-' && color==='blue'){
+    return(
+        <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+        </Link>
+    )
+}
+if(secid==='iphone-14' && almacenamiento==='512GB' && ram==='-' && componente==='-' && color==='starlight'){
+    return(
+        <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+        </Link>
+    )
+}
+
 
 //iphone 14 plus
 
 if(secid==='iphone-14-ps' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='purple'){
     return(
-        <div className="precio-final">U$D 1055</div>
+        <Link to='/Cotizar' className="cotizar">
+                        <div>Producto disponible para cotizar</div>
+            </Link>
     )
 }
 if(secid==='iphone-14-ps' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='midnight'){
     return(
-        <div className="precio-final">U$D 1055</div>
+        <div className="precio-final">U$D 1030</div>
     )
 }
 
@@ -2895,38 +2942,41 @@ if(secid==='iphone-14-ps' && almacenamiento==='128GB' && ram==='-' && componente
 
 if(secid==='iphone-14-pro' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='purple'){
     return(
-        <div className="precio-final">U$D 1055</div>
+        <div className="precio-final">U$D 1240</div>
     )
 }
 if(secid==='iphone-14-pro' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='midnight'){
     return(
-        <div className="precio-final">U$D 1055</div>
+        <div className="precio-final">U$D 1150</div>
     )
 }
 if(secid==='iphone-14-pro' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='silver'){
     return(
-        <div className="precio-final">U$D 1055</div>
+        <div className="precio-final">U$D 1160</div>
     )
 }
 if(secid==='iphone-14-pro' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='gold'){
     return(
-        <div className="precio-final">U$D 1155</div>
+        <div className="precio-final">U$D 1240</div>
     )
 }
 
+
+
+
 if(secid==='iphone-14-pro' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color==='purple'){
     return(
-        <div className="precio-final">U$D 1255</div>
+        <div className="precio-final">U$D 1240</div>
     )
 }
 if(secid==='iphone-14-pro' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color==='silver'){
     return(
-        <div className="precio-final">U$D 1255</div>
+        <div className="precio-final">U$D 1240</div>
     )
 }
 if(secid==='iphone-14-pro' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color==='gold'){
     return(
-        <div className="precio-final">U$D 1255</div>
+        <div className="precio-final">U$D 1240</div>
     )
 }
 if(secid==='iphone-14-pro' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color==='midnight'){
@@ -2935,97 +2985,153 @@ if(secid==='iphone-14-pro' && almacenamiento==='256GB' && ram==='-' && component
     )
 }
 
+
+
+
 if(secid==='iphone-14-pro' && almacenamiento==='512GB' && ram==='-' && componente==='-' && color==='purple'){
     return(
-        <div className="precio-final">U$D 1480</div>
+        <div className="precio-final">U$D 1470</div>
     )
 }
 if(secid==='iphone-14-pro' && almacenamiento==='512GB' && ram==='-' && componente==='-' && color==='silver'){
     return(
-        <div className="precio-final">U$D 1480</div>
+        <div className="precio-final">U$D 1490</div>
     )
 }
 if(secid==='iphone-14-pro' && almacenamiento==='512GB' && ram==='-' && componente==='-' && color==='gold'){
     return(
-        <div className="precio-final">U$D 1480</div>
+        <div className="precio-final">U$D 1490</div>
+    )
+}
+if(secid==='iphone-14-pro' && almacenamiento==='512GB' && ram==='-' && componente==='-' && color==='midnight'){
+    return(
+        <div className="precio-final">U$D 1470</div>
     )
 }
 
+
+
 if(secid==='iphone-14-pro' && almacenamiento==='1TB' && ram==='-' && componente==='-' && color==='purple'){
     return(
-        <div className="precio-final">U$D 1690</div>
+        <div className="precio-final">U$D 1670</div>
     )
 }
 if(secid==='iphone-14-pro' && almacenamiento==='1TB' && ram==='-' && componente==='-' && color==='silver'){
     return(
-        <div className="precio-final">U$D 1690</div>
+        <div className="precio-final">U$D 1670</div>
     )
 }
 if(secid==='iphone-14-pro' && almacenamiento==='1TB' && ram==='-' && componente==='-' && color==='gold'){
     return(
-        <div className="precio-final">U$D 1690</div>
+        <div className="precio-final">U$D 1670</div>
     )
 }
 if(secid==='iphone-14-pro' && almacenamiento==='1TB' && ram==='-' && componente==='-' && color==='midnight'){
     return(
-        <div className="precio-final">U$D 1690</div>
+        <div className="precio-final">U$D 1670</div>
     )
 }
+
+
+
+
+
 
 //IPHONE 14 PRO MAX
 if(secid==='iphone-14-pro-max' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color===('midnight')){
     return(
-        <div className="precio-final">U$D 1260</div>
+        <div className="precio-final">U$D 1240</div>
     )
 }
 if(secid==='iphone-14-pro-max' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='silver'){
     return(
-        <div className="precio-final">U$D 1260</div>
+        <div className="precio-final">U$D 1240</div>
     )
 }
 if(secid==='iphone-14-pro-max' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='gold'){
     return(
-        <div className="precio-final">U$D 1260</div>
+        <div className="precio-final">U$D 1240</div>
     )
 }
 if(secid==='iphone-14-pro-max' && almacenamiento==='128GB' && ram==='-' && componente==='-' && color==='purple'){
     return(
-        <div className="precio-final">U$D 1270</div>
+        <div className="precio-final">U$D 1240</div>
     )
 }
 
+
+
 if(secid==='iphone-14-pro-max' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color===('midnight')){
     return(
-        <div className="precio-final">U$D 1360</div>
+        <div className="precio-final">U$D 1340</div>
     )
 }
 if(secid==='iphone-14-pro-max' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color==='silver'){
     return(
-        <div className="precio-final">U$D 1360</div>
+        <div className="precio-final">U$D 1340</div>
     )
 }
 if(secid==='iphone-14-pro-max' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color==='gold'){
     return(
-        <div className="precio-final">U$D 1360</div>
+        <div className="precio-final">U$D 1370</div>
+    )
+}
+if(secid==='iphone-14-pro-max' && almacenamiento==='256GB' && ram==='-' && componente==='-' && color==='purple'){
+    return(
+        <div className="precio-final">U$D 1340</div>
     )
 }
 
+
+
+
 if(secid==='iphone-14-pro-max' && almacenamiento==='512GB' && ram==='-' && componente==='-' && color==='silver'){
     return(
-        <div className="precio-final">U$D 1590</div>
+        <div className="precio-final">U$D 1610</div>
     )
 }
 if(secid==='iphone-14-pro-max' && almacenamiento==='512GB' && ram==='-' && componente==='-' && color==='gold'){
     return(
-        <div className="precio-final">U$D 1590</div>
-    )
+        <div className="precio-final">U$D 1580</div>
+       )
 }
 if(secid==='iphone-14-pro-max' && almacenamiento==='512GB' && ram==='-' && componente==='-' && color==='purple'){
     return(
-        <div className="precio-final">U$D 1590</div>
+        <div className="precio-final">U$D 1580</div>
+    )
+}
+if(secid==='iphone-14-pro-max' && almacenamiento==='512GB' && ram==='-' && componente==='-' && color==='midnight'){
+    return(
+        <div className="precio-final">U$D 1580</div>
     )
 }
 
+
+
+if(secid==='iphone-14-pro-max' && almacenamiento==='1TB' && ram==='-' && componente==='-' && color==='purple'){
+    return(
+        <div className="precio-final">U$D 1780</div>
+    )
+}
+if(secid==='iphone-14-pro-max' && almacenamiento==='1TB' && ram==='-' && componente==='-' && color==='silver'){
+    return(
+        <div className="precio-final">U$D 1780</div>
+    )
+}
+if(secid==='iphone-14-pro-max' && almacenamiento==='1TB' && ram==='-' && componente==='-' && color==='midnight'){
+    return(
+        <Link to='/Cotizar' className="cotizar">
+                        <div>Producto disponible para cotizar</div>
+            </Link>
+    )
+}
+if(secid==='iphone-14-pro-max' && almacenamiento==='1TB' && ram==='-' && componente==='-' && color==='gold'){
+    return(
+        <Link to='/Cotizar' className="cotizar">
+                        <div>Producto disponible para cotizar</div>
+            </Link>
+    )
+}
 
 
 
@@ -3302,7 +3408,7 @@ if( almacenamiento==='-' && ram==='-' && componente==="-" && (color==='space' ||
 //airpods
 if(secid==='airpods-2'){
     return(
-        <div className="precio-final">U$D 135</div>
+        <div className="precio-final">U$D 155</div>
     )
 }
 
