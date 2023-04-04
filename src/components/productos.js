@@ -451,6 +451,65 @@ import GOPROBLACKHERO11fotodos from "./estaticas/media/fotos-productos/GOPRO/GOP
 import GOPROBLACKHERO11fototres from "./estaticas/media/fotos-productos/GOPRO/GOPROBLACKHERO11-3.webp"
 
 
+import ASUSROGFLOWZG13fotouno from "./estaticas/media/fotos-productos/notebooks/rogflow-1.webp"
+import ASUSROGFLOWZG13fotodos from "./estaticas/media/fotos-productos/notebooks/rogflow-2.webp"
+import ASUSROGFLOWZG13fototres from "./estaticas/media/fotos-productos/notebooks/rogflow-3.webp"
+
+import HP17Tfotouno from "./estaticas/media/fotos-productos/notebooks/hp17t-1.webp"
+import HP17Tfotodos from "./estaticas/media/fotos-productos/notebooks/hp17t-2.webp"
+import HP17Tfototres from "./estaticas/media/fotos-productos/notebooks/hp17t-3.webp"
+
+import msigf65fotouno from "./estaticas/media/fotos-productos/notebooks/MSIGAMERGF65-1.webp"
+import msigf65fotodos from "./estaticas/media/fotos-productos/notebooks/MSIGAMERGF65-2.webp"
+import msigf65fototres from "./estaticas/media/fotos-productos/notebooks/MSIGAMERGF65-3.webp"
+
+import msigf63fotouno from "./estaticas/media/fotos-productos/notebooks/MSIGAMERGF63-1.webp"
+import msigf63fotodos from "./estaticas/media/fotos-productos/notebooks/MSIGAMERGF63-2.webp"
+import msigf63fototres from "./estaticas/media/fotos-productos/notebooks/MSIGAMERGF63-3.webp"
+
+
+import delllatitude3420fotouno from "./estaticas/media/fotos-productos/notebooks/delllatitude-1.webp"
+import delllatitude3420fotodos from "./estaticas/media/fotos-productos/notebooks/delllatitude-2.webp"
+import delllatitude3420fototres from "./estaticas/media/fotos-productos/notebooks/delllatitude-3.webp"
+
+import hp17fotouno from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKHP17-1.webp"
+import hp17fotodos from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKHP17-2.webp"
+import hp17fototres from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKHP17-3.webp"
+
+import hp17fotouno from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKHP17-1.webp"
+import hp17fotodos from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKHP17-2.webp"
+import hp17fototres from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKHP17-3.webp"
+
+import NOTEBOOKASUSS433EAfotouno from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKASUSS433EA-1.webp"
+import NOTEBOOKASUSS433EAfotodos from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKASUSS433EA-2.webp"
+import NOTEBOOKASUSS433EAfototres from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKASUSS433EA-3.webp"
+
+import NOTEBOOKGATEWAYGWNR71517fotouno from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKGATEWAYGWNR71517-1.webp"
+import NOTEBOOKGATEWAYGWNR71517fotodos from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKGATEWAYGWNR71517-2.webp"
+import NOTEBOOKGATEWAYGWNR71517fototres from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKGATEWAYGWNR71517-3.webp"
+
+
+import NOTELENOVOV14fotouno from "./estaticas/media/fotos-productos/notebooks/LENOVOV14-1.webp"
+import NOTELENOVOV14fotodos from "./estaticas/media/fotos-productos/notebooks/LENOVOV14-2.webp"
+import NOTELENOVOV14fototres from "./estaticas/media/fotos-productos/notebooks/LENOVOV14-3.webp"
+
+import NOTEBOOKLENOVOIDEAPAD3fotouno from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKLENOVOIDEAPAD3-1.webp"
+import NOTEBOOKLENOVOIDEAPAD3fotodos from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKLENOVOIDEAPAD3-2.webp"
+import NOTEBOOKLENOVOIDEAPAD3fototres from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKLENOVOIDEAPAD3-3.webp"
+
+import CHROMEBOOKASUSfotouno from "./estaticas/media/fotos-productos/notebooks/CHROMEBOOKASUS-1.webp"
+import CHROMEBOOKASUSfotodos from "./estaticas/media/fotos-productos/notebooks/CHROMEBOOKASUS-2.webp"
+import CHROMEBOOKASUSfototres from "./estaticas/media/fotos-productos/notebooks/CHROMEBOOKASUS-3.webp"
+
+
+import ACERCHROMEBOOKfotouno from "./estaticas/media/fotos-productos/notebooks/ACERCHROMEBOOK-1.webp"
+import ACERCHROMEBOOKfotodos from "./estaticas/media/fotos-productos/notebooks/ACERCHROMEBOOK-2.webp"
+import ACERCHROMEBOOKfototres from "./estaticas/media/fotos-productos/notebooks/ACERCHROMEBOOK-3.webp"
+
+import LENOVOCHROMEBOOKfotouno from "./estaticas/media/fotos-productos/notebooks/LENOVOCHROMEBOOK-1.webp"
+import LENOVOCHROMEBOOKfotodos from "./estaticas/media/fotos-productos/notebooks/LENOVOCHROMEBOOK-2.webp"
+import LENOVOCHROMEBOOKfototres from "./estaticas/media/fotos-productos/notebooks/LENOVOCHROMEBOOK-3.webp"
+
 const productos=[
     {   
         id:'001',
@@ -532,6 +591,78 @@ const productos=[
         memoria:['256GB','512GB','1TB','2TB'],
         ram:['8GB','16GB', '24GB'],
         componentes:['CPU 8GB/8GB GPU'],
+        descripcion:[
+            {
+            info:{
+                titulo:"Chip M2 de Apple",
+                lista:["CPU de 8 núcleos con 4 núcleos de rendimiento y 4 de eficiencia","GPU de 10 núcleos","Neural Engine de 16 núcleos","100 GB/s de ancho de banda de memoria"]}
+            },
+            {
+            info:{
+                titulo:"Motor multimedia",
+                lista:["H.264, HEVC, ProRes y ProRes RAW con aceleración por hardware","Motor de decodificación de video","Motor de codificación de video","Motor de codificación y decodificación ProRes"]}
+            },
+            {
+            info:{
+                titulo:"Pantalla Retina",
+                lista:["Pantalla de 13.3 pulgadas (diagonal) retroiluminada por LED con tecnología IPS; resolución nativa de 2560 x 1600 a 227 pixeles por pulgada compatible con millones de colores","Brillo de 500 nits","Amplia gama de colores (P3)","Tecnología True Tone"]
+            }},
+            {
+            info:{
+                titulo:"Batería y energía",
+                lista:["Hasta 20 horas de reproducción de video en la app Apple TV","Hasta 17 horas de navegación web inalámbrica","Batería de polímero de litio de 58.2 Wh","Adaptador de corriente USB-C de 67 W"]}
+            },
+            {
+            info:{
+                titulo:"Carga y Expansión",
+                lista:["Dos puertos Thunderbolt / USB 4 compatibles","DisplayPort","Thunderbolt 3 (hasta 40 Gb/s)","USB 4 (hasta 40 Gb/s)","USB 3.1 de segunda generación (hasta 10 Gb/s)"]}
+            },
+            {
+            info:{
+                titulo:"Memoria",
+                lista:["8 GB (Memoria unificada de 8 GB)","Configurable con: 16 GB o 24 GB"]}
+            },
+            {
+            info:{
+                titulo:"Teclado y trackpad",
+                lista:["65 (EE.UU.) o 66 (ISO) teclas, incluidas 4 teclas de flecha en forma de “T” invertida","Touch Bar","Touch ID","Sensor de luz ambiental","Trackpad Force Touch con control preciso del cursor y sensibilidad a la presión. Permite clics fuertes, aceleradores, trazos sensibles a la presión y gestos Multi‑Touch."]}
+            },
+            {
+            info:{
+                titulo:"Cámara",
+                lista:["Cámara FaceTime HD de 720p","Procesador de señal de imagen avanzado con video computacional"]}
+            },
+            {
+            info:{
+                titulo:"Audio",
+                lista:["Bocinas estéreo con alto rango dinámico","Amplio sonido estéreo","Compatible con audio espacial al reproducir música o video con Dolby Atmos en las bocinas integradas","Audio espacial con seguimiento dinámico de la cabeza al usar los AirPods (tercera generación), AirPods Pro y AirPods Max","Sistema de tres micrófonos con tecnología beamforming direccional","Entrada de 3.5 mm para audífonos con compatibilidad avanzada para audífonos de alta impedancia"]}
+            },
+            {
+            info:{
+                titulo:"Compatibilidad con monitores",
+                lista:["Es compatible simultáneamente con la resolución nativa de la pantalla integrada en millones de colores y un monitor externo con resolución de hasta 6K a 60 Hz","Salida de video digital Thunderbolt 3","Salida DisplayPort nativa a través de USB‑C","Compatible con salidas VGA, HDMI, DVI y Thunderbolt 2 mediante adaptadores (se venden por separado)"]}
+            },
+            {
+            info:{
+                titulo:"Tamaño y peso",
+                lista:["Grosor: 1.56 cm","Ancho: 30.41 cm","Profundidad: 21.24 cm","Peso: 1.4 kg"]}
+            }
+        ],
+        color: ['space','silver'],
+        estado:'En stock',
+        tendencia:true,
+        marca:'apple',
+        categoria:['macbook','all']},
+
+    {   
+        id:'2222', 
+        nombre:'MacBook M2 PRO 14"',
+        secid:'mb-m2-pro-14',
+        foto:[`${M2fotouno}`,`${M2fotodos}`],
+        precio:"1495",
+        memoria:['512GB','1TB'],
+        ram:['16GB'],
+        componentes:['CPU 10GB/16GB GPU',"CPU 12GB/19GB GPU"],
         descripcion:[
             {
             info:{
@@ -831,6 +962,88 @@ const productos=[
         memoria:['512GB','1TB','2TB','4TB','8TB'],
         ram:['16GB','32GB'],
         componentes:['CPU 10GB/16GB GPU','CPU 10GB/24GB GPU'],
+        descripcion:[
+            {
+            info:{
+                titulo:"Chip M1 Pro de Apple",
+                lista:["CPU de 8 núcleos con 6 núcleos de rendimiento y 2 de eficiencia","GPU de 14 núcleos","Neural Engine de 16 núcleos","200 GB/s de ancho de banda de memoria"]}
+            },
+            {
+            info:{
+                titulo:"Motor multimedia",
+                lista:["H.264, HEVC, ProRes y ProRes RAW con aceleración por hardware","Motor de decodificación de video","Motor de codificación de video"]}
+            },
+            {
+            info:{
+                titulo:"XDR (rango dinámico extremo)",
+                lista:["Relación de contraste 1,000,000:1","XDR: 1,000 nits de brillo constante (pantalla completa), 1,600 nits de brillo máximo2 (sólo contenido HDR)","SDR: 500 nits de brillo"]
+            }},
+            {
+            info:{
+                titulo:"Frecuencias de actualización",
+                lista:["Tecnología ProMotion con frecuencias de actualización adaptativas de hasta 120 Hz","Frecuencias de actualización fijas: 47.95 Hz, 48 Hz, 50 Hz, 59.94 Hz, 60 Hz"]
+            }},
+            {
+            info:{
+                titulo:"Color",
+                lista:["1,000 millones de colores","Amplia gama de colores (P3)","Tecnología True Tone"]
+            }},
+            {
+            info:{
+                titulo:"Batería y energía",
+                lista:["Hasta 17 horas de reproducción de video en la app Apple TV","Hasta 11 horas de navegación web inalámbrica","Batería de polímero de litio de 70 Wh","Adaptador de corriente USB‑C de 67 W (incluido en las MacBook Pro con chip M1 Pro con CPU de 8 núcleos)","Adaptador de corriente USB‑C de 96 W (incluido en las MacBook Pro con chip M1 Pro con CPU de 10 núcleos o con chip M1 Max, opcional en las MacBook Pro con chip M1 Pro con CPU de 8 núcleos)","Cable de USB‑C a MagSafe 3","Carga rápida con el adaptador de corriente USB‑C de 96 W"]}
+            },
+            {
+            info:{
+                titulo:"Carga y Expansión",
+                lista:["Ranura para tarjeta SDXC","Puerto HDMI","Puerto HDMI","Puerto MagSafe 3","Tres puertos Thunderbolt 4 (USB-C)"]}
+            },
+            {
+            info:{
+                titulo:"Memoria",
+                lista:["16 GB (Memoria unificada de 16 GB)","32 GB (M1 Pro o M1 Max) o 64 GB (M1 Max)"]}
+            },
+            {
+            info:{
+                titulo:"Teclado y trackpad",
+                lista:["65 (EE.UU.) o 66 (ISO) teclas, incluidas 4 teclas de flecha en forma de “T” invertida","Touch ID","Sensor de luz ambiental","Trackpad Force Touch con control preciso del cursor y sensibilidad a la presión. Permite clics fuertes, aceleradores, trazos sensibles a la presión y gestos Multi‑Touch."]}
+            },
+            {
+            info:{
+                titulo:"Cámara",
+                lista:["Cámara FaceTime HD de 1080p","Procesador de señal de imagen avanzado con video computacional"]}
+            },
+            {
+            info:{
+                titulo:"Audio",
+                lista:["Bocinas estéreo con alto rango dinámico","Amplio sonido estéreo","Compatible con audio espacial al reproducir música o video con Dolby Atmos en las bocinas integradas","Audio espacial con seguimiento dinámico de la cabeza al usar los AirPods (tercera generación), AirPods Pro y AirPods Max","Sistema de tres micrófonos con tecnología beamforming direccional","Entrada de 3.5 mm para audífonos con compatibilidad avanzada para audífonos de alta impedancia"]}
+            },
+            {
+            info:{
+                titulo:"Compatibilidad con monitores",
+                lista:["Es compatible simultáneamente con la resolución nativa de la pantalla integrada en millones de colores y un monitor externo con resolución de hasta 6K a 60 Hz","Salida de video digital Thunderbolt 3","Salida DisplayPort nativa a través de USB‑C","Compatible con salidas VGA, HDMI, DVI y Thunderbolt 2 mediante adaptadores (se venden por separado)"]}
+            },
+            {
+            info:{
+                titulo:"Tamaño y peso",
+                lista:["Grosor: 1.55 cm","Ancho: 31.26cm","Profundidad: 22.12 cm","Peso: 1.61 kg"]}
+            }
+        ],
+        color: ['space','silver'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['macbook','all']},
+
+    {   
+        id:'006',
+        nombre:'MacBook M2 PRO 16" 2023',
+        secid:'mb-m2-pro-16',
+        foto:[`${M1PROfotouno}`,`${M1PROfotodos}`,`${M1PROfototres}`,`${M1PROfotocuatro}`],
+        precio:"",
+        memoria:['512GB','1TB'],
+        ram:['16GB'],
+        componentes:['CPU 12GB/19GB GPU'],
         descripcion:[
             {
             info:{
@@ -3170,10 +3383,10 @@ categoria:['iphone','all']},
             {
                 id:'083',
                 nombre:'IPAD PRO 2021 M1 12,9´',
-                secid:'',
+                secid:'ipad-pro-12.9',
                 foto:[`${iPadPro2021129fotouno}`,`${iPadPro2021129fotodos}`,`${iPadPro2021129fototres}`],
-                precio:"480",
-                memoria:["128GB"],
+                precio:"",
+                memoria:["128GB","256GB","512GB"],
                 ram:["8GB"],
                 componentes:["8 NUCLEOS M1"],
                 descripcion:[
@@ -3183,7 +3396,7 @@ categoria:['iphone','all']},
                         lista:["Pantalla táctil de retina líquida de 11","CPU de 8 núcleos Apple M1","2388 x 1668 Resolución de la pantalla (264 PPI)","128GB almacenamiento","8GB RAM","Bluetooth 5.0","Wi-Fi 6 (802.11ax)","Cámaras traseras de 12MP y 10MP","Cámara de ultra ancha de 12MP frontal"]}
                             },
                     ],
-                color: ['space'],
+                color: ['space',"silver"],
                 estado:'En stock',
                 tendencia:false,
                 marca:'apple',
@@ -3291,7 +3504,7 @@ categoria:['iphone','all']},
 {
     id:'088',
     nombre:'AIRTAG',
-    secid:'',
+    secid:'airtag-x4',
     foto:[`${Airtagfotouno}`,`${Airtagfotodos}`,`${Airtagfototres}`,`${Airtagfotocuatro}`],
     oferta:false,
     precio:"",
@@ -3339,7 +3552,7 @@ categoria:['iphone','all']},
     {
     id:'090',
     nombre:'APPLE PENCIL 2',
-    secid:'',
+    secid:'ap-pencil-2',
     foto:[`${ApplePencil2fotouno}`,`${ApplePencil2fotodos}`,`${ApplePencil2fototres}`],
     oferta:false,
     precio:"",
@@ -3363,7 +3576,7 @@ categoria:['iphone','all']},
     {
         id:'091',
         nombre:'HOMEPOD MINI',
-        secid:'',
+        secid:'ap-homepod-mini',
         foto:[`${HomepodMinifotouno}`,`${HomepodMinifotodos}`,`${HomepodMinifototres}`],
         oferta:false,
         precio:"",
@@ -3387,7 +3600,7 @@ categoria:['iphone','all']},
     {
         id:'092',
         nombre:'SMART KEYBOARD IPAD PRO 12',
-        secid:'',
+        secid:'sm-key-ipadpro 12',
         foto:[`${smkey12fotouno}`,`${smkey12fotodos}`,`${smkey12fototres}`],
         oferta:false,
         precio:"",
@@ -3411,7 +3624,56 @@ categoria:['iphone','all']},
     {
         id:'093',
         nombre:'SMART KEYBOARD IPAD PRO 11',
-        secid:'',
+        secid:'sm-key-11',
+        foto:[`${smkey11fotouno}`,`${smkey11fotodos}`,`${smkey11fototres}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:[""],
+        ram:[""],
+        componentes:[""],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['accesorios','all']},
+
+
+    {
+        id:'0931',
+        nombre:'MAGIC KEYBOARD IPAD PRO 11"',
+        secid:'mg-key-11',
+        foto:[`${smkey11fotouno}`,`${smkey11fotodos}`,`${smkey11fototres}`],
+        oferta:false,
+        precio:"",
+        precioAnterior:"",
+        memoria:[""],
+        ram:[""],
+        componentes:[""],
+        descripcion:[
+            {
+            info:{
+                titulo:"",
+                lista:[""]}
+                    },
+            ],
+        color: ['white'],
+        estado:'En stock',
+        tendencia:false,
+        marca:'apple',
+        categoria:['accesorios','all']},
+
+    {
+        id:'0932',
+        nombre:'MAGIC KEYBOARD IPAD PRO 12,9"',
+        secid:'mg-key-12',
         foto:[`${smkey11fotouno}`,`${smkey11fotodos}`,`${smkey11fototres}`],
         oferta:false,
         precio:"",
@@ -3435,7 +3697,7 @@ categoria:['iphone','all']},
     {
         id:'094',
         nombre:'MAGIC MOUSE 2',
-        secid:'',
+        secid:'mg-mouse-2',
         foto:[`${mmousefotouno}`,`${mmousefotodos}`,`${mmousefototres}`],
         oferta:false,
         precio:"",
@@ -5276,6 +5538,335 @@ categoria:['iphone','all']},
         tendencia:false,
         marca:'apple',
         categoria:['go-pro','all']},
+
+
+
+
+
+//notebooks
+{
+    id:'164',
+    nombre:`NOTEBOOK ASUS ROG FLOW  GV301QE-211.ZG13 GAMING`,
+    nombreCorto:"NOTEBOOK ASUS ROG FLOW",
+    secid:'',
+    foto:[`${ASUSROGFLOWZG13fotouno}`,`${ASUSROGFLOWZG13fotodos}`,`${ASUSROGFLOWZG13fototres}`],
+    oferta:false,
+    precio:"ARS 640,200",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Lo que tenés que saber de este producto",
+            lista:['13.4" 120HZ TOUCHSCREEN👆',
+            '/RYZEN 9-5900HS',
+            '/16GB-1TB SSD',
+            '/RTX 3050TI 4GB',
+            '/WIN 10',
+            '/OFF BLACK💻']}
+                },
+        ],
+    color: ['black'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['notebooks','all']},
+
+    {
+    id:'165',
+    nombre:`NOTEBOOK HP 17t-CN000 2W0H5AV_SL`,
+    nombreCorto:"NOTEBOOK HP",
+    secid:'',
+    foto:[`${HP17Tfotouno}`,`${HP17Tfotodos}`,`${HP17Tfototres}`],
+    oferta:false,
+    precio:"ARS 501,600",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["17.3¨ FHD IPS", "I7-1165G7", "16GB-512GB SSD", "INTEL IRIS Xe GRAPHICS", "WIN 11 64+", "SILVER 💻"]}}],
+    color: ['black'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['notebooks','all']},
+
+    {
+    id:'166',
+    nombre:`NOTEBOOK MSI GF65 THIN 10UE-213US P/N 9S7-16W212-213 GAMING🕹️`,
+    nombreCorto:"NOTEBOOK MSI GF65 THIN",
+    secid:'',
+    foto:[`${msigf65fotouno}`,`${msigf65fotodos}`,`${msigf65fototres}`],
+    oferta:false,
+    precio:"ARS 475,200",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["15.6¨ FHD 144HZ", "I5-10500H", "8GB-512GB SSD", "RTX 3060 6GB", "WIN 10", "BLACK💻"]}}],
+    color: ['black'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['notebooks','all']},
+
+    {
+    id:'167',
+    nombre:`NOTEBOOK MSI GF63 THIN 10SCXR-222US GAMING🕹️`,
+    nombreCorto:"NOTEBOOK MSI GF63 THIN",
+    secid:'',
+    foto:[`${msigf63fotouno}`,`${msigf63fotodos}`,`${msigf63fototres}`],
+    oferta:false,
+    precio:"ARS 369,600",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["15.6¨ FHD IPS", "I5-10500H", "16GB-256GB SSD", "GTX 1650 4GB", "WIN 10", "BLACK💻"]
+        }}],
+    color: ['black'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['notebooks','all']},
+
+    {
+    id:'168',
+    nombre:`NOTEBOOK DELL LATITUDE 3420 0FH1Y`,
+    nombreCorto:"NOTEBOOK DELL LATITUDE 3420 0FH1Y",
+    secid:'',
+    foto:[`${delllatitude3420fotouno}`,`${delllatitude3420fotodos}`,`${delllatitude3420fototres}`],
+    oferta:false,
+    precio:"ARS 290,400",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["14” FULL HD", "I5-1135G7 2.4GHz", "8GB RAM - 256GB SSD", "INTEL IRIS Xe GRAPHICS", "WIN 10 PRO 💻"]
+
+        }}],
+    color: ['black'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['notebooks','all']},
+
+
+    {
+    id:'169',
+    nombre:`NOTEBOOK HP 17-BY4022WM 4G550UA#ABA`,
+    nombreCorto:"NOTEBOOK HP",
+    secid:'',
+    foto:[`${hp17fotouno}`,`${hp17fotodos}`,`${hp17fototres}`],
+    oferta:false,
+    precio:"ARS 273,900",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Lo que tenés que saber de este producto",
+            lista:[" 17.3 FHD IPS LED", "INTEL I3-1115G4", "8GB RAM - 256GB SSD", "WIN 11", "PAD NUMERICO", "SILVER 💻"]
+
+
+        }}],
+    color: ['black'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['notebooks','all']},
+
+
+    {
+    id:'170',
+    nombre:`NOTEBOOK ASUS S433EA-DH51`,
+    nombreCorto:"NOTEBOOK ASUS",
+    secid:'',
+    foto:[`${NOTEBOOKASUSS433EAfotouno}`,`${NOTEBOOKASUSS433EAfotodos}`,`${NOTEBOOKASUSS433EAfototres}`],
+    oferta:false,
+    precio:"ARS 258,500",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["14¨ FHD", "I5-1135G7", "8GB-512GB SSD", "WIN 11", "INDIE BLACK💻"]
+        }}],
+    color: ['black'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['notebooks','all']},
+
+    {
+    id:'171',
+    nombre:`NOTEBOOK GATEWAY GWNR71517-BK`,
+    nombreCorto:"NOTEBOOK GATEWAY",
+    secid:'',
+    foto:[`${NOTEBOOKGATEWAYGWNR71517fotouno}`,`${NOTEBOOKGATEWAYGWNR71517fotodos}`,`${NOTEBOOKGATEWAYGWNR71517fototres}`],
+    oferta:false,
+    precio:"ARS 214,500",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["15.6¨ FHD", "RYZEN 7-3700U", "8GB-512GB SSD", "WIN 11", "CHARCOAL GRAY💻"]
+
+        }}],
+    color: ['black'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['notebooks','all']},
+
+    {
+    id:'172',
+    nombre:`NOTEBOOK LENOVO V14 GEN 2 ALC 82KC004SUS`,
+    nombreCorto:"NOTEBOOK LENOVO V14",
+    secid:'',
+    foto:[`${NOTELENOVOV14fotouno}`,`${NOTELENOVOV14fotodos}`,`${NOTELENOVOV14fototres}`],
+    oferta:false,
+    precio:"ARS 212,300",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["14¨ FHD", "RYZEN 5 5500U", "8GB-256GB SSD", "WIN 10 PRO", "BLACK💻"]
+        }}],
+    color: ['black'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['notebooks','all']},
+
+
+    {
+    id:'173',
+    nombre:`NOTEBOOK LENOVO IDEAPAD 3 15ITL05 81X800ECUS`,
+    nombreCorto:"NOTEBOOK LENOVO IDEAPAD 3",
+    secid:'',
+    foto:[`${NOTEBOOKLENOVOIDEAPAD3fotouno}`,`${NOTEBOOKLENOVOIDEAPAD3fotodos}`,`${NOTEBOOKLENOVOIDEAPAD3fototres}`],
+    oferta:false,
+    precio:"ARS 204,600",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["15.6¨ HD TN TOUCHSCREEN", "I3-1115G4 3.0GHz", "8GB-256GB SSD", "WIN 10 HOME", "ALMOND💻"]
+        }}],
+    color: ['black'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['notebooks','all']},
+
+    {
+    id:'174',
+    nombre:`NOTEBOOK ASUS CHROMEBOOK REFURBISHED CX1500CN`,
+    nombreCorto:"NOTEBOOK LENOVO IDEAPAD 3",
+    secid:'',
+    foto:[`${CHROMEBOOKASUSfotouno}`,`${CHROMEBOOKASUSfotodos}`,`${CHROMEBOOKASUSfototres}`],
+    oferta:false,
+    precio:"ARS 79,200",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["15.6¨", "CELERON N3350", "4GB-64GB EMMC", "CHROME OS", "BLACK 💻"]
+        }}],
+    color: ['black'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['notebooks','all']},
+
+    {
+    id:'175',
+    nombre:`NOTEBOOK ACER CHROMEBOOK REFURBISHED CB311-10H-42LY`,
+    nombreCorto:"NOTEBOOK ACER CHROMEBOOK",
+    secid:'',
+    foto:[`${ACERCHROMEBOOKfotouno}`,`${ACERCHROMEBOOKfotodos}`,`${ACERCHROMEBOOKfototres}`],
+    oferta:false,
+    precio:"ARS 52,800",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["11.6¨", "AMD A4-9120C", "4GB-64GB EMMC", "CHROME OS", "BLACK💻"]
+        }}],
+    color: ['black'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['notebooks','all']},
+
+
+    {
+    id:'176',
+    nombre:`NOTEBOOK LENOVO CHROMEBOOK REFURBISHED 11IGL5 82BA0000US`,
+    nombreCorto:"NOTEBOOK LENOVO CHROMEBOOK",
+    secid:'',
+    foto:[`${LENOVOCHROMEBOOKfotouno}`,`${LENOVOCHROMEBOOKfotodos}`,`${LENOVOCHROMEBOOKfototres}`],
+    oferta:false,
+    precio:"ARS 45,980",
+    precioAnterior:"",
+    memoria:["-"],
+    ram:["-"],
+    componentes:["-"],
+    descripcion:[
+        {
+        info:{
+            titulo:"Lo que tenés que saber de este producto",
+            lista:["11.6¨", "CELERON N4020", "4GB-32GB EMMC", "CHROME OS", "ONYX BLACK 💻"]
+        }}],
+    color: ['black'],
+    estado:'En stock',
+    tendencia:false,
+    marca:'apple',
+    categoria:['notebooks','all']},
 ];
 
 export default productos

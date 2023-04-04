@@ -200,32 +200,41 @@ const PrecioFinal = ({secid,almacenamiento,ram,componente,color,precio}) => {
     if(secid==='mb-m2-air-13' && almacenamiento==='256GB' && ram==='8GB' && componente==='CPU 8GB/8GB GPU' && color==='space'){
         return(
             <>
-            <div className="precio-final">U$D 1530</div>
+            <div className="precio-final">U$D 1330</div>
             </>
         )
     }    
     //2
     if(secid==='mb-m2-air-13' && almacenamiento==='GB' && ram==='8GB' && componente==='CPU 8GB/8GB GPU' && color==='silver'){
         return(
-            <>
-            <div className="precio-final" >U$D 1440</div>
-            <h6 className="precio-final-vers-esp">VERSION ESPAÑOL: u$ 1480</h6>
-            </>
+            // <>
+            // <div className="precio-final" >U$D 1440</div>
+            // <h6 className="precio-final-vers-esp">VERSION ESPAÑOL: u$ 1480</h6>
+            // </>
+            <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
         )
     }
     //3
     if(secid==='mb-m2-air-13' && almacenamiento==='256GB' && ram==='8GB' && componente==='CPU 8GB/8GB GPU' && color==='gold'){
         return(
-            <>
-            <div className="precio-final" >U$D 1440</div>
-            <h6 className="precio-final-vers-esp">VERSION ESPAÑOL: u$ 1480</h6>
-            </>
+            // <>
+            // <div className="precio-final" >U$D 1440</div>
+            // <h6 className="precio-final-vers-esp">VERSION ESPAÑOL: u$ 1480</h6>
+            // </>
+            <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
         )
     } 
     //4
     if(secid==='mb-m2-air-13' && almacenamiento==='256GB' && ram==='8GB' && componente==='CPU 8GB/8GB GPU' && color==='midnight'){
         return(
-            <div className="precio-final">U$D 1460</div>
+            <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
+            // <div className="precio-final">U$D 1460</div>
         )
     }
     //5 
@@ -400,25 +409,34 @@ const PrecioFinal = ({secid,almacenamiento,ram,componente,color,precio}) => {
     //2
     if(secid==='mb-m2-air-13' && almacenamiento==='512GB' && ram==='8GB' && componente==='CPU 8GB/8GB GPU' && color==='silver'){
         return(
-            <>
-            <div className="precio-final">U$D 1440</div>
-            <h6 className="precio-final-vers-esp">VERSION ESPAÑOL: u$ 1480</h6>
-            </>
+            <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
+            // <>
+            // <div className="precio-final">U$D 1440</div>
+            // <h6 className="precio-final-vers-esp">VERSION ESPAÑOL: u$ 1480</h6>
+            // </>
         )
     }
     //3
     if(secid==='mb-m2-air-13' && almacenamiento==='512GB' && ram==='8GB' && componente==='CPU 8GB/8GB GPU' && color==='gold'){
         return(
-            <>
-            <div className="precio-final">U$D 1440</div>
-            <h6 className="precio-final-vers-esp">VERSION ESPAÑOL: u$ 1480</h6>
-            </>
+            <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
+            // <>
+            // <div className="precio-final">U$D 1440</div>
+            // <h6 className="precio-final-vers-esp">VERSION ESPAÑOL: u$ 1480</h6>
+            // </>
         )
     } 
     //4
     if(secid==='mb-m2-air-13' && almacenamiento==='512GB' && ram==='8GB' && componente==='CPU 8GB/8GB GPU' && color==='midnight'){
         return(
-            <div className="precio-final">U$D 1460</div>
+            <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
+            // <div className="precio-final">U$D 1460</div>
         )
     }
     //5 
@@ -432,18 +450,27 @@ const PrecioFinal = ({secid,almacenamiento,ram,componente,color,precio}) => {
     //6
     if(secid==='mb-m2-air-13' && almacenamiento==='512GB' && ram==='8GB' && componente==='CPU 8GB/10GB GPU' && color==='silver'){
         return(
-            <div className="precio-final">U$D 1940</div>
+            <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
+            // <div className="precio-final">U$D 1940</div>
         )
     }
     //7
     if(secid==='mb-m2-air-13' && almacenamiento==='512GB' && ram==='8GB' && componente==='CPU 8GB/10GB GPU' && color==='gold'){
         return(
-            <div className="precio-final">U$D 1940</div>
+            // <div className="precio-final">U$D 1940</div>
+            <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
         )
     }
     if(secid==='mb-m2-air-13' && almacenamiento==='512GB' && ram==='8GB' && componente==='CPU 8GB/10GB GPU' && color==='midnight'){
         return(
-            <div className="precio-final">U$D 1940</div>
+            // <div className="precio-final">U$D 1940</div>
+            <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
         )
     }  
     //8
@@ -988,11 +1015,14 @@ const PrecioFinal = ({secid,almacenamiento,ram,componente,color,precio}) => {
     //1
     if(secid==='mb-m2-pro-13' && almacenamiento==='256GB' && ram==='8GB' && componente==='CPU 8GB/8GB GPU' && color==='space'){
         return(
-            <>
-            <div className="precio-final">U$D 1370</div>
-            <h6 className="precio-final-vers-esp">Edicion Español: u$ 1525</h6>
-            </>
-        )
+            // <>
+            // <div className="precio-final">U$D 1370</div>
+            // <h6 className="precio-final-vers-esp">Edicion Español: u$ 1525</h6>
+            // </>
+        <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
+            )
     }
     //2
     // if(secid==='mb-m2-pro-13' && almacenamiento==='256GB' && ram==='8GB' && componente==='CPU 8GB/8GB GPU' && color==='silver'){
@@ -1038,26 +1068,35 @@ const PrecioFinal = ({secid,almacenamiento,ram,componente,color,precio}) => {
     //7
     if(secid==='mb-m2-pro-13' && almacenamiento==='512GB' && ram==='8GB' && componente==='CPU 8GB/8GB GPU' && color==='space'){
         return(
-            <>
-            <div className="precio-final">u$ 1825</div>
-            <h6 className="precio-final-vers-esp">Edicion Español: u$ 1856</h6>
-            </>
-        )
+            // <>
+            // <div className="precio-final">u$ 1825</div>
+            // <h6 className="precio-final-vers-esp">Edicion Español: u$ 1856</h6>
+            // </>
+            <Link to='/Cotizar' className="cotizar">
+            <div>Producto disponible para cotizar</div>
+        </Link>
+            )
     }
     //8
     if(secid==='mb-m2-pro-13' && almacenamiento==='512GB' && ram==='8GB' && color==='silver'){
         return(
-            <>
-            <div className="precio-final">U$D 1560</div>
-            </>
+            <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
+            // <>
+            // <div className="precio-final">U$D 1560</div>
+            // </>
         )
     }
     //9
     if(secid==='mb-m2-pro-13' && almacenamiento==='512GB' && ram==='16GB' && componente==='CPU 8GB/8GB GPU' && color==='space'){
         return(
-            <>
-            <div className="precio-final">U$D 2100</div>
-            </>
+            <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
+            // <>
+            // <div className="precio-final">U$D 2100</div>
+            // </>
         )
     }
     //10
@@ -1103,8 +1142,10 @@ const PrecioFinal = ({secid,almacenamiento,ram,componente,color,precio}) => {
     //15
     if(secid==='mb-m2-pro-13' && almacenamiento==='1TB' && ram==='16GB' && componente==='CPU 8GB/8GB GPU' && color==='space'){
         return(
-            
-            <div className="precio-final-vers-esp">u$d 2710 Edicion español</div>
+            <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
+            // <div className="precio-final-vers-esp">u$d 2710 Edicion español</div>
             
         )
     }
@@ -1235,7 +1276,10 @@ const PrecioFinal = ({secid,almacenamiento,ram,componente,color,precio}) => {
     //13
     if(secid==='mb-m1-pro-14' && almacenamiento==='512GB' && ram==='16GB' && componente==='CPU 8GB/14GB GPU' && color==='space'){
         return(
-            <div className="precio-final-vers-esp">u$ 2.545 Edicion Español</div>
+            <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
+            // <div className="precio-final-vers-esp">u$ 2.545 Edicion Español</div>
         )
     }
     //14
@@ -1303,7 +1347,10 @@ const PrecioFinal = ({secid,almacenamiento,ram,componente,color,precio}) => {
     //22
     if(secid==='mb-m1-pro-14' && almacenamiento==='512GB' && ram==='32GB' && componente==='CPU 10GB/14GB GPU' && color==='silver'){
         return(
-            <div className="precio-final">U$D 3260</div>
+            <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
+            // <div className="precio-final">U$D 3260</div>
         )
     }   
     //23
@@ -1325,7 +1372,10 @@ const PrecioFinal = ({secid,almacenamiento,ram,componente,color,precio}) => {
     //25
     if(secid==='mb-m1-pro-14' && almacenamiento==='1TB' && ram==='16GB'  && color==='space'){
         return(
-            <div>U$D 2.450</div>
+            // <div>U$D 2.450</div>
+            <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
         )
     }
     //26
@@ -1355,13 +1405,19 @@ const PrecioFinal = ({secid,almacenamiento,ram,componente,color,precio}) => {
     //29
     if(secid==='mb-m1-pro-14' && almacenamiento==='1TB' && ram==='16GB' && componente==='CPU 10GB/16GB GPU' && color==='space'){
         return(
-            <div className="precio-final">U$D 2.930</div>
+            // <div className="precio-final">U$D 2.930</div>
+            <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
         )
     }
     //30
     if(secid==='mb-m1-pro-14' && almacenamiento==='1TB' && ram==='16GB' && componente==='CPU 10GB/16GB GPU' && color==='silver'){
         return(
-            <div className="precio-final">U$D 2.930</div>
+            // <div className="precio-final">U$D 2.930</div>
+            <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
         )
     }   
     //31
@@ -2388,7 +2444,10 @@ if(secid==='mb-m1-pro-16' && almacenamiento==='512GB' && ram==='32GB' && compone
 //6
 if(secid==='mb-m1-pro-16' && almacenamiento==='512GB' && ram==='32GB' && componente==='CPU 10GB/16GB GPU' && color==='silver'){
     return(
-        <div className="precio-final">U$D 3760</div>
+        // <div className="precio-final">U$D 3760</div>
+        <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
     )
 }
 //7
@@ -2410,13 +2469,19 @@ if(secid==='mb-m1-pro-16' && almacenamiento==='512GB' && ram==='32GB' && compone
 //1
 if(secid==='mb-m1-pro-16' && almacenamiento==='1TB' && ram==='16GB' && componente==='CPU 10GB/16GB GPU' && color==='space'){
     return(
-        <div className="precio-final-vers-esp">U$D 3205 Edición Español</div>
+        <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
+        // <div className="precio-final-vers-esp">U$D 3205 Edición Español</div>
     )
 }
 //2
 if(secid==='mb-m1-pro-16' && almacenamiento==='1TB' && ram==='16GB' && componente==='CPU 10GB/16GB GPU' && color==='silver'){
     return(
-        <div className="precio-final-vers-esp">U$D 3205 Edición Español</div>
+        <Link to='/Cotizar' className="cotizar">
+                <div>Producto disponible para cotizar</div>
+            </Link>
+        // <div className="precio-final-vers-esp">U$D 3205 Edición Español</div>
     )
 }
 //3
@@ -2678,24 +2743,29 @@ if(secid==='quest2' && almacenamiento==='256GB' && ram==='-' && componente==='-'
 //watch-SE-2da
 if(secid==='watch-SE-40mm' && almacenamiento==='-' && ram==='-' && componente==='-' && color==='silver'){
     return(
-        <div className="precio-final">U$D 465</div>
+        <div className="precio-final">U$D 350</div>
     )
 }
 
 //watch-4
 if(secid==='watch-SE-44mm' && color==='silver'){
     return(
-        <div className="precio-final">U$D 495</div>
+        <div className="precio-final">U$D 380</div>
     )
 }
 if(secid==='watch-SE-44mm'&& color==='midnight'){
     return(
-        <div className="precio-final">U$D 495</div>
+        <div className="precio-final">U$D 380</div>
     )
 }
 if(secid==='watch-SE-44mm' && almacenamiento==='-' && ram==='-' && componente==='-' && color==='starlight'){
     return(
-        <div className="precio-final">U$D 495</div>
+        <>
+            <div className="precio-final"> c/ CELL: U$D 495</div>
+            <Link to='/Cotizar' className="cotizar">
+            <div>Producto disponible para cotizar</div>
+            </Link>
+        </>
     )
 }
 
@@ -2741,32 +2811,53 @@ if(secid==='watch-7-45mm' && almacenamiento==='-' && ram==='-' && componente==='
 //watch-8-41mm
 if(secid==='watch-8-41mm' && color==='midnight'){
     return(
-        <div className="precio-final">U$D 480</div>
+        <>
+            <div className="precio-final">U$D 475</div>
+            <div>c/CELL: U$ 710</div>
+        </>
     )
 }
 
 if(secid==='watch-8-41mm' && color==='starlight'){
     return(
-        <div className="precio-final">U$D 480</div>
+        <Link to='/Cotizar' className="cotizar">
+            <div>Producto disponible para cotizar</div>
+        </Link>
     )
 }
 
 if(secid==='watch-8-41mm' && color==='silver'){
     return(
-        <div className="precio-final">U$D 480</div>
+        <>
+            <div className="precio-final">U$D 475</div>
+            <div>c/CELL: U$ 710</div>
+        </>
     )
 }
 
 //watch-8-45mm
 if(secid==='watch-8-45mm' && color==='midnight'){
     return(
-        <div className="precio-final">U$D 500</div>
+        <>
+            <div className="precio-final">U$D 495</div>
+            <div>c/CELL: U$ 740</div>
+        </>
     )
 }
 
 if(secid==='watch-8-45mm' &&color==='starlight'){
     return(
-        <div className="precio-final">U$D 500</div>
+        <Link to='/Cotizar' className="cotizar">
+            <div>Producto disponible para cotizar</div>
+        </Link>
+    )
+}
+if(secid==='watch-8-45mm' && color==='red'){
+    return(
+        <>
+        <div className="precio-final">U$D 495</div>
+        <div>c/CELL: U$ 740</div>
+    </>
     )
 }
 
@@ -3392,12 +3483,16 @@ if(secid==='iphone-13-pro' && almacenamiento==='128GB' && ram==='-' && component
 //ipad
 if(secid==='ipad-mini-6ta' && almacenamiento==='64GB' && ram==='-' && componente==="Chip A15 Bionic (CPU de 6 núcleos / GPU  de 5 núcleos)" && (color==='purple' || color ==='starlight')){
     return(
-        <div className="precio-final">U$D 495</div>
+        <Link to='/Cotizar' className="cotizar">
+            <div>Producto disponible para cotizar</div>
+        </Link>
     )
 }
 if(secid==='ipad-mini-6ta' && almacenamiento==='256GB' && ram==='-' && componente==="Chip A15 Bionic (CPU de 6 núcleos / GPU  de 5 núcleos)" && color==='space'){
     return(
-        <div className="precio-final">U$D 655</div>
+        <Link to='/Cotizar' className="cotizar">
+            <div>Producto disponible para cotizar</div>
+        </Link>
     )
 }
 
@@ -3432,50 +3527,149 @@ if(secid==='airpods-pro-2'){
 
 if(secid==='ipad-5ta' && almacenamiento==='64GB'){
     return(
-        <div className="precio-final">U$D 630</div>
+        <Link to='/Cotizar' className="cotizar">
+            <div>Producto disponible para cotizar</div>
+        </Link>
     )
 }
 
 
 if(secid==='ipad-10ma' && almacenamiento==='64GB' &&color==="silver"){
     return(
-        <div className="precio-final">U$D 520</div>
+        <Link to='/Cotizar' className="cotizar">
+            <div>Producto disponible para cotizar</div>
+        </Link>
     )
 }
 
 if(secid==='ipad-10ma' && almacenamiento==='64GB' &&color==="blue"){
     return(
-        <div className="precio-final">U$D 520</div>
+        <Link to='/Cotizar' className="cotizar">
+            <div>Producto disponible para cotizar</div>
+        </Link>
     )
 }
 
 if(secid==='ipad-10ma' && almacenamiento==='256GB' &&color==="silver"){
     return(
-        <div className="precio-final">U$D 700</div>
+        <Link to='/Cotizar' className="cotizar">
+            <div>Producto disponible para cotizar</div>
+        </Link>
     )
 }
 
 if(secid==='ipad-pro-11-m1' && almacenamiento==='256GB' && componente==="Chip A13 Bionic" && color==="space"){
     return(
-        <div className="precio-final">U$D 790</div>
+        <Link to='/Cotizar' className="cotizar">
+            <div>Producto disponible para cotizar</div>
+        </Link>
     )
 }
 
 if(secid==='ipad-pro-11-m2' && almacenamiento==='128GB' && color==="space"){
     return(
-        <div className="precio-final">U$D 890</div>
+        <div className="precio-final">U$D 960</div>
     )
 }
 
 if(secid==='ipad-pro-11-m2' && almacenamiento==='128GB' && color==="silver"){
     return(
-        <div className="precio-final">U$D 890</div>
+        <div className="precio-final">U$D 960</div>
     )
 }
 
-if(secid==='sm-key-12'){
+
+
+if(secid==='ipad-pro-12.9' && almacenamiento==='128GB' && color==="silver"){
+    return(
+        <div className="precio-final">c/CELL: U$D 1550</div>
+    )
+}
+if(secid==='ipad-pro-12.9' && almacenamiento==='128GB' && color==="space"){
+    return(
+        <div className="precio-final">c/CELL: U$D 1550</div>
+    )
+}
+
+if(secid==='ipad-pro-12.9' && almacenamiento==='256GB' && color==="silver"){
+    return(
+        <div className="precio-final">c/CELL: U$D 1650</div>
+    )
+}
+if(secid==='ipad-pro-12.9' && almacenamiento==='256GB' && color==="space"){
+    return(
+        <div className="precio-final">c/CELL: U$D 1650</div>
+    )
+}
+
+if(secid==='ipad-pro-12.9' && almacenamiento==='512GB' && color==="silver"){
+    return(
+        <div className="precio-final">c/CELL: U$D 1900</div>
+    )
+}
+if(secid==='ipad-pro-12.9' && almacenamiento==='512GB' && color==="space"){
+    return(
+        <div className="precio-final">c/CELL: U$D 1900</div>
+    )
+}
+
+
+
+
+
+
+
+
+
+//ACCESORIOS
+if(secid==='mg-mouse-2'){
+    return(
+        <div className="precio-final">U$D 130</div>
+    )
+}
+
+if(secid==='ap-homepod-mini'){
+    return(
+        <div className="precio-final">U$D 165</div>
+    )
+}
+
+if(secid==='airtag-x4'){
+    return(
+        <div className="precio-final">U$D 130</div>
+    )
+}
+
+
+if(secid==='ap-pencil-2'){
+    return(
+        <div className="precio-final">U$D 160</div>
+    )
+}
+
+if(secid==='mg-key-11'){
+    return(
+        <div className="precio-final">U$D 400</div>
+    )
+}
+
+if(secid==='mg-key-12'){
+    return(
+        <div className="precio-final">U$D 410</div>
+    )
+}
+
+
+
+if(secid==='sm-key-ipadpro 12'){
     return(
         <div className="precio-final">U$D 310</div>
+    )
+}
+
+if(secid==='sm-key-11'){
+    return(
+        <div className="precio-final">U$D 300</div>
     )
 }
 
@@ -3501,7 +3695,49 @@ if(secid==='imac-24-m1' && almacenamiento==='256GB' && ram==='8GB unificada'  &&
 
 
 
+// m2 pro 14
 
+if(secid==='mb-m2-pro-14' && almacenamiento==='512GB' && ram==='16GB'  && componente==="CPU 10GB/16GB GPU" && color==='space'){
+    return(
+        <div>U$D 2460</div>
+    )
+}
+if(secid==='mb-m2-pro-14' && almacenamiento==='512GB' && ram==='16GB'  && componente==="CPU 10GB/16GB GPU" && color==='silver'){
+    return(
+        
+        <div>U$D 2460 / U$D 2490 V.Español</div>
+    )
+}
+
+if(secid==='mb-m2-pro-14' && almacenamiento==='1TB' && ram==='16GB'  && componente==="CPU 12GB/19GB GPU" && color==='space'){
+    return(
+        <div>U$D 3090 Version Español</div>
+    )
+}
+if(secid==='mb-m2-pro-14' && almacenamiento==='1TB' && ram==='16GB'  && componente==="CPU 12GB/19GB GPU" && color==='silver'){
+    return(
+        <div>U$D 3060</div>
+    )
+}
+
+//m2 pro 16 2023
+if(secid==='mb-m2-pro-16' && almacenamiento==='512GB' && ram==='16GB'  && componente==="CPU 12GB/19GB GPU" && color==='space'){
+    return(
+        <div>U$D 2990</div>
+    )
+}
+
+if(secid==='mb-m2-pro-16' && almacenamiento==='1TB' && ram==='16GB'  && componente==="CPU 12GB/19GB GPU" && color==='space'){
+    return(
+        <div>U$D 3370 / U$D 3390 V.Español</div>
+    )
+}
+
+if(secid==='mb-m2-pro-16' && almacenamiento==='1TB' && ram==='16GB'  && componente==="CPU 12GB/19GB GPU" && color==='silver'){
+    return(
+        <div>U$D 3370</div>
+    )
+}
 
 }    
 export default PrecioFinal
