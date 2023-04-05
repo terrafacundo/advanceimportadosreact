@@ -476,9 +476,9 @@ import hp17fotouno from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKHP1
 import hp17fotodos from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKHP17-2.webp"
 import hp17fototres from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKHP17-3.webp"
 
-import hp17fotouno from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKHP17-1.webp"
-import hp17fotodos from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKHP17-2.webp"
-import hp17fototres from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKHP17-3.webp"
+// import hp17fotouno from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKHP17-1.webp"
+// import hp17fotodos from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKHP17-2.webp"
+// import hp17fototres from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKHP17-3.webp"
 
 import NOTEBOOKASUSS433EAfotouno from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKASUSS433EA-1.webp"
 import NOTEBOOKASUSS433EAfotodos from "./estaticas/media/fotos-productos/notebooks/NOTEBOOKASUSS433EA-2.webp"
@@ -5572,7 +5572,7 @@ categoria:['iphone','all']},
     estado:'En stock',
     tendencia:false,
     marca:'apple',
-    categoria:['notebooks','all']},
+    categoria:['notebook','all']},
 
     {
     id:'165',
@@ -5595,7 +5595,7 @@ categoria:['iphone','all']},
     estado:'En stock',
     tendencia:false,
     marca:'apple',
-    categoria:['notebooks','all']},
+    categoria:['notebook','all']},
 
     {
     id:'166',
@@ -5618,7 +5618,7 @@ categoria:['iphone','all']},
     estado:'En stock',
     tendencia:false,
     marca:'apple',
-    categoria:['notebooks','all']},
+    categoria:['notebook','all']},
 
     {
     id:'167',
@@ -5642,7 +5642,7 @@ categoria:['iphone','all']},
     estado:'En stock',
     tendencia:false,
     marca:'apple',
-    categoria:['notebooks','all']},
+    categoria:['notebook','all']},
 
     {
     id:'168',
@@ -5667,7 +5667,7 @@ categoria:['iphone','all']},
     estado:'En stock',
     tendencia:false,
     marca:'apple',
-    categoria:['notebooks','all']},
+    categoria:['notebook','all']},
 
 
     {
@@ -5694,7 +5694,7 @@ categoria:['iphone','all']},
     estado:'En stock',
     tendencia:false,
     marca:'apple',
-    categoria:['notebooks','all']},
+    categoria:['notebook','all']},
 
 
     {
@@ -5719,7 +5719,7 @@ categoria:['iphone','all']},
     estado:'En stock',
     tendencia:false,
     marca:'apple',
-    categoria:['notebooks','all']},
+    categoria:['notebook','all']},
 
     {
     id:'171',
@@ -5744,7 +5744,7 @@ categoria:['iphone','all']},
     estado:'En stock',
     tendencia:false,
     marca:'apple',
-    categoria:['notebooks','all']},
+    categoria:['notebook','all']},
 
     {
     id:'172',
@@ -5768,7 +5768,7 @@ categoria:['iphone','all']},
     estado:'En stock',
     tendencia:false,
     marca:'apple',
-    categoria:['notebooks','all']},
+    categoria:['notebook','all']},
 
 
     {
@@ -5793,7 +5793,7 @@ categoria:['iphone','all']},
     estado:'En stock',
     tendencia:false,
     marca:'apple',
-    categoria:['notebooks','all']},
+    categoria:['notebook','all']},
 
     {
     id:'174',
@@ -5817,7 +5817,7 @@ categoria:['iphone','all']},
     estado:'En stock',
     tendencia:false,
     marca:'apple',
-    categoria:['notebooks','all']},
+    categoria:['notebook','all']},
 
     {
     id:'175',
@@ -5841,7 +5841,7 @@ categoria:['iphone','all']},
     estado:'En stock',
     tendencia:false,
     marca:'apple',
-    categoria:['notebooks','all']},
+    categoria:['notebook','all']},
 
 
     {
@@ -5866,7 +5866,7 @@ categoria:['iphone','all']},
     estado:'En stock',
     tendencia:false,
     marca:'apple',
-    categoria:['notebooks','all']},
+    categoria:['notebook','all']},
 ];
 
 export default productos
