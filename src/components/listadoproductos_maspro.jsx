@@ -3,6 +3,13 @@ import ProductoDetalle from "./productodetalle";
 import { Link } from "react-router-dom";
 import productos from "./productos";
 
+import { Swiper, SwiperSlide} from 'swiper/react';
+import 'swiper/css/bundle';
+
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation } from "swiper";
+
 // import { db } from "../firebase";
 // import { collection , getDocs } from "firebase/firestore";
 // import { useState } from "react";
@@ -41,20 +48,45 @@ const ListadoProductosPro =({categoria})=>{
 
         if (nuevo_Array?.length !==0 && nuevo_Array_seg_pos?.length !==0 ){
         return(
-            nuevo_Array?.map((x) =>(
-                <ProductoDetalle
-                key={x.id}
-                id={x.id}
-                nombre={x.nombre}
-                foto={x.foto}
-                precio={x.precio}
-                />)
-        ))}
 
+            // <Swiper Swiper navigation={true} modules={[Navigation]} className="mySwiper"
+            // breakpoints={{
+            //     576: {
+            //       slidesPerView:2,
+            //       spaceBetween:10,
+            //     },
+            //     768: {
+            //       slidesPerView:2,
+            //       spaceBetween:40,
+            //     },
+            //     1024: {
+            //       slidesPerView:4,
+            //       spaceBetween:10,
+            //     },
+            //   }}>
+
+            // {
+                nuevo_Array?.map((x) =>(
+                // <SwiperSlide>
+                    <ProductoDetalle
+                    nombreCorto={x.nombreCorto}
+                    key={x.id}
+                    id={x.id}
+                    nombre={x.nombre}
+                    foto={x.foto}
+                    precio={x.precio}
+                    />
+                // </SwiperSlide>))}
+            // </Swiper>   
+                // )
+            // }
+                
+            )))}
         if(nuevo_Array?.length === 0 && nuevo_Array_seg_pos?.length !==0){
             return(
                 nuevo_Array_seg_pos.map((x) =>(
                     <ProductoDetalle
+                    nombreCorto={x.nombreCorto}
                     key={x.id}
                     id={x.id}
                     nombre={x.nombre}
@@ -65,7 +97,6 @@ const ListadoProductosPro =({categoria})=>{
         }
 
         if(nuevo_Array.length === 0 && nuevo_Array_seg_pos.length ===0){
-            console.log('cumple la tercera')
             return(
                 <div className="busqueda-no-encontrada">
                 <h1 className="texto-no-encontrado">No encontramos ningun producto en el sector '{categoria}'.</h1>

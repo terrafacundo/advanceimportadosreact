@@ -1,51 +1,90 @@
-import { collection, getDocs } from "firebase/firestore";
-
 import ProductoDetalle from "./productodetalle";
-<<<<<<< HEAD
-import React from "react";
-import { db } from "../firebase";
-import productos from "./productos";
-import { useState } from "react";
-=======
 import productos from "./productos";
 
-// import { db } from "../firebase";
-// import { getDocs, collection } from "firebase/firestore";
-// import { useState } from "react";
->>>>>>> 3a047a4275c9b56f1673c53accb3916e42379d74
+import { Swiper, SwiperSlide} from 'swiper/react';
+import 'swiper/css/bundle';
 
-const ListadoProductosProRel =()=>{
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation } from "swiper";
 
-    // const collecionProductos = collection(db,"productos")
-    // const consulta = getDocs(collecionProductos)
-    // const [productos,setProductos] = useState();
-    // //pidiendo informacion al servidor
 
-    // consulta
-    // .then(res=>{
-    //     const productos_mapeados = res.docs.map((ref)=>{
-    //         const aux = ref.data();
-    //         aux.id = ref.id;
-    //         return aux
-    //         })
 
-    // //         setProductos(productos_mapeados)
-    // //     })
+const ListadoProductosProRel =({especifico})=>{
 
-    // .catch((error)=>{
-    //     console.log('Los datos no han podido ser cargados')
-    // })
 
-    const nuevo_Array = productos?.filter(x=>x.tendencia===true)
-    return(
-        nuevo_Array?.map((x) =>(
-            <ProductoDetalle
-            key={x.id}
-            id={x.id}
-            nombre={x.nombre}
-            foto={x.foto}
-            precio={x.precio}
-            />)
-    ))}
+    
+    if(especifico==='tendencia'){
+        const nuevo_Array = productos?.filter(x=>x.tendencia===true)
+        return(
+            <>
+            <Swiper 
+            Swiper navigation={true} modules={[Navigation]} className="mySwiper"
+            breakpoints={{
+                576: {
+                  slidesPerView:2,
+                  spaceBetween:10,
+                },
+                768: {
+                  slidesPerView:2,
+                  spaceBetween:40,
+                },
+                1024: {
+                  slidesPerView:4,
+                  spaceBetween:50,
+                },
+              }}>
+
+            {nuevo_Array?.map((x) =>(
+                <SwiperSlide key={x.id}>
+                  <ProductoDetalle key={x.id} id={x.id} nombre={x.nombre} foto={x.foto} precio={x.precio}/>
+                </SwiperSlide>
+                ))}
+            
+            </Swiper>
+            </>
+)
+}
+
+    if (especifico==='oferta'){
+        const nuevo_Array = productos?.filter(x=>x.oferta===true)
+        return(
+            <>
+            <Swiper 
+            Swiper navigation={true} modules={[Navigation]} className="mySwiper" centeredSlides={true}
+            breakpoints={{
+                576: {
+                  slidesPerView:3,
+                  spaceBetween:20,
+                },
+                768: {
+                  slidesPerView:2,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView:3,
+                  spaceBetween:50,
+                },
+              }}>
+
+            {nuevo_Array?.map((x) =>(
+                <SwiperSlide key={x.id}>
+                <ProductoDetalle
+                key={x.id}
+                id={x.id}
+                nombre={x.nombre}
+                foto={x.foto}
+                oferta={x.oferta}
+                precio={x.precio}
+                precioAnterior={x.precioAnterior}
+                />
+                </SwiperSlide>
+                ))}
+            
+            </Swiper>
+            </>
+)
+}
+}
 
 export default ListadoProductosProRel

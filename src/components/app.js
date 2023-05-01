@@ -9,6 +9,7 @@ import Header from './estaticas/header';
 import Main from './renderindex';
 
 import Footer from './estaticas/footer';
+import AccesosDirectos from './acessosdirectos';
 
 // import { addDoc, collection } from "firebase/firestore";
 // import { db } from "../firebase";
@@ -30,6 +31,7 @@ const Aplicacion = () => {
                 <Header/>
                 <Main/>
                 <Footer/>
+                <AccesosDirectos/>
             </HashRouter>
         </div>
     )

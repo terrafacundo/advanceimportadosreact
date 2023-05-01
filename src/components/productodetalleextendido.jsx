@@ -84,7 +84,7 @@ const ProductoDetalleExtendido =({id,secid,nombre,foto,precio,memoria,descripcio
                                 <SeleccionColor color={color} colorInicial={configcolor} configuracionColor={configuracionColor} ></SeleccionColor>
                             </div>
                         </div>
-                        <PrecioFinal secid={secid} almacenamiento={configmemo} ram={configram} componente={configcomponente} color={configcolor} />
+                        <PrecioFinal secid={secid} almacenamiento={configmemo} ram={configram} componente={configcomponente} color={configcolor} precio={precio} />
                         <BotonConsulta nombre={nombre} almacenamiento={configmemo} ram={configram} componente={configcomponente} color={configcolor}/>
                     </div> 
                 </div>

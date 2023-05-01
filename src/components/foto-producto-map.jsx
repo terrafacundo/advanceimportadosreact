@@ -29,8 +29,8 @@ const BloqueFotos=({foto})=>{
                 <img className="foto-producto-apple" src={selectedImage}/>
             </div>
             <div className="flechas">
-                <img  className="flecha-individual" src={arrow_back} onClick={previo}></img>
-                <img  className="flecha-individual" onClick={proximo}src={arrow_next}></img>
+                <img  className="flecha-individual-izq" src={arrow_back} onClick={previo}></img>
+                <img  className="flecha-individual-der" onClick={proximo}src={arrow_next}></img>
             </div>
         </div>   
     )

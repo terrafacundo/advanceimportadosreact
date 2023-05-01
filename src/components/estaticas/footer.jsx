@@ -1,5 +1,6 @@
 import React from "react";
-import MailList from "./mailchimp";
+import { Link } from "react-router-dom";
+import PreguntasFrec from "../preguntasfrec";
 import instagram from "./media/instagram.svg"
 import email from "./media/mail.svg"
 
@@ -19,21 +20,19 @@ const Footer=()=>{
 
         </div>
 
-        <div className="footer_accesos_directos">
-            <ul className="footer-accesos-directos-boton">
-                <li>
-                    <a className="flex_li_footer" href="https://www.instagram.com/advanceimportados/">
-                        <img className="svg_footer" src={instagram}/>
-                        <h3 className="letra_link_footer">Instagram.</h3>
-                    </a>
-                </li>
-                <li className="flex_li_footer">
-                    <img className="svg_footer" src={email}/>
-                    <h3 className="letra_link_footer">advanceimportados@gmail.com</h3>
-                </li>
+        <div className="footer-links">
+            <div className="mas-redes">
+                <a href="https://www.instagram.com/advanceimportados/" target="_blank">Visitá nuestro Instagram</a>
+                <a href="mailto:advanceimportados@gmail.com">Contactanos por Mail</a>
+            </div>
 
-            </ul>
-
+            <div className="mas-info">
+                <Link to ={'/PyR'}>Metodología de encargos</Link>
+                <Link to={'/PyR'}>Forma de Entrega</Link>
+        </div>
+        </div>
+        <div className="footer-derechos">
+            <h6>Este sitio pertenece a Advance Importados. Todos los derechos reservados. Advance Importados 2023 ®.</h6>
         </div>
     </footer>
     )
